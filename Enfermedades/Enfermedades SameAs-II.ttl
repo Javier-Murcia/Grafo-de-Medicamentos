@@ -1,0 +1,167 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix monu:  <http://www.monumentos.es/> .
+@prefix ns0:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lugares: <http://www.monumentos.es/lugares/> .
+
+<http://es.dbpedia.org/resource/Ascitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q193889> .
+
+<http://es.dbpedia.org/resource/Vitiligo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q180152> .
+
+<http://es.dbpedia.org/resource/Distonía_cervical>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6152510> .
+
+<http://es.dbpedia.org/resource/Hipersomnia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q751641> .
+
+<http://es.dbpedia.org/resource/Bulimia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q64513386> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Lennox-Gastaut>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1544884> .
+
+<http://es.dbpedia.org/resource/VIH/sida>
+        owl:sameAs  <http://www.wikidata.org/entity/Q12199> .
+
+<http://es.dbpedia.org/resource/Voyerismo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q183548> .
+
+<http://es.dbpedia.org/resource/Invaginación_intestinal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1424612> .
+
+<http://es.dbpedia.org/resource/Tuberculosis_intestinal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1166500> .
+
+<http://es.dbpedia.org/resource/Pie_equinovaro>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1162164> .
+
+<http://es.dbpedia.org/resource/Carcinoma_de_paratiroides>
+        owl:sameAs  <http://www.wikidata.org/entity/Q40301> .
+
+<http://es.dbpedia.org/resource/Cálculo_de_la_glándula_salival>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1627831> .
+
+<http://es.dbpedia.org/resource/Diatesis_hemorrágica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q611571> .
+
+<http://es.dbpedia.org/resource/Anisakidosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3091959> .
+
+<http://es.dbpedia.org/resource/Fascitis_necrosante>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1145674> .
+
+<http://es.dbpedia.org/resource/Trastorno_de_ansiedad_social>
+        owl:sameAs  <http://www.wikidata.org/entity/Q281928> .
+
+<http://es.dbpedia.org/resource/Hematometra>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7476276> .
+
+<http://es.dbpedia.org/resource/Trastorno_bipolar_I>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4915474> .
+
+<http://es.dbpedia.org/resource/Dermatofitosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1909343> .
+
+<http://es.dbpedia.org/resource/Macroglobulinemia_de_Waldenström>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1778287> .
+
+<http://es.dbpedia.org/resource/Fiebre_mediterránea_familiar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q14881867> .
+
+<http://es.dbpedia.org/resource/Esclerosis_sistémica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5340515> .
+
+<http://es.dbpedia.org/resource/Feocromocitoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q536269> .
+
+<http://es.dbpedia.org/resource/Cáncer_óseo_primario>
+        owl:sameAs  <http://www.wikidata.org/entity/Q56014469> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Zinsser-Cole-Engman>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3709312> .
+
+<http://es.dbpedia.org/resource/Síndrome_respiratorio_agudo_grave>
+        owl:sameAs  <http://www.wikidata.org/entity/Q103177> .
+
+<http://es.dbpedia.org/resource/Efecto_adverso>
+        owl:sameAs  <http://www.wikidata.org/entity/Q45959> .
+
+<http://es.dbpedia.org/resource/Anemia_de_células_falciformes>
+        owl:sameAs  <http://www.wikidata.org/entity/Q185034> .
+
+<http://es.dbpedia.org/resource/Eccema_dishidrótico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1269276> .
+
+<http://es.dbpedia.org/resource/Enfermedad_del_sistema_nervioso_central>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5062122> .
+
+<http://es.dbpedia.org/resource/Bejel>
+        owl:sameAs  <http://www.wikidata.org/entity/Q630618> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Charcot-Marie-Tooth>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1052687> .
+
+<http://es.dbpedia.org/resource/Estenosis_supravalvular_aórtica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16874615> .
+
+<http://es.dbpedia.org/resource/Hepatoesplenomegalia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1260186> .
+
+<http://es.dbpedia.org/resource/Tuberculosis_pleural>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3392410> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Behçet>
+        owl:sameAs  <http://www.wikidata.org/entity/Q911427> .
+
+<http://es.dbpedia.org/resource/Fiebre_paratifoidea>
+        owl:sameAs  <http://www.wikidata.org/entity/Q705906> .
+
+<http://es.dbpedia.org/resource/Síndromes_de_sobrecrecimiento_infantil>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7113674> .
+
+<http://es.dbpedia.org/resource/Purpura_trombocitopenica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1426491> .
+
+<http://es.dbpedia.org/resource/Tromboangeítis_obliterante>
+        owl:sameAs  <http://www.wikidata.org/entity/Q746001> .
+
+<http://es.dbpedia.org/resource/Rubeola>
+        owl:sameAs  <http://www.wikidata.org/entity/Q158352> .
+
+<http://es.dbpedia.org/resource/Oftalmoplejia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1723331> .
+
+<http://es.dbpedia.org/resource/Trastorno_de_la_comunicación>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1058691> .
+
+<http://es.dbpedia.org/resource/Infección_respiratoria_alta>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2622199> .
+
+<http://es.dbpedia.org/resource/Úlcera_de_pierna>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18557964> .
+
+<http://es.dbpedia.org/resource/Cicloplejia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1147596> .
+
+<http://es.dbpedia.org/resource/Paro_cardiorrespiratorio>
+        owl:sameAs  <http://www.wikidata.org/entity/Q202837> .
+
+<http://es.dbpedia.org/resource/Vulvovaginitis_candidiásica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q977090> .
+
+<http://es.dbpedia.org/resource/Peritonitis_tuberculosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18558227> .
+
+<http://es.dbpedia.org/resource/Parafimosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q382641> .
+
+<http://es.dbpedia.org/resource/Shock_cardiogénico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2477062> .
