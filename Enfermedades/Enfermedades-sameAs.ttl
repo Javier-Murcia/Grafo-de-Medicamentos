@@ -1,0 +1,2484 @@
+
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0:   <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://es.dbpedia.org/resource/Úlcera_de_pierna>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18557964> .
+
+<http://es.dbpedia.org/resource/Vulvovaginitis_candidiásica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q977090> .
+
+<http://es.dbpedia.org/resource/Voyerismo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q183548> .
+
+<http://es.dbpedia.org/resource/Vitiligo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q180152> .
+
+<http://es.dbpedia.org/resource/VIH/sida>
+        owl:sameAs  <http://www.wikidata.org/entity/Q12199> .
+
+<http://es.dbpedia.org/resource/Tuberculosis_pleural>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3392410> .
+
+<http://es.dbpedia.org/resource/Tuberculosis_intestinal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1166500> .
+
+<http://es.dbpedia.org/resource/Tromboangeítis_obliterante>
+        owl:sameAs  <http://www.wikidata.org/entity/Q746001> .
+
+<http://es.dbpedia.org/resource/Trastorno_de_la_comunicación>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1058691> .
+
+<http://es.dbpedia.org/resource/Trastorno_de_ansiedad_social>
+        owl:sameAs  <http://www.wikidata.org/entity/Q281928> .
+
+<http://es.dbpedia.org/resource/Trastorno_bipolar_I>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4915474> .
+
+<http://es.dbpedia.org/resource/Síndromes_de_sobrecrecimiento_infantil>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7113674> .
+
+<http://es.dbpedia.org/resource/Síndrome_respiratorio_agudo_grave>
+        owl:sameAs  <http://www.wikidata.org/entity/Q103177> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Zinsser-Cole-Engman>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3709312> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Lennox-Gastaut>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1544884> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Charcot-Marie-Tooth>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1052687> .
+
+<http://es.dbpedia.org/resource/Shock_cardiogénico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2477062> .
+
+<http://es.dbpedia.org/resource/Purpura_trombocitopenica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1426491> .
+
+<http://es.dbpedia.org/resource/Pie_equinovaro>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1162164> .
+
+<http://es.dbpedia.org/resource/Peritonitis_tuberculosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18558227> .
+
+<http://es.dbpedia.org/resource/Paro_cardiorrespiratorio>
+        owl:sameAs  <http://www.wikidata.org/entity/Q202837> .
+
+<http://es.dbpedia.org/resource/Parafimosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q382641> .
+
+<http://es.dbpedia.org/resource/Oftalmoplejia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1723331> .
+
+<http://es.dbpedia.org/resource/Macroglobulinemia_de_Waldenström>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1778287> .
+
+<http://es.dbpedia.org/resource/Invaginación_intestinal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1424612> .
+
+<http://es.dbpedia.org/resource/Hipersomnia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q751641> .
+
+<http://es.dbpedia.org/resource/Hematometra>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7476276> .
+
+<http://es.dbpedia.org/resource/Fiebre_paratifoidea>
+        owl:sameAs  <http://www.wikidata.org/entity/Q705906> .
+
+<http://es.dbpedia.org/resource/Feocromocitoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q536269> .
+
+<http://es.dbpedia.org/resource/Fascitis_necrosante>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1145674> .
+
+<http://es.dbpedia.org/resource/Estenosis_supravalvular_aórtica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16874615> .
+
+<http://es.dbpedia.org/resource/Esclerosis_sistémica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5340515> .
+
+<http://es.dbpedia.org/resource/Enfermedad_del_sistema_nervioso_central>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5062122> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Behçet>
+        owl:sameAs  <http://www.wikidata.org/entity/Q911427> .
+
+<http://es.dbpedia.org/resource/Eccema_dishidrótico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1269276> .
+
+<http://es.dbpedia.org/resource/Distonía_cervical>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6152510> .
+
+<http://es.dbpedia.org/resource/Diatesis_hemorrágica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q611571> .
+
+<http://es.dbpedia.org/resource/Dermatofitosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1909343> .
+
+<http://es.dbpedia.org/resource/Cáncer_óseo_primario>
+        owl:sameAs  <http://www.wikidata.org/entity/Q56014469> .
+
+<http://es.dbpedia.org/resource/Cálculo_de_la_glándula_salival>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1627831> .
+
+<http://es.dbpedia.org/resource/Cicloplejia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1147596> .
+
+<http://es.dbpedia.org/resource/Carcinoma_de_paratiroides>
+        owl:sameAs  <http://www.wikidata.org/entity/Q40301> .
+
+<http://es.dbpedia.org/resource/Bulimia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q64513386> .
+
+<http://es.dbpedia.org/resource/Anisakidosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3091959> .
+
+<http://es.dbpedia.org/resource/Anemia_de_células_falciformes>
+        owl:sameAs  <http://www.wikidata.org/entity/Q185034> .
+
+<http://es.dbpedia.org/resource/Interrupción_del_arco_aórtico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6056643> .
+
+<http://es.dbpedia.org/resource/Bagazosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4841462> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_holocarboxilasa_sintetasa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5883885> .
+
+<http://es.dbpedia.org/resource/Retinocoroidopatía_en_perdigonada>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4916140> .
+
+<http://es.dbpedia.org/resource/Celiaquía>
+        owl:sameAs  <http://www.wikidata.org/entity/Q11088> .
+
+<http://es.dbpedia.org/resource/Tiroiditis_de_Riedel>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16495> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_microduplicación_17p13.3>
+        owl:sameAs  <http://www.wikidata.org/entity/Q21154078> .
+
+<http://es.dbpedia.org/resource/Parálisis_facial>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7562539> .
+
+<http://es.dbpedia.org/resource/Carcinoma_ductal_de_páncreas>
+        owl:sameAs  <http://www.wikidata.org/entity/Q8263002> .
+
+<http://es.dbpedia.org/resource/Escápula_elevada>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1850576> .
+
+<http://es.dbpedia.org/resource/Agenesia_renal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q669435> .
+
+<http://es.dbpedia.org/resource/Enterocele>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5380222> .
+
+<http://es.dbpedia.org/resource/Parálisis_bulbar_progresiva>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7248833> .
+
+<http://es.dbpedia.org/resource/Cutis_verticis_gyrata>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5196861> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_microdeleción_2q33.1>
+        owl:sameAs  <http://www.wikidata.org/entity/Q55786356> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Klüver-Bucy>
+        owl:sameAs  <http://www.wikidata.org/entity/Q367929> .
+
+<http://es.dbpedia.org/resource/Tumor_de_Krukenberg>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1790134> .
+
+<http://es.dbpedia.org/resource/Granuloma_anular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q455085> .
+
+<http://es.dbpedia.org/resource/Encefalopatía_hepática>
+        owl:sameAs  <http://www.wikidata.org/entity/Q642548> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Usher>
+        owl:sameAs  <http://www.wikidata.org/entity/Q917399> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Reye>
+        owl:sameAs  <http://www.wikidata.org/entity/Q826103> .
+
+<http://es.dbpedia.org/resource/Anemia_refractaria_con_exceso_de_blastos>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7307573> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Donohue>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2467739> .
+
+<http://es.dbpedia.org/resource/Hemoglobinuria_nocturna_paroxística>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1479494> .
+
+<http://es.dbpedia.org/resource/Xantomatosis_cerebrotendinosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2602467> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Landau-Kleffner>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1636310> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_adhesión_leucocitaria_tipo_1>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6534510> .
+
+<http://es.dbpedia.org/resource/Ocronosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1507609> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Waardenburg>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1151801> .
+
+<http://es.dbpedia.org/resource/Nefronoptisis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1257011> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Minamata>
+        owl:sameAs  <http://www.wikidata.org/entity/Q338857> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Apert>
+        owl:sameAs  <http://www.wikidata.org/entity/Q618246> .
+
+<http://es.dbpedia.org/resource/Costocondritis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5175170> .
+
+<http://es.dbpedia.org/resource/Lipoblastoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1827370> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Liddle>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1823656> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Nezelof>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508681> .
+
+<http://es.dbpedia.org/resource/Leucemia_prolinfocítica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2112719> .
+
+<http://es.dbpedia.org/resource/Distrofia_cristalina_de_Bietti>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4904691> .
+
+<http://es.dbpedia.org/resource/Resistencia_a_proteína_C_activada>
+        owl:sameAs  <http://www.wikidata.org/entity/Q296104> .
+
+<http://es.dbpedia.org/resource/Balanitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1138584> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Carpenter>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2272470> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_pañal_azul>
+        owl:sameAs  <http://www.wikidata.org/entity/Q503458> .
+
+<http://es.dbpedia.org/resource/Pielonefritis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q506652> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Werner>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1154619> .
+
+<http://es.dbpedia.org/resource/Dermografismo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1200268> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Hiper-IgD>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1640810> .
+
+<http://es.dbpedia.org/resource/Coproporfiria_hereditaria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q823140> .
+
+<http://es.dbpedia.org/resource/Penfigoide_cicatricial_ocular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q627291> .
+
+<http://es.dbpedia.org/resource/Megacolon_tóxico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q588321> .
+
+<http://es.dbpedia.org/resource/Insuficiencia_pancreática_exocrina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q641605> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Dressler>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1258666> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Strasburger-Hawkins-Eldridge>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18553473> .
+
+<http://es.dbpedia.org/resource/Gota_juvenil_hereditaria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5883713> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Bardet-Biedl>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1678281> .
+
+<http://es.dbpedia.org/resource/Intolerancia_a_la_proteína_lisinúrica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3153671> .
+
+<http://es.dbpedia.org/resource/Trimetilaminuria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q506433> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Möbius>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1418152> .
+
+<http://es.dbpedia.org/resource/Incompetencia_cervical>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2563414> .
+
+<http://es.dbpedia.org/resource/Sitosterolemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1336034> .
+
+<http://es.dbpedia.org/resource/Fluorosis_dental>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1427959> .
+
+<http://es.dbpedia.org/resource/Espina_bífida>
+        owl:sameAs  <http://www.wikidata.org/entity/Q844717> .
+
+<http://es.dbpedia.org/resource/Distrofia_macular_en_alas_de_mariposa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16557618> .
+
+<http://es.dbpedia.org/resource/Retinosquisis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1049881> .
+
+<http://es.dbpedia.org/resource/Cistinosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1149042> .
+
+<http://es.dbpedia.org/resource/Taponamiento_cardíaco>
+        owl:sameAs  <http://www.wikidata.org/entity/Q929313> .
+
+<http://es.dbpedia.org/resource/Bursitis_olecraniana>
+        owl:sameAs  <http://www.wikidata.org/entity/Q555868> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_McCune-Albright>
+        owl:sameAs  <http://www.wikidata.org/entity/Q727008> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Ackerman>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4674254> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_La_Peyronie>
+        owl:sameAs  <http://www.wikidata.org/entity/Q874586> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Milroy>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1996246> .
+
+<http://es.dbpedia.org/resource/Mucinosis_folicular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4734609> .
+
+<http://es.dbpedia.org/resource/Piebaldismo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1516083> .
+
+<http://es.dbpedia.org/resource/Displasia_mesomélica_de_Langer>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16550087> .
+
+<http://es.dbpedia.org/resource/Amelogenesis_imperfecta>
+        owl:sameAs  <http://www.wikidata.org/entity/Q461854> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Laron>
+        owl:sameAs  <http://www.wikidata.org/entity/Q669822> .
+
+<http://es.dbpedia.org/resource/Aspartilglucosaminuria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4412533> .
+
+<http://es.dbpedia.org/resource/Septo_uterino>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7902656> .
+
+<http://es.dbpedia.org/resource/Criptosporidiosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1359898> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Satoyoshi>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7426433> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Hoyeraal-Hreidarsson>
+        owl:sameAs  <http://www.wikidata.org/entity/Q9390252> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Pierre_Robin>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1756040> .
+
+<http://es.dbpedia.org/resource/Paraganglioma_carotídeo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q581592> .
+
+<http://es.dbpedia.org/resource/Picnodisostosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q974928> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Keutel>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6395632> .
+
+<http://es.dbpedia.org/resource/Hiperpigmentación_progresiva_familiar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5432946> .
+
+<http://es.dbpedia.org/resource/Hemorragia_cerebral_hereditaria_con_amiloidosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q10992004> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Pompe>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1365789> .
+
+<http://es.dbpedia.org/resource/Trombocitosis_esencial>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1368780> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Troyer>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508706> .
+
+<http://es.dbpedia.org/resource/Linfangiosarcoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3913024> .
+
+<http://es.dbpedia.org/resource/Displasia_espondiloepimetafisaria_tipo_Strudwick>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2123641> .
+
+<http://es.dbpedia.org/resource/Síndrome_nefrótico_congénito>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2160802> .
+
+<http://es.dbpedia.org/resource/Hemimelia_peronea>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1411024> .
+
+<http://es.dbpedia.org/resource/Lengua_negra_vellosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1084600> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Roussy-Lévy>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3281293> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_microduplicación_3q29>
+        owl:sameAs  <http://www.wikidata.org/entity/Q21505486> .
+
+<http://es.dbpedia.org/resource/Distrofias_de_la_retina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5811451> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Li-Fraumeni>
+        owl:sameAs  <http://www.wikidata.org/entity/Q187542> .
+
+<http://es.dbpedia.org/resource/Distrofia_corneal_de_Avellino>
+        owl:sameAs  <http://www.wikidata.org/entity/Q21154084> , <http://www.wikidata.org/entity/Q5596720> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_QT_corto>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1484058> .
+
+<http://es.dbpedia.org/resource/Espiroadenoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7577703> .
+
+<http://es.dbpedia.org/resource/Esteatosis_hepática>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6058862> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Wolfram>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1153641> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Menetrier>
+        owl:sameAs  <http://www.wikidata.org/entity/Q975705> .
+
+<http://es.dbpedia.org/resource/Amioplasia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4749575> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Bernard-Soulier>
+        owl:sameAs  <http://www.wikidata.org/entity/Q822228> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Klippel-Trenaunay-Weber>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1774750> .
+
+<http://es.dbpedia.org/resource/Displasia_craneometafisaria_autosómica_dominante>
+        owl:sameAs  <http://www.wikidata.org/entity/Q102295016> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_enfermedad_posorgásmica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2626291> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sweet>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1514476> .
+
+<http://es.dbpedia.org/resource/Espondilolistesis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q973524> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Andersen-Tawil>
+        owl:sameAs  <http://www.wikidata.org/entity/Q773118> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Susac>
+        owl:sameAs  <http://www.wikidata.org/entity/Q601216> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Roberts>
+        owl:sameAs  <http://www.wikidata.org/entity/Q619428> .
+
+<http://es.dbpedia.org/resource/Megaloencefalia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q10748814> .
+
+<http://es.dbpedia.org/resource/Epidermodisplasia_verruciforme>
+        owl:sameAs  <http://www.wikidata.org/entity/Q974691> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_ácido_valproico_fetal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q9081119> .
+
+<http://es.dbpedia.org/resource/Granulomatosis_con_poliangitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1161568> .
+
+<http://es.dbpedia.org/resource/Sarcoma_sinovial>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2619315> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_inmunodeficiencia,_inestabilidad_de_la_región_centromérica_y_anomalías_faciales>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1869923> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_vitamina_K>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4138767> .
+
+<http://es.dbpedia.org/resource/Eritroblastopenia_congénita_de_Blackfan-Diamond>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1208654> .
+
+<http://es.dbpedia.org/resource/Fiebre_botonosa_mediterránea>
+        owl:sameAs  <http://www.wikidata.org/entity/Q895297> .
+
+<http://es.dbpedia.org/resource/Neurinoma_del_acústico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q423965> .
+
+<http://es.dbpedia.org/resource/Quiste_ovárico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q147362> .
+
+<http://es.dbpedia.org/resource/Síndrome_triploide>
+        owl:sameAs  <http://www.wikidata.org/entity/Q56137331> .
+
+<http://es.dbpedia.org/resource/Dextrocardia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q579665> .
+
+<http://es.dbpedia.org/resource/Citrulinemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q859142> .
+
+<http://es.dbpedia.org/resource/Disostosis_espondilotorácica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4821698> .
+
+<http://es.dbpedia.org/resource/Astrocitoma_difuso>
+        owl:sameAs  <http://www.wikidata.org/entity/Q953330> .
+
+<http://es.dbpedia.org/resource/Displasia_valvular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5692507> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Dubowitz>
+        owl:sameAs  <http://www.wikidata.org/entity/Q574741> .
+
+<http://es.dbpedia.org/resource/Hiperesplenismo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q473456> .
+
+<http://es.dbpedia.org/resource/Dacriocistocele>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3011658> .
+
+<http://es.dbpedia.org/resource/Síndrome_cardiofaciocutáneo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1097490> .
+
+<http://es.dbpedia.org/resource/Calcifilaxia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1026326> .
+
+<http://es.dbpedia.org/resource/Síndrome_GRACILE>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5514398> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Hallermann-Streiff>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1459851> .
+
+<http://es.dbpedia.org/resource/Enfermedad_del_jarabe_de_arce>
+        owl:sameAs  <http://www.wikidata.org/entity/Q402575> .
+
+<http://es.dbpedia.org/resource/Sinostosis_radiocubital_congénita>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16892594> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Aicardi-Goutières>
+        owl:sameAs  <http://www.wikidata.org/entity/Q403453> .
+
+<http://es.dbpedia.org/resource/Incompatibilidad_Rh>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1712331> .
+
+<http://es.dbpedia.org/resource/Neuropatía>
+        owl:sameAs  <http://www.wikidata.org/entity/Q122112679> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Creutzfeldt-Jakob>
+        owl:sameAs  <http://www.wikidata.org/entity/Q49989> .
+
+<http://es.dbpedia.org/resource/Síndrome_SAPHO>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1515163> .
+
+<http://es.dbpedia.org/resource/Melanocitosis_dérmica_congénita>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1072716> .
+
+<http://es.dbpedia.org/resource/Sialidosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7506658> .
+
+<http://es.dbpedia.org/resource/Ectasia_vascular_antral_gástrica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1484679> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Rotor>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1512812> .
+
+<http://es.dbpedia.org/resource/Aciduria_glutárica_tipo_I>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2140501> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Fox-Fordyce>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1618019> .
+
+<http://es.dbpedia.org/resource/Hipotricosis_hereditaria_de_Marie_Unna>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1641486> .
+
+<http://es.dbpedia.org/resource/Dacrioadenitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1424488> .
+
+<http://es.dbpedia.org/resource/Sarna_noruega>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18554750> .
+
+<http://es.dbpedia.org/resource/Mielitis_transversa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q202217> .
+
+<http://es.dbpedia.org/resource/Trastorno_narcisista_de_la_personalidad>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1060310> .
+
+<http://es.dbpedia.org/resource/Osteopetrosis_infantil_maligna>
+        owl:sameAs  <http://www.wikidata.org/entity/Q24960517> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_regresión_caudal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1129947> .
+
+<http://es.dbpedia.org/resource/Parafimosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1414480> .
+
+<http://es.dbpedia.org/resource/Bejel>
+        owl:sameAs  <http://www.wikidata.org/entity/Q682798> .
+
+<http://es.dbpedia.org/resource/Miositis_por_cuerpos_de_inclusión>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1848471> .
+
+<http://es.dbpedia.org/resource/Enoftalmos>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1343593> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Perry>
+        owl:sameAs  <http://www.wikidata.org/entity/Q22251836> .
+
+<http://es.dbpedia.org/resource/Disgenesia_reticular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7316718> .
+
+<http://es.dbpedia.org/resource/PANDAS>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2043695> .
+
+<http://es.dbpedia.org/resource/Sindrome_de_duplicación_7q11.23>
+        owl:sameAs  <http://www.wikidata.org/entity/Q55783693> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_transfusión_fetofetal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1409160> .
+
+<http://es.dbpedia.org/resource/Nefropatía_hipertensiva>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1434446> .
+
+<http://es.dbpedia.org/resource/Obstrucción_de_la_vena_central_de_la_retina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q190831> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Von_Gierke>
+        owl:sameAs  <http://www.wikidata.org/entity/Q630090> .
+
+<http://es.dbpedia.org/resource/Glucagonoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q770843> .
+
+<http://es.dbpedia.org/resource/Mastitis_quística_crónica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1423177> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Scheuermann>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1532790> .
+
+<http://es.dbpedia.org/resource/Tricotiodistrofia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3539030> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Norrie>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1415842> .
+
+<http://es.dbpedia.org/resource/Pericoronaritis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q946882> .
+
+<http://es.dbpedia.org/resource/Mielinolisis_central_pontina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q190370> .
+
+<http://es.dbpedia.org/resource/Tirosinemia_tipo_2>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7484623> .
+
+<http://es.dbpedia.org/resource/Uretritis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1122485> .
+
+<http://es.dbpedia.org/resource/Hipertermia_maligna>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1585081> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Van_der_Woude>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2033532> .
+
+<http://es.dbpedia.org/resource/Síndrome_serotoninérgico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q616181> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_ojo_de_gato>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1199621> .
+
+<http://es.dbpedia.org/resource/Escleritis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q511000> .
+
+<http://es.dbpedia.org/resource/Tumor_de_Wilms>
+        owl:sameAs  <http://www.wikidata.org/entity/Q756289> .
+
+<http://es.dbpedia.org/resource/Aciduria_glutárica_tipo_II>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1403045> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Lhermitte-Duclos>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1461101> .
+
+<http://es.dbpedia.org/resource/Polihidramnios>
+        owl:sameAs  <http://www.wikidata.org/entity/Q976163> .
+
+<http://es.dbpedia.org/resource/Tumor_de_células_de_la_granulosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q612093> .
+
+<http://es.dbpedia.org/resource/Sialadenitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2002586> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Schindler>
+        owl:sameAs  <http://www.wikidata.org/entity/Q310335> .
+
+<http://es.dbpedia.org/resource/Hemicránea_paroxística>
+        owl:sameAs  <http://www.wikidata.org/entity/Q973425> .
+
+<http://es.dbpedia.org/resource/Síndrome_PEHO>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4357091> .
+
+<http://es.dbpedia.org/resource/Insuficiencia_tricuspídea>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1780241> .
+
+<http://es.dbpedia.org/resource/Síndrome_neuroléptico_maligno>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1424956> .
+
+<http://es.dbpedia.org/resource/Anemia_macrocítica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2070695> .
+
+<http://es.dbpedia.org/resource/Cistosarcoma_filoides>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1149070> .
+
+<http://es.dbpedia.org/resource/Insuficiencia_venosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q9008818> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Refsum>
+        owl:sameAs  <http://www.wikidata.org/entity/Q177809> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_GLUT1>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1485893> .
+
+<http://es.dbpedia.org/resource/Tinea_nigra>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2059267> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Omenn>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2214419> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_folato_cerebral>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18553424> .
+
+<http://es.dbpedia.org/resource/Pulmón_de_cuidador_de_aves>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2529980> .
+
+<http://es.dbpedia.org/resource/Gliomatosis_cerebri>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1531482> .
+
+<http://es.dbpedia.org/resource/Miocardiopatía_dilatada_con_ataxia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q24960528> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Costeff>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2823332> .
+
+<http://es.dbpedia.org/resource/Queratitis_por_Acanthamoeba>
+        owl:sameAs  <http://www.wikidata.org/entity/Q922971> .
+
+<http://es.dbpedia.org/resource/Seudohermafroditismo_femenino_masculinizante>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5401847> .
+
+<http://es.dbpedia.org/resource/Angioedema_hereditario>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2096745> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_cabello_acerado>
+        owl:sameAs  <http://www.wikidata.org/entity/Q639203> .
+
+<http://es.dbpedia.org/resource/Córnea_plana>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5171107> .
+
+<http://es.dbpedia.org/resource/Distrofia_macular_juvenil_con_hipotricosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q22132220> .
+
+<http://es.dbpedia.org/resource/Intoxicación_por_digoxina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q151350> .
+
+<http://es.dbpedia.org/resource/Exantema_fijo_medicamentoso>
+        owl:sameAs  <http://www.wikidata.org/entity/Q719727> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Kienböck>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1877388> .
+
+<http://es.dbpedia.org/resource/Síndrome_branquio-oto-renal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2280106> .
+
+<http://es.dbpedia.org/resource/Necrólisis_epidérmica_tóxica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1878682> .
+
+<http://es.dbpedia.org/resource/Fibrosis_mediastínica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6806158> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Caroli>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1044327> .
+
+<http://es.dbpedia.org/resource/Fibrosis_endomiocárdica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q8961561> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Loeys-Dietz>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508669> .
+
+<http://es.dbpedia.org/resource/Acantosis_nigricans>
+        owl:sameAs  <http://www.wikidata.org/entity/Q415833> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Hunter>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1529983> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Lafora>
+        owl:sameAs  <http://www.wikidata.org/entity/Q163905> .
+
+<http://es.dbpedia.org/resource/Miocardiopatía_periparto>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2938089> .
+
+<http://es.dbpedia.org/resource/Parálisis_facial_periférica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1135338> .
+
+<http://es.dbpedia.org/resource/Hiperplasia_suprarrenal_congénita>
+        owl:sameAs  <http://www.wikidata.org/entity/Q366868> .
+
+<http://es.dbpedia.org/resource/Carcinoma_renal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1164529> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Alexander>
+        owl:sameAs  <http://www.wikidata.org/entity/Q567820> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Budd-Chiari>
+        owl:sameAs  <http://www.wikidata.org/entity/Q183098> .
+
+<http://es.dbpedia.org/resource/Síndrome_ABCD>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508565> .
+
+<http://es.dbpedia.org/resource/Piometra>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1147908> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_hidrocefalia-agenesis_cerebelar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q55782561> .
+
+<http://es.dbpedia.org/resource/Osteopetrosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1755568> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sheehan>
+        owl:sameAs  <http://www.wikidata.org/entity/Q535876> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Sandhoff>
+        owl:sameAs  <http://www.wikidata.org/entity/Q917227> .
+
+<http://es.dbpedia.org/resource/Adiposis_dolorosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1615557> .
+
+<http://es.dbpedia.org/resource/Politelia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2297224> .
+
+<http://es.dbpedia.org/resource/Fibrosis_sistémica_nefrogénica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q677803> .
+
+<http://es.dbpedia.org/resource/Displasia_craneometafisaria_autosómica_recesiva>
+        owl:sameAs  <http://www.wikidata.org/entity/Q102296443> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Smith-Lemli-Opitz>
+        owl:sameAs  <http://www.wikidata.org/entity/Q998273> .
+
+<http://es.dbpedia.org/resource/Transposición_de_los_grandes_vasos>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1758730> .
+
+<http://es.dbpedia.org/resource/Déficit_familiar_de_LCAT>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3441028> .
+
+<http://es.dbpedia.org/resource/Neuritis_vestibular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1571398> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_opérculo_torácico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q665207> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_guerra_del_Golfo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q970826> .
+
+<http://es.dbpedia.org/resource/Dacrioestenosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5797309> .
+
+<http://es.dbpedia.org/resource/Fibrocondrogénesis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3071315> .
+
+<http://es.dbpedia.org/resource/Prostatitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q372752> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Muckle-Wells>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1538218> .
+
+<http://es.dbpedia.org/resource/Épulis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q841989> .
+
+<http://es.dbpedia.org/resource/Arteritis_de_Takayasu>
+        owl:sameAs  <http://www.wikidata.org/entity/Q432462> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Bart-Pumphrey>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4865826> .
+
+<http://es.dbpedia.org/resource/Acidosis_láctica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1500373> .
+
+<http://es.dbpedia.org/resource/Neumonitis_química>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5090486> .
+
+<http://es.dbpedia.org/resource/Amiotrofia_neuralgica_hereditaria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q17141939> .
+
+<http://es.dbpedia.org/resource/Fenómeno_de_Jod-Basedow>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1636323> .
+
+<http://es.dbpedia.org/resource/Fenómeno_de_Marcus_Gunn>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1476789> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_galactoquinasa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5517825> .
+
+<http://es.dbpedia.org/resource/Hiperparatiroidismo_primario>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2919083> .
+
+<http://es.dbpedia.org/resource/Proctitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q941770> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_microdeleción_3q29>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4636618> .
+
+<http://es.dbpedia.org/resource/Sarcoma_granulocítico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3680952> .
+
+<http://es.dbpedia.org/resource/Pelagra>
+        owl:sameAs  <http://www.wikidata.org/entity/Q221441> .
+
+<http://es.dbpedia.org/resource/Adenoma_sebáceo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3384899> .
+
+<http://es.dbpedia.org/resource/Hiperuricemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q49970> .
+
+<http://es.dbpedia.org/resource/Neuropatía_motora_multifocal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6934690> .
+
+<http://es.dbpedia.org/resource/Estenosis_mitral>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1140794> .
+
+<http://es.dbpedia.org/resource/Hemiatrofia_facial_progresiva>
+        owl:sameAs  <http://www.wikidata.org/entity/Q250365> .
+
+<http://es.dbpedia.org/resource/Fenilcetonuria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q194041> .
+
+<http://es.dbpedia.org/resource/Cutis_laxa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2735907> .
+
+<http://es.dbpedia.org/resource/Neoplasia_intraepitelial_vulvar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7943637> .
+
+<http://es.dbpedia.org/resource/Fibrodisplasia_osificante_progresiva>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1410831> .
+
+<http://es.dbpedia.org/resource/Enfermedad_inflamatoria_sistémica_de_inicio_neonatal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q779203> .
+
+<http://es.dbpedia.org/resource/Atrofia_óptica_de_Kjer>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2869820> .
+
+<http://es.dbpedia.org/resource/Trastorno_esquizoide_de_la_personalidad>
+        owl:sameAs  <http://www.wikidata.org/entity/Q498237> .
+
+<http://es.dbpedia.org/resource/Carcinoma_adrenocortical>
+        owl:sameAs  <http://www.wikidata.org/entity/Q918285> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_5q>
+        owl:sameAs  <http://www.wikidata.org/entity/Q245455> .
+
+<http://es.dbpedia.org/resource/Arco_senil>
+        owl:sameAs  <http://www.wikidata.org/entity/Q120136> .
+
+<http://es.dbpedia.org/resource/Encefalopatía_hipóxica_isquémica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5832339> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_cimitarra>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2557206> .
+
+<http://es.dbpedia.org/resource/Síndrome_deleción_22q13>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1926345> .
+
+<http://es.dbpedia.org/resource/Oncocitoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1760202> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_CREST>
+        owl:sameAs  <http://www.wikidata.org/entity/Q763356> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_contractura_congénita_letal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6533262> .
+
+<http://es.dbpedia.org/resource/Ectopia_lentis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1827028> .
+
+<http://es.dbpedia.org/resource/Distrofia_endotelial_de_Fuchs>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1464888> .
+
+<http://es.dbpedia.org/resource/Mielitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q551085> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Lucey-Driscoll>
+        owl:sameAs  <http://www.wikidata.org/entity/Q390908> .
+
+<http://es.dbpedia.org/resource/Aplasia_cutis_congénita>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1424491> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_abdomen_en_ciruela_pasa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q250354> .
+
+<http://es.dbpedia.org/resource/Intolerancia_a_la_sacarosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q498826> .
+
+<http://es.dbpedia.org/resource/COVID-19>
+        owl:sameAs  <http://www.wikidata.org/entity/Q84263196> .
+
+<http://es.dbpedia.org/resource/Amnesia_retrógrada>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1193891> .
+
+<http://es.dbpedia.org/resource/Tumores_de_la_apéndice_cecal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18554044> .
+
+<http://es.dbpedia.org/resource/Atresia_anal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q484631> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Oguchi>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7080278> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Meckel>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1915681> .
+
+<http://es.dbpedia.org/resource/Carcinoma_adenoide_quístico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q356005> .
+
+<http://es.dbpedia.org/resource/Favus>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1348374> .
+
+<http://es.dbpedia.org/resource/Ipex>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508566> .
+
+<http://es.dbpedia.org/resource/Genu_recurvatum>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5533802> .
+
+<http://es.dbpedia.org/resource/Síndrome_XYYY>
+        owl:sameAs  <http://www.wikidata.org/entity/Q106311469> .
+
+<http://es.dbpedia.org/resource/Fibrilación_auricular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q815819> .
+
+<http://es.dbpedia.org/resource/Toxoplasmosis_congénita>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5413808> .
+
+<http://es.dbpedia.org/resource/Sindrome_de_Majeed>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6737634> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Romano-Ward>
+        owl:sameAs  <http://www.wikidata.org/entity/Q724714> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_dolor_patelofemoral>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7144437> .
+
+<http://es.dbpedia.org/resource/Cistoadenoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q246070> .
+
+<http://es.dbpedia.org/resource/Síndrome_TAR>
+        owl:sameAs  <http://www.wikidata.org/entity/Q660330> .
+
+<http://es.dbpedia.org/resource/Trombosis_de_la_vena_porta>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1704044> .
+
+<http://es.dbpedia.org/resource/Criptorquidia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q966052> .
+
+<http://es.dbpedia.org/resource/Crisis_parciales_simples>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1132959> .
+
+<http://es.dbpedia.org/resource/Aciduria_orótica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3276506> .
+
+<http://es.dbpedia.org/resource/Síndrome_KID>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1345746> .
+
+<http://es.dbpedia.org/resource/Capilariasis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1034620> .
+
+<http://es.dbpedia.org/resource/Mucopolisacaridosis_tipo_I>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1906054> .
+
+<http://es.dbpedia.org/resource/Glaucoma_neovascular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7885682> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Evans>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3109873> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Maffucci>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1419261> .
+
+<http://es.dbpedia.org/resource/Síndrome_PAPA>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7118181> .
+
+<http://es.dbpedia.org/resource/Deformidad_de_Madelung>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1456924> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Lemierre>
+        owl:sameAs  <http://www.wikidata.org/entity/Q72000> .
+
+<http://es.dbpedia.org/resource/Síndrome_compartimental>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1778968> .
+
+<http://es.dbpedia.org/resource/Acrodermatitis_enteropática>
+        owl:sameAs  <http://www.wikidata.org/entity/Q937818> .
+
+<http://es.dbpedia.org/resource/Cordoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1076389> .
+
+<http://es.dbpedia.org/resource/Erupción_acneiforme>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2365426> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_pterigium_múltiple>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16889762> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_von_Hippel-Lindau>
+        owl:sameAs  <http://www.wikidata.org/entity/Q741315> .
+
+<http://es.dbpedia.org/resource/Galactosialidosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1491661> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Barth>
+        owl:sameAs  <http://www.wikidata.org/entity/Q928424> .
+
+<http://es.dbpedia.org/resource/Síndrome_WAGR>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1892153> .
+
+<http://es.dbpedia.org/resource/Agammaglobulinemia_ligada_al_cromosoma_X>
+        owl:sameAs  <http://www.wikidata.org/entity/Q283108> .
+
+<http://es.dbpedia.org/resource/Inmunodeficiencia_combinada_grave_por_déficit_de_adenosina_desaminasa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1055374> .
+
+<http://es.dbpedia.org/resource/Estenosis_pulmonar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q579527> .
+
+<http://es.dbpedia.org/resource/Mucopolisacaridosis_tipo_VII>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1750471> .
+
+<http://es.dbpedia.org/resource/Distrofia_macular_viteliforme_de_Best>
+        owl:sameAs  <http://www.wikidata.org/entity/Q830265> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Currarino>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5194974> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Ellis-van_Creveld>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1332448> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Adie>
+        owl:sameAs  <http://www.wikidata.org/entity/Q357067> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Bright>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3246646> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Mendelson>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2979344> .
+
+<http://es.dbpedia.org/resource/Glomerulonefritis_membranosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1713037> .
+
+<http://es.dbpedia.org/resource/Telangiectasia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1634800> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Batten>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1753778> .
+
+<http://es.dbpedia.org/resource/Cáncer_de_peritoneo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1816041> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_nodo_enfermo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1757915> .
+
+<http://es.dbpedia.org/resource/Hidroftalmía>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1640324> .
+
+<http://es.dbpedia.org/resource/Melioidosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q963944> .
+
+<http://es.dbpedia.org/resource/Acinetopsia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q784564> .
+
+<http://es.dbpedia.org/resource/Síndrome_postpolio>
+        owl:sameAs  <http://www.wikidata.org/entity/Q220188> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_microdeleción_3q27.3>
+        owl:sameAs  <http://www.wikidata.org/entity/Q55787977> .
+
+<http://es.dbpedia.org/resource/Disautonomía_familiar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2325854> .
+
+<http://es.dbpedia.org/resource/Fiebre_Q>
+        owl:sameAs  <http://www.wikidata.org/entity/Q164818> .
+
+<http://es.dbpedia.org/resource/Foramina_parietal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18987133> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Yunis-Varon>
+        owl:sameAs  <http://www.wikidata.org/entity/Q8061303> .
+
+<http://es.dbpedia.org/resource/Acrodisostosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4357287> .
+
+<http://es.dbpedia.org/resource/Hidradenitis_supurativa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q341999> .
+
+<http://es.dbpedia.org/resource/La_pubertad_familiar_precoz_limitada_al_varón>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5432947> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Pallister-Killian>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1425018> .
+
+<http://es.dbpedia.org/resource/Cáncer_papilar_tiroideo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2292945> .
+
+<http://es.dbpedia.org/resource/Ceroidolipofuscinosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4358039> .
+
+<http://es.dbpedia.org/resource/Hepatitis_alcohólica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3144986> .
+
+<http://es.dbpedia.org/resource/Trombofilia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1570013> .
+
+<http://es.dbpedia.org/resource/Displasia_fibrosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1410864> .
+
+<http://es.dbpedia.org/resource/Síndrome_MOMO>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3079989> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Müller-Weiss>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18629322> .
+
+<http://es.dbpedia.org/resource/Colesterolosis_vesicular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1075909> .
+
+<http://es.dbpedia.org/resource/Afibrinogenemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5160407> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Cohen>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1107087> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_corazón_izquierdo_hipoplásico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1641399> .
+
+<http://es.dbpedia.org/resource/Galactosemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q774483> .
+
+<http://es.dbpedia.org/resource/Neurofibromatosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q847605> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_macrocefalia-malformación_capilar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q17162578> .
+
+<http://es.dbpedia.org/resource/Acidemia_propiónica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7250337> .
+
+<http://es.dbpedia.org/resource/Endocarditis_de_Loeffler>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4710773> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Eales>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3772316> .
+
+<http://es.dbpedia.org/resource/Polimastia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2701591> .
+
+<http://es.dbpedia.org/resource/Lipomatosis_encefalocraneocutánea>
+        owl:sameAs  <http://www.wikidata.org/entity/Q17540092> .
+
+<http://es.dbpedia.org/resource/Trastorno_explosivo_intermitente>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18671> .
+
+<http://es.dbpedia.org/resource/Pili_trianguli_et_canaliculi>
+        owl:sameAs  <http://www.wikidata.org/entity/Q541852> .
+
+<http://es.dbpedia.org/resource/Esquizencefalia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1457267> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Bean>
+        owl:sameAs  <http://www.wikidata.org/entity/Q885574> .
+
+<http://es.dbpedia.org/resource/Angiopatía_amiloide_cerebral>
+        owl:sameAs  <http://www.wikidata.org/entity/Q191562> .
+
+<http://es.dbpedia.org/resource/Anoniquia_congénita>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18553374> .
+
+<http://es.dbpedia.org/resource/Taurodontismo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3496241> .
+
+<http://es.dbpedia.org/resource/Endometritis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1340774> .
+
+<http://es.dbpedia.org/resource/Gangliosidosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1493513> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_megacolon_de_Goldberg-_Shprintzen>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508639> .
+
+<http://es.dbpedia.org/resource/Estenosis_pilórica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1027995> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Tietz>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7801152> .
+
+<http://es.dbpedia.org/resource/Fundus_albipunctatus>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16570127> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Holt_Oram>
+        owl:sameAs  <http://www.wikidata.org/entity/Q182005> .
+
+<http://es.dbpedia.org/resource/Necrosis_tubular_aguda>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2425407> .
+
+<http://es.dbpedia.org/resource/Endocarditis_de_Libman-Sacks>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1532243> .
+
+<http://es.dbpedia.org/resource/Mola_hidatiforme>
+        owl:sameAs  <http://www.wikidata.org/entity/Q881855> .
+
+<http://es.dbpedia.org/resource/Leucemia_neutrofílica_crónica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1088057> .
+
+<http://es.dbpedia.org/resource/Carcinoma_lobulillar_'in_situ'>
+        owl:sameAs  <http://www.wikidata.org/entity/Q548070> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Gerstmann>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1515119> .
+
+<http://es.dbpedia.org/resource/Laringomalacia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q598035> .
+
+<http://es.dbpedia.org/resource/Teratoma_sacrococcígeo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1779119> .
+
+<http://es.dbpedia.org/resource/Metahemoglobinemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q748442> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_leucoencefalopatía-displasia_espondilometafisaria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q55345738> .
+
+<http://es.dbpedia.org/resource/Lobomicosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6663796> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Heerfordt-Waldenstrom>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1593605> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Darier>
+        owl:sameAs  <http://www.wikidata.org/entity/Q580506> .
+
+<http://es.dbpedia.org/resource/Adrenoleucodistrofia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q366964> .
+
+<http://es.dbpedia.org/resource/Pili_bifurcati>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7193990> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Brugada>
+        owl:sameAs  <http://www.wikidata.org/entity/Q599683> .
+
+<http://es.dbpedia.org/resource/Leucoplasia_oral_vellosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1425185> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Rosai-Dorfman>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1567631> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Gitelman>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1053120> .
+
+<http://es.dbpedia.org/resource/Diafanoespondilodisostosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q22672486> .
+
+<http://es.dbpedia.org/resource/Salpingitis_ístmica_nodosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7405738> .
+
+<http://es.dbpedia.org/resource/Sulfohemoglobinemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q278909> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Asherman>
+        owl:sameAs  <http://www.wikidata.org/entity/Q725129> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_piel_escaldada_por_estafilococo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q204176> .
+
+<http://es.dbpedia.org/resource/Tabes_dorsal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2583311> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Kleine-Levin>
+        owl:sameAs  <http://www.wikidata.org/entity/Q613809> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_microduplicación_1q21.1>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2692054> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_De_Sanctis-Cacchione>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3843801> .
+
+<http://es.dbpedia.org/resource/Síndrome_CHILD>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508568> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_iridogoniodisgenesis-anomalías_esqueléticas>
+        owl:sameAs  <http://www.wikidata.org/entity/Q17125601> .
+
+<http://es.dbpedia.org/resource/Hemoglobina_C>
+        owl:sameAs  <http://www.wikidata.org/entity/Q409030> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Griscelli>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3281274> .
+
+<http://es.dbpedia.org/resource/Hemoglobinuria_paroxística_por_frío>
+        owl:sameAs  <http://www.wikidata.org/entity/Q734042> .
+
+<http://es.dbpedia.org/resource/Peniciliosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3080319> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sebastian>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1369851> .
+
+<http://es.dbpedia.org/resource/Tumor_rabdoide>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6743515> .
+
+<http://es.dbpedia.org/resource/Proctitis_postradiación>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7280363> .
+
+<http://es.dbpedia.org/resource/Neuropatía_motora_hereditaria_distal_tipo_Jerash>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16944450> .
+
+<http://es.dbpedia.org/resource/Microcoria_congénita>
+        owl:sameAs  <http://www.wikidata.org/entity/Q720101> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_aspiración_de_meconio>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1918881> .
+
+<http://es.dbpedia.org/resource/Neuralgia_del_glosofaríngeo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q11790773> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sanfilippo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2200359> .
+
+<http://es.dbpedia.org/resource/Dermatitis_pustulosa_erosiva>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2893515> .
+
+<http://es.dbpedia.org/resource/Histiocitosis_de_células_de_Langerhans>
+        owl:sameAs  <http://www.wikidata.org/entity/Q374036> .
+
+<http://es.dbpedia.org/resource/Cáncer_medular_tiroideo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3493538> .
+
+<http://es.dbpedia.org/resource/Retinitis_punctata_albescens>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16625025> .
+
+<http://es.dbpedia.org/resource/Sodoku>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1807401> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Hers>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1947298> .
+
+<http://es.dbpedia.org/resource/Queratosis_actínica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q422225> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Rokitansky-Küster-Hauser>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1473749> .
+
+<http://es.dbpedia.org/resource/Necrosis_retiniana_aguda>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4677951> .
+
+<http://es.dbpedia.org/resource/Fiebre_Tsutsugamushi>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1194496> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Alström>
+        owl:sameAs  <http://www.wikidata.org/entity/Q432814> .
+
+<http://es.dbpedia.org/resource/Porencefalia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q492129> .
+
+<http://es.dbpedia.org/resource/Atresia_biliar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q659033> .
+
+<http://es.dbpedia.org/resource/Hemartros>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1642040> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_McKusick-Kaufman>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508674> .
+
+<http://es.dbpedia.org/resource/Ectrodactilia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q650026> .
+
+<http://es.dbpedia.org/resource/Tirosinemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1122668> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Poland>
+        owl:sameAs  <http://www.wikidata.org/entity/Q633859> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Noonan>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1543446> .
+
+<http://es.dbpedia.org/resource/Tetrasomía_18p>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2110688> .
+
+<http://es.dbpedia.org/resource/Anetodermia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3616643> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Hajdu_Cheney>
+        owl:sameAs  <http://www.wikidata.org/entity/Q632228> .
+
+<http://es.dbpedia.org/resource/Miocardiopatía_espongiforme>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1725245> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Jacobsen>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1677755> .
+
+<http://es.dbpedia.org/resource/Tumores_primarios_del_corazón>
+        owl:sameAs  <http://www.wikidata.org/entity/Q17142406> .
+
+<http://es.dbpedia.org/resource/Pénfigo_paraneoplásico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1394580> .
+
+<http://es.dbpedia.org/resource/Síndrome_FG>
+        owl:sameAs  <http://www.wikidata.org/entity/Q530142> .
+
+<http://es.dbpedia.org/resource/Xantoastrocitoma_pleomórfico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q627373> .
+
+<http://es.dbpedia.org/resource/Síndrome_respiratorio_de_Oriente_Medio>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16654806> .
+
+<http://es.dbpedia.org/resource/Fiebre_de_Pontiac>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3073142> .
+
+<http://es.dbpedia.org/resource/Ceguera_cortical>
+        owl:sameAs  <http://www.wikidata.org/entity/Q895871> .
+
+<http://es.dbpedia.org/resource/Aciduria_arginosuccínica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1654860> .
+
+<http://es.dbpedia.org/resource/Síndrome_Ritscher-Schinzel>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2155008> .
+
+<http://es.dbpedia.org/resource/Timoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1429863> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Björnstad>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4919794> .
+
+<http://es.dbpedia.org/resource/Tumor_de_hipófisis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q864296> .
+
+<http://es.dbpedia.org/resource/Síndrome_POEMS>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2553422> .
+
+<http://es.dbpedia.org/resource/Orientación_sexual_egodistónica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q912344> .
+
+<http://es.dbpedia.org/resource/Distrofia_muscular_de_cinturas_por_déficit_de_alfa-sarcoglicano>
+        owl:sameAs  <http://www.wikidata.org/entity/Q24960548> .
+
+<http://es.dbpedia.org/resource/Síndrome_poliglandular_autoinmune>
+        owl:sameAs  <http://www.wikidata.org/entity/Q675311> .
+
+<http://es.dbpedia.org/resource/Adenoma_suprarrenal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4057496> .
+
+<http://es.dbpedia.org/resource/15_isodicéntrico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2703116> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Wolman>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6710283> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_tetraamelia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2406697> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_carnitina_palmitoiltransferasa_tipo_II>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2033861> .
+
+<http://es.dbpedia.org/resource/Resorción_dental>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7824277> .
+
+<http://es.dbpedia.org/resource/Tirosinemia_tipo_1>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1747726> .
+
+<http://es.dbpedia.org/resource/Acidemia_isovalérica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3278042> .
+
+<http://es.dbpedia.org/resource/Gonadoblastoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5581320> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_deleción_2q23.1>
+        owl:sameAs  <http://www.wikidata.org/entity/Q56013827> .
+
+<http://es.dbpedia.org/resource/Displasia_espondiloepifisaria_congénita>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7578960> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Nelson>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2165266> .
+
+<http://es.dbpedia.org/resource/Condromalacia_rotuliana>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1076086> .
+
+<http://es.dbpedia.org/resource/Estenosis_tricuspídea>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2544879> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Eisenmenger>
+        owl:sameAs  <http://www.wikidata.org/entity/Q572695> .
+
+<http://es.dbpedia.org/resource/Síndrome_3-M>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3335660> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Char>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2411095> .
+
+<http://es.dbpedia.org/resource/Miopatía_visceral_familiar_con_oftalmoplejía_externa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q55782392> .
+
+<http://es.dbpedia.org/resource/Tumor_del_estroma_gastrointestinal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1495661> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Jackson-Weiss>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6118062> .
+
+<http://es.dbpedia.org/resource/Situs_inversus>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1456383> .
+
+<http://es.dbpedia.org/resource/Granulomatosis_linfomatoide>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3775784> .
+
+<http://es.dbpedia.org/resource/Meduloblastoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1333608> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Achard>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4673499> .
+
+<http://es.dbpedia.org/resource/Tecoma_(medicina)>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7777654> .
+
+<http://es.dbpedia.org/resource/Asma_ocupacional>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2551913> .
+
+<http://es.dbpedia.org/resource/Megacolon>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1754226> .
+
+<http://es.dbpedia.org/resource/Lipomatosis_simétrica_múltiple>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4887975> .
+
+<http://es.dbpedia.org/resource/Pili_torti>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7193994> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Graham-Little>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5592612> .
+
+<http://es.dbpedia.org/resource/Enfermedad_inmunoproliferativa_del_intestino_delgado>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1916505> .
+
+<http://es.dbpedia.org/resource/Hematocele>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1620444> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Costello>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1136492> .
+
+<http://es.dbpedia.org/resource/Neumonía_intersticial_descamativa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5265029> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Blau>
+        owl:sameAs  <http://www.wikidata.org/entity/Q441077> .
+
+<http://es.dbpedia.org/resource/Obstrucción_de_la_arteria_central_de_la_retina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2444886> .
+
+<http://es.dbpedia.org/resource/Síndrome_hepatorrenal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q247131> .
+
+<http://es.dbpedia.org/resource/Deficiencia_del_factor_XII_de_la_coagulación>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2841213> .
+
+<http://es.dbpedia.org/resource/Paragonimosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2528129> .
+
+<http://es.dbpedia.org/resource/Estenosis_de_la_arteria_renal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q515376> .
+
+<http://es.dbpedia.org/resource/Distrofia_neuroaxonal_infantil>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6029060> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Turcot>
+        owl:sameAs  <http://www.wikidata.org/entity/Q736633> .
+
+<http://es.dbpedia.org/resource/Cáncer_folicular_de_tiroides>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5464665> .
+
+<http://es.dbpedia.org/resource/Tracoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q193216> .
+
+<http://es.dbpedia.org/resource/Demencia_vascular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q583908> .
+
+<http://es.dbpedia.org/resource/Glaucoma_facolítico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5409708> .
+
+<http://es.dbpedia.org/resource/Mucopolisacaridosis_tipo_VI>
+        owl:sameAs  <http://www.wikidata.org/entity/Q576109> .
+
+<http://es.dbpedia.org/resource/Dentinogénesis_imperfecta>
+        owl:sameAs  <http://www.wikidata.org/entity/Q548984> .
+
+<http://es.dbpedia.org/resource/Neuropatía_hereditaria_con_susceptibilidad_a_parálisis_por_presión>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1609737> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Aarskog-Scott>
+        owl:sameAs  <http://www.wikidata.org/entity/Q303123> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Crandall>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5181978> .
+
+<http://es.dbpedia.org/resource/Beriberi>
+        owl:sameAs  <http://www.wikidata.org/entity/Q184084> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_clase_turista>
+        owl:sameAs  <http://www.wikidata.org/entity/Q15116714> .
+
+<http://es.dbpedia.org/resource/Oftalmía_simpática>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2037487> .
+
+<http://es.dbpedia.org/resource/Pioderma_gangrenoso>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1526459> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_microdeleción_2p21>
+        owl:sameAs  <http://www.wikidata.org/entity/Q56013735> .
+
+<http://es.dbpedia.org/resource/Displasia_diastrófica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3335666> .
+
+<http://es.dbpedia.org/resource/Ileítis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3796380> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Frey>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1431371> .
+
+<http://es.dbpedia.org/resource/Beta-talasemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3616632> .
+
+<http://es.dbpedia.org/resource/Siringomielia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1112977> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_duplicación_16p13.3>
+        owl:sameAs  <http://www.wikidata.org/entity/Q21154077> .
+
+<http://es.dbpedia.org/resource/Pili_annulati>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7193987> .
+
+<http://es.dbpedia.org/resource/Exostosis_múltiple_hereditaria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1952467> .
+
+<http://es.dbpedia.org/resource/Síndrome_acrocalloso>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4675304> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Kawasaki>
+        owl:sameAs  <http://www.wikidata.org/entity/Q265936> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Pallister_Hall>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3085434> .
+
+<http://es.dbpedia.org/resource/Piomiositis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1923955> .
+
+<http://es.dbpedia.org/resource/Acromatopsia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q432396> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Saethre-Chotzen>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508686> .
+
+<http://es.dbpedia.org/resource/Linfoma_ocular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6058506> .
+
+<http://es.dbpedia.org/resource/Hipopion>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1638140> .
+
+<http://es.dbpedia.org/resource/Acidosis_tubular_renal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1516211> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Crouzon>
+        owl:sameAs  <http://www.wikidata.org/entity/Q779250> .
+
+<http://es.dbpedia.org/resource/Encefalomielitis_aguda_diseminada>
+        owl:sameAs  <http://www.wikidata.org/entity/Q424242> .
+
+<http://es.dbpedia.org/resource/Otocefalia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3357668> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Hermansky-Pudlak>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1506216> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Nicolaides-Baraitser>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5558010> .
+
+<http://es.dbpedia.org/resource/Síndrome_linfoproliferativo_autoinmune>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1151300> .
+
+<http://es.dbpedia.org/resource/Úlcera_de_Buruli>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1017169> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_supresión_1p36>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3297103> .
+
+<http://es.dbpedia.org/resource/Síndrome_hipereosinofílico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2551272> .
+
+<http://es.dbpedia.org/resource/Enfermedad_mixta_del_tejido_conectivo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1622407> .
+
+<http://es.dbpedia.org/resource/Trastorno_mixto_del_lenguaje_receptivo-expresivo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6884011> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Papillon-Lefèvre>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2050791> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Hirayama>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6901736> .
+
+<http://es.dbpedia.org/resource/Fiebre_periódica,_estomatitis_aftosa,_faringitis_y_adenitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2044034> .
+
+<http://es.dbpedia.org/resource/Leucodistrofia_metacromática>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1120682> .
+
+<http://es.dbpedia.org/resource/Distrofia_macular_de_Carolina_del_Norte>
+        owl:sameAs  <http://www.wikidata.org/entity/Q16557615> .
+
+<http://es.dbpedia.org/resource/Tumor_glómico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4139987> .
+
+<http://es.dbpedia.org/resource/Goma_granulomatosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2466723> .
+
+<http://es.dbpedia.org/resource/Larva_migrans_cutáneo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1597571> .
+
+<http://es.dbpedia.org/resource/Hidradenoma_papilar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3791936> .
+
+<http://es.dbpedia.org/resource/Pápulas_urticarias_pruriginosas_y_placas_de_embarazo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1140452> .
+
+<http://es.dbpedia.org/resource/Adermatoglifia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q356410> .
+
+<http://es.dbpedia.org/resource/Riñón_en_herradura>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1634033> .
+
+<http://es.dbpedia.org/resource/Paraparesia_espástica_tropical>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1476361> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_enclaustramiento>
+        owl:sameAs  <http://www.wikidata.org/entity/Q794457> .
+
+<http://es.dbpedia.org/resource/Sindrome_de_microdelecion_14q12>
+        owl:sameAs  <http://www.wikidata.org/entity/Q55786540> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Alagille>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1544408> .
+
+<http://es.dbpedia.org/resource/Síndrome_gastrocutáneo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5526827> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Lynch>
+        owl:sameAs  <http://www.wikidata.org/entity/Q783644> .
+
+<http://es.dbpedia.org/resource/Polidactilia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q371520> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Smith-Magenis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2295338> .
+
+<http://es.dbpedia.org/resource/Eritroleucemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3843804> .
+
+<http://es.dbpedia.org/resource/Botriocefalosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1227160> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Erdheim-Chester>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1349259> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Aicardi>
+        owl:sameAs  <http://www.wikidata.org/entity/Q403463> .
+
+<http://es.dbpedia.org/resource/Septo_vaginal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7908507> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Kabuki>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1538227> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Glanzmann>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1529258> .
+
+<http://es.dbpedia.org/resource/Amaurosis_congénita_de_Leber>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1811132> .
+
+<http://es.dbpedia.org/resource/Talasemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q185137> .
+
+<http://es.dbpedia.org/resource/Síndromes_periódicos_asociados_a_criopirina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1771331> .
+
+<http://es.dbpedia.org/resource/Hipoplasia_del_nervio_óptico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7098797> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Pendred>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1707822> .
+
+<http://es.dbpedia.org/resource/Priapismo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q156590> .
+
+<http://es.dbpedia.org/resource/Tumor_de_los_cordones_sexuales>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5474322> .
+
+<http://es.dbpedia.org/resource/Aciduria_metilmalónica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q742500> .
+
+<http://es.dbpedia.org/resource/Efluvio_telogénico_agudo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q26967> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Miller-Dieker>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2200977> .
+
+<http://es.dbpedia.org/resource/Púrpura_trombocitopénica_trombótica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1426491> .
+
+<http://es.dbpedia.org/resource/Corioamnionitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q473739> .
+
+<http://es.dbpedia.org/resource/Deleción_2q37>
+        owl:sameAs  <http://www.wikidata.org/entity/Q574227> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sakati-Nyhan-Tisdale>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2888275> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Paget_extramamaria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3077016> .
+
+<http://es.dbpedia.org/resource/Arteriolosclerosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4797547> .
+
+<http://es.dbpedia.org/resource/Sinostosis_espondilocarpotarsal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q20828711> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_atrapamiento_del_nervio_cutáneo_abdominal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q19765925> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_abléfaron-macrostomía>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3508585> .
+
+<http://es.dbpedia.org/resource/Secuencia_de_Potter>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2019823> .
+
+<http://es.dbpedia.org/resource/Retinopatía_hipertensiva>
+        owl:sameAs  <http://www.wikidata.org/entity/Q425811> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Ramsay_Hunt>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1648128> .
+
+<http://es.dbpedia.org/resource/Piuria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q778731> .
+
+<http://es.dbpedia.org/resource/Lupus_eritematoso_inducido_por_fármacos>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2785159> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Cowden>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1138188> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Dubin-Johnson>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1263039> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_dedo_azul>
+        owl:sameAs  <http://www.wikidata.org/entity/Q840004> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_intestino_corto>
+        owl:sameAs  <http://www.wikidata.org/entity/Q662272> .
+
+<http://es.dbpedia.org/resource/Microesferofaquia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3857010> .
+
+<http://es.dbpedia.org/resource/Struma_ovarii>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2357409> .
+
+<http://es.dbpedia.org/resource/Acatalasemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3273331> .
+
+<http://es.dbpedia.org/resource/Hepatitis_autoinmune>
+        owl:sameAs  <http://www.wikidata.org/entity/Q786844> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Wiskott-Aldrich>
+        owl:sameAs  <http://www.wikidata.org/entity/Q953638> .
+
+<http://es.dbpedia.org/resource/Inflamación_orbital_idiopática>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5988889> .
+
+<http://es.dbpedia.org/resource/Dirofilariasis_canina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q443929> .
+
+<http://es.dbpedia.org/resource/Lipodistrofia_congénita_de_Berardinelli-Seip>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3242224> .
+
+<http://es.dbpedia.org/resource/Endometrioma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5376367> .
+
+<http://es.dbpedia.org/resource/Osteodistrofia_renal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q822598> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Schmidt>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1418225> .
+
+<http://es.dbpedia.org/resource/Tirosinemia_tipo_3>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7861692> .
+
+<http://es.dbpedia.org/resource/Insulinoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1501239> .
+
+<http://es.dbpedia.org/resource/Tricoleucemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q201299> .
+
+<http://es.dbpedia.org/resource/Inmunodeficiencia_combinada_grave_ligada_al_cromosoma_X>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1423538> .
+
+<http://es.dbpedia.org/resource/Hematoma_perianal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1324103> .
+
+<http://es.dbpedia.org/resource/Trastorno_por_dolor>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3297888> .
+
+<http://es.dbpedia.org/resource/Fiebre_de_Orepuche>
+        owl:sameAs  <http://www.wikidata.org/entity/Q474070> .
+
+<http://es.dbpedia.org/resource/Displasia_craneodiafisaria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5182138> .
+
+<http://es.dbpedia.org/resource/Astrocitoma_pilocítico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2095252> .
+
+<http://es.dbpedia.org/resource/Hemiparesia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2291130> .
+
+<http://es.dbpedia.org/resource/Lengua_fisurada>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2504473> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_exceso_aparente_de_mineralocorticoide>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2065747> .
+
+<http://es.dbpedia.org/resource/Pseudoxantoma_elástico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1052391> .
+
+<http://es.dbpedia.org/resource/Inmunodeficiencia_combinada_grave>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1334408> .
+
+<http://es.dbpedia.org/resource/Deficiencia_congénita_de_leptina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q55784417> .
+
+<http://es.dbpedia.org/resource/Esclerosis_de_Monckeberg>
+        owl:sameAs  <http://www.wikidata.org/entity/Q938991> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Mikulicz>
+        owl:sameAs  <http://www.wikidata.org/entity/Q516562> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Cornelia_de_Lange>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1133289> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Crigler-Najjar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1140000> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Bornholm>
+        owl:sameAs  <http://www.wikidata.org/entity/Q223663> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Teunissen-Cremers>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7707070> .
+
+<http://es.dbpedia.org/resource/Disostosis_acrofrontofacionasal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4675773> .
+
+<http://es.dbpedia.org/resource/Linfoma_de_Burkitt>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1016605> .
+
+<http://es.dbpedia.org/resource/Ciclotimia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q245590> .
+
+<http://es.dbpedia.org/resource/Ectopia_cordis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1356194> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sturge-Weber>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1886238> .
+
+<http://es.dbpedia.org/resource/Carcinoma_sarcomatoide_de_pulmón>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7423600> .
+
+<http://es.dbpedia.org/resource/Oncocercosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1137321> .
+
+<http://es.dbpedia.org/resource/Abetalipoproteinemia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q319812> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_beta-ureidopropionasa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q24960452> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_factor_X>
+        owl:sameAs  <http://www.wikidata.org/entity/Q18555036> .
+
+<http://es.dbpedia.org/resource/Angiofibroma_nasofaríngeo_juvenil>
+        owl:sameAs  <http://www.wikidata.org/entity/Q546357> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Seckel>
+        owl:sameAs  <http://www.wikidata.org/entity/Q572169> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Krabbe>
+        owl:sameAs  <http://www.wikidata.org/entity/Q511372> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sotos>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1770836> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Pearson>
+        owl:sameAs  <http://www.wikidata.org/entity/Q9081107> .
+
+<http://es.dbpedia.org/resource/Querubismo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q568865> .
+
+<http://es.dbpedia.org/resource/Tumor_disembrioplástico_neuroepitelial>
+        owl:sameAs  <http://www.wikidata.org/entity/Q824595> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Kearns-Sayre>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2605012> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_cetoácido_deshidrogenasa_quinasa_de_cadena_ramificada>
+        owl:sameAs  <http://www.wikidata.org/entity/Q30990099> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Marinesco-Sjögren>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2628677> .
+
+<http://es.dbpedia.org/resource/Pentalogía_de_Cantrell>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7165022> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Bloch-Sulzberger>
+        owl:sameAs  <http://www.wikidata.org/entity/Q884590> .
+
+<http://es.dbpedia.org/resource/Hiperparatiroidismo_secundario>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3622611> .
+
+<http://es.dbpedia.org/resource/Anemia_megaloblástica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q10832211> .
+
+<http://es.dbpedia.org/resource/Epilepsia_infantil_familiar_benigna>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4887955> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Melkersson-Rosenthal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1919487> .
+
+<http://es.dbpedia.org/resource/Leucemia/linfoma_de_células_T_del_adulto>
+        owl:sameAs  <http://www.wikidata.org/entity/Q379054> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Lowe>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1200839> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Netherton>
+        owl:sameAs  <http://www.wikidata.org/entity/Q9390284> .
+
+<http://es.dbpedia.org/resource/Prolactinoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q954831> .
+
+<http://es.dbpedia.org/resource/Epispadias>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1347416> .
+
+<http://es.dbpedia.org/resource/Conexión_venosa_pulmonar_anómala>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1877483> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Gorlin>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1536720> .
+
+<http://es.dbpedia.org/resource/Hipertensión_renovascular>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3296793> .
+
+<http://es.dbpedia.org/resource/Pili_multigemini>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7193991> .
+
+<http://es.dbpedia.org/resource/Distrofia_corneal_de_Schnyder>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4162393> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Conn>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1482922> .
+
+<http://es.dbpedia.org/resource/Distrofia_de_conos_y_bastones>
+        owl:sameAs  <http://www.wikidata.org/entity/Q147270> .
+
+<http://es.dbpedia.org/resource/Xerodermia_pigmentosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q612693> .
+
+<http://es.dbpedia.org/resource/Chorea_gravidarum>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5105007> .
+
+<http://es.dbpedia.org/resource/Ictiosis_con_confeti>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5986449> .
+
+<http://es.dbpedia.org/resource/Hipertrofia_virginal_de_los_senos>
+        owl:sameAs  <http://www.wikidata.org/entity/Q924002> .
+
+<http://es.dbpedia.org/resource/Shigelosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q327298> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Hirschsprung>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1343645> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Kennedy>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1995327> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Woodhouse_Sakati>
+        owl:sameAs  <http://www.wikidata.org/entity/Q8032762> .
+
+<http://es.dbpedia.org/resource/Queratitis_neurotrófica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q28343300> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Fanconi>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1179460> .
+
+<http://es.dbpedia.org/resource/Distrofia_macular_corneal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4385926> .
+
+<http://es.dbpedia.org/resource/Embolia_cerebral>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5830653> .
+
+<http://es.dbpedia.org/resource/Síndrome_HERNS>
+        owl:sameAs  <http://www.wikidata.org/entity/Q22132685> .
+
+<http://es.dbpedia.org/resource/Cistoadenoma_seroso_del_páncreas>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7130420> .
+
+<http://es.dbpedia.org/resource/Ictericia_del_recién_nacido>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1755487> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Senior-Løken>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4354267> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Goldenhar>
+        owl:sameAs  <http://www.wikidata.org/entity/Q769988> .
+
+<http://es.dbpedia.org/resource/Pterigión>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1862972> .
+
+<http://es.dbpedia.org/resource/Coriorretinitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1402851> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_adrenocorticotropina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3704730> .
+
+<http://es.dbpedia.org/resource/VIPoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1518637> .
+
+<http://es.dbpedia.org/resource/Pénfigo_vegetante>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7162042> .
+
+<http://es.dbpedia.org/resource/Neuromielitis_óptica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q611458> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Paget_de_seno>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1572384> .
+
+<http://es.dbpedia.org/resource/Arteriopatía_cerebral_autosómica_dominante_con_infartos_subcorticales_y_leucoencefalopatía>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1022718> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Laband>
+        owl:sameAs  <http://www.wikidata.org/entity/Q8072143> .
+
+<http://es.dbpedia.org/resource/Linitis_plástica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q870891> .
+
+<http://es.dbpedia.org/resource/Adamantinoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2521747> .
+
+<http://es.dbpedia.org/resource/Anquilostomiasis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q11679861> .
+
+<http://es.dbpedia.org/resource/Craneofaringioma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1786513> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_McLeod>
+        owl:sameAs  <http://www.wikidata.org/entity/Q966149> .
+
+<http://es.dbpedia.org/resource/Glomerulonefritis_membranoproliferativa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2299379> .
+
+<http://es.dbpedia.org/resource/Ausencia_bilateral_congénita_de_conductos_deferentes>
+        owl:sameAs  <http://www.wikidata.org/entity/Q53923559> .
+
+<http://es.dbpedia.org/resource/Fucosidosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q177878> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Tangier>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1442621> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Hartnup>
+        owl:sameAs  <http://www.wikidata.org/entity/Q200985> .
+
+<http://es.dbpedia.org/resource/Malformación_de_Dandy_Walker>
+        owl:sameAs  <http://www.wikidata.org/entity/Q733493> .
+
+<http://es.dbpedia.org/resource/Colestasis_del_embarazo>
+        owl:sameAs  <http://www.wikidata.org/entity/Q60195073> , <http://www.wikidata.org/entity/Q3682587> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Mowat-Wilson>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2757585> .
+
+<http://es.dbpedia.org/resource/Carcinoma_lobulillar_infiltrante>
+        owl:sameAs  <http://www.wikidata.org/entity/Q929221> .
+
+<http://es.dbpedia.org/resource/Deficiencia_en_riboflavina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4138764> .
+
+<http://es.dbpedia.org/resource/Colecistitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q376666> .
+
+<http://es.dbpedia.org/resource/Carcinoma_ductal_'in_situ'>
+        owl:sameAs  <http://www.wikidata.org/entity/Q337585> .
+
+<http://es.dbpedia.org/resource/Estenosis_aórtica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q531019> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Brunner>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4979092> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Klinefelter>
+        owl:sameAs  <http://www.wikidata.org/entity/Q207133> .
+
+<http://es.dbpedia.org/resource/Angiostrongiliasis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2558586> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_los_ganglios_basales_sensible_a_la_biotina>
+        owl:sameAs  <http://www.wikidata.org/entity/Q864845> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_trismo-pseudocamptodactilia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q11838430> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_pseudoexfoliación>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3824795> .
+
+<http://es.dbpedia.org/resource/Fiebre_amarilla>
+        owl:sameAs  <http://www.wikidata.org/entity/Q154874> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Legius>
+        owl:sameAs  <http://www.wikidata.org/entity/Q890470> .
+
+<http://es.dbpedia.org/resource/Acromegalia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q189580> .
+
+<http://es.dbpedia.org/resource/Colestasis_linfedema>
+        owl:sameAs  <http://www.wikidata.org/entity/Q300801> .
+
+<http://es.dbpedia.org/resource/Meningitis_aséptica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4804182> .
+
+<http://es.dbpedia.org/resource/Síndrome_MonoMAC>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6901244> .
+
+<http://es.dbpedia.org/resource/Macroglosia>
+        owl:sameAs  <http://www.wikidata.org/entity/Q524095> .
+
+<http://es.dbpedia.org/resource/TINU>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3961624> .
+
+<http://es.dbpedia.org/resource/Foliculitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q942755> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_movimientos_periódicos_de_las_piernas>
+        owl:sameAs  <http://www.wikidata.org/entity/Q13038909> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Rubinstein-Taybi>
+        owl:sameAs  <http://www.wikidata.org/entity/Q666980> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Russell-Silver>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2142496> .
+
+<http://es.dbpedia.org/resource/Drusas_del_disco_óptico>
+        owl:sameAs  <http://www.wikidata.org/entity/Q7098792> .
+
+<http://es.dbpedia.org/resource/Endosalpingiosis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5376410> .
+
+<http://es.dbpedia.org/resource/Panoftalmitis>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1378675> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Coats>
+        owl:sameAs  <http://www.wikidata.org/entity/Q915322> .
+
+<http://es.dbpedia.org/resource/Insuficiencia_aórtica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q616087> .
+
+<http://es.dbpedia.org/resource/Intolerancia_a_la_glucosa>
+        owl:sameAs  <http://www.wikidata.org/entity/Q2661464> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Miller_Fisher>
+        owl:sameAs  <http://www.wikidata.org/entity/Q449631> .
+
+<http://es.dbpedia.org/resource/Tromboflebitis_superficial>
+        owl:sameAs  <http://www.wikidata.org/entity/Q377978> .
+
+<http://es.dbpedia.org/resource/Síndromes_autoinflamatorios>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3278145> .
+
+<http://es.dbpedia.org/resource/Edema_pulmonar_de_altitud>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1643625> .
+
+<http://es.dbpedia.org/resource/Coartación_aórtica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q616066> .
+
+<http://es.dbpedia.org/resource/Celulitis_orbitaria>
+        owl:sameAs  <http://www.wikidata.org/entity/Q622969> .
+
+<http://es.dbpedia.org/resource/Poliendocrinopatía_autoinmune_tipo_1>
+        owl:sameAs  <http://www.wikidata.org/entity/Q4347774> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Meigs>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1808930> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_hiper-IgM>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1617658> .
+
+<http://es.dbpedia.org/resource/Braquidactilia_tipo_D>
+        owl:sameAs  <http://www.wikidata.org/entity/Q5136452> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Pancoast-Tobias>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1750884> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Brill-Zinsser>
+        owl:sameAs  <http://www.wikidata.org/entity/Q253332> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Farber>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1396345> .
+
+<http://es.dbpedia.org/resource/Gastrinoma>
+        owl:sameAs  <http://www.wikidata.org/entity/Q786852> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Marden-Walker>
+        owl:sameAs  <http://www.wikidata.org/entity/Q6758640> .
+
+<http://es.dbpedia.org/resource/Hiperplasia_endometrial>
+        owl:sameAs  <http://www.wikidata.org/entity/Q686574> .
+
+<http://es.dbpedia.org/resource/Discinesia_paroxística_no_cinesigénica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q3042114> .
+
+<http://es.dbpedia.org/resource/Síndrome_HELLP>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1563513> .
+
+<http://es.dbpedia.org/resource/Insuficiencia_mitral>
+        owl:sameAs  <http://www.wikidata.org/entity/Q268292> .
+
+<http://es.dbpedia.org/resource/Disostosis_cleidocraneal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q781618> .
+
+<http://es.dbpedia.org/resource/Filaminopatía_ABD_distal>
+        owl:sameAs  <http://www.wikidata.org/entity/Q24960551> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Knobloch>
+        owl:sameAs  <http://www.wikidata.org/entity/Q17332514> .
+
+<http://es.dbpedia.org/resource/Acrodermitis_crónica_atrófica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q420804> .
+
+<http://es.dbpedia.org/resource/Coriorretinopatía_serosa_central>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1431217> .
+
+<http://es.dbpedia.org/resource/Cáncer_uterino>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1209744> .
+
+<http://es.dbpedia.org/resource/Necrobiosis_lipoídica>
+        owl:sameAs  <http://www.wikidata.org/entity/Q905619> .
+
+<http://es.dbpedia.org/resource/Onfalocele>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1521567> .

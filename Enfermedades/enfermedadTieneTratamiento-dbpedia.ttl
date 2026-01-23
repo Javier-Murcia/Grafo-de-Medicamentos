@@ -1,0 +1,3632 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix prinactiv: <http://www.medicamentos.es/PrincipioActivo/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix umls:  <http://bioportal.bioontology.org/ontologies/umls/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix med:   <http://www.medicamentos.es/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+
+
+<http://es.dbpedia.org/resource/Mal_rojo>
+        med:enfermedadTieneTratamiento  prinactiv:6908 , prinactiv:276 , prinactiv:4106 , prinactiv:2489 , prinactiv:1950 , prinactiv:5909 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Hematuria>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:3105 , prinactiv:3431 , prinactiv:4106 , prinactiv:3773 , prinactiv:2909 , prinactiv:6097 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_cabeza_explosiva>
+        med:enfermedadTieneTratamiento  prinactiv:7767 , prinactiv:6421 , prinactiv:5962 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Epidermólisis_ampollar>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_holocarboxilasa_sintetasa>
+        med:enfermedadTieneTratamiento  prinactiv:5598 .
+
+<http://es.dbpedia.org/resource/Bursitis>
+        med:enfermedadTieneTratamiento  prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Trastorno_disfórico_premenstrual>
+        med:enfermedadTieneTratamiento  prinactiv:1287 , prinactiv:7234 , prinactiv:7467 , prinactiv:6724 , prinactiv:6377 , prinactiv:530 .
+
+<http://es.dbpedia.org/resource/Hemorragia_uterina_disfuncional>
+        med:enfermedadTieneTratamiento  prinactiv:3670 , prinactiv:3173 .
+
+<http://es.dbpedia.org/resource/Celiaquía>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:2870 , prinactiv:989 , prinactiv:2701 , prinactiv:2539 , prinactiv:1891 .
+
+<http://es.dbpedia.org/resource/Tiroiditis_de_Riedel>
+        med:enfermedadTieneTratamiento  prinactiv:6157 .
+
+<http://es.dbpedia.org/resource/Angina_de_Vincent>
+        med:enfermedadTieneTratamiento  prinactiv:3145 , prinactiv:5993 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_corazón_de_atleta>
+        med:enfermedadTieneTratamiento  prinactiv:5366 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Miocardiopatía_de_takotsubo>
+        med:enfermedadTieneTratamiento  prinactiv:6259 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Hipoxia_fetal>
+        med:enfermedadTieneTratamiento  prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Colitis>
+        med:enfermedadTieneTratamiento  prinactiv:8126 , prinactiv:3145 , prinactiv:2066 , prinactiv:989 , prinactiv:3531 , prinactiv:5416 , prinactiv:3773 , prinactiv:4360 , prinactiv:6037 , prinactiv:6837 , prinactiv:4117 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Colitis_ulcerosa>
+        med:enfermedadTieneTratamiento  prinactiv:3810 , prinactiv:6837 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Neumotórax>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:2023 , prinactiv:3155 , prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Fisura_anal>
+        med:enfermedadTieneTratamiento  prinactiv:88 .
+
+<http://es.dbpedia.org/resource/Policondritis_recidivante>
+        med:enfermedadTieneTratamiento  prinactiv:5416 , prinactiv:1958 , prinactiv:5398 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Agenesia_renal>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Trastornos_del_espectro_autista>
+        med:enfermedadTieneTratamiento  prinactiv:3313 .
+
+<http://es.dbpedia.org/resource/Glomerulonefritis_rápidamente_progresiva>
+        med:enfermedadTieneTratamiento  prinactiv:1803 , prinactiv:2643 , prinactiv:6651 , prinactiv:356 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Ginecomastia>
+        med:enfermedadTieneTratamiento  prinactiv:3105 , prinactiv:2567 , prinactiv:1027 , prinactiv:4463 .
+
+<http://es.dbpedia.org/resource/Automatismo_(medicina)>
+        med:enfermedadTieneTratamiento  prinactiv:7027 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_alimentación_nocturna>
+        med:enfermedadTieneTratamiento  prinactiv:7234 , prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_cobre>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:3120 , prinactiv:2701 , prinactiv:2560 , prinactiv:1883 , prinactiv:1910 , prinactiv:5754 .
+
+<http://es.dbpedia.org/resource/Rabdomiólisis>
+        med:enfermedadTieneTratamiento  prinactiv:7502 , prinactiv:3773 , prinactiv:1497 , prinactiv:2311 , prinactiv:2430 , prinactiv:318 , prinactiv:3893 , prinactiv:4829 , prinactiv:5755 , prinactiv:2964 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_abstinencia>
+        med:enfermedadTieneTratamiento  prinactiv:6459 , prinactiv:1775 , prinactiv:6979 , prinactiv:3173 , prinactiv:5217 , prinactiv:4829 .
+
+<http://es.dbpedia.org/resource/Choque_hipovolémico>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:502 , prinactiv:444 , prinactiv:4533 , prinactiv:6259 , prinactiv:1883 , prinactiv:2757 , prinactiv:6317 , prinactiv:2710 .
+
+<http://es.dbpedia.org/resource/Causticación>
+        med:enfermedadTieneTratamiento  prinactiv:404 .
+
+<http://es.dbpedia.org/resource/Alergia_a_alfa-gal>
+        med:enfermedadTieneTratamiento  prinactiv:1311 .
+
+<http://es.dbpedia.org/resource/Sarampión>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Nefropatía_diabética>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Rendu-Osler-Weber>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Erotomanía>
+        med:enfermedadTieneTratamiento  prinactiv:7722 , prinactiv:6033 .
+
+<http://es.dbpedia.org/resource/Bronquiolitis>
+        med:enfermedadTieneTratamiento  prinactiv:6703 , prinactiv:7868 , prinactiv:21397 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Hemoglobinuria_nocturna_paroxística>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Usher>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:6055 , prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Diabetes_insípida_nefrogénica>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:152 , prinactiv:318 , prinactiv:941 , prinactiv:1768 , prinactiv:5191 , prinactiv:5234 .
+
+<http://es.dbpedia.org/resource/Alopecia_androgénica>
+        med:enfermedadTieneTratamiento  prinactiv:6222 , prinactiv:1027 , prinactiv:8020 .
+
+<http://es.dbpedia.org/resource/Edema_macular>
+        med:enfermedadTieneTratamiento  prinactiv:9639 , prinactiv:6069 , prinactiv:10827 .
+
+<http://es.dbpedia.org/resource/Toxocariasis>
+        med:enfermedadTieneTratamiento  prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Epididimitis>
+        med:enfermedadTieneTratamiento  prinactiv:1887 , prinactiv:6771 , prinactiv:6971 , prinactiv:3059 , prinactiv:7533 , prinactiv:5366 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_ano>
+        med:enfermedadTieneTratamiento  prinactiv:1562 .
+
+<http://es.dbpedia.org/resource/Fasciculación>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:3815 , prinactiv:3714 , prinactiv:1624 , prinactiv:6190 .
+
+<http://es.dbpedia.org/resource/Bisinosis>
+        med:enfermedadTieneTratamiento  prinactiv:5023 .
+
+<http://es.dbpedia.org/resource/Encefalitis_de_Rasmussen>
+        med:enfermedadTieneTratamiento  prinactiv:1424 .
+
+<http://es.dbpedia.org/resource/Opistótonos>
+        med:enfermedadTieneTratamiento  prinactiv:3128 , prinactiv:2586 .
+
+<http://es.dbpedia.org/resource/Rickettsiosis>
+        med:enfermedadTieneTratamiento  prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Esclerosis_lateral_amiotrófica>
+        med:enfermedadTieneTratamiento  prinactiv:1320 .
+
+<http://es.dbpedia.org/resource/Disomnia>
+        med:enfermedadTieneTratamiento  prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Prevención_primaria>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Ocronosis>
+        med:enfermedadTieneTratamiento  prinactiv:6784 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_deficiencia_relativa_de_energía_en_el_deporte>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:3670 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Apert>
+        med:enfermedadTieneTratamiento  prinactiv:77 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Liddle>
+        med:enfermedadTieneTratamiento  prinactiv:4301 , prinactiv:5234 .
+
+<http://es.dbpedia.org/resource/Síndrome_mielodisplásico>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:9746 , prinactiv:9961 .
+
+<http://es.dbpedia.org/resource/Edema>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Parkinsonismo>
+        med:enfermedadTieneTratamiento  prinactiv:3839 , prinactiv:152 , prinactiv:6486 , prinactiv:6490 , prinactiv:1883 , prinactiv:627 , prinactiv:3128 , prinactiv:2586 , prinactiv:6018 .
+
+<http://es.dbpedia.org/resource/Catalepsia>
+        med:enfermedadTieneTratamiento  prinactiv:4829 , prinactiv:2586 .
+
+<http://es.dbpedia.org/resource/Glomerulonefritis_posestreptocócica>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:3296 , prinactiv:2643 , prinactiv:2430 , prinactiv:1950 .
+
+<http://es.dbpedia.org/resource/Hipermagnesemia>
+        med:enfermedadTieneTratamiento  prinactiv:3629 .
+
+<http://es.dbpedia.org/resource/Resistencia_a_proteína_C_activada>
+        med:enfermedadTieneTratamiento  prinactiv:7860 .
+
+<http://es.dbpedia.org/resource/Hipercolesterolemia_familiar>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:2539 , prinactiv:3952 , prinactiv:7994 , prinactiv:6037 , prinactiv:6297 .
+
+<http://es.dbpedia.org/resource/Artritis_psoriásica>
+        med:enfermedadTieneTratamiento  prinactiv:989 , prinactiv:5416 , prinactiv:5398 , prinactiv:8126 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_pañal_azul>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Wilson>
+        med:enfermedadTieneTratamiento  prinactiv:694 , prinactiv:1910 , prinactiv:4275 , prinactiv:1803 .
+
+<http://es.dbpedia.org/resource/Edema_cerebral>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Angioedema>
+        med:enfermedadTieneTratamiento  prinactiv:6259 , prinactiv:3091 , prinactiv:350 , prinactiv:2765 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Dependencia_de_las_benzodiazepinas>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:3221 , prinactiv:3670 , prinactiv:6155 , prinactiv:6582 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_adrenal>
+        med:enfermedadTieneTratamiento  prinactiv:6363 , prinactiv:6341 , prinactiv:6345 , prinactiv:6357 , prinactiv:5700 , prinactiv:2298 , prinactiv:6120 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Tularemia>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:2489 , prinactiv:5636 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Aspergiloma>
+        med:enfermedadTieneTratamiento  prinactiv:7036 .
+
+<http://es.dbpedia.org/resource/Trastorno_de_despersonalización>
+        med:enfermedadTieneTratamiento  prinactiv:298 .
+
+<http://es.dbpedia.org/resource/Disentería>
+        med:enfermedadTieneTratamiento  prinactiv:2806 .
+
+<http://es.dbpedia.org/resource/Pielonefritis>
+        med:enfermedadTieneTratamiento  prinactiv:2791 .
+
+<http://es.dbpedia.org/resource/Trombocitopenia>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:4410 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Desgarro_de_Mallory-Weiss>
+        med:enfermedadTieneTratamiento  prinactiv:6259 .
+
+<http://es.dbpedia.org/resource/Histiocitosis_maligna>
+        med:enfermedadTieneTratamiento  prinactiv:6341 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Fiebre_mediterránea_familiar>
+        med:enfermedadTieneTratamiento  prinactiv:3120 , prinactiv:1958 .
+
+<http://es.dbpedia.org/resource/Convulsión>
+        med:enfermedadTieneTratamiento  prinactiv:1168 , prinactiv:7454 , prinactiv:3431 , prinactiv:7767 , prinactiv:2119 , prinactiv:5760 , prinactiv:318 , prinactiv:502 , prinactiv:7518 , prinactiv:796 .
+
+<http://es.dbpedia.org/resource/Muerte_súbita_inesperada_por_epilepsia>
+        med:enfermedadTieneTratamiento  prinactiv:7454 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Amebiasis>
+        med:enfermedadTieneTratamiento  prinactiv:8 , prinactiv:3145 , prinactiv:6010 .
+
+<http://es.dbpedia.org/resource/Signo_de_Lhermitte>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:1287 , prinactiv:7467 , prinactiv:6724 .
+
+<http://es.dbpedia.org/resource/Hemorragia_digestiva_baja>
+        med:enfermedadTieneTratamiento  prinactiv:6941 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_vejiga_hiperactiva>
+        med:enfermedadTieneTratamiento  prinactiv:875 , prinactiv:2776 , prinactiv:2283 , prinactiv:2044 .
+
+<http://es.dbpedia.org/resource/Penfigoide_cicatricial_ocular>
+        med:enfermedadTieneTratamiento  prinactiv:6341 , prinactiv:356 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Estrongiloidiasis>
+        med:enfermedadTieneTratamiento  prinactiv:7926 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Parálisis_tirotóxica_periódica>
+        med:enfermedadTieneTratamiento  prinactiv:2792 , prinactiv:502 , prinactiv:444 , prinactiv:3629 , prinactiv:3684 , prinactiv:5366 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Parálisis_flácida>
+        med:enfermedadTieneTratamiento  prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_pancreática_exocrina>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:5776 , prinactiv:3701 , prinactiv:11151 , prinactiv:318 , prinactiv:5598 , prinactiv:8343 , prinactiv:6650 , prinactiv:2941 .
+
+<http://es.dbpedia.org/resource/Adinamia>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Escrófula>
+        med:enfermedadTieneTratamiento  prinactiv:3773 , prinactiv:3531 , prinactiv:2066 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Dressler>
+        med:enfermedadTieneTratamiento  prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Cefalea_tensional>
+        med:enfermedadTieneTratamiento  prinactiv:3684 , prinactiv:350 , prinactiv:1444 , prinactiv:2765 , prinactiv:5370 .
+
+<http://es.dbpedia.org/resource/Gota_juvenil_hereditaria>
+        med:enfermedadTieneTratamiento  prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Hipervitaminosis_A>
+        med:enfermedadTieneTratamiento  prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Dermatitis_perioral>
+        med:enfermedadTieneTratamiento  prinactiv:5700 .
+
+<http://es.dbpedia.org/resource/Intolerancia_a_la_proteína_lisinúrica>
+        med:enfermedadTieneTratamiento  prinactiv:3896 .
+
+<http://es.dbpedia.org/resource/Trimetilaminuria>
+        med:enfermedadTieneTratamiento  prinactiv:2311 , prinactiv:6251 , prinactiv:3145 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_renal>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Lyme>
+        med:enfermedadTieneTratamiento  prinactiv:2765 , prinactiv:1887 , prinactiv:5613 , prinactiv:5289 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Insensibilidad_congénita_al_dolor_con_anhidrosis>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Pinguécula>
+        med:enfermedadTieneTratamiento  prinactiv:6345 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Möbius>
+        med:enfermedadTieneTratamiento  prinactiv:6654 .
+
+<http://es.dbpedia.org/resource/Calcinosis>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:4410 , prinactiv:5173 , prinactiv:1958 .
+
+<http://es.dbpedia.org/resource/Fluorosis_dental>
+        med:enfermedadTieneTratamiento  prinactiv:276 .
+
+<http://es.dbpedia.org/resource/Alopecia_areata>
+        med:enfermedadTieneTratamiento  prinactiv:6222 , prinactiv:5416 , prinactiv:5398 .
+
+<http://es.dbpedia.org/resource/Enfermedad_del_sistema_nervioso_central>
+        med:enfermedadTieneTratamiento  prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Espina_bífida>
+        med:enfermedadTieneTratamiento  prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Dermatitis_de_contacto_por_urushiol>
+        med:enfermedadTieneTratamiento  prinactiv:4478 , prinactiv:4477 , prinactiv:1366 .
+
+<http://es.dbpedia.org/resource/Sufrimiento_fetal_agudo>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Alopecia>
+        med:enfermedadTieneTratamiento  prinactiv:8343 , prinactiv:6222 .
+
+<http://es.dbpedia.org/resource/Cistinosis>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:1599 .
+
+<http://es.dbpedia.org/resource/Diabetes_mellitus>
+        med:enfermedadTieneTratamiento  prinactiv:9643 , prinactiv:540 , prinactiv:531 , prinactiv:9647 , prinactiv:6631 , prinactiv:1788 , prinactiv:318 , prinactiv:974 , prinactiv:2509 , prinactiv:11232 .
+
+<http://es.dbpedia.org/resource/Dolor_torácico>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:2941 .
+
+<http://es.dbpedia.org/resource/Enfermedad_por_arañazo_de_gato>
+        med:enfermedadTieneTratamiento  prinactiv:3773 , prinactiv:1887 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Policitemia>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Miasis>
+        med:enfermedadTieneTratamiento  prinactiv:7926 .
+
+<http://es.dbpedia.org/resource/Xeroftalmia>
+        med:enfermedadTieneTratamiento  prinactiv:8343 , prinactiv:875 , prinactiv:2875 , prinactiv:6839 , prinactiv:7414 , prinactiv:1768 , prinactiv:4885 .
+
+<http://es.dbpedia.org/resource/Hiperpigmentación>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:6784 , prinactiv:5973 , prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Nefropatía_por_IgA>
+        med:enfermedadTieneTratamiento  prinactiv:2976 , prinactiv:77 .
+
+<http://es.dbpedia.org/resource/Anorexia_nerviosa>
+        med:enfermedadTieneTratamiento  prinactiv:6459 , prinactiv:3431 , prinactiv:6345 , prinactiv:5370 , prinactiv:6363 , prinactiv:6724 , prinactiv:821 , prinactiv:7073 , prinactiv:7722 , prinactiv:6120 , prinactiv:6018 , prinactiv:6945 , prinactiv:1846 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_injerto_contra_huésped>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:6341 , prinactiv:5416 , prinactiv:5398 .
+
+<http://es.dbpedia.org/resource/Pseudoartrosis>
+        med:enfermedadTieneTratamiento  prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Tetania>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Catarata>
+        med:enfermedadTieneTratamiento  prinactiv:3896 , prinactiv:318 , prinactiv:3893 , prinactiv:4275 , prinactiv:5893 , prinactiv:6018 , prinactiv:5366 , prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Anasarca>
+        med:enfermedadTieneTratamiento  prinactiv:1483 .
+
+<http://es.dbpedia.org/resource/Malabsorción>
+        med:enfermedadTieneTratamiento  prinactiv:2870 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Wolff-Parkinson-White>
+        med:enfermedadTieneTratamiento  prinactiv:4383 , prinactiv:3666 , prinactiv:3888 .
+
+<http://es.dbpedia.org/resource/Ictericia>
+        med:enfermedadTieneTratamiento  prinactiv:3773 , prinactiv:7073 .
+
+<http://es.dbpedia.org/resource/Ebriedad>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 .
+
+<http://es.dbpedia.org/resource/Anemia_hemolítica>
+        med:enfermedadTieneTratamiento  prinactiv:3105 , prinactiv:2701 , prinactiv:5893 , prinactiv:6341 , prinactiv:6357 .
+
+<http://es.dbpedia.org/resource/Morfea>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:5416 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Goodpasture>
+        med:enfermedadTieneTratamiento  prinactiv:1803 .
+
+<http://es.dbpedia.org/resource/Queratoconjuntivitis_seca>
+        med:enfermedadTieneTratamiento  prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Escorbuto>
+        med:enfermedadTieneTratamiento  prinactiv:3896 , prinactiv:2701 , prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Criptosporidiosis>
+        med:enfermedadTieneTratamiento  prinactiv:8 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Amelia_(malformación)>
+        med:enfermedadTieneTratamiento  prinactiv:7580 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Paget-Schrötter>
+        med:enfermedadTieneTratamiento  prinactiv:4410 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_micronutrientes>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:444 , prinactiv:3165 , prinactiv:3839 , prinactiv:3629 , prinactiv:2701 , prinactiv:1910 , prinactiv:6294 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Policitemia_vera>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:6037 .
+
+<http://es.dbpedia.org/resource/Cólera>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:6384 , prinactiv:276 , prinactiv:4106 , prinactiv:3384 , prinactiv:6759 .
+
+<http://es.dbpedia.org/resource/Demencia_frontotemporal>
+        med:enfermedadTieneTratamiento  prinactiv:7050 , prinactiv:939 , prinactiv:6689 , prinactiv:846 .
+
+<http://es.dbpedia.org/resource/Epistaxis>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:4410 , prinactiv:3376 , prinactiv:4487 , prinactiv:5191 , prinactiv:1116 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Williams>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Fiebre_paratifoidea>
+        med:enfermedadTieneTratamiento  prinactiv:6800 , prinactiv:6759 , prinactiv:5613 , prinactiv:5289 , prinactiv:6971 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Hipertensión_gestacional>
+        med:enfermedadTieneTratamiento  prinactiv:3105 , prinactiv:6387 , prinactiv:2643 .
+
+<http://es.dbpedia.org/resource/Hiperhomocisteinemia>
+        med:enfermedadTieneTratamiento  prinactiv:77 , prinactiv:3120 , prinactiv:1599 , prinactiv:3431 , prinactiv:5416 .
+
+<http://es.dbpedia.org/resource/Neumonía_bacteriana>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:6279 , prinactiv:3773 , prinactiv:1950 , prinactiv:1887 , prinactiv:7214 , prinactiv:7533 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Glioblastoma>
+        med:enfermedadTieneTratamiento  prinactiv:7767 , prinactiv:7454 , prinactiv:404 , prinactiv:975 , prinactiv:2792 , prinactiv:6999 , prinactiv:6702 , prinactiv:559 , prinactiv:524 , prinactiv:1168 , prinactiv:5760 , prinactiv:5730 , prinactiv:5978 , prinactiv:6120 .
+
+<http://es.dbpedia.org/resource/Trombocitosis_esencial>
+        med:enfermedadTieneTratamiento  prinactiv:2738 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Troyer>
+        med:enfermedadTieneTratamiento  prinactiv:3888 .
+
+<http://es.dbpedia.org/resource/Tripanosomiasis_africana>
+        med:enfermedadTieneTratamiento  prinactiv:1205 , prinactiv:6631 .
+
+<http://es.dbpedia.org/resource/Depresión_resistente_al_tratamiento>
+        med:enfermedadTieneTratamiento  prinactiv:821 , prinactiv:9399 .
+
+<http://es.dbpedia.org/resource/Ansiedad>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:1883 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Sobredosis_de_opioides>
+        med:enfermedadTieneTratamiento  prinactiv:6945 , prinactiv:6263 , prinactiv:2247 , prinactiv:3064 , prinactiv:4829 , prinactiv:6486 , prinactiv:3173 , prinactiv:6490 , prinactiv:298 , prinactiv:7073 .
+
+<http://es.dbpedia.org/resource/Angina_de_Prinzmetal>
+        med:enfermedadTieneTratamiento  prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Pian_(enfermedad)>
+        med:enfermedadTieneTratamiento  prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Agitación_psicomotora>
+        med:enfermedadTieneTratamiento  prinactiv:954 , prinactiv:5569 , prinactiv:821 , prinactiv:2952 , prinactiv:2586 , prinactiv:1701 , prinactiv:9399 .
+
+<http://es.dbpedia.org/resource/Eyaculación_precoz>
+        med:enfermedadTieneTratamiento  prinactiv:9859 , prinactiv:7234 , prinactiv:3714 , prinactiv:7467 , prinactiv:6724 .
+
+<http://es.dbpedia.org/resource/Coagulación_intravascular_diseminada>
+        med:enfermedadTieneTratamiento  prinactiv:7860 .
+
+<http://es.dbpedia.org/resource/Cistitis_intersticial>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:6341 , prinactiv:2619 , prinactiv:1168 , prinactiv:5398 , prinactiv:5370 .
+
+<http://es.dbpedia.org/resource/Neuropatía_diabética>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:7767 , prinactiv:9416 , prinactiv:7413 , prinactiv:1168 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Fascioliasis>
+        med:enfermedadTieneTratamiento  prinactiv:404 , prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Hemangioma>
+        med:enfermedadTieneTratamiento  prinactiv:3684 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Kocher-Debré-Semelaigne>
+        med:enfermedadTieneTratamiento  prinactiv:2920 .
+
+<http://es.dbpedia.org/resource/Leucemia_mieloide_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:7065 , prinactiv:8343 , prinactiv:9602 , prinactiv:559 , prinactiv:9964 , prinactiv:479 .
+
+<http://es.dbpedia.org/resource/Meralgia_parestésica>
+        med:enfermedadTieneTratamiento  prinactiv:1168 , prinactiv:5760 , prinactiv:5370 .
+
+<http://es.dbpedia.org/resource/Tifus>
+        med:enfermedadTieneTratamiento  prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Sialorrea>
+        med:enfermedadTieneTratamiento  prinactiv:5973 .
+
+<http://es.dbpedia.org/resource/Hiperaldosteronismo>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:4463 .
+
+<http://es.dbpedia.org/resource/Lengua_negra_vellosa>
+        med:enfermedadTieneTratamiento  prinactiv:5993 .
+
+<http://es.dbpedia.org/resource/Liquen_plano>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:8343 , prinactiv:6653 , prinactiv:6088 .
+
+<http://es.dbpedia.org/resource/Hepatitis_A>
+        med:enfermedadTieneTratamiento  prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Síndrome_antifosfolípido>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:4410 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Mialgia>
+        med:enfermedadTieneTratamiento  prinactiv:6771 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Dent>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:5234 .
+
+<http://es.dbpedia.org/resource/Espondilitis_anquilosante>
+        med:enfermedadTieneTratamiento  prinactiv:989 , prinactiv:7580 , prinactiv:3810 , prinactiv:5416 , prinactiv:2530 , prinactiv:858 , prinactiv:8126 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_QT_corto>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:3431 , prinactiv:4986 , prinactiv:6395 , prinactiv:6901 , prinactiv:5366 .
+
+<http://es.dbpedia.org/resource/Esquizofrenia>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:7722 , prinactiv:821 , prinactiv:155 , prinactiv:2586 , prinactiv:2303 , prinactiv:6033 , prinactiv:6018 .
+
+<http://es.dbpedia.org/resource/Esteatosis_hepática>
+        med:enfermedadTieneTratamiento  prinactiv:4275 , prinactiv:276 , prinactiv:6157 , prinactiv:5416 , prinactiv:5173 , prinactiv:5366 .
+
+<http://es.dbpedia.org/resource/Trastorno_mental>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:3839 , prinactiv:1910 , prinactiv:6055 .
+
+<http://es.dbpedia.org/resource/Traumatismo_craneoencefálico>
+        med:enfermedadTieneTratamiento  prinactiv:1745 , prinactiv:3431 , prinactiv:2964 .
+
+<http://es.dbpedia.org/resource/Osteoporosis>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:5724 , prinactiv:849 , prinactiv:6363 , prinactiv:625 , prinactiv:1502 , prinactiv:10586 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Hipo>
+        med:enfermedadTieneTratamiento  prinactiv:3128 , prinactiv:1963 , prinactiv:6018 .
+
+<http://es.dbpedia.org/resource/Vitiligo>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:8009 , prinactiv:3155 , prinactiv:6120 , prinactiv:6088 , prinactiv:5917 , prinactiv:5575 .
+
+<http://es.dbpedia.org/resource/Aspergilosis>
+        med:enfermedadTieneTratamiento  prinactiv:7959 , prinactiv:7036 , prinactiv:7956 .
+
+<http://es.dbpedia.org/resource/Hipopotasemia>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:3629 , prinactiv:3431 , prinactiv:2430 , prinactiv:3751 .
+
+<http://es.dbpedia.org/resource/Melanoma>
+        med:enfermedadTieneTratamiento  prinactiv:10896 .
+
+<http://es.dbpedia.org/resource/Esclerodermia>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:3431 , prinactiv:5416 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_testículo>
+        med:enfermedadTieneTratamiento  prinactiv:6363 , prinactiv:5973 , prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Espondilolistesis>
+        med:enfermedadTieneTratamiento  prinactiv:6341 , prinactiv:350 , prinactiv:6357 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_fuga_capilar>
+        med:enfermedadTieneTratamiento  prinactiv:6357 , prinactiv:1151 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_esófago>
+        med:enfermedadTieneTratamiento  prinactiv:1420 , prinactiv:1252 , prinactiv:5973 , prinactiv:6702 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_enfermedad_posorgásmica>
+        med:enfermedadTieneTratamiento  prinactiv:6945 , prinactiv:6363 , prinactiv:3670 , prinactiv:2765 , prinactiv:787 .
+
+<http://es.dbpedia.org/resource/Polioencefalitis>
+        med:enfermedadTieneTratamiento  prinactiv:10314 , prinactiv:5965 , prinactiv:1234 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Susac>
+        med:enfermedadTieneTratamiento  prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Trombosis>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:4410 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Sarcoidosis>
+        med:enfermedadTieneTratamiento  prinactiv:6341 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Epidermodisplasia_verruciforme>
+        med:enfermedadTieneTratamiento  prinactiv:1846 .
+
+<http://es.dbpedia.org/resource/Carcinoma_de_cavum>
+        med:enfermedadTieneTratamiento  prinactiv:5973 .
+
+<http://es.dbpedia.org/resource/Sarcoma_sinovial>
+        med:enfermedadTieneTratamiento  prinactiv:4635 .
+
+<http://es.dbpedia.org/resource/Intoxicación_por_plantas>
+        med:enfermedadTieneTratamiento  prinactiv:1196 , prinactiv:2952 , prinactiv:3128 , prinactiv:300 , prinactiv:2311 , prinactiv:3431 , prinactiv:6979 , prinactiv:298 , prinactiv:11884 , prinactiv:502 , prinactiv:6190 , prinactiv:444 , prinactiv:318 , prinactiv:1197 , prinactiv:6155 , prinactiv:6206 .
+
+<http://es.dbpedia.org/resource/Retirada_de_corticoides_tópicos>
+        med:enfermedadTieneTratamiento  prinactiv:1168 .
+
+<http://es.dbpedia.org/resource/Liposarcoma>
+        med:enfermedadTieneTratamiento  prinactiv:2000 .
+
+<http://es.dbpedia.org/resource/Ictiosis_arlequín>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Celulitis_(estética)>
+        med:enfermedadTieneTratamiento  prinactiv:4478 , prinactiv:4477 , prinactiv:1366 .
+
+<http://es.dbpedia.org/resource/Síndrome_X_frágil>
+        med:enfermedadTieneTratamiento  prinactiv:5217 .
+
+<http://es.dbpedia.org/resource/Distimia>
+        med:enfermedadTieneTratamiento  prinactiv:1490 , prinactiv:1287 , prinactiv:7234 , prinactiv:7467 , prinactiv:1444 , prinactiv:6724 , prinactiv:787 , prinactiv:649 , prinactiv:1234 .
+
+<http://es.dbpedia.org/resource/Hipotensión_ortostática>
+        med:enfermedadTieneTratamiento  prinactiv:3105 , prinactiv:208 , prinactiv:6387 , prinactiv:5966 , prinactiv:7031 .
+
+<http://es.dbpedia.org/resource/Dolor_pélvico>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:778 , prinactiv:1168 , prinactiv:5370 , prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Cistitis>
+        med:enfermedadTieneTratamiento  prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Atrofia>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Golpe_de_calor>
+        med:enfermedadTieneTratamiento  prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Hemofilia>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:2765 , prinactiv:12192 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_vitamina_K>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Envenenamiento_por_etilenglicol>
+        med:enfermedadTieneTratamiento  prinactiv:5776 , prinactiv:5023 , prinactiv:2470 , prinactiv:2701 , prinactiv:6486 , prinactiv:6490 , prinactiv:4683 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Sarcoma_de_Ewing>
+        med:enfermedadTieneTratamiento  prinactiv:4635 , prinactiv:6249 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Corea_(enfermedad)>
+        med:enfermedadTieneTratamiento  prinactiv:5776 , prinactiv:3839 , prinactiv:1883 , prinactiv:2586 , prinactiv:6033 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Kounis>
+        med:enfermedadTieneTratamiento  prinactiv:6979 , prinactiv:5700 , prinactiv:2619 , prinactiv:6651 , prinactiv:6190 , prinactiv:1116 , prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Leucemia_linfoide_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:6249 , prinactiv:6341 , prinactiv:5397 , prinactiv:479 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Hiperplasia_benigna_de_próstata>
+        med:enfermedadTieneTratamiento  prinactiv:6363 , prinactiv:778 , prinactiv:3829 , prinactiv:2392 , prinactiv:8020 , prinactiv:6771 .
+
+<http://es.dbpedia.org/resource/Fiebre_botonosa_mediterránea>
+        med:enfermedadTieneTratamiento  prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Queloide>
+        med:enfermedadTieneTratamiento  prinactiv:286 , prinactiv:6069 , prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Uremia>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:7860 , prinactiv:3431 , prinactiv:3670 , prinactiv:2392 .
+
+<http://es.dbpedia.org/resource/Oligospermia>
+        med:enfermedadTieneTratamiento  prinactiv:2311 , prinactiv:4275 , prinactiv:5893 , prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Fiebre_de_las_Montañas_Rocosas>
+        med:enfermedadTieneTratamiento  prinactiv:1188 , prinactiv:276 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Coagulopatía>
+        med:enfermedadTieneTratamiento  prinactiv:4410 .
+
+<http://es.dbpedia.org/resource/Fiebre_hemorrágica_de_Marburgo>
+        med:enfermedadTieneTratamiento  prinactiv:6703 , prinactiv:4410 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Carcinoma_de_células_de_Merkel>
+        med:enfermedadTieneTratamiento  prinactiv:11471 , prinactiv:11632 , prinactiv:10548 , prinactiv:12007 .
+
+<http://es.dbpedia.org/resource/Corea_de_Sydenham>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:1883 , prinactiv:1910 , prinactiv:6565 , prinactiv:6341 , prinactiv:2909 , prinactiv:2586 , prinactiv:1950 .
+
+<http://es.dbpedia.org/resource/Acidosis_metabólica>
+        med:enfermedadTieneTratamiento  prinactiv:6259 .
+
+<http://es.dbpedia.org/resource/Citrulinemia>
+        med:enfermedadTieneTratamiento  prinactiv:5899 , prinactiv:13 .
+
+<http://es.dbpedia.org/resource/Hipervitaminosis>
+        med:enfermedadTieneTratamiento  prinactiv:4275 .
+
+<http://es.dbpedia.org/resource/Pitiriasis_versicolor>
+        med:enfermedadTieneTratamiento  prinactiv:7756 , prinactiv:3147 , prinactiv:5341 , prinactiv:7036 , prinactiv:7032 , prinactiv:6616 , prinactiv:6766 .
+
+<http://es.dbpedia.org/resource/Glucosuria_renal>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Tumor_carcinoide>
+        med:enfermedadTieneTratamiento  prinactiv:2757 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Fimosis>
+        med:enfermedadTieneTratamiento  prinactiv:5575 .
+
+<http://es.dbpedia.org/resource/Dermatomiositis>
+        med:enfermedadTieneTratamiento  prinactiv:6345 , prinactiv:5416 , prinactiv:356 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Neurofibromatosis_tipo_1>
+        med:enfermedadTieneTratamiento  prinactiv:7502 , prinactiv:6744 , prinactiv:3751 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Marchiafava-Bignami>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 .
+
+<http://es.dbpedia.org/resource/Estado_postictal>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:3431 , prinactiv:298 , prinactiv:3173 , prinactiv:3888 .
+
+<http://es.dbpedia.org/resource/Autoinmunidad>
+        med:enfermedadTieneTratamiento  prinactiv:10283 , prinactiv:929 , prinactiv:858 , prinactiv:9743 .
+
+<http://es.dbpedia.org/resource/Fractura_de_fémur>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Hiperglucemia>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:2520 , prinactiv:6979 , prinactiv:1527 , prinactiv:1788 .
+
+<http://es.dbpedia.org/resource/Delirio_emergente>
+        med:enfermedadTieneTratamiento  prinactiv:1222 , prinactiv:5434 , prinactiv:1155 .
+
+<http://es.dbpedia.org/resource/Raquitismo>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Leuconiquia>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Bronquitis>
+        med:enfermedadTieneTratamiento  prinactiv:3815 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_circulatoria>
+        med:enfermedadTieneTratamiento  prinactiv:6317 , prinactiv:300 , prinactiv:5366 , prinactiv:6260 , prinactiv:3888 .
+
+<http://es.dbpedia.org/resource/Coma_diabético>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Hemofilia_A>
+        med:enfermedadTieneTratamiento  prinactiv:12192 , prinactiv:5191 .
+
+<http://es.dbpedia.org/resource/Carcinoma_ductal_infiltrante>
+        med:enfermedadTieneTratamiento  prinactiv:6157 .
+
+<http://es.dbpedia.org/resource/Mal_de_montaña>
+        med:enfermedadTieneTratamiento  prinactiv:2765 , prinactiv:6120 , prinactiv:3751 .
+
+<http://es.dbpedia.org/resource/Picor_(prurito)>
+        med:enfermedadTieneTratamiento  prinactiv:5753 .
+
+<http://es.dbpedia.org/resource/Abrasión_corneal>
+        med:enfermedadTieneTratamiento  prinactiv:2489 , prinactiv:5838 , prinactiv:6759 , prinactiv:6228 , prinactiv:6175 , prinactiv:6800 , prinactiv:6839 , prinactiv:300 , prinactiv:1950 , prinactiv:350 , prinactiv:6384 , prinactiv:6238 .
+
+<http://es.dbpedia.org/resource/Meningitis>
+        med:enfermedadTieneTratamiento  prinactiv:3773 , prinactiv:6120 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Lennox-Gastaut>
+        med:enfermedadTieneTratamiento  prinactiv:7216 , prinactiv:7454 , prinactiv:3660 , prinactiv:5730 , prinactiv:2119 , prinactiv:9605 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_pulmón_de_células_pequeñas>
+        med:enfermedadTieneTratamiento  prinactiv:1437 , prinactiv:5973 , prinactiv:6702 .
+
+<http://es.dbpedia.org/resource/Hipersomnia>
+        med:enfermedadTieneTratamiento  prinactiv:1527 , prinactiv:5217 , prinactiv:2920 , prinactiv:2909 , prinactiv:4552 .
+
+<http://es.dbpedia.org/resource/Suicidio>
+        med:enfermedadTieneTratamiento  prinactiv:6033 .
+
+<http://es.dbpedia.org/resource/Urticaria>
+        med:enfermedadTieneTratamiento  prinactiv:9541 .
+
+<http://es.dbpedia.org/resource/Esporotricosis>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:5341 , prinactiv:7036 .
+
+<http://es.dbpedia.org/resource/Gonorrea>
+        med:enfermedadTieneTratamiento  prinactiv:6800 , prinactiv:3413 , prinactiv:866 , prinactiv:6759 , prinactiv:5613 , prinactiv:6971 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Prurito_acuagénico>
+        med:enfermedadTieneTratamiento  prinactiv:3684 , prinactiv:7073 , prinactiv:6805 , prinactiv:5700 , prinactiv:1885 , prinactiv:5753 .
+
+<http://es.dbpedia.org/resource/Glositis>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:5821 , prinactiv:4683 .
+
+<http://es.dbpedia.org/resource/Fiebre_paratifoidea_A>
+        med:enfermedadTieneTratamiento  prinactiv:6759 , prinactiv:5613 , prinactiv:5289 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_intestino_irritable>
+        med:enfermedadTieneTratamiento  prinactiv:6952 , prinactiv:1204 , prinactiv:7467 , prinactiv:9426 , prinactiv:1291 , prinactiv:3564 , prinactiv:2974 , prinactiv:4563 , prinactiv:649 , prinactiv:2879 , prinactiv:7112 , prinactiv:2870 , prinactiv:350 , prinactiv:11000 , prinactiv:1287 , prinactiv:7397 , prinactiv:6837 , prinactiv:6724 , prinactiv:6037 , prinactiv:3525 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Creutzfeldt-Jakob>
+        med:enfermedadTieneTratamiento  prinactiv:3896 , prinactiv:6018 , prinactiv:5965 , prinactiv:5113 , prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Epilepsia_y_discapacidad_intelectual_en_mujeres>
+        med:enfermedadTieneTratamiento  prinactiv:7234 , prinactiv:6724 , prinactiv:7722 , prinactiv:5965 , prinactiv:9514 , prinactiv:2952 , prinactiv:9605 , prinactiv:6155 , prinactiv:5217 , prinactiv:6802 .
+
+<http://es.dbpedia.org/resource/Síndrome_SAPHO>
+        med:enfermedadTieneTratamiento  prinactiv:3810 , prinactiv:1958 .
+
+<http://es.dbpedia.org/resource/Parotiditis>
+        med:enfermedadTieneTratamiento  prinactiv:3030 , prinactiv:2941 , prinactiv:1413 .
+
+<http://es.dbpedia.org/resource/Hiperémesis_gravídica>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:318 , prinactiv:8343 , prinactiv:3670 , prinactiv:3128 , prinactiv:2392 , prinactiv:1895 .
+
+<http://es.dbpedia.org/resource/Cafeinismo>
+        med:enfermedadTieneTratamiento  prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Epilepsia>
+        med:enfermedadTieneTratamiento  prinactiv:6155 .
+
+<http://es.dbpedia.org/resource/Ectasia_vascular_antral_gástrica>
+        med:enfermedadTieneTratamiento  prinactiv:1291 , prinactiv:3670 , prinactiv:6251 , prinactiv:3145 , prinactiv:2879 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_carnosinasa>
+        med:enfermedadTieneTratamiento  prinactiv:3952 .
+
+<http://es.dbpedia.org/resource/Trastorno_obsesivo-compulsivo>
+        med:enfermedadTieneTratamiento  prinactiv:1287 , prinactiv:7234 , prinactiv:7467 , prinactiv:1444 , prinactiv:6707 , prinactiv:6724 , prinactiv:5962 .
+
+<http://es.dbpedia.org/resource/Dacrioadenitis>
+        med:enfermedadTieneTratamiento  prinactiv:866 .
+
+<http://es.dbpedia.org/resource/Miotonía>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Hepatitis>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:5416 , prinactiv:1950 , prinactiv:14 .
+
+<http://es.dbpedia.org/resource/Eritema_necrolítico_migratorio>
+        med:enfermedadTieneTratamiento  prinactiv:1846 .
+
+<http://es.dbpedia.org/resource/Lupus_eritematoso_sistémico>
+        med:enfermedadTieneTratamiento  prinactiv:6363 , prinactiv:3670 , prinactiv:929 , prinactiv:5473 , prinactiv:3666 , prinactiv:2643 , prinactiv:10731 , prinactiv:5416 , prinactiv:6653 , prinactiv:356 , prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Osteomalacia>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Asfixia_perinatal>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Diabetes_mellitus_tipo_1>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Hepatocarcinoma>
+        med:enfermedadTieneTratamiento  prinactiv:9600 .
+
+<http://es.dbpedia.org/resource/Dolor_visceral>
+        med:enfermedadTieneTratamiento  prinactiv:4563 , prinactiv:4829 , prinactiv:1168 , prinactiv:5966 .
+
+<http://es.dbpedia.org/resource/Fiebre_hemorrágica_argentina>
+        med:enfermedadTieneTratamiento  prinactiv:6703 .
+
+<http://es.dbpedia.org/resource/Amenorrea>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:1883 , prinactiv:6363 , prinactiv:3670 , prinactiv:7550 , prinactiv:4552 .
+
+<http://es.dbpedia.org/resource/Enfermedad_trofoblástica_gestacional>
+        med:enfermedadTieneTratamiento  prinactiv:8343 , prinactiv:5416 .
+
+<http://es.dbpedia.org/resource/Acidosis_respiratoria>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Capgras>
+        med:enfermedadTieneTratamiento  prinactiv:4829 .
+
+<http://es.dbpedia.org/resource/Crisis_tirotóxica>
+        med:enfermedadTieneTratamiento  prinactiv:2792 , prinactiv:5700 , prinactiv:5366 .
+
+<http://es.dbpedia.org/resource/Resección_transuretral>
+        med:enfermedadTieneTratamiento  prinactiv:2560 , prinactiv:2964 .
+
+<http://es.dbpedia.org/resource/Bejel>
+        med:enfermedadTieneTratamiento  prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Hipertiroidismo>
+        med:enfermedadTieneTratamiento  prinactiv:3684 , prinactiv:2920 , prinactiv:5765 , prinactiv:5366 .
+
+<http://es.dbpedia.org/resource/Pericarditis>
+        med:enfermedadTieneTratamiento  prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Leptospirosis>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:5636 , prinactiv:1950 , prinactiv:1887 , prinactiv:5449 , prinactiv:5613 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Stokes–Adams>
+        med:enfermedadTieneTratamiento  prinactiv:4501 , prinactiv:6259 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_arteria_mesentérica_superior>
+        med:enfermedadTieneTratamiento  prinactiv:3128 .
+
+<http://es.dbpedia.org/resource/Nefropatía_hipertensiva>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:502 , prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Hipoglucemia>
+        med:enfermedadTieneTratamiento  prinactiv:4533 , prinactiv:318 , prinactiv:6259 , prinactiv:3893 , prinactiv:974 , prinactiv:6631 , prinactiv:540 .
+
+<http://es.dbpedia.org/resource/Histoplasmosis>
+        med:enfermedadTieneTratamiento  prinactiv:5341 , prinactiv:7036 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Von_Gierke>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:3431 , prinactiv:1413 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Hiperhidratación>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Ritidosis>
+        med:enfermedadTieneTratamiento  prinactiv:404 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Alveolitis_alérgica_extrínseca>
+        med:enfermedadTieneTratamiento  prinactiv:6345 .
+
+<http://es.dbpedia.org/resource/Rinitis_medicamentosa>
+        med:enfermedadTieneTratamiento  prinactiv:3376 , prinactiv:3208 , prinactiv:4487 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Tonsilolito>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Artrosis>
+        med:enfermedadTieneTratamiento  prinactiv:3775 , prinactiv:2524 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_zinc>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Scheuermann>
+        med:enfermedadTieneTratamiento  prinactiv:4268 .
+
+<http://es.dbpedia.org/resource/Ciática>
+        med:enfermedadTieneTratamiento  prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Lesión_de_la_médula_espinal>
+        med:enfermedadTieneTratamiento  prinactiv:6357 .
+
+<http://es.dbpedia.org/resource/Tricotiodistrofia>
+        med:enfermedadTieneTratamiento  prinactiv:1599 .
+
+<http://es.dbpedia.org/resource/Distrofia_miotónica_de_Steinert>
+        med:enfermedadTieneTratamiento  prinactiv:3666 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Norrie>
+        med:enfermedadTieneTratamiento  prinactiv:1599 .
+
+<http://es.dbpedia.org/resource/Alergia_a_la_leche>
+        med:enfermedadTieneTratamiento  prinactiv:6259 , prinactiv:6341 , prinactiv:541 , prinactiv:7921 , prinactiv:709 , prinactiv:3497 , prinactiv:1288 , prinactiv:6190 .
+
+<http://es.dbpedia.org/resource/Feocromocitoma>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:1883 , prinactiv:797 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Caries>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:4508 , prinactiv:1413 .
+
+<http://es.dbpedia.org/resource/Enfermedad_poliquística_renal>
+        med:enfermedadTieneTratamiento  prinactiv:542 , prinactiv:8976 , prinactiv:10381 , prinactiv:2757 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Sustitución_de_la_válvula_aórtica>
+        med:enfermedadTieneTratamiento  prinactiv:4268 , prinactiv:4410 , prinactiv:6317 .
+
+<http://es.dbpedia.org/resource/Síndrome_serotoninérgico>
+        med:enfermedadTieneTratamiento  prinactiv:6921 , prinactiv:6155 , prinactiv:6140 , prinactiv:1287 , prinactiv:3030 , prinactiv:5862 , prinactiv:7234 , prinactiv:5122 , prinactiv:2182 , prinactiv:3128 , prinactiv:6945 , prinactiv:6724 , prinactiv:5217 .
+
+<http://es.dbpedia.org/resource/Enfermedad_X>
+        med:enfermedadTieneTratamiento  prinactiv:13762 , prinactiv:6052 .
+
+<http://es.dbpedia.org/resource/Escleritis>
+        med:enfermedadTieneTratamiento  prinactiv:6345 , prinactiv:2530 , prinactiv:4487 , prinactiv:6120 .
+
+<http://es.dbpedia.org/resource/Aciduria_glutárica_tipo_II>
+        med:enfermedadTieneTratamiento  prinactiv:5821 .
+
+<http://es.dbpedia.org/resource/Neumonía_adquirida_en_la_comunidad>
+        med:enfermedadTieneTratamiento  prinactiv:3254 , prinactiv:866 , prinactiv:4271 , prinactiv:2489 , prinactiv:7533 , prinactiv:973 , prinactiv:1887 , prinactiv:6279 , prinactiv:159 , prinactiv:5289 , prinactiv:5113 , prinactiv:7676 , prinactiv:1272 , prinactiv:7971 , prinactiv:7214 , prinactiv:7501 , prinactiv:6908 , prinactiv:5420 , prinactiv:5613 .
+
+<http://es.dbpedia.org/resource/Pancreatitis_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:6459 .
+
+<http://es.dbpedia.org/resource/Apendicitis>
+        med:enfermedadTieneTratamiento  prinactiv:6279 , prinactiv:3145 .
+
+<http://es.dbpedia.org/resource/Hipertensión_arterial>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:6486 , prinactiv:6490 , prinactiv:5217 , prinactiv:2390 , prinactiv:2106 .
+
+<http://es.dbpedia.org/resource/Neuroblastoma>
+        med:enfermedadTieneTratamiento  prinactiv:2792 , prinactiv:4533 , prinactiv:4635 , prinactiv:1883 , prinactiv:6249 , prinactiv:5973 , prinactiv:356 , prinactiv:6702 .
+
+<http://es.dbpedia.org/resource/Cefalea_por_abuso_de_medicación>
+        med:enfermedadTieneTratamiento  prinactiv:2390 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Plummer-Vinson>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Balantidiasis>
+        med:enfermedadTieneTratamiento  prinactiv:4232 , prinactiv:276 , prinactiv:3145 .
+
+<http://es.dbpedia.org/resource/Reacción_de_Jarisch-Herxheimer>
+        med:enfermedadTieneTratamiento  prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Hemicránea_paroxística>
+        med:enfermedadTieneTratamiento  prinactiv:2530 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Tietze>
+        med:enfermedadTieneTratamiento  prinactiv:3231 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Osteítis_fibrosa>
+        med:enfermedadTieneTratamiento  prinactiv:345 , prinactiv:3431 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Trastorno_esquizoafectivo>
+        med:enfermedadTieneTratamiento  prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_glucosa-6-fosfato_deshidrogenasa>
+        med:enfermedadTieneTratamiento  prinactiv:6088 .
+
+<http://es.dbpedia.org/resource/Leucocitosis>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Embarazo_ectópico>
+        med:enfermedadTieneTratamiento  prinactiv:3670 , prinactiv:6979 , prinactiv:5416 , prinactiv:2044 , prinactiv:2392 .
+
+<http://es.dbpedia.org/resource/Reacción_de_estrés_agudo>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_vitamina_A>
+        med:enfermedadTieneTratamiento  prinactiv:6380 , prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Midriasis>
+        med:enfermedadTieneTratamiento  prinactiv:5661 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Síndrome_neuroléptico_maligno>
+        med:enfermedadTieneTratamiento  prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Chikunguña>
+        med:enfermedadTieneTratamiento  prinactiv:1188 .
+
+<http://es.dbpedia.org/resource/Anemia_macrocítica>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Tinea_nigra>
+        med:enfermedadTieneTratamiento  prinactiv:2418 , prinactiv:6616 .
+
+<http://es.dbpedia.org/resource/Pulmón_de_cuidador_de_aves>
+        med:enfermedadTieneTratamiento  prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Gliomatosis_cerebri>
+        med:enfermedadTieneTratamiento  prinactiv:975 .
+
+<http://es.dbpedia.org/resource/Cinconismo>
+        med:enfermedadTieneTratamiento  prinactiv:6010 .
+
+<http://es.dbpedia.org/resource/Anisocitosis>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Depresión>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:2418 , prinactiv:3629 , prinactiv:5724 , prinactiv:1287 , prinactiv:1056 , prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Angioedema_hereditario>
+        med:enfermedadTieneTratamiento  prinactiv:2019 , prinactiv:6069 .
+
+<http://es.dbpedia.org/resource/Síndrome_respiratorio_agudo_grave>
+        med:enfermedadTieneTratamiento  prinactiv:6703 .
+
+<http://es.dbpedia.org/resource/Onfalitis_del_recién_nacido>
+        med:enfermedadTieneTratamiento  prinactiv:5993 .
+
+<http://es.dbpedia.org/resource/Infarto_agudo_de_miocardio>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:88 , prinactiv:3431 , prinactiv:2738 , prinactiv:3030 , prinactiv:3173 , prinactiv:6333 , prinactiv:6206 , prinactiv:1116 .
+
+<http://es.dbpedia.org/resource/Alergia>
+        med:enfermedadTieneTratamiento  prinactiv:7001 , prinactiv:3091 , prinactiv:730 , prinactiv:9541 , prinactiv:889 , prinactiv:14 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Descarga_uretral>
+        med:enfermedadTieneTratamiento  prinactiv:5613 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Trastorno_de_pánico>
+        med:enfermedadTieneTratamiento  prinactiv:7234 , prinactiv:7467 , prinactiv:5965 , prinactiv:5962 , prinactiv:6582 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Mononucleosis_infecciosa>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:2765 , prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Broncoespasmo>
+        med:enfermedadTieneTratamiento  prinactiv:730 , prinactiv:4188 , prinactiv:7473 , prinactiv:3815 , prinactiv:889 , prinactiv:7368 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_cabello_acerado>
+        med:enfermedadTieneTratamiento  prinactiv:1910 .
+
+<http://es.dbpedia.org/resource/Litiasis_urinaria>
+        med:enfermedadTieneTratamiento  prinactiv:1599 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Trastornos_del_estado_de_ánimo>
+        med:enfermedadTieneTratamiento  prinactiv:4533 , prinactiv:7234 , prinactiv:7467 , prinactiv:3304 .
+
+<http://es.dbpedia.org/resource/Disfagia>
+        med:enfermedadTieneTratamiento  prinactiv:6650 .
+
+<http://es.dbpedia.org/resource/Tirotoxicosis_ficticia>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Intoxicación_por_digoxina>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:3815 , prinactiv:6206 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Síndrome_metabólico>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:1788 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Chédiak-Higashi>
+        med:enfermedadTieneTratamiento  prinactiv:5893 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Ocena>
+        med:enfermedadTieneTratamiento  prinactiv:2392 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Envenenamiento_por_mercurio>
+        med:enfermedadTieneTratamiento  prinactiv:2100 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_fase_de_sueño_avanzada_familiar>
+        med:enfermedadTieneTratamiento  prinactiv:77 , prinactiv:2560 .
+
+<http://es.dbpedia.org/resource/Exantema_fijo_medicamentoso>
+        med:enfermedadTieneTratamiento  prinactiv:1950 , prinactiv:14 , prinactiv:350 , prinactiv:5909 , prinactiv:6155 , prinactiv:6336 , prinactiv:217 , prinactiv:159 , prinactiv:5760 , prinactiv:6175 , prinactiv:2952 , prinactiv:208 , prinactiv:7533 , prinactiv:2765 , prinactiv:3231 , prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_arritmia_súbita_mortal>
+        med:enfermedadTieneTratamiento  prinactiv:3684 .
+
+<http://es.dbpedia.org/resource/Tendinopatía>
+        med:enfermedadTieneTratamiento  prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Zellweger>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:2311 , prinactiv:6055 .
+
+<http://es.dbpedia.org/resource/Resorción_ósea>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Diatesis_hemorrágica>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:2271 , prinactiv:4410 .
+
+<http://es.dbpedia.org/resource/Epiglotitis>
+        med:enfermedadTieneTratamiento  prinactiv:5613 .
+
+<http://es.dbpedia.org/resource/Taquicardia_supraventricular>
+        med:enfermedadTieneTratamiento  prinactiv:4986 , prinactiv:4946 , prinactiv:5173 , prinactiv:5366 , prinactiv:3888 .
+
+<http://es.dbpedia.org/resource/Esclerosis_sistémica>
+        med:enfermedadTieneTratamiento  prinactiv:356 , prinactiv:940 , prinactiv:5416 , prinactiv:7641 , prinactiv:3431 , prinactiv:1803 , prinactiv:542 , prinactiv:6319 , prinactiv:5473 , prinactiv:7112 , prinactiv:929 , prinactiv:9426 , prinactiv:6952 , prinactiv:7397 , prinactiv:3128 , prinactiv:5398 , prinactiv:3564 .
+
+<http://es.dbpedia.org/resource/Microfalosomía>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Anuria>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:3431 , prinactiv:2964 , prinactiv:6317 .
+
+<http://es.dbpedia.org/resource/Necrólisis_epidérmica_tóxica>
+        med:enfermedadTieneTratamiento  prinactiv:7454 , prinactiv:3810 , prinactiv:217 , prinactiv:5730 , prinactiv:5760 , prinactiv:14 , prinactiv:159 , prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Fibrosis_mediastínica>
+        med:enfermedadTieneTratamiento  prinactiv:4552 .
+
+<http://es.dbpedia.org/resource/Osteopenia>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Hepatitis_C>
+        med:enfermedadTieneTratamiento  prinactiv:11114 , prinactiv:6703 , prinactiv:10698 , prinactiv:11142 , prinactiv:11093 , prinactiv:10697 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_ornitina_carbamil_transferasa>
+        med:enfermedadTieneTratamiento  prinactiv:6941 .
+
+<http://es.dbpedia.org/resource/Fibrosis_endomiocárdica>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Loeys-Dietz>
+        med:enfermedadTieneTratamiento  prinactiv:4885 .
+
+<http://es.dbpedia.org/resource/Neuropatía_óptica>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:5776 , prinactiv:5821 , prinactiv:4683 .
+
+<http://es.dbpedia.org/resource/Aclorhidria>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Lafora>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Huntington>
+        med:enfermedadTieneTratamiento  prinactiv:2539 , prinactiv:1883 , prinactiv:627 , prinactiv:7722 , prinactiv:3304 , prinactiv:5962 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Parálisis_facial_periférica>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:6341 , prinactiv:350 , prinactiv:2765 , prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Miembro_fantasma>
+        med:enfermedadTieneTratamiento  prinactiv:3173 .
+
+<http://es.dbpedia.org/resource/Tic>
+        med:enfermedadTieneTratamiento  prinactiv:7722 , prinactiv:821 , prinactiv:2586 , prinactiv:5346 , prinactiv:5966 , prinactiv:5965 , prinactiv:9399 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_renal_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:502 , prinactiv:444 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Síndrome_urémico_hemolítico>
+        med:enfermedadTieneTratamiento  prinactiv:5398 .
+
+<http://es.dbpedia.org/resource/Hiperplasia_suprarrenal_congénita>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Carcinoma_renal>
+        med:enfermedadTieneTratamiento  prinactiv:9861 , prinactiv:3431 , prinactiv:9602 , prinactiv:9600 , prinactiv:9469 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_nariz_vacía>
+        med:enfermedadTieneTratamiento  prinactiv:6380 , prinactiv:8343 , prinactiv:2489 .
+
+<http://es.dbpedia.org/resource/Hermafroditismo_verdadero>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Piometra>
+        med:enfermedadTieneTratamiento  prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Crohn>
+        med:enfermedadTieneTratamiento  prinactiv:8126 , prinactiv:6837 , prinactiv:3145 , prinactiv:5416 , prinactiv:7273 , prinactiv:5442 , prinactiv:6120 , prinactiv:6759 , prinactiv:6357 , prinactiv:5440 , prinactiv:989 , prinactiv:6341 , prinactiv:5700 , prinactiv:10285 .
+
+<http://es.dbpedia.org/resource/Fiebre_reumática>
+        med:enfermedadTieneTratamiento  prinactiv:1950 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_hepática>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:1910 .
+
+<http://es.dbpedia.org/resource/Acatisia>
+        med:enfermedadTieneTratamiento  prinactiv:4297 , prinactiv:1444 , prinactiv:3128 , prinactiv:6190 .
+
+<http://es.dbpedia.org/resource/Sarcoma_de_Kaposi>
+        med:enfermedadTieneTratamiento  prinactiv:6249 , prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Osteopetrosis>
+        med:enfermedadTieneTratamiento  prinactiv:6069 .
+
+<http://es.dbpedia.org/resource/Tifus_exantemático_epidémico>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sheehan>
+        med:enfermedadTieneTratamiento  prinactiv:3670 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_malabsorción_de_fructosa>
+        med:enfermedadTieneTratamiento  prinactiv:11151 , prinactiv:7304 , prinactiv:2965 .
+
+<http://es.dbpedia.org/resource/Adiposis_dolorosa>
+        med:enfermedadTieneTratamiento  prinactiv:989 , prinactiv:5416 .
+
+<http://es.dbpedia.org/resource/Hiperplasia_difusa_idiopática_de_células_neuroendocrinas_pulmonares>
+        med:enfermedadTieneTratamiento  prinactiv:2757 .
+
+<http://es.dbpedia.org/resource/Tricomoniasis>
+        med:enfermedadTieneTratamiento  prinactiv:4232 , prinactiv:3145 .
+
+<http://es.dbpedia.org/resource/Anosmia>
+        med:enfermedadTieneTratamiento  prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Mastitis>
+        med:enfermedadTieneTratamiento  prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Verruga>
+        med:enfermedadTieneTratamiento  prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Caspa>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:5341 .
+
+<http://es.dbpedia.org/resource/Ductus_arterioso_persistente>
+        med:enfermedadTieneTratamiento  prinactiv:2530 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Cetoacidosis_diabética>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_guerra_del_Golfo>
+        med:enfermedadTieneTratamiento  prinactiv:3534 .
+
+<http://es.dbpedia.org/resource/Trastorno_de_ansiedad_social>
+        med:enfermedadTieneTratamiento  prinactiv:1287 , prinactiv:3684 , prinactiv:7467 , prinactiv:7476 , prinactiv:1444 , prinactiv:6724 , prinactiv:5965 .
+
+<http://es.dbpedia.org/resource/Leucemia_mieloide_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:3893 , prinactiv:559 .
+
+<http://es.dbpedia.org/resource/Hipersensibilidad_de_tipo_IV>
+        med:enfermedadTieneTratamiento  prinactiv:2503 .
+
+<http://es.dbpedia.org/resource/Prostatitis>
+        med:enfermedadTieneTratamiento  prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Distonía_cervical>
+        med:enfermedadTieneTratamiento  prinactiv:5477 .
+
+<http://es.dbpedia.org/resource/Ascariasis>
+        med:enfermedadTieneTratamiento  prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Arteritis_de_Takayasu>
+        med:enfermedadTieneTratamiento  prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Pie_de_atleta>
+        med:enfermedadTieneTratamiento  prinactiv:4279 , prinactiv:7756 , prinactiv:3147 , prinactiv:5341 , prinactiv:6323 , prinactiv:6616 .
+
+<http://es.dbpedia.org/resource/Aluminosis_del_pulmón>
+        med:enfermedadTieneTratamiento  prinactiv:6055 .
+
+<http://es.dbpedia.org/resource/Acidosis_láctica>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:1788 .
+
+<http://es.dbpedia.org/resource/Alcalosis>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Asperger>
+        med:enfermedadTieneTratamiento  prinactiv:7234 , prinactiv:7722 , prinactiv:821 , prinactiv:6707 , prinactiv:6724 .
+
+<http://es.dbpedia.org/resource/Neumonitis_química>
+        med:enfermedadTieneTratamiento  prinactiv:113 .
+
+<http://es.dbpedia.org/resource/Lepra>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:3773 , prinactiv:6088 , prinactiv:5924 .
+
+<http://es.dbpedia.org/resource/Fiebre>
+        med:enfermedadTieneTratamiento  prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_próstata>
+        med:enfermedadTieneTratamiento  prinactiv:2418 , prinactiv:10470 , prinactiv:6363 , prinactiv:2765 , prinactiv:1027 .
+
+<http://es.dbpedia.org/resource/Eosinopenia>
+        med:enfermedadTieneTratamiento  prinactiv:6069 .
+
+<http://es.dbpedia.org/resource/Fenómeno_de_Jod-Basedow>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Hiperparatiroidismo_primario>
+        med:enfermedadTieneTratamiento  prinactiv:2050 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_galactoquinasa>
+        med:enfermedadTieneTratamiento  prinactiv:2870 .
+
+<http://es.dbpedia.org/resource/Trastorno_reactivo_del_apego>
+        med:enfermedadTieneTratamiento  prinactiv:6069 .
+
+<http://es.dbpedia.org/resource/Proctitis>
+        med:enfermedadTieneTratamiento  prinactiv:4410 , prinactiv:3650 .
+
+<http://es.dbpedia.org/resource/Hipoparatiroidismo>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Úlcera>
+        med:enfermedadTieneTratamiento  prinactiv:3280 , prinactiv:6190 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_páncreas>
+        med:enfermedadTieneTratamiento  prinactiv:5893 , prinactiv:8343 , prinactiv:1252 , prinactiv:11272 , prinactiv:1151 , prinactiv:9537 .
+
+<http://es.dbpedia.org/resource/Anemia_aplásica>
+        med:enfermedadTieneTratamiento  prinactiv:2516 , prinactiv:5449 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Hipogonadismo>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Neuropatía_motora_multifocal>
+        med:enfermedadTieneTratamiento  prinactiv:929 , prinactiv:6341 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Hiperuricemia>
+        med:enfermedadTieneTratamiento  prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Estenosis_mitral>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Enfermedad_vascular_periférica>
+        med:enfermedadTieneTratamiento  prinactiv:6665 , prinactiv:171 , prinactiv:1116 .
+
+<http://es.dbpedia.org/resource/Colitis_seudomembranosa>
+        med:enfermedadTieneTratamiento  prinactiv:4360 , prinactiv:1291 , prinactiv:3145 , prinactiv:10669 , prinactiv:5909 .
+
+<http://es.dbpedia.org/resource/Gangrena>
+        med:enfermedadTieneTratamiento  prinactiv:3608 .
+
+<http://es.dbpedia.org/resource/Psicosis>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:889 , prinactiv:5217 .
+
+<http://es.dbpedia.org/resource/Infección_de_transmisión_vertical>
+        med:enfermedadTieneTratamiento  prinactiv:6685 .
+
+<http://es.dbpedia.org/resource/Quemadura>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:152 , prinactiv:404 , prinactiv:1910 , prinactiv:11152 .
+
+<http://es.dbpedia.org/resource/Giardiasis>
+        med:enfermedadTieneTratamiento  prinactiv:4232 , prinactiv:3145 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Gastritis>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:2861 , prinactiv:2738 , prinactiv:3219 , prinactiv:217 , prinactiv:6650 , prinactiv:2530 .
+
+<http://es.dbpedia.org/resource/Fenilcetonuria>
+        med:enfermedadTieneTratamiento  prinactiv:9976 .
+
+<http://es.dbpedia.org/resource/Fractura_del_boxeador>
+        med:enfermedadTieneTratamiento  prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Espasmo_mioclónico>
+        med:enfermedadTieneTratamiento  prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Gastroenteritis>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:4360 , prinactiv:318 , prinactiv:4232 , prinactiv:3145 , prinactiv:3128 , prinactiv:4563 , prinactiv:1624 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Fiebre_paratifoidea_C>
+        med:enfermedadTieneTratamiento  prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Enfermedad_parasitaria>
+        med:enfermedadTieneTratamiento  prinactiv:1205 , prinactiv:617 , prinactiv:3145 , prinactiv:2973 , prinactiv:7926 , prinactiv:6010 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Fiebre_del_Zika>
+        med:enfermedadTieneTratamiento  prinactiv:1188 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Tos>
+        med:enfermedadTieneTratamiento  prinactiv:5023 , prinactiv:10042 , prinactiv:5484 , prinactiv:2106 , prinactiv:6140 .
+
+<http://es.dbpedia.org/resource/Carcinoma_adrenocortical>
+        med:enfermedadTieneTratamiento  prinactiv:9419 , prinactiv:5973 .
+
+<http://es.dbpedia.org/resource/Taquicardia_ventricular>
+        med:enfermedadTieneTratamiento  prinactiv:4986 , prinactiv:3666 , prinactiv:5366 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_5q>
+        med:enfermedadTieneTratamiento  prinactiv:9746 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Andrade>
+        med:enfermedadTieneTratamiento  prinactiv:10797 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Still_del_adulto>
+        med:enfermedadTieneTratamiento  prinactiv:5416 , prinactiv:2530 , prinactiv:2765 , prinactiv:858 , prinactiv:1439 .
+
+<http://es.dbpedia.org/resource/Virus_del_papiloma_humano>
+        med:enfermedadTieneTratamiento  prinactiv:6979 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Miosis>
+        med:enfermedadTieneTratamiento  prinactiv:6945 , prinactiv:3173 , prinactiv:3064 , prinactiv:10042 , prinactiv:2586 .
+
+<http://es.dbpedia.org/resource/Trastorno_perceptivo_persistente_por_alucinógenos>
+        med:enfermedadTieneTratamiento  prinactiv:7722 , prinactiv:6190 , prinactiv:6140 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_CREST>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Miocardiopatía_dilatada>
+        med:enfermedadTieneTratamiento  prinactiv:88 , prinactiv:2643 , prinactiv:6206 .
+
+<http://es.dbpedia.org/resource/Enterobiasis>
+        med:enfermedadTieneTratamiento  prinactiv:1725 , prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Varicela>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:350 , prinactiv:2765 , prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Encefalitis_herpética>
+        med:enfermedadTieneTratamiento  prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Embarazo_prolongado>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:3670 , prinactiv:3313 .
+
+<http://es.dbpedia.org/resource/Estomatitis>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:2701 , prinactiv:3280 , prinactiv:6653 .
+
+<http://es.dbpedia.org/resource/Pitiriasis_rosada>
+        med:enfermedadTieneTratamiento  prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Focomelia>
+        med:enfermedadTieneTratamiento  prinactiv:7580 .
+
+<http://es.dbpedia.org/resource/Trastornos_del_equilibrio_ácido-base>
+        med:enfermedadTieneTratamiento  prinactiv:2539 , prinactiv:6486 , prinactiv:6490 , prinactiv:1788 .
+
+<http://es.dbpedia.org/resource/Anemia_de_Fanconi>
+        med:enfermedadTieneTratamiento  prinactiv:669 .
+
+<http://es.dbpedia.org/resource/Polirradiculoneuropatía_desmielinizante_inflamatoria_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:5398 , prinactiv:356 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Dracunculiasis>
+        med:enfermedadTieneTratamiento  prinactiv:3145 .
+
+<http://es.dbpedia.org/resource/Filariasis>
+        med:enfermedadTieneTratamiento  prinactiv:7926 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Infección_por_el_virus_Nipah>
+        med:enfermedadTieneTratamiento  prinactiv:6703 , prinactiv:13762 , prinactiv:6010 , prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Aplasia_cutis_congénita>
+        med:enfermedadTieneTratamiento  prinactiv:5765 .
+
+<http://es.dbpedia.org/resource/Cistinuria>
+        med:enfermedadTieneTratamiento  prinactiv:3896 , prinactiv:1599 .
+
+<http://es.dbpedia.org/resource/COVID-19>
+        med:enfermedadTieneTratamiento  prinactiv:6490 , prinactiv:6703 , prinactiv:6120 , prinactiv:811 , prinactiv:1958 , prinactiv:6010 , prinactiv:10283 , prinactiv:6653 , prinactiv:7971 , prinactiv:6707 , prinactiv:6486 , prinactiv:7926 , prinactiv:13762 , prinactiv:9641 , prinactiv:11998 , prinactiv:7533 , prinactiv:543 .
+
+<http://es.dbpedia.org/resource/Calciuria>
+        med:enfermedadTieneTratamiento  prinactiv:152 , prinactiv:3431 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Toxoplasmosis>
+        med:enfermedadTieneTratamiento  prinactiv:3538 , prinactiv:5909 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_ovario>
+        med:enfermedadTieneTratamiento  prinactiv:2023 , prinactiv:5960 .
+
+<http://es.dbpedia.org/resource/Impétigo>
+        med:enfermedadTieneTratamiento  prinactiv:1950 , prinactiv:6238 , prinactiv:5993 , prinactiv:6885 , prinactiv:159 , prinactiv:2489 , prinactiv:3059 , prinactiv:6251 , prinactiv:6361 , prinactiv:6228 .
+
+<http://es.dbpedia.org/resource/Somnolencia>
+        med:enfermedadTieneTratamiento  prinactiv:6459 , prinactiv:7027 , prinactiv:1444 .
+
+<http://es.dbpedia.org/resource/Estornudo>
+        med:enfermedadTieneTratamiento  prinactiv:2023 .
+
+<http://es.dbpedia.org/resource/Eosinofilia>
+        med:enfermedadTieneTratamiento  prinactiv:5636 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Urbach-Wiethe>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Dengue>
+        med:enfermedadTieneTratamiento  prinactiv:6703 , prinactiv:1188 , prinactiv:6010 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_las_arterias_coronarias>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:2738 .
+
+<http://es.dbpedia.org/resource/Trastorno_por_déficit_de_atención_con_hiperactividad>
+        med:enfermedadTieneTratamiento  prinactiv:6979 , prinactiv:4533 , prinactiv:1287 , prinactiv:9514 , prinactiv:318 , prinactiv:5346 , prinactiv:10544 , prinactiv:1527 , prinactiv:2470 , prinactiv:5217 , prinactiv:6724 , prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Dolor>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:2524 , prinactiv:3893 , prinactiv:5753 .
+
+<http://es.dbpedia.org/resource/Sarna>
+        med:enfermedadTieneTratamiento  prinactiv:1188 , prinactiv:7926 .
+
+<http://es.dbpedia.org/resource/Enfermedad_pulmonar_inducida_por_fármacos>
+        med:enfermedadTieneTratamiento  prinactiv:5416 , prinactiv:356 , prinactiv:6030 , prinactiv:5473 , prinactiv:5366 , prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Fuga_espontánea_de_líquido_cefalorraquídeo>
+        med:enfermedadTieneTratamiento  prinactiv:4194 .
+
+<http://es.dbpedia.org/resource/Trombosis_venosa_profunda>
+        med:enfermedadTieneTratamiento  prinactiv:4410 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Astenia>
+        med:enfermedadTieneTratamiento  prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Fibrilación_auricular>
+        med:enfermedadTieneTratamiento  prinactiv:6395 , prinactiv:4410 , prinactiv:6719 , prinactiv:3431 , prinactiv:2619 , prinactiv:10472 , prinactiv:4986 , prinactiv:6979 , prinactiv:5366 , prinactiv:6901 , prinactiv:1851 , prinactiv:4885 , prinactiv:4383 , prinactiv:4946 , prinactiv:3666 , prinactiv:6206 , prinactiv:5173 .
+
+<http://es.dbpedia.org/resource/Tiña_corporal>
+        med:enfermedadTieneTratamiento  prinactiv:3147 , prinactiv:6029 .
+
+<http://es.dbpedia.org/resource/Intolerancia_hereditaria_a_la_fructosa>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Toxoplasmosis_congénita>
+        med:enfermedadTieneTratamiento  prinactiv:6565 , prinactiv:3538 , prinactiv:1991 , prinactiv:5909 .
+
+<http://es.dbpedia.org/resource/Trastornos_del_ritmo_cardíaco>
+        med:enfermedadTieneTratamiento  prinactiv:3888 , prinactiv:1851 , prinactiv:6206 , prinactiv:1550 , prinactiv:6901 , prinactiv:4986 , prinactiv:3684 , prinactiv:3666 , prinactiv:5366 , prinactiv:5173 , prinactiv:4383 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Romano-Ward>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Gota_(enfermedad)>
+        med:enfermedadTieneTratamiento  prinactiv:5893 , prinactiv:9981 , prinactiv:2066 , prinactiv:1958 , prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Cáncer_tiroideo>
+        med:enfermedadTieneTratamiento  prinactiv:9600 , prinactiv:2920 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Anemia_sideroblástica>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_muerte_súbita_inesperada>
+        med:enfermedadTieneTratamiento  prinactiv:3684 .
+
+<http://es.dbpedia.org/resource/Síndrome_TAR>
+        med:enfermedadTieneTratamiento  prinactiv:2870 .
+
+<http://es.dbpedia.org/resource/Toxicidad_por_cobre>
+        med:enfermedadTieneTratamiento  prinactiv:1910 , prinactiv:1803 .
+
+<http://es.dbpedia.org/resource/Peste>
+        med:enfermedadTieneTratamiento  prinactiv:1887 , prinactiv:5449 , prinactiv:2489 , prinactiv:5636 , prinactiv:996 , prinactiv:276 , prinactiv:3701 , prinactiv:866 , prinactiv:2870 , prinactiv:2504 , prinactiv:586 , prinactiv:6759 .
+
+<http://es.dbpedia.org/resource/Trombosis_de_la_vena_porta>
+        med:enfermedadTieneTratamiento  prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Envenenamiento_por_setas>
+        med:enfermedadTieneTratamiento  prinactiv:3570 .
+
+<http://es.dbpedia.org/resource/Neurodegeneración_asociada_a_pantotenato_quinasa>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Canavan>
+        med:enfermedadTieneTratamiento  prinactiv:5458 , prinactiv:152 .
+
+<http://es.dbpedia.org/resource/Tumor_de_células_de_Sertoli-Leydig>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Aciduria_orótica>
+        med:enfermedadTieneTratamiento  prinactiv:400 .
+
+<http://es.dbpedia.org/resource/Carbunco>
+        med:enfermedadTieneTratamiento  prinactiv:1887 , prinactiv:6759 .
+
+<http://es.dbpedia.org/resource/Meningococemia>
+        med:enfermedadTieneTratamiento  prinactiv:6565 , prinactiv:3773 , prinactiv:6800 , prinactiv:3155 , prinactiv:2619 , prinactiv:6759 , prinactiv:5613 , prinactiv:6971 , prinactiv:14 .
+
+<http://es.dbpedia.org/resource/Diabetes_insípida>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:5191 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Trastorno_bipolar_I>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:152 , prinactiv:7454 , prinactiv:7722 , prinactiv:1204 , prinactiv:821 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Pott>
+        med:enfermedadTieneTratamiento  prinactiv:3773 , prinactiv:3531 , prinactiv:2066 .
+
+<http://es.dbpedia.org/resource/Cirrosis_hepática>
+        med:enfermedadTieneTratamiento  prinactiv:3120 .
+
+<http://es.dbpedia.org/resource/Psitacosis>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Congelamiento>
+        med:enfermedadTieneTratamiento  prinactiv:2619 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Reumatismo_palindrómico>
+        med:enfermedadTieneTratamiento  prinactiv:5416 , prinactiv:6653 , prinactiv:6010 .
+
+<http://es.dbpedia.org/resource/Tiroiditis_subaguda>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:2920 .
+
+<http://es.dbpedia.org/resource/Cálculo_renal>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:1599 , prinactiv:3431 , prinactiv:778 , prinactiv:803 , prinactiv:2765 , prinactiv:2106 .
+
+<http://es.dbpedia.org/resource/Eructo>
+        med:enfermedadTieneTratamiento  prinactiv:1788 , prinactiv:9647 .
+
+<http://es.dbpedia.org/resource/Trastorno_límite_de_la_personalidad>
+        med:enfermedadTieneTratamiento  prinactiv:5966 , prinactiv:152 , prinactiv:1204 , prinactiv:10329 , prinactiv:6582 , prinactiv:1883 , prinactiv:7767 , prinactiv:5755 , prinactiv:6033 , prinactiv:6724 , prinactiv:9009 , prinactiv:821 , prinactiv:7413 , prinactiv:5370 , prinactiv:7073 , prinactiv:3431 , prinactiv:7467 , prinactiv:7722 , prinactiv:9399 , prinactiv:6120 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Mondor>
+        med:enfermedadTieneTratamiento  prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Evans>
+        med:enfermedadTieneTratamiento  prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_estómago>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Crisis_hipertensiva>
+        med:enfermedadTieneTratamiento  prinactiv:7678 , prinactiv:4946 , prinactiv:6387 , prinactiv:4454 , prinactiv:5966 , prinactiv:3296 , prinactiv:1768 , prinactiv:873 , prinactiv:88 , prinactiv:4476 , prinactiv:6651 , prinactiv:7176 , prinactiv:972 , prinactiv:5323 , prinactiv:4885 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_DRESS>
+        med:enfermedadTieneTratamiento  prinactiv:4307 , prinactiv:3810 , prinactiv:1527 , prinactiv:3155 , prinactiv:5730 , prinactiv:6088 , prinactiv:5760 , prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Gastroenterocolitis>
+        med:enfermedadTieneTratamiento  prinactiv:4563 .
+
+<http://es.dbpedia.org/resource/Acrodermatitis_enteropática>
+        med:enfermedadTieneTratamiento  prinactiv:1846 .
+
+<http://es.dbpedia.org/resource/Cordoma>
+        med:enfermedadTieneTratamiento  prinactiv:542 , prinactiv:559 .
+
+<http://es.dbpedia.org/resource/Cefalea>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:350 , prinactiv:3231 , prinactiv:2765 , prinactiv:5370 .
+
+<http://es.dbpedia.org/resource/Adenomiosis>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Kwashiorkor>
+        med:enfermedadTieneTratamiento  prinactiv:2792 , prinactiv:2418 , prinactiv:2701 , prinactiv:4275 , prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Nieve_visual>
+        med:enfermedadTieneTratamiento  prinactiv:7454 , prinactiv:2738 , prinactiv:4383 , prinactiv:3231 , prinactiv:3751 .
+
+<http://es.dbpedia.org/resource/Atrofia_muscular_espinal>
+        med:enfermedadTieneTratamiento  prinactiv:11953 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_von_Hippel-Lindau>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Acné>
+        med:enfermedadTieneTratamiento  prinactiv:8343 , prinactiv:6384 , prinactiv:6088 , prinactiv:578 , prinactiv:2055 , prinactiv:6614 , prinactiv:6363 , prinactiv:6859 , prinactiv:3155 , prinactiv:318 , prinactiv:1887 , prinactiv:7533 , prinactiv:5415 , prinactiv:286 , prinactiv:4106 , prinactiv:6377 , prinactiv:2792 , prinactiv:3145 , prinactiv:530 , prinactiv:5909 , prinactiv:1950 , prinactiv:547 , prinactiv:276 , prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Trastorno_afectivo_estacional>
+        med:enfermedadTieneTratamiento  prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Hemocromatosis_hereditaria>
+        med:enfermedadTieneTratamiento  prinactiv:5458 , prinactiv:2701 , prinactiv:5893 , prinactiv:6363 , prinactiv:6097 , prinactiv:9625 .
+
+<http://es.dbpedia.org/resource/Cinetosis>
+        med:enfermedadTieneTratamiento  prinactiv:1963 , prinactiv:1624 .
+
+<http://es.dbpedia.org/resource/Vulvovaginitis_candidiásica>
+        med:enfermedadTieneTratamiento  prinactiv:3280 , prinactiv:5341 , prinactiv:7032 , prinactiv:6029 .
+
+<http://es.dbpedia.org/resource/Dermografismo_blanco>
+        med:enfermedadTieneTratamiento  prinactiv:799 , prinactiv:6190 , prinactiv:6903 .
+
+<http://es.dbpedia.org/resource/Intertrigo>
+        med:enfermedadTieneTratamiento  prinactiv:3280 , prinactiv:2567 , prinactiv:7032 , prinactiv:6029 .
+
+<http://es.dbpedia.org/resource/Inmunodeficiencia_combinada_grave_por_déficit_de_adenosina_desaminasa>
+        med:enfermedadTieneTratamiento  prinactiv:2728 , prinactiv:3888 .
+
+<http://es.dbpedia.org/resource/Distonía>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:3128 , prinactiv:6190 , prinactiv:6155 , prinactiv:6018 , prinactiv:5965 , prinactiv:9605 , prinactiv:5477 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Campilobacteriosis>
+        med:enfermedadTieneTratamiento  prinactiv:6384 , prinactiv:276 , prinactiv:4563 , prinactiv:1950 , prinactiv:14 .
+
+<http://es.dbpedia.org/resource/Hipersensibilidad>
+        med:enfermedadTieneTratamiento  prinactiv:6259 .
+
+<http://es.dbpedia.org/resource/Ludopatía>
+        med:enfermedadTieneTratamiento  prinactiv:855 , prinactiv:4533 , prinactiv:152 , prinactiv:1883 , prinactiv:7467 .
+
+<http://es.dbpedia.org/resource/Dermatofitosis>
+        med:enfermedadTieneTratamiento  prinactiv:7756 , prinactiv:3147 , prinactiv:5341 , prinactiv:2567 , prinactiv:6029 .
+
+<http://es.dbpedia.org/resource/Anemia_perniciosa>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:2701 , prinactiv:5893 , prinactiv:6251 , prinactiv:1958 .
+
+<http://es.dbpedia.org/resource/Delírium>
+        med:enfermedadTieneTratamiento  prinactiv:2586 .
+
+<http://es.dbpedia.org/resource/Nefritis_por_Henoch-Schönlein>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:4410 , prinactiv:929 , prinactiv:6341 , prinactiv:6357 , prinactiv:356 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Enfermedades_cardiovasculares>
+        med:enfermedadTieneTratamiento  prinactiv:2738 .
+
+<http://es.dbpedia.org/resource/Trastornos_del_espectro_alcohólico_fetal>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 .
+
+<http://es.dbpedia.org/resource/Distensión_abdominal>
+        med:enfermedadTieneTratamiento  prinactiv:3525 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Adie>
+        med:enfermedadTieneTratamiento  prinactiv:2875 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Hipofosfatasia>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Bulimia>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:6363 , prinactiv:6724 .
+
+<http://es.dbpedia.org/resource/Sepsis>
+        med:enfermedadTieneTratamiento  prinactiv:3701 .
+
+<http://es.dbpedia.org/resource/Glomerulonefritis_membranosa>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:3701 , prinactiv:152 , prinactiv:1803 , prinactiv:1616 , prinactiv:5398 , prinactiv:356 , prinactiv:5323 .
+
+<http://es.dbpedia.org/resource/Neumonía_intersticial_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Encefalitis>
+        med:enfermedadTieneTratamiento  prinactiv:3538 , prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Tormenta_de_citoquinas>
+        med:enfermedadTieneTratamiento  prinactiv:6941 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_hiperestimulación_ovárico>
+        med:enfermedadTieneTratamiento  prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Degeneración_hepatocerebral_adquirida>
+        med:enfermedadTieneTratamiento  prinactiv:627 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Batten>
+        med:enfermedadTieneTratamiento  prinactiv:4275 , prinactiv:5893 , prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Síndrome_premenstrual>
+        med:enfermedadTieneTratamiento  prinactiv:3670 , prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_QT_largo>
+        med:enfermedadTieneTratamiento  prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Invaginación_intestinal>
+        med:enfermedadTieneTratamiento  prinactiv:113 .
+
+<http://es.dbpedia.org/resource/Traumatismo_de_riñón>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Morgellons>
+        med:enfermedadTieneTratamiento  prinactiv:7722 , prinactiv:821 .
+
+<http://es.dbpedia.org/resource/Fibrosis_pulmonar_idiopática>
+        med:enfermedadTieneTratamiento  prinactiv:7962 , prinactiv:6341 , prinactiv:10320 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Ascitis>
+        med:enfermedadTieneTratamiento  prinactiv:2430 , prinactiv:4463 .
+
+<http://es.dbpedia.org/resource/Queratitis>
+        med:enfermedadTieneTratamiento  prinactiv:6800 , prinactiv:866 , prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Melioidosis>
+        med:enfermedadTieneTratamiento  prinactiv:7676 , prinactiv:2992 .
+
+<http://es.dbpedia.org/resource/Podagra>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Pancitopenia>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:208 , prinactiv:5909 .
+
+<http://es.dbpedia.org/resource/Linfoma_no_hodgkiniano>
+        med:enfermedadTieneTratamiento  prinactiv:6249 , prinactiv:929 , prinactiv:6341 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_abstinencia_del_alcohol>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:1883 , prinactiv:5966 , prinactiv:5477 .
+
+<http://es.dbpedia.org/resource/Tiña_de_la_cabeza>
+        med:enfermedadTieneTratamiento  prinactiv:2567 .
+
+<http://es.dbpedia.org/resource/Cardiopatía_congénita>
+        med:enfermedadTieneTratamiento  prinactiv:7580 .
+
+<http://es.dbpedia.org/resource/Proctalgia_fugax>
+        med:enfermedadTieneTratamiento  prinactiv:88 .
+
+<http://es.dbpedia.org/resource/Fiebre_Q>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:5449 , prinactiv:6759 .
+
+<http://es.dbpedia.org/resource/Migraña>
+        med:enfermedadTieneTratamiento  prinactiv:5370 , prinactiv:264 , prinactiv:4946 , prinactiv:6421 , prinactiv:2390 , prinactiv:2765 , prinactiv:12172 , prinactiv:7767 , prinactiv:3231 , prinactiv:4885 .
+
+<http://es.dbpedia.org/resource/Tricuriasis>
+        med:enfermedadTieneTratamiento  prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Tristeza>
+        med:enfermedadTieneTratamiento  prinactiv:7234 .
+
+<http://es.dbpedia.org/resource/Rinitis_alérgica>
+        med:enfermedadTieneTratamiento  prinactiv:6805 , prinactiv:6903 .
+
+<http://es.dbpedia.org/resource/Hiperecplexia>
+        med:enfermedadTieneTratamiento  prinactiv:2560 , prinactiv:524 , prinactiv:5965 .
+
+<http://es.dbpedia.org/resource/Hidradenitis_supurativa>
+        med:enfermedadTieneTratamiento  prinactiv:989 , prinactiv:8126 .
+
+<http://es.dbpedia.org/resource/La_pubertad_familiar_precoz_limitada_al_varón>
+        med:enfermedadTieneTratamiento  prinactiv:5341 , prinactiv:4463 , prinactiv:715 .
+
+<http://es.dbpedia.org/resource/Trastornos_del_metabolismo_del_calcio>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Púrpura_trombocitopénica_idiopática>
+        med:enfermedadTieneTratamiento  prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Cáncer_papilar_tiroideo>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Meningioma>
+        med:enfermedadTieneTratamiento  prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Factor_V_Leiden>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:2539 .
+
+<http://es.dbpedia.org/resource/Trombofilia>
+        med:enfermedadTieneTratamiento  prinactiv:7860 .
+
+<http://es.dbpedia.org/resource/Trastorno_del_sueño_del_ritmo_circadiano>
+        med:enfermedadTieneTratamiento  prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Tos_ferina>
+        med:enfermedadTieneTratamiento  prinactiv:6459 , prinactiv:3893 , prinactiv:6384 , prinactiv:4106 , prinactiv:1950 , prinactiv:7214 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Alcoholismo>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:5477 .
+
+<http://es.dbpedia.org/resource/Tricotilomanía>
+        med:enfermedadTieneTratamiento  prinactiv:6724 , prinactiv:5962 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_ovario_poliquístico>
+        med:enfermedadTieneTratamiento  prinactiv:547 , prinactiv:1788 , prinactiv:6614 , prinactiv:1027 , prinactiv:4463 , prinactiv:5871 .
+
+<http://es.dbpedia.org/resource/Infección_urinaria>
+        med:enfermedadTieneTratamiento  prinactiv:6384 , prinactiv:2385 , prinactiv:3059 , prinactiv:6273 , prinactiv:14 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Alcalosis_respiratoria>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_disfunción_multiorgánica>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:6317 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Arteritis_de_células_gigantes>
+        med:enfermedadTieneTratamiento  prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Glioma>
+        med:enfermedadTieneTratamiento  prinactiv:975 , prinactiv:9469 .
+
+<http://es.dbpedia.org/resource/Rosácea_(enfermedad)>
+        med:enfermedadTieneTratamiento  prinactiv:88 , prinactiv:276 , prinactiv:2055 , prinactiv:3155 , prinactiv:3145 , prinactiv:7926 , prinactiv:1887 , prinactiv:1477 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Malnutrición>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:5893 , prinactiv:4275 , prinactiv:5755 , prinactiv:3431 , prinactiv:502 , prinactiv:2792 , prinactiv:3839 , prinactiv:444 , prinactiv:2701 , prinactiv:8343 , prinactiv:5776 .
+
+<http://es.dbpedia.org/resource/Dolor_abdominal>
+        med:enfermedadTieneTratamiento  prinactiv:2870 .
+
+<http://es.dbpedia.org/resource/Pólipos_de_colon_y_recto>
+        med:enfermedadTieneTratamiento  prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Rett>
+        med:enfermedadTieneTratamiento  prinactiv:7454 , prinactiv:7073 , prinactiv:7063 , prinactiv:1168 , prinactiv:5760 , prinactiv:4552 .
+
+<http://es.dbpedia.org/resource/Galactosemia>
+        med:enfermedadTieneTratamiento  prinactiv:2870 , prinactiv:318 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Hipomagnesemia>
+        med:enfermedadTieneTratamiento  prinactiv:6631 , prinactiv:5973 , prinactiv:5398 , prinactiv:5776 , prinactiv:10329 , prinactiv:3629 , prinactiv:6650 , prinactiv:6206 , prinactiv:4271 , prinactiv:3893 , prinactiv:2489 , prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_muerte_súbita_del_lactante>
+        med:enfermedadTieneTratamiento  prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_endometrio>
+        med:enfermedadTieneTratamiento  prinactiv:6157 , prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Acidemia_propiónica>
+        med:enfermedadTieneTratamiento  prinactiv:2976 , prinactiv:3120 .
+
+<http://es.dbpedia.org/resource/Belonefobia>
+        med:enfermedadTieneTratamiento  prinactiv:2952 , prinactiv:6155 , prinactiv:5965 , prinactiv:6582 .
+
+<http://es.dbpedia.org/resource/Miodesopsias>
+        med:enfermedadTieneTratamiento  prinactiv:8343 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Fenómeno_de_Somogy>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Trastorno_explosivo_intermitente>
+        med:enfermedadTieneTratamiento  prinactiv:152 , prinactiv:7234 , prinactiv:1168 , prinactiv:6707 , prinactiv:6724 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Absceso_hepático>
+        med:enfermedadTieneTratamiento  prinactiv:3145 , prinactiv:7032 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Obesidad>
+        med:enfermedadTieneTratamiento  prinactiv:1490 , prinactiv:7518 , prinactiv:7767 , prinactiv:7234 , prinactiv:941 , prinactiv:6979 , prinactiv:1788 , prinactiv:2941 , prinactiv:6724 .
+
+<http://es.dbpedia.org/resource/Seudohermafroditismo>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Anoniquia_congénita>
+        med:enfermedadTieneTratamiento  prinactiv:4410 , prinactiv:3173 , prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Cicloplejia>
+        med:enfermedadTieneTratamiento  prinactiv:5661 , prinactiv:2747 , prinactiv:4487 , prinactiv:1963 , prinactiv:5838 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Granulomatosis_eosinofílica_con_poliangitis>
+        med:enfermedadTieneTratamiento  prinactiv:6341 , prinactiv:356 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Enfermedad_gastrointestinal>
+        med:enfermedadTieneTratamiento  prinactiv:2941 , prinactiv:1413 .
+
+<http://es.dbpedia.org/resource/Muermo>
+        med:enfermedadTieneTratamiento  prinactiv:6565 , prinactiv:5636 .
+
+<http://es.dbpedia.org/resource/Abuso_del_alcohol>
+        med:enfermedadTieneTratamiento  prinactiv:6363 , prinactiv:2392 .
+
+<http://es.dbpedia.org/resource/Distonías_ocupacionales>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Convulsión_febril>
+        med:enfermedadTieneTratamiento  prinactiv:6802 , prinactiv:2765 , prinactiv:5730 , prinactiv:6155 , prinactiv:5965 .
+
+<http://es.dbpedia.org/resource/Enfermedad_profesional>
+        med:enfermedadTieneTratamiento  prinactiv:1910 .
+
+<http://es.dbpedia.org/resource/Anemia_ferropénica>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:2701 , prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Periodontitis>
+        med:enfermedadTieneTratamiento  prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Tromboembolismo_pulmonar>
+        med:enfermedadTieneTratamiento  prinactiv:4410 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Trastorno_somatomorfo>
+        med:enfermedadTieneTratamiento  prinactiv:9416 , prinactiv:1444 , prinactiv:649 .
+
+<http://es.dbpedia.org/resource/Necrosis_tubular_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:5973 .
+
+<http://es.dbpedia.org/resource/Fiebre_de_Lassa>
+        med:enfermedadTieneTratamiento  prinactiv:6703 .
+
+<http://es.dbpedia.org/resource/Hipoalbuminemia>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Contusión>
+        med:enfermedadTieneTratamiento  prinactiv:5575 .
+
+<http://es.dbpedia.org/resource/Envenenamiento_por_salicilato>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:2738 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Aspergilosis_broncopulmonar_alérgica>
+        med:enfermedadTieneTratamiento  prinactiv:7036 .
+
+<http://es.dbpedia.org/resource/Leucemia_neutrofílica_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Hemorragia_obstétrica>
+        med:enfermedadTieneTratamiento  prinactiv:5416 .
+
+<http://es.dbpedia.org/resource/Dispepsia>
+        med:enfermedadTieneTratamiento  prinactiv:3701 , prinactiv:1291 , prinactiv:3128 , prinactiv:2941 , prinactiv:1950 , prinactiv:6319 , prinactiv:1413 .
+
+<http://es.dbpedia.org/resource/Fotopsia>
+        med:enfermedadTieneTratamiento  prinactiv:7959 .
+
+<http://es.dbpedia.org/resource/Metahemoglobinemia>
+        med:enfermedadTieneTratamiento  prinactiv:88 , prinactiv:5893 , prinactiv:3128 , prinactiv:6088 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Darier>
+        med:enfermedadTieneTratamiento  prinactiv:5398 , prinactiv:5575 .
+
+<http://es.dbpedia.org/resource/Glomerulonefritis>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:1841 , prinactiv:356 , prinactiv:5323 .
+
+<http://es.dbpedia.org/resource/Disfunción_sexual>
+        med:enfermedadTieneTratamiento  prinactiv:6363 , prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Faringitis>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:3231 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Cólico_del_lactante>
+        med:enfermedadTieneTratamiento  prinactiv:3511 , prinactiv:3091 .
+
+<http://es.dbpedia.org/resource/Parto_pretérmino>
+        med:enfermedadTieneTratamiento  prinactiv:1134 .
+
+<http://es.dbpedia.org/resource/Ptosis_palpebral>
+        med:enfermedadTieneTratamiento  prinactiv:9416 , prinactiv:1775 , prinactiv:3173 .
+
+<http://es.dbpedia.org/resource/Émbolo>
+        med:enfermedadTieneTratamiento  prinactiv:10149 , prinactiv:2023 .
+
+<http://es.dbpedia.org/resource/Bradicardia>
+        med:enfermedadTieneTratamiento  prinactiv:3888 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Brugada>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:6901 .
+
+<http://es.dbpedia.org/resource/Psoriasis>
+        med:enfermedadTieneTratamiento  prinactiv:1867 , prinactiv:8343 , prinactiv:1846 , prinactiv:858 , prinactiv:345 , prinactiv:5755 , prinactiv:1289 , prinactiv:5416 , prinactiv:2418 , prinactiv:5398 , prinactiv:8126 , prinactiv:1424 , prinactiv:4275 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Gitelman>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Enfermedad_mano-pie-boca>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Asherman>
+        med:enfermedadTieneTratamiento  prinactiv:6654 , prinactiv:7680 .
+
+<http://es.dbpedia.org/resource/Parálisis_periódica_hipercaliémica>
+        med:enfermedadTieneTratamiento  prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Sulfohemoglobinemia>
+        med:enfermedadTieneTratamiento  prinactiv:7489 , prinactiv:2701 , prinactiv:1740 , prinactiv:3810 .
+
+<http://es.dbpedia.org/resource/Flatulencia>
+        med:enfermedadTieneTratamiento  prinactiv:11151 , prinactiv:2870 , prinactiv:6482 , prinactiv:1142 .
+
+<http://es.dbpedia.org/resource/Cetoacidosis_alcohólica>
+        med:enfermedadTieneTratamiento  prinactiv:5776 , prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_piel_escaldada_por_estafilococo>
+        med:enfermedadTieneTratamiento  prinactiv:3701 , prinactiv:6361 .
+
+<http://es.dbpedia.org/resource/Leucemia_linfática_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:12565 , prinactiv:6249 , prinactiv:356 , prinactiv:2701 , prinactiv:11272 , prinactiv:9762 , prinactiv:10598 , prinactiv:6345 , prinactiv:669 , prinactiv:11465 , prinactiv:1447 , prinactiv:929 , prinactiv:11148 , prinactiv:11871 , prinactiv:6999 .
+
+<http://es.dbpedia.org/resource/Intoxicación_por_arsénico>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:5776 , prinactiv:1910 , prinactiv:1803 .
+
+<http://es.dbpedia.org/resource/Tabes_dorsal>
+        med:enfermedadTieneTratamiento  prinactiv:5760 .
+
+<http://es.dbpedia.org/resource/Impactación_fecal>
+        med:enfermedadTieneTratamiento  prinactiv:1775 , prinactiv:3064 .
+
+<http://es.dbpedia.org/resource/Delirium_tremens>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:1883 , prinactiv:2586 , prinactiv:6155 .
+
+<http://es.dbpedia.org/resource/Hemoglobina_C>
+        med:enfermedadTieneTratamiento  prinactiv:3896 .
+
+<http://es.dbpedia.org/resource/Hiperqueratosis>
+        med:enfermedadTieneTratamiento  prinactiv:6941 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Tarui>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Anafilaxia>
+        med:enfermedadTieneTratamiento  prinactiv:4487 , prinactiv:6333 , prinactiv:1883 , prinactiv:2619 , prinactiv:3431 , prinactiv:276 , prinactiv:2738 , prinactiv:5700 , prinactiv:6260 , prinactiv:6259 , prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Taquicardia_de_reentrada_del_nódulo_auriculoventricular>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:3629 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Foliculitis_decalvante>
+        med:enfermedadTieneTratamiento  prinactiv:6841 .
+
+<http://es.dbpedia.org/resource/Enuresis>
+        med:enfermedadTieneTratamiento  prinactiv:2776 , prinactiv:5191 .
+
+<http://es.dbpedia.org/resource/Estrabismo>
+        med:enfermedadTieneTratamiento  prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Degeneración_lobular_frontotemporal>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Sever>
+        med:enfermedadTieneTratamiento  prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Tuberculosis>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:2504 , prinactiv:3773 , prinactiv:3531 , prinactiv:2066 , prinactiv:5636 .
+
+<http://es.dbpedia.org/resource/Traumatismo_abdominal>
+        med:enfermedadTieneTratamiento  prinactiv:1413 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_biotinidasa>
+        med:enfermedadTieneTratamiento  prinactiv:5598 .
+
+<http://es.dbpedia.org/resource/VIH/sida>
+        med:enfermedadTieneTratamiento  prinactiv:8948 , prinactiv:987 .
+
+<http://es.dbpedia.org/resource/Microcoria_congénita>
+        med:enfermedadTieneTratamiento  prinactiv:5661 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Polaquiuria>
+        med:enfermedadTieneTratamiento  prinactiv:6190 .
+
+<http://es.dbpedia.org/resource/Neuralgia_del_glosofaríngeo>
+        med:enfermedadTieneTratamiento  prinactiv:7454 , prinactiv:9416 , prinactiv:1168 .
+
+<http://es.dbpedia.org/resource/Placenta_previa>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Dermatitis_atópica>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:8009 , prinactiv:5416 , prinactiv:5398 .
+
+<http://es.dbpedia.org/resource/Viruela_símica>
+        med:enfermedadTieneTratamiento  prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Neuroimagen>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_cardíaca>
+        med:enfermedadTieneTratamiento  prinactiv:6719 , prinactiv:5234 , prinactiv:6317 , prinactiv:444 , prinactiv:873 , prinactiv:1768 , prinactiv:4946 , prinactiv:6206 , prinactiv:502 , prinactiv:2430 , prinactiv:7031 , prinactiv:3893 , prinactiv:9374 , prinactiv:4463 .
+
+<http://es.dbpedia.org/resource/Pitiriasis_liquenoide>
+        med:enfermedadTieneTratamiento  prinactiv:5416 , prinactiv:5398 .
+
+<http://es.dbpedia.org/resource/Hiperostosis_esquelética_idiopática_difusa>
+        med:enfermedadTieneTratamiento  prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Histiocitosis_de_células_de_Langerhans>
+        med:enfermedadTieneTratamiento  prinactiv:5191 .
+
+<http://es.dbpedia.org/resource/Nictalopía>
+        med:enfermedadTieneTratamiento  prinactiv:6380 , prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Efectos_a_largo_plazo_de_las_benzodiacepinas>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:2952 , prinactiv:6155 , prinactiv:5965 , prinactiv:6582 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_niño_sacudido>
+        med:enfermedadTieneTratamiento  prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Ototoxicidad>
+        med:enfermedadTieneTratamiento  prinactiv:4360 , prinactiv:2738 , prinactiv:6251 , prinactiv:2489 , prinactiv:2430 , prinactiv:5636 , prinactiv:1950 , prinactiv:5973 , prinactiv:5155 .
+
+<http://es.dbpedia.org/resource/Disgeusia>
+        med:enfermedadTieneTratamiento  prinactiv:6249 , prinactiv:5323 , prinactiv:152 , prinactiv:1803 , prinactiv:1788 , prinactiv:3773 , prinactiv:6245 , prinactiv:6395 , prinactiv:2567 , prinactiv:5978 .
+
+<http://es.dbpedia.org/resource/Cáncer_medular_tiroideo>
+        med:enfermedadTieneTratamiento  prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Odinofagia>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Ataxia_cerebelosa_autosómica_dominante>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Canalopatía>
+        med:enfermedadTieneTratamiento  prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Criptococosis>
+        med:enfermedadTieneTratamiento  prinactiv:7032 .
+
+<http://es.dbpedia.org/resource/Encefalopatía_espongiforme_transmisible>
+        med:enfermedadTieneTratamiento  prinactiv:1910 .
+
+<http://es.dbpedia.org/resource/Blefaritis>
+        med:enfermedadTieneTratamiento  prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Epileptogénesis>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Necrosis_retiniana_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:7434 , prinactiv:1453 , prinactiv:7575 .
+
+<http://es.dbpedia.org/resource/Gripe_porcina>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:973 , prinactiv:350 , prinactiv:7971 .
+
+<http://es.dbpedia.org/resource/Resfriado_común>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:2738 , prinactiv:5893 , prinactiv:350 , prinactiv:142 , prinactiv:6140 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_respiratoria>
+        med:enfermedadTieneTratamiento  prinactiv:298 , prinactiv:7077 .
+
+<http://es.dbpedia.org/resource/Fiebre_africana_por_picadura_de_garrapatas>
+        med:enfermedadTieneTratamiento  prinactiv:1188 , prinactiv:2847 , prinactiv:1887 , prinactiv:5449 , prinactiv:6759 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Desnutrición>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:3893 .
+
+<http://es.dbpedia.org/resource/Erisipela>
+        med:enfermedadTieneTratamiento  prinactiv:3059 , prinactiv:131 , prinactiv:6759 , prinactiv:1950 , prinactiv:5289 , prinactiv:7533 , prinactiv:6273 , prinactiv:6859 , prinactiv:2619 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Colitis_linfocítica>
+        med:enfermedadTieneTratamiento  prinactiv:6682 , prinactiv:7502 , prinactiv:7234 , prinactiv:3219 , prinactiv:7467 , prinactiv:6837 , prinactiv:7494 , prinactiv:6037 .
+
+<http://es.dbpedia.org/resource/Hiperpotasemia>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:3815 , prinactiv:2430 , prinactiv:4463 .
+
+<http://es.dbpedia.org/resource/Pirosis>
+        med:enfermedadTieneTratamiento  prinactiv:113 .
+
+<http://es.dbpedia.org/resource/Glomeruloesclerosis_focal_y_segmentaria>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Tumor_de_Hürthle>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Dermatosis_ampollar_IgA_lineal>
+        med:enfermedadTieneTratamiento  prinactiv:6885 , prinactiv:6341 , prinactiv:6088 .
+
+<http://es.dbpedia.org/resource/Saturnismo>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:2701 , prinactiv:3431 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Vaginosis_bacteriana>
+        med:enfermedadTieneTratamiento  prinactiv:4232 , prinactiv:3145 , prinactiv:4508 , prinactiv:5909 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Chagas>
+        med:enfermedadTieneTratamiento  prinactiv:9547 , prinactiv:6414 , prinactiv:5366 .
+
+<http://es.dbpedia.org/resource/Argininemia>
+        med:enfermedadTieneTratamiento  prinactiv:13 .
+
+<http://es.dbpedia.org/resource/Amiloidosis>
+        med:enfermedadTieneTratamiento  prinactiv:2792 , prinactiv:6341 , prinactiv:1958 .
+
+<http://es.dbpedia.org/resource/Fibromialgia>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:1168 , prinactiv:9416 , prinactiv:1885 , prinactiv:7476 , prinactiv:6724 , prinactiv:1234 , prinactiv:7234 , prinactiv:5370 , prinactiv:7467 , prinactiv:1287 , prinactiv:3629 , prinactiv:5755 , prinactiv:649 , prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Mareo>
+        med:enfermedadTieneTratamiento  prinactiv:1624 .
+
+<http://es.dbpedia.org/resource/Cromosoma_Filadelfia>
+        med:enfermedadTieneTratamiento  prinactiv:559 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Hajdu_Cheney>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Cannabis_(psicotrópico)>
+        med:enfermedadTieneTratamiento  prinactiv:6459 , prinactiv:6486 , prinactiv:6490 , prinactiv:3431 , prinactiv:9605 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Stevens-Johnson>
+        med:enfermedadTieneTratamiento  prinactiv:356 , prinactiv:3538 , prinactiv:1887 , prinactiv:1527 , prinactiv:2765 , prinactiv:6190 , prinactiv:3280 , prinactiv:7454 , prinactiv:2119 , prinactiv:866 , prinactiv:9643 , prinactiv:908 , prinactiv:5760 , prinactiv:6175 , prinactiv:5398 , prinactiv:7533 , prinactiv:4324 , prinactiv:7518 , prinactiv:7971 , prinactiv:7413 , prinactiv:7032 , prinactiv:10133 .
+
+<http://es.dbpedia.org/resource/Histiocitosis>
+        med:enfermedadTieneTratamiento  prinactiv:6245 .
+
+<http://es.dbpedia.org/resource/Candidiasis>
+        med:enfermedadTieneTratamiento  prinactiv:7959 , prinactiv:3280 , prinactiv:5341 , prinactiv:7032 , prinactiv:6029 , prinactiv:5993 , prinactiv:7956 .
+
+<http://es.dbpedia.org/resource/Gripe_aviaria>
+        med:enfermedadTieneTratamiento  prinactiv:973 , prinactiv:7971 , prinactiv:5113 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_magnesio>
+        med:enfermedadTieneTratamiento  prinactiv:6294 , prinactiv:6650 , prinactiv:2489 , prinactiv:4271 , prinactiv:5398 , prinactiv:3431 , prinactiv:3629 , prinactiv:6631 , prinactiv:10329 , prinactiv:2430 , prinactiv:2418 , prinactiv:318 , prinactiv:444 , prinactiv:5973 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_la_hormona_de_crecimiento>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Timoma>
+        med:enfermedadTieneTratamiento  prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Manía>
+        med:enfermedadTieneTratamiento  prinactiv:7454 , prinactiv:5755 , prinactiv:5760 , prinactiv:7413 , prinactiv:6157 , prinactiv:4383 , prinactiv:954 , prinactiv:6033 , prinactiv:7722 , prinactiv:5965 , prinactiv:9399 , prinactiv:821 .
+
+<http://es.dbpedia.org/resource/Diarrea>
+        med:enfermedadTieneTratamiento  prinactiv:5893 , prinactiv:5755 , prinactiv:502 , prinactiv:3173 , prinactiv:2757 , prinactiv:6490 , prinactiv:6037 , prinactiv:2870 , prinactiv:2765 , prinactiv:3629 , prinactiv:444 , prinactiv:1887 , prinactiv:4106 , prinactiv:1950 , prinactiv:3145 , prinactiv:4563 , prinactiv:4360 , prinactiv:6486 , prinactiv:5449 , prinactiv:6384 .
+
+<http://es.dbpedia.org/resource/Demencia_con_cuerpos_de_Lewy>
+        med:enfermedadTieneTratamiento  prinactiv:2909 .
+
+<http://es.dbpedia.org/resource/Herpes_simple>
+        med:enfermedadTieneTratamiento  prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_iris_flácido_intraoperatorio>
+        med:enfermedadTieneTratamiento  prinactiv:778 .
+
+<http://es.dbpedia.org/resource/Pinta_(enfermedad)>
+        med:enfermedadTieneTratamiento  prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Ergotismo>
+        med:enfermedadTieneTratamiento  prinactiv:2390 .
+
+<http://es.dbpedia.org/resource/Quemadura_química>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:3570 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Adenoma_suprarrenal>
+        med:enfermedadTieneTratamiento  prinactiv:5341 .
+
+<http://es.dbpedia.org/resource/Síndrome_poliglandular_autoinmune>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Intoxicación_por_talio>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:5893 , prinactiv:2023 .
+
+<http://es.dbpedia.org/resource/Esquistosomiasis>
+        med:enfermedadTieneTratamiento  prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Ateroesclerosis>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:7860 , prinactiv:318 , prinactiv:6259 , prinactiv:3431 , prinactiv:941 , prinactiv:6979 , prinactiv:2941 , prinactiv:6037 .
+
+<http://es.dbpedia.org/resource/Faringitis_estreptocócica>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:117 , prinactiv:1950 , prinactiv:5909 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Ciclosporosis>
+        med:enfermedadTieneTratamiento  prinactiv:4106 .
+
+<http://es.dbpedia.org/resource/Eumicetoma>
+        med:enfermedadTieneTratamiento  prinactiv:7959 , prinactiv:5341 , prinactiv:7036 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Esclerosis_tuberosa>
+        med:enfermedadTieneTratamiento  prinactiv:9605 .
+
+<http://es.dbpedia.org/resource/Encefalitis_de_Hashimoto>
+        med:enfermedadTieneTratamiento  prinactiv:6341 , prinactiv:5416 , prinactiv:6357 , prinactiv:6010 , prinactiv:356 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Acondroplasia>
+        med:enfermedadTieneTratamiento  prinactiv:2560 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Addison>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:610 , prinactiv:3431 , prinactiv:3773 , prinactiv:5341 , prinactiv:5700 , prinactiv:6069 .
+
+<http://es.dbpedia.org/resource/Anorquia>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Narcolepsia>
+        med:enfermedadTieneTratamiento  prinactiv:1287 , prinactiv:6921 , prinactiv:1527 , prinactiv:5217 , prinactiv:2776 , prinactiv:6724 , prinactiv:2106 .
+
+<http://es.dbpedia.org/resource/Accidente_cerebrovascular>
+        med:enfermedadTieneTratamiento  prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Fiebre_tifoidea>
+        med:enfermedadTieneTratamiento  prinactiv:5449 , prinactiv:14 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_XYY>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Acalasia>
+        med:enfermedadTieneTratamiento  prinactiv:88 , prinactiv:11039 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Acidemia_isovalérica>
+        med:enfermedadTieneTratamiento  prinactiv:2560 , prinactiv:2311 .
+
+<http://es.dbpedia.org/resource/Babesiosis>
+        med:enfermedadTieneTratamiento  prinactiv:5909 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Factores_de_riesgo_del_cáncer_gástrico>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:3701 , prinactiv:6486 , prinactiv:6490 , prinactiv:13 , prinactiv:2941 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Parkinson>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:855 , prinactiv:1883 , prinactiv:6921 , prinactiv:9516 , prinactiv:2909 , prinactiv:4552 .
+
+<http://es.dbpedia.org/resource/Drogodependencia>
+        med:enfermedadTieneTratamiento  prinactiv:5217 .
+
+<http://es.dbpedia.org/resource/Conjuntivitis_alérgica>
+        med:enfermedadTieneTratamiento  prinactiv:6678 , prinactiv:6190 , prinactiv:4421 .
+
+<http://es.dbpedia.org/resource/Degradación_walleriana>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Taquicardia_sinusal>
+        med:enfermedadTieneTratamiento  prinactiv:6979 , prinactiv:3888 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_von_Willebrand>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:5191 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Laringotraqueobronquitis>
+        med:enfermedadTieneTratamiento  prinactiv:4360 , prinactiv:10149 , prinactiv:6259 , prinactiv:5484 , prinactiv:6140 , prinactiv:6120 , prinactiv:5289 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Deshidratación>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:2870 .
+
+<http://es.dbpedia.org/resource/Onicomicosis>
+        med:enfermedadTieneTratamiento  prinactiv:7756 , prinactiv:7036 , prinactiv:2567 , prinactiv:6616 , prinactiv:7527 .
+
+<http://es.dbpedia.org/resource/Anemia_de_células_falciformes>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:3431 , prinactiv:3952 .
+
+<http://es.dbpedia.org/resource/Canicie>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Taquicardia_sinusal_inapropiada>
+        med:enfermedadTieneTratamiento  prinactiv:2298 .
+
+<http://es.dbpedia.org/resource/Temblor_esencial>
+        med:enfermedadTieneTratamiento  prinactiv:6490 , prinactiv:1168 , prinactiv:3684 , prinactiv:524 , prinactiv:1444 , prinactiv:9416 , prinactiv:6486 , prinactiv:5023 , prinactiv:4885 , prinactiv:7518 , prinactiv:7767 , prinactiv:3660 , prinactiv:5726 , prinactiv:6582 , prinactiv:5965 , prinactiv:264 .
+
+<http://es.dbpedia.org/resource/Encefalopatía_de_Wernicke>
+        med:enfermedadTieneTratamiento  prinactiv:5776 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Whipple>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:4106 , prinactiv:6565 , prinactiv:6653 , prinactiv:1887 , prinactiv:14 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_recién_nacido_gris>
+        med:enfermedadTieneTratamiento  prinactiv:5730 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Malaria>
+        med:enfermedadTieneTratamiento  prinactiv:6010 .
+
+<http://es.dbpedia.org/resource/Intoxicación_cianhídrica>
+        med:enfermedadTieneTratamiento  prinactiv:6155 .
+
+<http://es.dbpedia.org/resource/Tétanos>
+        med:enfermedadTieneTratamiento  prinactiv:2560 , prinactiv:404 , prinactiv:6486 , prinactiv:6490 , prinactiv:3431 , prinactiv:276 , prinactiv:3145 .
+
+<http://es.dbpedia.org/resource/Tenosinovitis>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Trastorno_del_desarrollo_neurológico>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:7001 .
+
+<http://es.dbpedia.org/resource/Parálisis_por_picadura_de_garrapata>
+        med:enfermedadTieneTratamiento  prinactiv:1188 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Cáncer_colorrectal>
+        med:enfermedadTieneTratamiento  prinactiv:2418 , prinactiv:2701 , prinactiv:5893 , prinactiv:1252 , prinactiv:2765 , prinactiv:9469 .
+
+<http://es.dbpedia.org/resource/Intoxicación_por_ingestión_de_marisco>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Tumor_del_estroma_gastrointestinal>
+        med:enfermedadTieneTratamiento  prinactiv:9602 , prinactiv:559 .
+
+<http://es.dbpedia.org/resource/Hipersensibilidad_de_tipo_II>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Cetonuria>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Porfiria_cutánea_tarda>
+        med:enfermedadTieneTratamiento  prinactiv:6380 , prinactiv:3704 , prinactiv:2701 , prinactiv:4275 , prinactiv:5893 , prinactiv:8343 , prinactiv:6653 , prinactiv:6010 .
+
+<http://es.dbpedia.org/resource/Reumatismo>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:3231 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Granulomatosis_linfomatoide>
+        med:enfermedadTieneTratamiento  prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Derrame_pleural>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Miliaria>
+        med:enfermedadTieneTratamiento  prinactiv:2023 .
+
+<http://es.dbpedia.org/resource/Jet_lag>
+        med:enfermedadTieneTratamiento  prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Hipotiroidismo>
+        med:enfermedadTieneTratamiento  prinactiv:2792 , prinactiv:5755 , prinactiv:6941 , prinactiv:502 , prinactiv:2701 , prinactiv:2920 .
+
+<http://es.dbpedia.org/resource/Dermatitis_herpetiforme>
+        med:enfermedadTieneTratamiento  prinactiv:3810 , prinactiv:6088 .
+
+<http://es.dbpedia.org/resource/Panbronquiolitis_difusa>
+        med:enfermedadTieneTratamiento  prinactiv:6859 , prinactiv:1950 , prinactiv:7214 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_moyamoya>
+        med:enfermedadTieneTratamiento  prinactiv:4410 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Asma_ocupacional>
+        med:enfermedadTieneTratamiento  prinactiv:10042 .
+
+<http://es.dbpedia.org/resource/Pericarditis_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:3666 , prinactiv:2516 .
+
+<http://es.dbpedia.org/resource/Escarlatina>
+        med:enfermedadTieneTratamiento  prinactiv:1950 , prinactiv:7533 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Cianosis>
+        med:enfermedadTieneTratamiento  prinactiv:6088 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Cálculo_de_la_glándula_salival>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Cálculo_dental>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Aerofagia>
+        med:enfermedadTieneTratamiento  prinactiv:6018 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Blau>
+        med:enfermedadTieneTratamiento  prinactiv:989 .
+
+<http://es.dbpedia.org/resource/Pancreatitis_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_West>
+        med:enfermedadTieneTratamiento  prinactiv:6341 , prinactiv:7454 , prinactiv:7767 , prinactiv:2560 , prinactiv:5730 , prinactiv:10329 , prinactiv:7216 , prinactiv:4683 , prinactiv:5965 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Vértigo>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:4134 , prinactiv:4478 , prinactiv:4477 , prinactiv:1366 , prinactiv:6155 , prinactiv:5567 .
+
+<http://es.dbpedia.org/resource/Fractura_costal>
+        med:enfermedadTieneTratamiento  prinactiv:3173 .
+
+<http://es.dbpedia.org/resource/Síndrome_hepatorrenal>
+        med:enfermedadTieneTratamiento  prinactiv:4533 , prinactiv:6929 , prinactiv:7164 .
+
+<http://es.dbpedia.org/resource/Hipoglucemia_diabética>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Astrocitoma_anaplásico>
+        med:enfermedadTieneTratamiento  prinactiv:975 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_cardíaca_aguda_descompensada>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:3173 , prinactiv:2430 , prinactiv:6206 , prinactiv:5669 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Felty>
+        med:enfermedadTieneTratamiento  prinactiv:929 , prinactiv:641 .
+
+<http://es.dbpedia.org/resource/Distrofia_neuroaxonal_infantil>
+        med:enfermedadTieneTratamiento  prinactiv:5477 .
+
+<http://es.dbpedia.org/resource/Degeneración_macular_asociada_a_la_edad>
+        med:enfermedadTieneTratamiento  prinactiv:9639 , prinactiv:9553 , prinactiv:9469 , prinactiv:10827 .
+
+<http://es.dbpedia.org/resource/Muerte_fetal>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_yodo>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Peste_pulmonar>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:2489 , prinactiv:5636 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Temblor_postanestésico>
+        med:enfermedadTieneTratamiento  prinactiv:6945 , prinactiv:3030 , prinactiv:4829 , prinactiv:5966 .
+
+<http://es.dbpedia.org/resource/Nódulo_tiroideo>
+        med:enfermedadTieneTratamiento  prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Cromomicosis>
+        med:enfermedadTieneTratamiento  prinactiv:7036 .
+
+<http://es.dbpedia.org/resource/Fractura_de_rótula>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:3231 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Beriberi>
+        med:enfermedadTieneTratamiento  prinactiv:5614 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Strumpell_Lorrain>
+        med:enfermedadTieneTratamiento  prinactiv:875 , prinactiv:7229 , prinactiv:6155 , prinactiv:5965 , prinactiv:5477 .
+
+<http://es.dbpedia.org/resource/Xerostomía>
+        med:enfermedadTieneTratamiento  prinactiv:5821 , prinactiv:2875 , prinactiv:5993 .
+
+<http://es.dbpedia.org/resource/Esclerosis_múltiple>
+        med:enfermedadTieneTratamiento  prinactiv:3701 , prinactiv:1891 , prinactiv:4275 , prinactiv:5893 , prinactiv:8343 , prinactiv:11131 , prinactiv:9627 , prinactiv:6999 , prinactiv:10441 .
+
+<http://es.dbpedia.org/resource/Fibrosis_quística>
+        med:enfermedadTieneTratamiento  prinactiv:142 , prinactiv:4321 , prinactiv:2875 , prinactiv:318 , prinactiv:4275 , prinactiv:3431 , prinactiv:4360 , prinactiv:8343 , prinactiv:6260 , prinactiv:7459 , prinactiv:2489 , prinactiv:3815 , prinactiv:7533 , prinactiv:502 , prinactiv:11112 , prinactiv:3893 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Tumor_desmoide>
+        med:enfermedadTieneTratamiento  prinactiv:6157 .
+
+<http://es.dbpedia.org/resource/Eyaculación_retrógrada>
+        med:enfermedadTieneTratamiento  prinactiv:778 , prinactiv:2776 .
+
+<http://es.dbpedia.org/resource/Síndrome_nefrótico>
+        med:enfermedadTieneTratamiento  prinactiv:6341 , prinactiv:502 , prinactiv:6875 , prinactiv:2792 , prinactiv:3431 , prinactiv:5323 , prinactiv:356 , prinactiv:444 , prinactiv:7860 , prinactiv:2701 , prinactiv:2619 , prinactiv:2430 .
+
+<http://es.dbpedia.org/resource/Tiña_incógnita>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:7756 , prinactiv:8009 , prinactiv:7036 , prinactiv:2567 , prinactiv:7032 , prinactiv:6029 , prinactiv:5575 .
+
+<http://es.dbpedia.org/resource/Oftalmía_simpática>
+        med:enfermedadTieneTratamiento  prinactiv:5398 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Meningoencefalitis_amebiana_primaria>
+        med:enfermedadTieneTratamiento  prinactiv:7959 , prinactiv:9547 , prinactiv:1061 , prinactiv:7032 .
+
+<http://es.dbpedia.org/resource/Seleniosis>
+        med:enfermedadTieneTratamiento  prinactiv:2418 , prinactiv:3120 .
+
+<http://es.dbpedia.org/resource/Colestasis>
+        med:enfermedadTieneTratamiento  prinactiv:7756 , prinactiv:2776 , prinactiv:2392 , prinactiv:6037 , prinactiv:6018 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Frey>
+        med:enfermedadTieneTratamiento  prinactiv:1963 .
+
+<http://es.dbpedia.org/resource/Hepatitis_B>
+        med:enfermedadTieneTratamiento  prinactiv:564 , prinactiv:1309 , prinactiv:9599 .
+
+<http://es.dbpedia.org/resource/Beta-talasemia>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Otitis_externa>
+        med:enfermedadTieneTratamiento  prinactiv:6228 , prinactiv:6800 , prinactiv:6251 , prinactiv:5700 , prinactiv:6759 .
+
+<http://es.dbpedia.org/resource/Artritis>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Hemosiderosis_pulmonar_idiopática>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Fiebre_de_las_trincheras>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:1887 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Leishmaniasis>
+        med:enfermedadTieneTratamiento  prinactiv:2503 , prinactiv:5341 , prinactiv:7036 , prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Mordedura_animal>
+        med:enfermedadTieneTratamiento  prinactiv:3145 , prinactiv:1950 , prinactiv:1887 , prinactiv:6361 , prinactiv:7214 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Kawasaki>
+        med:enfermedadTieneTratamiento  prinactiv:2738 .
+
+<http://es.dbpedia.org/resource/Piomiositis>
+        med:enfermedadTieneTratamiento  prinactiv:6361 .
+
+<http://es.dbpedia.org/resource/Fractura_de_cráneo>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Tiroiditis_de_Hashimoto>
+        med:enfermedadTieneTratamiento  prinactiv:2920 .
+
+<http://es.dbpedia.org/resource/Insomnio>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Hepatopatía>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Acidosis_tubular_renal>
+        med:enfermedadTieneTratamiento  prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_mama>
+        med:enfermedadTieneTratamiento  prinactiv:1420 , prinactiv:6157 , prinactiv:3670 , prinactiv:2392 .
+
+<http://es.dbpedia.org/resource/Encefalomielitis_aguda_diseminada>
+        med:enfermedadTieneTratamiento  prinactiv:6345 , prinactiv:6999 , prinactiv:6357 , prinactiv:6120 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Rubeola>
+        med:enfermedadTieneTratamiento  prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Síndrome_linfoproliferativo_autoinmune>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_autocervecería>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:10117 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sézary>
+        med:enfermedadTieneTratamiento  prinactiv:1208 .
+
+<http://es.dbpedia.org/resource/Úlcera_de_Buruli>
+        med:enfermedadTieneTratamiento  prinactiv:6228 .
+
+<http://es.dbpedia.org/resource/Enfermedad_mixta_del_tejido_conectivo>
+        med:enfermedadTieneTratamiento  prinactiv:7962 , prinactiv:931 , prinactiv:6341 , prinactiv:5416 , prinactiv:6653 , prinactiv:7021 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Hiperplasia>
+        med:enfermedadTieneTratamiento  prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Granuloma_inguinal>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:1950 , prinactiv:1887 , prinactiv:5449 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Bronquitis_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:3704 .
+
+<http://es.dbpedia.org/resource/Heteroforia>
+        med:enfermedadTieneTratamiento  prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Intoxicación_por_antagonistas_del_calcio>
+        med:enfermedadTieneTratamiento  prinactiv:7176 , prinactiv:4454 , prinactiv:3219 , prinactiv:6833 , prinactiv:318 , prinactiv:6206 , prinactiv:5234 , prinactiv:5173 , prinactiv:5641 , prinactiv:2430 , prinactiv:4383 , prinactiv:6259 , prinactiv:793 , prinactiv:5366 , prinactiv:444 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Papillon-Lefèvre>
+        med:enfermedadTieneTratamiento  prinactiv:3701 , prinactiv:4508 .
+
+<http://es.dbpedia.org/resource/Celulitis_periorbitaria>
+        med:enfermedadTieneTratamiento  prinactiv:6361 , prinactiv:6273 .
+
+<http://es.dbpedia.org/resource/Enfermedad_pulmonar_obstructiva_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:5023 , prinactiv:3701 , prinactiv:3629 , prinactiv:5499 , prinactiv:5893 , prinactiv:6341 , prinactiv:6357 , prinactiv:10042 , prinactiv:5700 .
+
+<http://es.dbpedia.org/resource/Mesotelioma_peritoneal>
+        med:enfermedadTieneTratamiento  prinactiv:5973 .
+
+<http://es.dbpedia.org/resource/Potomanía>
+        med:enfermedadTieneTratamiento  prinactiv:152 .
+
+<http://es.dbpedia.org/resource/Estrés>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Quiste_pilonidal>
+        med:enfermedadTieneTratamiento  prinactiv:404 .
+
+<http://es.dbpedia.org/resource/Salmonelosis>
+        med:enfermedadTieneTratamiento  prinactiv:6120 , prinactiv:5449 , prinactiv:6759 , prinactiv:5613 , prinactiv:14 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Ogilvie>
+        med:enfermedadTieneTratamiento  prinactiv:3257 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Graves-Basedow>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Larva_migrans_cutáneo>
+        med:enfermedadTieneTratamiento  prinactiv:7926 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Neurocisticercosis>
+        med:enfermedadTieneTratamiento  prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Absceso_hepático_amebiano>
+        med:enfermedadTieneTratamiento  prinactiv:3145 .
+
+<http://es.dbpedia.org/resource/Disautonomía>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Enfermedad_coronaria>
+        med:enfermedadTieneTratamiento  prinactiv:3893 .
+
+<http://es.dbpedia.org/resource/Porfiria>
+        med:enfermedadTieneTratamiento  prinactiv:3660 , prinactiv:5755 , prinactiv:3475 , prinactiv:3684 , prinactiv:502 , prinactiv:2701 , prinactiv:318 , prinactiv:5760 , prinactiv:6010 , prinactiv:3629 , prinactiv:4275 , prinactiv:2567 , prinactiv:2390 .
+
+<http://es.dbpedia.org/resource/Neumoconiosis>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:2701 , prinactiv:6055 .
+
+<http://es.dbpedia.org/resource/Uveítis>
+        med:enfermedadTieneTratamiento  prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Tourette>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:5966 , prinactiv:4533 , prinactiv:9514 , prinactiv:6724 , prinactiv:7467 , prinactiv:5965 , prinactiv:7234 , prinactiv:5217 , prinactiv:2586 .
+
+<http://es.dbpedia.org/resource/Pleuritis>
+        med:enfermedadTieneTratamiento  prinactiv:2530 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Diarrea_del_viajero>
+        med:enfermedadTieneTratamiento  prinactiv:2792 , prinactiv:3809 , prinactiv:4563 , prinactiv:866 , prinactiv:4508 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Estridor>
+        med:enfermedadTieneTratamiento  prinactiv:10149 , prinactiv:6120 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Hiperparatiroidismo>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Botriocefalosis>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Atrofia_muscular>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:3896 , prinactiv:3893 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_las_piernas_inquietas>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:2909 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Aicardi>
+        med:enfermedadTieneTratamiento  prinactiv:7216 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Bartter>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:2430 , prinactiv:4463 .
+
+<http://es.dbpedia.org/resource/Crisis_generalizadas>
+        med:enfermedadTieneTratamiento  prinactiv:7454 , prinactiv:7518 , prinactiv:7767 , prinactiv:524 .
+
+<http://es.dbpedia.org/resource/Úlcera_péptica>
+        med:enfermedadTieneTratamiento  prinactiv:113 , prinactiv:6205 , prinactiv:3219 , prinactiv:2765 , prinactiv:6834 , prinactiv:1413 .
+
+<http://es.dbpedia.org/resource/Reacción_adversa_a_medicamento>
+        med:enfermedadTieneTratamiento  prinactiv:6249 , prinactiv:276 , prinactiv:5341 , prinactiv:2066 , prinactiv:2643 , prinactiv:5636 , prinactiv:4301 , prinactiv:3030 , prinactiv:5366 , prinactiv:3145 , prinactiv:5755 , prinactiv:1851 , prinactiv:5323 , prinactiv:6297 , prinactiv:2567 , prinactiv:3751 , prinactiv:444 , prinactiv:4463 , prinactiv:5893 , prinactiv:3629 , prinactiv:350 , prinactiv:2909 , prinactiv:88 , prinactiv:3173 , prinactiv:2530 , prinactiv:6010 , prinactiv:5449 , prinactiv:2516 , prinactiv:6188 , prinactiv:2619 , prinactiv:5760 , prinactiv:3666 , prinactiv:1950 , prinactiv:5473 , prinactiv:2470 , prinactiv:2964 , prinactiv:5398 , prinactiv:2430 , prinactiv:6030 , prinactiv:6088 , prinactiv:5023 , prinactiv:6222 , prinactiv:5234 , prinactiv:3064 , prinactiv:6037 , prinactiv:14 , prinactiv:5416 , prinactiv:3773 , prinactiv:6251 , prinactiv:300 , prinactiv:1803 , prinactiv:5113 , prinactiv:3105 , prinactiv:3475 , prinactiv:6651 , prinactiv:7722 , prinactiv:2738 , prinactiv:4324 , prinactiv:5730 , prinactiv:6363 , prinactiv:2489 , prinactiv:6837 , prinactiv:2390 , prinactiv:1958 , prinactiv:5966 , prinactiv:152 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Kabuki>
+        med:enfermedadTieneTratamiento  prinactiv:3896 .
+
+<http://es.dbpedia.org/resource/Trastorno_dismórfico_corporal>
+        med:enfermedadTieneTratamiento  prinactiv:7234 , prinactiv:7467 , prinactiv:6707 , prinactiv:6724 , prinactiv:5962 , prinactiv:1234 .
+
+<http://es.dbpedia.org/resource/Leucoencefalopatía_multifocal_progresiva>
+        med:enfermedadTieneTratamiento  prinactiv:989 , prinactiv:929 , prinactiv:9627 .
+
+<http://es.dbpedia.org/resource/Talasemia>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:6097 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Pontius>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Mastocitosis>
+        med:enfermedadTieneTratamiento  prinactiv:5776 , prinactiv:2439 , prinactiv:3173 , prinactiv:1963 .
+
+<http://es.dbpedia.org/resource/Pancreatitis>
+        med:enfermedadTieneTratamiento  prinactiv:4321 , prinactiv:6345 , prinactiv:6631 , prinactiv:2941 , prinactiv:2430 , prinactiv:7591 , prinactiv:1413 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Dravet>
+        med:enfermedadTieneTratamiento  prinactiv:7454 , prinactiv:7767 , prinactiv:5760 , prinactiv:9605 .
+
+<http://es.dbpedia.org/resource/Anaplasmosis_granulocítica_humana>
+        med:enfermedadTieneTratamiento  prinactiv:3773 , prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Ataxia_de_Friedreich>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_acaparador_compulsivo>
+        med:enfermedadTieneTratamiento  prinactiv:7234 , prinactiv:7467 , prinactiv:6707 , prinactiv:6724 , prinactiv:5962 , prinactiv:1234 .
+
+<http://es.dbpedia.org/resource/Priapismo>
+        med:enfermedadTieneTratamiento  prinactiv:4297 , prinactiv:4188 , prinactiv:4487 , prinactiv:6033 , prinactiv:6018 , prinactiv:4522 .
+
+<http://es.dbpedia.org/resource/Osteomielitis>
+        med:enfermedadTieneTratamiento  prinactiv:4360 .
+
+<http://es.dbpedia.org/resource/Hiperfosfatemia>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Lesión_pulmonar_asociada_al_uso_de_cigarrillos_electrónicos_o_al_vapeo>
+        med:enfermedadTieneTratamiento  prinactiv:2504 , prinactiv:4275 , prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Espongiosis_medular_renal>
+        med:enfermedadTieneTratamiento  prinactiv:3173 , prinactiv:2247 .
+
+<http://es.dbpedia.org/resource/Encefalitis_letárgica>
+        med:enfermedadTieneTratamiento  prinactiv:2909 .
+
+<http://es.dbpedia.org/resource/Estreñimiento>
+        med:enfermedadTieneTratamiento  prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Sjögren>
+        med:enfermedadTieneTratamiento  prinactiv:929 , prinactiv:356 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Alergia_al_huevo>
+        med:enfermedadTieneTratamiento  prinactiv:6444 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Aciduria_metilmalónica>
+        med:enfermedadTieneTratamiento  prinactiv:2976 , prinactiv:3120 .
+
+<http://es.dbpedia.org/resource/Fiebre_paratifoidea_B>
+        med:enfermedadTieneTratamiento  prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Púrpura_trombocitopénica_trombótica>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:5437 , prinactiv:6397 , prinactiv:1116 , prinactiv:5398 .
+
+<http://es.dbpedia.org/resource/Síndrome_miasténico_de_Lambert-Eaton>
+        med:enfermedadTieneTratamiento  prinactiv:3257 .
+
+<http://es.dbpedia.org/resource/Eccema_dishidrótico>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:8009 , prinactiv:5416 , prinactiv:5398 .
+
+<http://es.dbpedia.org/resource/Microsporidiosis>
+        med:enfermedadTieneTratamiento  prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Ira>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Hidatidosis>
+        med:enfermedadTieneTratamiento  prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_lisis_tumoral>
+        med:enfermedadTieneTratamiento  prinactiv:444 .
+
+<http://es.dbpedia.org/resource/Trastorno_por_atracón>
+        med:enfermedadTieneTratamiento  prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Gilbert>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:2847 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Zollinger-Ellison>
+        med:enfermedadTieneTratamiento  prinactiv:6650 , prinactiv:7164 , prinactiv:7494 , prinactiv:1493 .
+
+<http://es.dbpedia.org/resource/Balanitis_xerótica_obliterans>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:8343 , prinactiv:8009 , prinactiv:5917 .
+
+<http://es.dbpedia.org/resource/Podoconiosis>
+        med:enfermedadTieneTratamiento  prinactiv:3629 , prinactiv:2701 , prinactiv:6055 .
+
+<http://es.dbpedia.org/resource/Disparador_de_crisis_(convulsión)>
+        med:enfermedadTieneTratamiento  prinactiv:6033 , prinactiv:5549 , prinactiv:5023 , prinactiv:3145 , prinactiv:6341 , prinactiv:2204 , prinactiv:2470 , prinactiv:6945 , prinactiv:3475 , prinactiv:6258 , prinactiv:5217 , prinactiv:1490 , prinactiv:6257 .
+
+<http://es.dbpedia.org/resource/Lupus_eritematoso_inducido_por_fármacos>
+        med:enfermedadTieneTratamiento  prinactiv:3810 , prinactiv:1497 , prinactiv:6653 , prinactiv:2470 , prinactiv:3155 , prinactiv:1483 , prinactiv:5323 , prinactiv:7454 , prinactiv:1745 , prinactiv:7502 , prinactiv:2119 , prinactiv:1324 , prinactiv:2643 , prinactiv:264 , prinactiv:5366 , prinactiv:1768 , prinactiv:5968 , prinactiv:152 , prinactiv:7756 , prinactiv:2509 , prinactiv:6018 , prinactiv:6744 , prinactiv:3773 , prinactiv:7713 , prinactiv:6837 , prinactiv:1803 , prinactiv:3105 , prinactiv:2567 , prinactiv:5383 , prinactiv:3666 , prinactiv:5173 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_abstinencia_de_las_benzodiazepinas>
+        med:enfermedadTieneTratamiento  prinactiv:7077 , prinactiv:5760 , prinactiv:6802 , prinactiv:2309 , prinactiv:6033 , prinactiv:3670 , prinactiv:2952 , prinactiv:6155 , prinactiv:5730 , prinactiv:6582 , prinactiv:5965 , prinactiv:821 , prinactiv:6018 , prinactiv:6812 .
+
+<http://es.dbpedia.org/resource/Mesotelioma>
+        med:enfermedadTieneTratamiento  prinactiv:2023 .
+
+<http://es.dbpedia.org/resource/Cascada_isquémica>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:3893 .
+
+<http://es.dbpedia.org/resource/Diabetes_mellitus_tipo_2>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:6363 , prinactiv:1788 , prinactiv:6796 .
+
+<http://es.dbpedia.org/resource/Miastenia_grave>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:6341 , prinactiv:3534 , prinactiv:4563 , prinactiv:5398 , prinactiv:356 , prinactiv:5473 , prinactiv:4324 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Colelitiasis>
+        med:enfermedadTieneTratamiento  prinactiv:5613 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Dubin-Johnson>
+        med:enfermedadTieneTratamiento  prinactiv:6259 .
+
+<http://es.dbpedia.org/resource/Dermatitis_de_contacto>
+        med:enfermedadTieneTratamiento  prinactiv:234 , prinactiv:6251 , prinactiv:5700 , prinactiv:6238 .
+
+<http://es.dbpedia.org/resource/Sensibilidad_al_gluten_no_celíaca>
+        med:enfermedadTieneTratamiento  prinactiv:2870 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_intestino_corto>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Leucorrea>
+        med:enfermedadTieneTratamiento  prinactiv:3254 , prinactiv:3280 , prinactiv:5613 , prinactiv:6029 , prinactiv:3145 , prinactiv:1950 , prinactiv:7032 , prinactiv:3147 , prinactiv:5909 , prinactiv:7533 , prinactiv:1887 , prinactiv:1984 .
+
+<http://es.dbpedia.org/resource/Linfoma_MALT>
+        med:enfermedadTieneTratamiento  prinactiv:669 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Intolerancia_a_la_lactosa>
+        med:enfermedadTieneTratamiento  prinactiv:11151 , prinactiv:2870 , prinactiv:318 , prinactiv:3431 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Sífilis>
+        med:enfermedadTieneTratamiento  prinactiv:1887 , prinactiv:5613 .
+
+<http://es.dbpedia.org/resource/Cetosis>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Enfisema_pulmonar>
+        med:enfermedadTieneTratamiento  prinactiv:3704 , prinactiv:3701 , prinactiv:3120 , prinactiv:8005 .
+
+<http://es.dbpedia.org/resource/Hepatitis_autoinmune>
+        med:enfermedadTieneTratamiento  prinactiv:1424 , prinactiv:5416 , prinactiv:5398 , prinactiv:5473 .
+
+<http://es.dbpedia.org/resource/Exanguinotransfusión>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:318 , prinactiv:3431 , prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Hipofosfatemia>
+        med:enfermedadTieneTratamiento  prinactiv:7434 , prinactiv:9600 , prinactiv:6631 , prinactiv:559 , prinactiv:3751 .
+
+<http://es.dbpedia.org/resource/Hidropericardias>
+        med:enfermedadTieneTratamiento  prinactiv:3770 , prinactiv:276 , prinactiv:3384 , prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Verruga_genital>
+        med:enfermedadTieneTratamiento  prinactiv:4362 , prinactiv:979 .
+
+<http://es.dbpedia.org/resource/Cólico_nefrítico>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:208 .
+
+<http://es.dbpedia.org/resource/Enfermedades_vasculares>
+        med:enfermedadTieneTratamiento  prinactiv:6979 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Gaucher>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_venosa_cerebroespinal_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Status_epilepticus>
+        med:enfermedadTieneTratamiento  prinactiv:4683 , prinactiv:5958 , prinactiv:318 , prinactiv:7518 , prinactiv:5965 , prinactiv:10329 , prinactiv:4243 , prinactiv:6928 , prinactiv:2952 , prinactiv:6802 , prinactiv:5776 , prinactiv:6155 , prinactiv:5730 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Osteodistrofia_renal>
+        med:enfermedadTieneTratamiento  prinactiv:345 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Disfunción_eréctil>
+        med:enfermedadTieneTratamiento  prinactiv:8018 , prinactiv:1883 , prinactiv:821 , prinactiv:4297 , prinactiv:931 , prinactiv:3173 , prinactiv:7073 , prinactiv:6222 , prinactiv:171 , prinactiv:8031 , prinactiv:1113 , prinactiv:797 , prinactiv:6363 , prinactiv:2586 , prinactiv:7722 , prinactiv:4552 , prinactiv:88 , prinactiv:4522 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_aplastamiento>
+        med:enfermedadTieneTratamiento  prinactiv:444 , prinactiv:3431 , prinactiv:3893 .
+
+<http://es.dbpedia.org/resource/Poliposis_adenomatosa_familiar>
+        med:enfermedadTieneTratamiento  prinactiv:7865 .
+
+<http://es.dbpedia.org/resource/Infarto_pulmonar>
+        med:enfermedadTieneTratamiento  prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Resaca>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Argiria>
+        med:enfermedadTieneTratamiento  prinactiv:3570 , prinactiv:6784 .
+
+<http://es.dbpedia.org/resource/Fractura_de_Le_Fort>
+        med:enfermedadTieneTratamiento  prinactiv:4268 .
+
+<http://es.dbpedia.org/resource/Tricoleucemia>
+        med:enfermedadTieneTratamiento  prinactiv:1448 .
+
+<http://es.dbpedia.org/resource/Hematoma_perianal>
+        med:enfermedadTieneTratamiento  prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Parestesia>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:502 , prinactiv:444 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Chancroide>
+        med:enfermedadTieneTratamiento  prinactiv:1950 , prinactiv:5613 , prinactiv:7533 .
+
+<http://es.dbpedia.org/resource/Fibrosis_pulmonar>
+        med:enfermedadTieneTratamiento  prinactiv:6651 , prinactiv:5473 , prinactiv:356 , prinactiv:5366 , prinactiv:858 , prinactiv:6030 , prinactiv:6341 , prinactiv:1958 , prinactiv:1803 , prinactiv:10320 , prinactiv:5398 , prinactiv:989 , prinactiv:5416 , prinactiv:11443 .
+
+<http://es.dbpedia.org/resource/Displasia_craneodiafisaria>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Hinchazón_abdominal>
+        med:enfermedadTieneTratamiento  prinactiv:3525 , prinactiv:3128 , prinactiv:6319 , prinactiv:6190 .
+
+<http://es.dbpedia.org/resource/Fenómeno_de_Raynaud>
+        med:enfermedadTieneTratamiento  prinactiv:3810 , prinactiv:2390 , prinactiv:5398 , prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Ruptura_uterina>
+        med:enfermedadTieneTratamiento  prinactiv:3313 .
+
+<http://es.dbpedia.org/resource/Fungemia>
+        med:enfermedadTieneTratamiento  prinactiv:989 , prinactiv:7032 .
+
+<http://es.dbpedia.org/resource/Anemia>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:2701 , prinactiv:2560 , prinactiv:5416 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Down>
+        med:enfermedadTieneTratamiento  prinactiv:3527 , prinactiv:2044 .
+
+<http://es.dbpedia.org/resource/Xerosis>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Carotenemia>
+        med:enfermedadTieneTratamiento  prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Sepsis_neonatal>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Congestión_nasal>
+        med:enfermedadTieneTratamiento  prinactiv:4418 , prinactiv:3376 , prinactiv:3208 , prinactiv:4487 .
+
+<http://es.dbpedia.org/resource/Retinopatía>
+        med:enfermedadTieneTratamiento  prinactiv:7216 .
+
+<http://es.dbpedia.org/resource/Trastorno_por_estrés_postraumático>
+        med:enfermedadTieneTratamiento  prinactiv:1287 , prinactiv:7234 , prinactiv:7467 , prinactiv:6724 .
+
+<http://es.dbpedia.org/resource/Amnesia_disociativa>
+        med:enfermedadTieneTratamiento  prinactiv:4533 , prinactiv:6802 .
+
+<http://es.dbpedia.org/resource/Ciguatera>
+        med:enfermedadTieneTratamiento  prinactiv:3570 , prinactiv:2964 , prinactiv:1168 , prinactiv:5370 .
+
+<http://es.dbpedia.org/resource/Taquipnea_transitoria_del_recién_nacido>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:2489 , prinactiv:14 .
+
+<http://es.dbpedia.org/resource/Hidradenitis>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:989 , prinactiv:6341 , prinactiv:8126 .
+
+<http://es.dbpedia.org/resource/Neumonía>
+        med:enfermedadTieneTratamiento  prinactiv:973 , prinactiv:6279 , prinactiv:7214 , prinactiv:5420 , prinactiv:7971 , prinactiv:14 , prinactiv:1887 , prinactiv:159 , prinactiv:5813 , prinactiv:6759 , prinactiv:5909 , prinactiv:866 , prinactiv:5289 , prinactiv:2992 , prinactiv:5449 , prinactiv:4360 , prinactiv:5113 , prinactiv:5155 , prinactiv:996 , prinactiv:7533 , prinactiv:1950 , prinactiv:2489 , prinactiv:6908 .
+
+<http://es.dbpedia.org/resource/Esclerosis_de_Monckeberg>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Dismenorrea>
+        med:enfermedadTieneTratamiento  prinactiv:3231 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Envenenamiento_por_organofosforados>
+        med:enfermedadTieneTratamiento  prinactiv:6155 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Discinesia>
+        med:enfermedadTieneTratamiento  prinactiv:5569 , prinactiv:2586 , prinactiv:6018 .
+
+<http://es.dbpedia.org/resource/Enfermedad_renal_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:444 , prinactiv:345 , prinactiv:3431 , prinactiv:7502 , prinactiv:1497 .
+
+<http://es.dbpedia.org/resource/Linfoma_folicular>
+        med:enfermedadTieneTratamiento  prinactiv:929 , prinactiv:9762 .
+
+<http://es.dbpedia.org/resource/Glaucoma>
+        med:enfermedadTieneTratamiento  prinactiv:4467 , prinactiv:856 , prinactiv:2875 , prinactiv:264 , prinactiv:7521 , prinactiv:6961 , prinactiv:3751 , prinactiv:5966 , prinactiv:788 , prinactiv:6972 , prinactiv:1477 , prinactiv:9646 , prinactiv:7867 , prinactiv:561 , prinactiv:7954 .
+
+<http://es.dbpedia.org/resource/Polifagia>
+        med:enfermedadTieneTratamiento  prinactiv:5730 .
+
+<http://es.dbpedia.org/resource/Edema_pulmonar>
+        med:enfermedadTieneTratamiento  prinactiv:3173 , prinactiv:2430 .
+
+<http://es.dbpedia.org/resource/Osteítis_deformante>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_persona_rígida>
+        med:enfermedadTieneTratamiento  prinactiv:929 , prinactiv:6928 .
+
+<http://es.dbpedia.org/resource/Efecto_adverso>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:2100 , prinactiv:2489 , prinactiv:6155 , prinactiv:2738 , prinactiv:3128 , prinactiv:2106 , prinactiv:6928 , prinactiv:6724 , prinactiv:773 , prinactiv:1788 , prinactiv:5122 , prinactiv:3173 , prinactiv:5217 , prinactiv:931 , prinactiv:2182 , prinactiv:941 , prinactiv:88 , prinactiv:7580 , prinactiv:6654 .
+
+<http://es.dbpedia.org/resource/Síndrome_MERRF>
+        med:enfermedadTieneTratamiento  prinactiv:3896 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_taquicardia_ortostática_postural>
+        med:enfermedadTieneTratamiento  prinactiv:649 , prinactiv:1234 , prinactiv:2298 , prinactiv:1444 , prinactiv:787 , prinactiv:5217 , prinactiv:7234 , prinactiv:6724 , prinactiv:7467 , prinactiv:1287 .
+
+<http://es.dbpedia.org/resource/Cefalea_en_racimos>
+        med:enfermedadTieneTratamiento  prinactiv:5370 , prinactiv:4885 , prinactiv:5477 , prinactiv:6345 , prinactiv:88 , prinactiv:5966 , prinactiv:5575 , prinactiv:1168 , prinactiv:286 , prinactiv:6357 , prinactiv:9009 , prinactiv:2390 , prinactiv:6363 , prinactiv:6341 , prinactiv:7767 , prinactiv:350 , prinactiv:2530 , prinactiv:4383 .
+
+<http://es.dbpedia.org/resource/Fractura_de_compresión_vertebral>
+        med:enfermedadTieneTratamiento  prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Oncocercosis>
+        med:enfermedadTieneTratamiento  prinactiv:7926 .
+
+<http://es.dbpedia.org/resource/Abetalipoproteinemia>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:4275 , prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_factor_X>
+        med:enfermedadTieneTratamiento  prinactiv:7860 , prinactiv:4410 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_beta-ureidopropionasa>
+        med:enfermedadTieneTratamiento  prinactiv:5776 .
+
+<http://es.dbpedia.org/resource/Angiofibroma_nasofaríngeo_juvenil>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Hemorragia_subaracnoidea>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:3704 , prinactiv:1883 , prinactiv:3431 , prinactiv:3219 , prinactiv:350 , prinactiv:2964 , prinactiv:6387 , prinactiv:2586 .
+
+<http://es.dbpedia.org/resource/Botulismo>
+        med:enfermedadTieneTratamiento  prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Lipodistrofia>
+        med:enfermedadTieneTratamiento  prinactiv:4275 , prinactiv:1788 , prinactiv:803 , prinactiv:7994 .
+
+<http://es.dbpedia.org/resource/Tabaquismo>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:821 , prinactiv:6979 , prinactiv:6033 .
+
+<http://es.dbpedia.org/resource/Soporte_vital_cardíaco_avanzado>
+        med:enfermedadTieneTratamiento  prinactiv:298 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Pediculosis_de_la_cabeza>
+        med:enfermedadTieneTratamiento  prinactiv:1188 , prinactiv:3511 , prinactiv:7926 .
+
+<http://es.dbpedia.org/resource/Fibromatosis_plantar>
+        med:enfermedadTieneTratamiento  prinactiv:5730 .
+
+<http://es.dbpedia.org/resource/Hipertensión_intracraneal>
+        med:enfermedadTieneTratamiento  prinactiv:4243 , prinactiv:6357 , prinactiv:2964 , prinactiv:2530 , prinactiv:2430 , prinactiv:6120 .
+
+<http://es.dbpedia.org/resource/Enfermedad_por_el_virus_del_Ébola>
+        med:enfermedadTieneTratamiento  prinactiv:5960 .
+
+<http://es.dbpedia.org/resource/Artritis_reumatoide>
+        med:enfermedadTieneTratamiento  prinactiv:9743 , prinactiv:8126 , prinactiv:6363 , prinactiv:6010 , prinactiv:6653 , prinactiv:10283 , prinactiv:10499 , prinactiv:989 , prinactiv:5899 , prinactiv:7865 , prinactiv:858 , prinactiv:929 , prinactiv:2539 , prinactiv:5416 , prinactiv:1803 , prinactiv:641 , prinactiv:1887 , prinactiv:356 , prinactiv:3952 , prinactiv:3810 , prinactiv:5398 , prinactiv:5473 , prinactiv:1439 , prinactiv:7913 , prinactiv:11145 .
+
+<http://es.dbpedia.org/resource/Hirsutismo>
+        med:enfermedadTieneTratamiento  prinactiv:1745 , prinactiv:6363 , prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Hiperparatiroidismo_secundario>
+        med:enfermedadTieneTratamiento  prinactiv:345 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Hepatotoxicidad>
+        med:enfermedadTieneTratamiento  prinactiv:5730 , prinactiv:6651 , prinactiv:2470 , prinactiv:276 , prinactiv:3773 , prinactiv:6650 , prinactiv:1116 , prinactiv:5370 , prinactiv:4324 , prinactiv:5366 , prinactiv:5173 , prinactiv:6033 , prinactiv:350 , prinactiv:6724 , prinactiv:6018 , prinactiv:3105 , prinactiv:5416 , prinactiv:7032 , prinactiv:5023 , prinactiv:5760 , prinactiv:1950 .
+
+<http://es.dbpedia.org/resource/Anemia_megaloblástica>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Espasmo_muscular>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:3629 , prinactiv:318 , prinactiv:3431 , prinactiv:3893 .
+
+<http://es.dbpedia.org/resource/Hipernatremia>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Glosodinia>
+        med:enfermedadTieneTratamiento  prinactiv:9416 , prinactiv:7467 , prinactiv:6444 , prinactiv:1168 , prinactiv:5965 , prinactiv:5753 .
+
+<http://es.dbpedia.org/resource/Herpes_zóster>
+        med:enfermedadTieneTratamiento  prinactiv:5893 , prinactiv:3896 , prinactiv:7575 , prinactiv:8343 , prinactiv:286 , prinactiv:5753 , prinactiv:3173 , prinactiv:3254 , prinactiv:1453 , prinactiv:1168 , prinactiv:6341 , prinactiv:6345 , prinactiv:4275 , prinactiv:4321 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Hodgkin>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:6249 , prinactiv:6245 , prinactiv:6341 , prinactiv:356 , prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Varices_esofágicas>
+        med:enfermedadTieneTratamiento  prinactiv:113 , prinactiv:6929 , prinactiv:5726 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Melkersson-Rosenthal>
+        med:enfermedadTieneTratamiento  prinactiv:3810 , prinactiv:6341 , prinactiv:6345 , prinactiv:3155 , prinactiv:7273 , prinactiv:6088 , prinactiv:6010 , prinactiv:5924 , prinactiv:5909 .
+
+<http://es.dbpedia.org/resource/Leucemia/linfoma_de_células_T_del_adulto>
+        med:enfermedadTieneTratamiento  prinactiv:6255 , prinactiv:6685 , prinactiv:6249 , prinactiv:6341 , prinactiv:356 , prinactiv:6702 .
+
+<http://es.dbpedia.org/resource/Triquinelosis>
+        med:enfermedadTieneTratamiento  prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Ehrlichiosis>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:3773 , prinactiv:3155 , prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Preeclampsia>
+        med:enfermedadTieneTratamiento  prinactiv:6941 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Netherton>
+        med:enfermedadTieneTratamiento  prinactiv:77 , prinactiv:3701 .
+
+<http://es.dbpedia.org/resource/Prolactinoma>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Pick>
+        med:enfermedadTieneTratamiento  prinactiv:2619 .
+
+<http://es.dbpedia.org/resource/Asplenia>
+        med:enfermedadTieneTratamiento  prinactiv:117 , prinactiv:1950 , prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Linfoma_difuso_de_células_B_grandes>
+        med:enfermedadTieneTratamiento  prinactiv:6249 , prinactiv:929 , prinactiv:6341 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Herpes_simple_neonatal>
+        med:enfermedadTieneTratamiento  prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Brucelosis>
+        med:enfermedadTieneTratamiento  prinactiv:3773 , prinactiv:6444 , prinactiv:2489 , prinactiv:5636 , prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_abstinencia_neonatal>
+        med:enfermedadTieneTratamiento  prinactiv:6486 , prinactiv:6490 , prinactiv:1775 , prinactiv:3064 , prinactiv:5730 , prinactiv:6155 , prinactiv:5966 , prinactiv:6263 .
+
+<http://es.dbpedia.org/resource/Calcinosis_cutis>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Homocistinuria>
+        med:enfermedadTieneTratamiento  prinactiv:5821 , prinactiv:3120 , prinactiv:4683 .
+
+<http://es.dbpedia.org/resource/Queilitis_angular>
+        med:enfermedadTieneTratamiento  prinactiv:5821 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Conn>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:4463 , prinactiv:9374 .
+
+<http://es.dbpedia.org/resource/Sarcopenia>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Shigelosis>
+        med:enfermedadTieneTratamiento  prinactiv:3413 , prinactiv:6759 , prinactiv:14 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Dupuytren>
+        med:enfermedadTieneTratamiento  prinactiv:286 .
+
+<http://es.dbpedia.org/resource/Resistencia_a_la_insulina>
+        med:enfermedadTieneTratamiento  prinactiv:318 , prinactiv:3893 .
+
+<http://es.dbpedia.org/resource/Hipertrofia_virginal_de_los_senos>
+        med:enfermedadTieneTratamiento  prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_vejiga>
+        med:enfermedadTieneTratamiento  prinactiv:5437 , prinactiv:6055 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Ataque_de_pánico>
+        med:enfermedadTieneTratamiento  prinactiv:4533 , prinactiv:318 , prinactiv:6582 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Lumbalgia>
+        med:enfermedadTieneTratamiento  prinactiv:6287 , prinactiv:350 , prinactiv:2765 , prinactiv:1168 , prinactiv:6175 .
+
+<http://es.dbpedia.org/resource/Absceso_pulmonar>
+        med:enfermedadTieneTratamiento  prinactiv:276 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Machado-Joseph>
+        med:enfermedadTieneTratamiento  prinactiv:2909 , prinactiv:5477 .
+
+<http://es.dbpedia.org/resource/Hipercalcemia>
+        med:enfermedadTieneTratamiento  prinactiv:152 , prinactiv:345 , prinactiv:3431 , prinactiv:6055 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Alzheimer>
+        med:enfermedadTieneTratamiento  prinactiv:939 , prinactiv:846 , prinactiv:3570 , prinactiv:6055 , prinactiv:2539 , prinactiv:3431 , prinactiv:4478 , prinactiv:318 , prinactiv:1234 , prinactiv:10329 , prinactiv:7050 , prinactiv:1366 , prinactiv:4477 , prinactiv:6689 .
+
+<http://es.dbpedia.org/resource/Tratamiento_de_la_hipertensión_arterial>
+        med:enfermedadTieneTratamiento  prinactiv:5893 , prinactiv:6425 , prinactiv:6387 , prinactiv:4885 , prinactiv:6979 , prinactiv:318 , prinactiv:797 , prinactiv:4476 , prinactiv:6490 , prinactiv:3296 , prinactiv:3629 , prinactiv:1768 , prinactiv:1550 , prinactiv:2643 , prinactiv:3173 , prinactiv:6486 , prinactiv:6651 , prinactiv:5323 , prinactiv:444 , prinactiv:3431 , prinactiv:6155 , prinactiv:502 , prinactiv:7031 .
+
+<http://es.dbpedia.org/resource/Anemia_hemolítica_autoinmune>
+        med:enfermedadTieneTratamiento  prinactiv:6341 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Korsakoff>
+        med:enfermedadTieneTratamiento  prinactiv:5776 , prinactiv:318 , prinactiv:2504 , prinactiv:6486 , prinactiv:6490 , prinactiv:5614 .
+
+<http://es.dbpedia.org/resource/Asistolia>
+        med:enfermedadTieneTratamiento  prinactiv:6259 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Fanconi>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Neumonía_eosinofílica>
+        med:enfermedadTieneTratamiento  prinactiv:7584 .
+
+<http://es.dbpedia.org/resource/Hemorragia_posparto>
+        med:enfermedadTieneTratamiento  prinactiv:3313 , prinactiv:6654 .
+
+<http://es.dbpedia.org/resource/Linfoma_de_células_de_manto>
+        med:enfermedadTieneTratamiento  prinactiv:9746 , prinactiv:11148 , prinactiv:11871 , prinactiv:6341 , prinactiv:929 , prinactiv:9385 , prinactiv:10598 , prinactiv:11272 , prinactiv:11094 , prinactiv:11465 , prinactiv:9861 .
+
+<http://es.dbpedia.org/resource/Hiponatremia>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:502 , prinactiv:10381 , prinactiv:2430 .
+
+<http://es.dbpedia.org/resource/Cáncer>
+        med:enfermedadTieneTratamiento  prinactiv:9469 , prinactiv:4635 , prinactiv:1448 , prinactiv:3701 , prinactiv:1532 , prinactiv:6702 , prinactiv:1483 , prinactiv:6245 , prinactiv:5437 , prinactiv:6363 , prinactiv:5389 , prinactiv:5416 , prinactiv:356 , prinactiv:5978 , prinactiv:6609 , prinactiv:6030 , prinactiv:7462 , prinactiv:6490 , prinactiv:5657 , prinactiv:1420 , prinactiv:1311 , prinactiv:1616 , prinactiv:6157 , prinactiv:3670 , prinactiv:5973 , prinactiv:6188 , prinactiv:795 , prinactiv:6249 , prinactiv:842 , prinactiv:6486 , prinactiv:1447 .
+
+<http://es.dbpedia.org/resource/Espondiloartropatía>
+        med:enfermedadTieneTratamiento  prinactiv:989 , prinactiv:3810 , prinactiv:5416 , prinactiv:10499 , prinactiv:858 , prinactiv:8126 .
+
+<http://es.dbpedia.org/resource/Larva_migrans_ocular>
+        med:enfermedadTieneTratamiento  prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Dolor_de_muela>
+        med:enfermedadTieneTratamiento  prinactiv:350 , prinactiv:2765 .
+
+<http://es.dbpedia.org/resource/Nistagmo>
+        med:enfermedadTieneTratamiento  prinactiv:4829 .
+
+<http://es.dbpedia.org/resource/Esofagitis>
+        med:enfermedadTieneTratamiento  prinactiv:5893 , prinactiv:276 , prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Eflorescencia_(dermatología)>
+        med:enfermedadTieneTratamiento  prinactiv:1846 .
+
+<http://es.dbpedia.org/resource/Nefropatía_por_analgésicos>
+        med:enfermedadTieneTratamiento  prinactiv:6523 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Síndrome_del_cabeceo>
+        med:enfermedadTieneTratamiento  prinactiv:5730 .
+
+<http://es.dbpedia.org/resource/Síndrome_purpúrico>
+        med:enfermedadTieneTratamiento  prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Colitis_microscópica>
+        med:enfermedadTieneTratamiento  prinactiv:6397 , prinactiv:4563 , prinactiv:6037 .
+
+<http://es.dbpedia.org/resource/Escherichia_coli_enterohemorrágica>
+        med:enfermedadTieneTratamiento  prinactiv:4563 , prinactiv:9752 .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_adrenocorticotropina>
+        med:enfermedadTieneTratamiento  prinactiv:6259 .
+
+<http://es.dbpedia.org/resource/VIPoma>
+        med:enfermedadTieneTratamiento  prinactiv:2757 .
+
+<http://es.dbpedia.org/resource/Micosis_fungoide>
+        med:enfermedadTieneTratamiento  prinactiv:8343 , prinactiv:1208 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_la_fase_del_sueño_retrasada>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:9009 .
+
+<http://es.dbpedia.org/resource/Neuromielitis_óptica>
+        med:enfermedadTieneTratamiento  prinactiv:3701 , prinactiv:929 , prinactiv:6357 , prinactiv:356 , prinactiv:5473 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Hemorragia_de_la_retina>
+        med:enfermedadTieneTratamiento  prinactiv:4275 , prinactiv:5893 , prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Hiperlipidosis>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Artritis_idiopática_juvenil>
+        med:enfermedadTieneTratamiento  prinactiv:5416 .
+
+<http://es.dbpedia.org/resource/Valvulopatía>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:2390 , prinactiv:6206 , prinactiv:7550 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Cushing>
+        med:enfermedadTieneTratamiento  prinactiv:9419 , prinactiv:5341 .
+
+<http://es.dbpedia.org/resource/Eritema_multiforme>
+        med:enfermedadTieneTratamiento  prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Anquilostomiasis>
+        med:enfermedadTieneTratamiento  prinactiv:2973 , prinactiv:6677 .
+
+<http://es.dbpedia.org/resource/Craneofaringioma>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:1437 , prinactiv:6702 , prinactiv:6030 .
+
+<http://es.dbpedia.org/resource/Enfermedad_cerebrovascular>
+        med:enfermedadTieneTratamiento  prinactiv:6425 , prinactiv:6155 , prinactiv:4275 , prinactiv:3431 , prinactiv:1116 , prinactiv:1841 , prinactiv:3296 , prinactiv:2643 , prinactiv:1550 , prinactiv:6387 , prinactiv:4410 , prinactiv:2952 .
+
+<http://es.dbpedia.org/resource/Glomerulonefritis_membranoproliferativa>
+        med:enfermedadTieneTratamiento  prinactiv:2738 , prinactiv:929 , prinactiv:6341 , prinactiv:1841 , prinactiv:356 .
+
+<http://es.dbpedia.org/resource/Vulvodinia>
+        med:enfermedadTieneTratamiento  prinactiv:88 , prinactiv:1885 , prinactiv:5753 .
+
+<http://es.dbpedia.org/resource/Colangitis_biliar_primaria>
+        med:enfermedadTieneTratamiento  prinactiv:5416 , prinactiv:6037 , prinactiv:1958 .
+
+<http://es.dbpedia.org/resource/Colestasis_del_embarazo>
+        med:enfermedadTieneTratamiento  prinactiv:2418 , prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Polidipsia>
+        med:enfermedadTieneTratamiento  prinactiv:5730 , prinactiv:300 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_secreción_inadecuada_de_hormona_antidiurética>
+        med:enfermedadTieneTratamiento  prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Pitiosis>
+        med:enfermedadTieneTratamiento  prinactiv:3570 , prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Choque_séptico>
+        med:enfermedadTieneTratamiento  prinactiv:5700 .
+
+<http://es.dbpedia.org/resource/Deficiencia_en_riboflavina>
+        med:enfermedadTieneTratamiento  prinactiv:5821 .
+
+<http://es.dbpedia.org/resource/Staphylococcus_aureus_resistente_a_la_meticilina>
+        med:enfermedadTieneTratamiento  prinactiv:4360 .
+
+<http://es.dbpedia.org/resource/Hipertrofia>
+        med:enfermedadTieneTratamiento  prinactiv:3893 .
+
+<http://es.dbpedia.org/resource/Necrosis_grasa>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:2941 .
+
+<http://es.dbpedia.org/resource/Cervicalgia>
+        med:enfermedadTieneTratamiento  prinactiv:6287 , prinactiv:350 .
+
+<http://es.dbpedia.org/resource/Bocio_multinodular_tóxico>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Estenosis_aórtica>
+        med:enfermedadTieneTratamiento  prinactiv:9980 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_los_ganglios_basales_sensible_a_la_biotina>
+        med:enfermedadTieneTratamiento  prinactiv:5776 , prinactiv:5598 .
+
+<http://es.dbpedia.org/resource/Angiostrongiliasis>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Bocio>
+        med:enfermedadTieneTratamiento  prinactiv:2792 .
+
+<http://es.dbpedia.org/resource/Enanismo>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Trombosis_del_seno_venoso_cerebral>
+        med:enfermedadTieneTratamiento  prinactiv:4410 , prinactiv:2619 , prinactiv:3751 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Klinefelter>
+        med:enfermedadTieneTratamiento  prinactiv:6363 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_fatiga_crónica>
+        med:enfermedadTieneTratamiento  prinactiv:4478 , prinactiv:4477 , prinactiv:1366 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Ménière>
+        med:enfermedadTieneTratamiento  prinactiv:2489 , prinactiv:5845 , prinactiv:5567 .
+
+<http://es.dbpedia.org/resource/Hipocalcemia>
+        med:enfermedadTieneTratamiento  prinactiv:345 , prinactiv:3431 , prinactiv:5727 .
+
+<http://es.dbpedia.org/resource/Acromegalia>
+        med:enfermedadTieneTratamiento  prinactiv:2757 , prinactiv:7550 .
+
+<http://es.dbpedia.org/resource/Meningitis_aséptica>
+        med:enfermedadTieneTratamiento  prinactiv:159 .
+
+<http://es.dbpedia.org/resource/Perforación_intestinal>
+        med:enfermedadTieneTratamiento  prinactiv:5420 , prinactiv:3145 , prinactiv:6759 .
+
+<http://es.dbpedia.org/resource/Foliculitis>
+        med:enfermedadTieneTratamiento  prinactiv:6885 , prinactiv:6251 .
+
+<http://es.dbpedia.org/resource/Tumor_venéreo_transmisible>
+        med:enfermedadTieneTratamiento  prinactiv:6249 .
+
+<http://es.dbpedia.org/resource/Hiperprolactinemia>
+        med:enfermedadTieneTratamiento  prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Azoemia>
+        med:enfermedadTieneTratamiento  prinactiv:6941 , prinactiv:502 .
+
+<http://es.dbpedia.org/resource/Reflujo_gastroesofágico>
+        med:enfermedadTieneTratamiento  prinactiv:3219 , prinactiv:981 , prinactiv:1062 , prinactiv:6650 , prinactiv:3128 , prinactiv:7494 , prinactiv:6834 , prinactiv:1493 , prinactiv:6319 .
+
+<http://es.dbpedia.org/resource/Colangitis_aguda>
+        med:enfermedadTieneTratamiento  prinactiv:1413 .
+
+<http://es.dbpedia.org/resource/Nefropatía>
+        med:enfermedadTieneTratamiento  prinactiv:4324 .
+
+<http://es.dbpedia.org/resource/Ferropenia>
+        med:enfermedadTieneTratamiento  prinactiv:2701 .
+
+<http://es.dbpedia.org/resource/Error_congénito_del_metabolismo>
+        med:enfermedadTieneTratamiento  prinactiv:5458 , prinactiv:318 , prinactiv:2504 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_leche_y_alcalinos>
+        med:enfermedadTieneTratamiento  prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Urinotórax>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Bloqueo_de_rama_derecha>
+        med:enfermedadTieneTratamiento  prinactiv:6206 , prinactiv:6190 , prinactiv:6010 .
+
+<http://es.dbpedia.org/resource/Ageusia>
+        med:enfermedadTieneTratamiento  prinactiv:5477 , prinactiv:5416 , prinactiv:1846 , prinactiv:1287 , prinactiv:6651 , prinactiv:6030 , prinactiv:2516 , prinactiv:1116 , prinactiv:4463 , prinactiv:7756 , prinactiv:5993 , prinactiv:5323 , prinactiv:5973 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_aórtica>
+        med:enfermedadTieneTratamiento  prinactiv:2643 .
+
+<http://es.dbpedia.org/resource/Vómito>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:10329 .
+
+<http://es.dbpedia.org/resource/Cáncer_de_pulmón>
+        med:enfermedadTieneTratamiento  prinactiv:4635 , prinactiv:6702 , prinactiv:2701 , prinactiv:3431 , prinactiv:8343 , prinactiv:2965 , prinactiv:7304 , prinactiv:4275 , prinactiv:5973 , prinactiv:1437 , prinactiv:318 , prinactiv:6249 , prinactiv:356 , prinactiv:5893 , prinactiv:1483 , prinactiv:7462 , prinactiv:1151 , prinactiv:3570 , prinactiv:1910 .
+
+<http://es.dbpedia.org/resource/Peste_bubónica>
+        med:enfermedadTieneTratamiento  prinactiv:2489 , prinactiv:5636 , prinactiv:1887 .
+
+<http://es.dbpedia.org/resource/Galactorrea>
+        med:enfermedadTieneTratamiento  prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Avitaminosis>
+        med:enfermedadTieneTratamiento  prinactiv:5755 , prinactiv:5893 .
+
+<http://es.dbpedia.org/resource/Anemia_microcítica>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:5893 , prinactiv:4683 .
+
+<http://es.dbpedia.org/resource/Aborto_séptico>
+        med:enfermedadTieneTratamiento  prinactiv:5909 .
+
+<http://es.dbpedia.org/resource/Pensamientos_intrusivos>
+        med:enfermedadTieneTratamiento  prinactiv:7234 , prinactiv:7467 , prinactiv:6707 , prinactiv:6724 , prinactiv:5962 , prinactiv:1234 .
+
+<http://es.dbpedia.org/resource/Edema_de_glotis>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Neuralgia_del_trigémino>
+        med:enfermedadTieneTratamiento  prinactiv:5965 , prinactiv:5760 , prinactiv:5753 , prinactiv:1168 , prinactiv:5477 , prinactiv:4410 , prinactiv:9416 , prinactiv:7413 , prinactiv:5754 , prinactiv:3173 , prinactiv:7767 , prinactiv:3304 , prinactiv:3064 .
+
+<http://es.dbpedia.org/resource/Hipertensión_pulmonar>
+        med:enfermedadTieneTratamiento  prinactiv:2204 , prinactiv:2182 .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Lesch-Nyhan>
+        med:enfermedadTieneTratamiento  prinactiv:2586 , prinactiv:5730 , prinactiv:6155 .
+
+<http://es.dbpedia.org/resource/Asma>
+        med:enfermedadTieneTratamiento  prinactiv:10042 , prinactiv:3815 , prinactiv:5023 , prinactiv:6357 , prinactiv:6682 , prinactiv:4188 , prinactiv:5499 , prinactiv:6260 , prinactiv:6341 , prinactiv:2106 , prinactiv:7473 , prinactiv:7368 , prinactiv:7459 , prinactiv:5700 .
+
+<http://es.dbpedia.org/resource/Desprendimiento_prematuro_de_placenta>
+        med:enfermedadTieneTratamiento  prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Gripe>
+        med:enfermedadTieneTratamiento  prinactiv:1846 , prinactiv:973 , prinactiv:5893 , prinactiv:7971 , prinactiv:5113 .
+
+<http://es.dbpedia.org/resource/Hemorroides>
+        med:enfermedadTieneTratamiento  prinactiv:2701 , prinactiv:395 .
+
+<http://es.dbpedia.org/resource/Terror_nocturno>
+        med:enfermedadTieneTratamiento  prinactiv:6155 , prinactiv:5966 .
+
+<http://es.dbpedia.org/resource/Alucinación>
+        med:enfermedadTieneTratamiento  prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Poliuria>
+        med:enfermedadTieneTratamiento  prinactiv:318 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Brill-Zinsser>
+        med:enfermedadTieneTratamiento  prinactiv:276 , prinactiv:1887 , prinactiv:5449 .
+
+<http://es.dbpedia.org/resource/Lordosis>
+        med:enfermedadTieneTratamiento  prinactiv:4533 , prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Eritrodisestesia_palmo-plantar>
+        med:enfermedadTieneTratamiento  prinactiv:4683 , prinactiv:479 , prinactiv:1562 .
+
+<http://es.dbpedia.org/resource/Gastrinoma>
+        med:enfermedadTieneTratamiento  prinactiv:5755 .
+
+<http://es.dbpedia.org/resource/Trastorno_hidroelectrolítico>
+        med:enfermedadTieneTratamiento  prinactiv:502 , prinactiv:444 , prinactiv:3629 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Angina_de_pecho>
+        med:enfermedadTieneTratamiento  prinactiv:88 , prinactiv:318 , prinactiv:3431 , prinactiv:3893 , prinactiv:5309 , prinactiv:3684 , prinactiv:3296 , prinactiv:7031 , prinactiv:4885 .
+
+<http://es.dbpedia.org/resource/Trastorno_de_ansiedad_generalizada>
+        med:enfermedadTieneTratamiento  prinactiv:9416 , prinactiv:1287 , prinactiv:7467 , prinactiv:649 , prinactiv:1204 , prinactiv:787 , prinactiv:7454 , prinactiv:7027 , prinactiv:1168 , prinactiv:1883 .
+
+<http://es.dbpedia.org/resource/Hiperplasia_endometrial>
+        med:enfermedadTieneTratamiento  prinactiv:3670 .
+
+<http://es.dbpedia.org/resource/Discinesia_paroxística_no_cinesigénica>
+        med:enfermedadTieneTratamiento  prinactiv:3952 , prinactiv:524 , prinactiv:1168 , prinactiv:6155 , prinactiv:5965 .
+
+<http://es.dbpedia.org/resource/Espasticidad>
+        med:enfermedadTieneTratamiento  prinactiv:404 , prinactiv:7229 , prinactiv:1168 , prinactiv:6155 , prinactiv:5966 , prinactiv:5965 , prinactiv:9605 , prinactiv:5477 .
+
+<http://es.dbpedia.org/resource/Blastomicosis>
+        med:enfermedadTieneTratamiento  prinactiv:7036 .
+
+<http://es.dbpedia.org/resource/Trastorno_del_sueño>
+        med:enfermedadTieneTratamiento  prinactiv:1883 , prinactiv:6260 .
+
+<http://es.dbpedia.org/resource/Insuficiencia_mitral>
+        med:enfermedadTieneTratamiento  prinactiv:3431 , prinactiv:2182 .
+
+<http://es.dbpedia.org/resource/Macroglobulinemia_de_Waldenström>
+        med:enfermedadTieneTratamiento  prinactiv:929 , prinactiv:6341 , prinactiv:11272 , prinactiv:6120 , prinactiv:356 , prinactiv:9385 , prinactiv:12565 .
+
+<http://es.dbpedia.org/resource/Trastorno_bipolar>
+        med:enfermedadTieneTratamiento  prinactiv:7476 , prinactiv:5641 , prinactiv:2303 , prinactiv:2967 , prinactiv:1883 , prinactiv:6155 , prinactiv:855 , prinactiv:2776 , prinactiv:6033 , prinactiv:821 , prinactiv:152 , prinactiv:7767 , prinactiv:6724 , prinactiv:1527 , prinactiv:1234 , prinactiv:9399 , prinactiv:6490 , prinactiv:1204 , prinactiv:2586 , prinactiv:7722 , prinactiv:7454 , prinactiv:1287 , prinactiv:1885 , prinactiv:5760 , prinactiv:1320 , prinactiv:7413 , prinactiv:6486 , prinactiv:6018 , prinactiv:7234 , prinactiv:5962 , prinactiv:7467 , prinactiv:3304 , prinactiv:2952 , prinactiv:954 , prinactiv:4293 , prinactiv:4285 , prinactiv:6582 , prinactiv:787 , prinactiv:5370 , prinactiv:3431 .
+
+<http://es.dbpedia.org/resource/Estomatitis_herpética>
+        med:enfermedadTieneTratamiento  prinactiv:3254 .
+
+<http://es.dbpedia.org/resource/Coriorretinopatía_serosa_central>
+        med:enfermedadTieneTratamiento  prinactiv:532 .
+
+<http://es.dbpedia.org/resource/Ectasia_ductal>
+        med:enfermedadTieneTratamiento  prinactiv:8343 .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_tiroides>
+        med:enfermedadTieneTratamiento  prinactiv:2757 , prinactiv:2920 , prinactiv:5765 , prinactiv:5727 , prinactiv:5366 .
