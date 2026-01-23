@@ -1,0 +1,590 @@
+PREFIX :            <http://example.org/rules/>
+PREFIX Laboratorio: <http://www.medicamentos.es/Laboratorio/>
+PREFIX atc:         <http://www.medicamentos.es/ATC/>
+PREFIX dcp:         <http://www.medicamentos.es/DCP/>
+PREFIX dcpf:        <http://www.medicamentos.es/DCPF>
+PREFIX dcsa:        <http://www.medicamentos.es/DCSA/>
+PREFIX enva:        <http://www.medicamentos.es/Envase/>
+PREFIX excip:       <http://www.medicamentos.es/ExcipienteDeclObligatoria/>
+PREFIX forma:       <http://www.medicamentos.es/FormaFarmaceutica>
+PREFIX formasimp:   <http://www.medicamentos.es/FormaFarmaceuticaSimplificada>
+PREFIX geo:         <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geosparql:   <http://www.opengis.net/ont/geosparql#>
+PREFIX lugares:     <http://www.monumentos.es/lugares/>
+PREFIX med:         <http://www.medicamentos.es/>
+PREFIX medpres:     <http://www.medicamentos.es/MedicamentoPresentación/>
+PREFIX monu:        <http://www.monumentos.es/>
+PREFIX ns0:         <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:         <http://www.w3.org/2002/07/owl#>
+PREFIX prinactiv:   <http://www.medicamentos.es/PrincipioActivo/>
+PREFIX rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rml:         <http://w3id.org/rml/>
+PREFIX sitreg:      <http://www.medicamentos.es/SituaciónRegistro>
+PREFIX skos:        <http://www.w3.org/2004/02/skos/core#>
+PREFIX umls:        <http://bioportal.bioontology.org/ontologies/umls/>
+PREFIX unidconte:   <http://www.medicamentos.es/UnidadContenido>
+PREFIX vias:        <http://www.medicamentos.es/ViaAdministracion>
+PREFIX xml:         <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd:         <http://www.w3.org/2001/XMLSchema#>
+
+<http://www.medicamentos.es/BioMarcador/METOPROLOL%20SUCCINATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/FENITOINAHLA-B>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18026920> .
+
+<http://www.medicamentos.es/BioMarcador/PEMIGATINIBFGFR2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14911644> .
+
+<http://www.medicamentos.es/BioMarcador/RISPERIDONACYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/ONDANSETRONCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/VORTIOXETINA%20HIDROBROMUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/SOTORASIBKRAS>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q20969980> .
+
+<http://www.medicamentos.es/BioMarcador/AMITRIPTILINACYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/PANTOPRAZOL%20SODICOCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/IBUPROFENO%20ARGININACYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/LAROTRECTINIB%20SULFATONTRK1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14897694> .
+
+<http://www.medicamentos.es/BioMarcador/LORLATINIBALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/PIROXICAMCYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/PAROXETINACYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/VENLAFAXINA%20%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/CLOPIDOGREL%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ELIGLUSTATCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/FLECAINIDA%20ACETATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/ARSENICO%20TRIOXIDOPML>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030615> .
+
+<http://www.medicamentos.es/BioMarcador/OMEPRAZOL%20SODICOCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ONDANSETRON%20HIDROCLORURO%20DIHIDRATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/RUCAPARIB%20CAMSILATOBRCA2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853272> .
+
+<http://www.medicamentos.es/BioMarcador/ATEZOLIZUMABALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/ENTRECTINIBNTRK1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14897694> .
+
+<http://www.medicamentos.es/BioMarcador/QUETIAPINA%20HEMIFUMARATOCYP3A4>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864419> .
+
+<http://www.medicamentos.es/BioMarcador/RASBURICASAG6PD>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14877634> .
+
+<http://www.medicamentos.es/BioMarcador/AMITRIPTILINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/ATOMOXETINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/RAMUCIRUMABEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/CLOPIDOGREL%20BESILATOCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIBFIP1L1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18047054> .
+
+<http://www.medicamentos.es/BioMarcador/CAPECITABINADPYD>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18022858> .
+
+<http://www.medicamentos.es/BioMarcador/LUTECIO%20%28177LU%29%20OXODOTREOTIDASSTR2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q24599596> , <http://www.wikidata.org/entity/Q18031731> .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOKIT>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q20969938> .
+
+<http://www.medicamentos.es/BioMarcador/ROSUVASTATINAABCG2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q4650095> .
+
+<http://www.medicamentos.es/BioMarcador/CETUXIMABEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/TAMOXIFENO%20CITRATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/MELOXICAMCYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/ZUCLOPENTIXOL%20DIHIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/ATORVASTATINA%20CALCICASLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .
+
+<http://www.medicamentos.es/BioMarcador/OLAPARIBBRCA2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853272> .
+
+<http://www.medicamentos.es/BioMarcador/TRETINOINAPML>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030615> .
+
+<http://www.medicamentos.es/BioMarcador/CITALOPRAM%20HIDROBROMUROCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/DACOMITINIB%20MONOHIDRATOEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/TIOGUANINATPMT>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q24580868> , <http://www.wikidata.org/entity/Q14880759> .
+
+<http://www.medicamentos.es/BioMarcador/IMIPRAMINA%20PAMOATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/FENITOINA%20SODICAHLA-B>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18026920> .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIBPDGFRA>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030422> .
+
+<http://www.medicamentos.es/BioMarcador/CODEINA%20FOSFATO%20HEMIHIDRATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/VORICONAZOLCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ENCORAFENIBBRAF>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853226> .
+
+<http://www.medicamentos.es/BioMarcador/SERTRALINACYP2B6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14912267> .
+
+<http://www.medicamentos.es/BioMarcador/MERCAPTOPURINATPMT>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q24580868> , <http://www.wikidata.org/entity/Q14880759> .
+
+<http://www.medicamentos.es/BioMarcador/SERTRALINACYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ALPELISIBPIK3CA>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14887700> .
+
+<http://www.medicamentos.es/BioMarcador/IVACAFTORCFTR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864712> .
+
+<http://www.medicamentos.es/BioMarcador/IRINOTECAN%20HIDROCLORURO%20TRIHIDRATOUGT1A1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14901445> .
+
+<http://www.medicamentos.es/BioMarcador/DURVALUMABALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/VORTIOXETINA%20LACTATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/ESCITALOPRAM%20OXALATOCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/QUETIAPINACYP3A4>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864419> .
+
+<http://www.medicamentos.es/BioMarcador/NIRAPARIB%20TOSILATO%20MONOHIDRATOBRCA1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q227339> .
+
+<http://www.medicamentos.es/BioMarcador/CEMIPLIMABEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/DURVALUMABEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/AZATIOPRINATPMT>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q24580868> , <http://www.wikidata.org/entity/Q14880759> .
+
+<http://www.medicamentos.es/BioMarcador/CODEINA%20FOSFATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/LUTECIO%20%28177LU%29%20OXODOTREOTIDASSTR5>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18031734> .
+
+<http://www.medicamentos.es/BioMarcador/GILTERITINIB%20FUMARATOFLT3>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14912399> .
+
+<http://www.medicamentos.es/BioMarcador/ATAZANAVIRCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/FLUOROURACILODPYD>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18022858> .
+
+<http://www.medicamentos.es/BioMarcador/PANTOPRAZOL%20SODICO%20SESQUIHIDRATOCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/TETRABENAZINACYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/ATAZANAVIR%20SULFATOCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/BRIGATINIBALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/IPILIMUMABEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/EFAVIRENZCYP2B6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14912267> .
+
+<http://www.medicamentos.es/BioMarcador/ZUCLOPENTIXOL%20DECANOATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/CARBAMAZEPINAHLA-A>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14906952> .
+
+<http://www.medicamentos.es/BioMarcador/AMITRIPTILINA%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/AZATIOPRINANUDT15>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18041714> .
+
+<http://www.medicamentos.es/BioMarcador/LUTECIO%20%28177LU%29%20OXODOTREOTIDASSTR1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18031730> .
+
+<http://www.medicamentos.es/BioMarcador/OXCARBAZEPINAHLA-B>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18026920> .
+
+<http://www.medicamentos.es/BioMarcador/CAPMATINIB%20DIHIDROCLORURO%20MONOHIDRATOMET>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14875866> .
+
+<http://www.medicamentos.es/BioMarcador/TRAMADOL%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/CELECOXIBCYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/PROPAFENONA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/IMIPRAMINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/LORNOXICAMCYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/AFATINIBEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/ZUCLOPENTIXOL%20ACETATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/SERTRALINA%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/IPILIMUMABALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/SELPERCATINIBRET>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18253720> .
+
+<http://www.medicamentos.es/BioMarcador/ARSENICO%20TRIOXIDORARA>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18031040> .
+
+<http://www.medicamentos.es/BioMarcador/PIMOZIDACYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/ERLOTINIBEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/ELEXACAFTORCFTR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864712> .
+
+<http://www.medicamentos.es/BioMarcador/NIVOLUMABALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/FLUVOXAMINA%20MALEATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/CLOPIDOGREL%20HIDROGENOSULFATOCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/IBUPROFENO%20LISINACYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/COBIMETINIBBRAF>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853226> .
+
+<http://www.medicamentos.es/BioMarcador/FENITOINA%20SODICACYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/LAROTRECTINIB%20SULFATONTRK3>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14897880> .
+
+<http://www.medicamentos.es/BioMarcador/CITALOPRAMCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOPDGFRA>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030422> .
+
+<http://www.medicamentos.es/BioMarcador/IMIPRAMINA%20PAMOATOCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ALECTINIB%20HIDROCLORUROALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/DOXEPINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/ABACAVIRHLA-B>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18026920> .
+
+<http://www.medicamentos.es/BioMarcador/PEMBROLIZUMABALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/OMEPRAZOLCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ROSUVASTATINA%20%20CALCICASLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .
+
+<http://www.medicamentos.es/BioMarcador/FLUVASTATINA%20SODICACYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/AMITRIPTILINACYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/CETUXIMABNRAS>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030215> .
+
+<http://www.medicamentos.es/BioMarcador/ATORVASTATINASLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .
+
+<http://www.medicamentos.es/BioMarcador/ABACAVIR%20SULFATOHLA-B>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18026920> .
+
+<http://www.medicamentos.es/BioMarcador/NIRAPARIB%20TOSILATO%20MONOHIDRATOBRCA2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853272> .
+
+<http://www.medicamentos.es/BioMarcador/CETUXIMABKRAS>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q20969980> .
+
+<http://www.medicamentos.es/BioMarcador/ENTRECTINIBROS1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18031208> .
+
+<http://www.medicamentos.es/BioMarcador/MERCAPTOPURINANUDT15>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18041714> .
+
+<http://www.medicamentos.es/BioMarcador/FENITOINACYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/CRIZOTINIBALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/PAROXETINA%20MESILATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/LANSOPRAZOLCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ENTRECTINIBNTRK2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14897782> .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIBKIT>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q20969938> .
+
+<http://www.medicamentos.es/BioMarcador/IMIPRAMINA%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOFIP1L1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18047054> .
+
+<http://www.medicamentos.es/BioMarcador/BINIMETINIBBRAF>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853226> .
+
+<http://www.medicamentos.es/BioMarcador/CLOMIPRAMINA%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/LAMOTRIGINAHLA-B>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18026920> .
+
+<http://www.medicamentos.es/BioMarcador/SIPONIMOD%20ACIDO%20FUMARICOCYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/ATORVASTATINA%20CALCICA%20TRIHIDRATOSLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .
+
+<http://www.medicamentos.es/BioMarcador/LUTECIO%20%28177LU%29%20OXODOTREOTIDASSTR4>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18031733> .
+
+<http://www.medicamentos.es/BioMarcador/ROSUVASTATINASLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .
+
+<http://www.medicamentos.es/BioMarcador/TEZACAFTORCFTR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864712> .
+
+<http://www.medicamentos.es/BioMarcador/CARBAMAZEPINAHLA-B>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18026920> .
+
+<http://www.medicamentos.es/BioMarcador/HALOPERIDOLCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/CEMIPLIMABROS1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18031208> .
+
+<http://www.medicamentos.es/BioMarcador/DABRAFENIB%20MESILATOBRAF>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853226> .
+
+<http://www.medicamentos.es/BioMarcador/TEPOTINIB%20HIDROCLORURO%20MONOHIDRATOMET>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14875866> .
+
+<http://www.medicamentos.es/BioMarcador/CERITINIBALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/TIOGUANINANUDT15>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18041714> .
+
+<http://www.medicamentos.es/BioMarcador/CLOMIPRAMINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/LUMACAFTORCFTR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864712> .
+
+<http://www.medicamentos.es/BioMarcador/PITAVASTATINASLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .
+
+<http://www.medicamentos.es/BioMarcador/SERTRALINA%20HIDROCLORUROCYP2B6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14912267> .
+
+<http://www.medicamentos.es/BioMarcador/IBUPROFENOCYP2C9>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916181> .
+
+<http://www.medicamentos.es/BioMarcador/PANITUMUMABKRAS>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q20969980> .
+
+<http://www.medicamentos.es/BioMarcador/ALOPURINOLHLA-B>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18026920> .
+
+<http://www.medicamentos.es/BioMarcador/VEMURAFENIBBRAF>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853226> .
+
+<http://www.medicamentos.es/BioMarcador/PANITUMUMABNRAS>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030215> .
+
+<http://www.medicamentos.es/BioMarcador/PANTOPRAZOLCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ROSUVASTATINA%20%20CALCICAABCG2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q4650095> .
+
+<http://www.medicamentos.es/BioMarcador/TROPISETRON%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/RUCAPARIB%20CAMSILATOBRCA1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q227339> .
+
+<http://www.medicamentos.es/BioMarcador/ACENOCUMAROLVKORC1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18045930> .
+
+<http://www.medicamentos.es/BioMarcador/MIDOSTAURINAFLT3>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14912399> .
+
+<http://www.medicamentos.es/BioMarcador/PEMBROLIZUMABEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/GEFITINIBEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/ATORVASTATINA%20MAGNESIO%20TRIHIDRATOSLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .
+
+<http://www.medicamentos.es/BioMarcador/QUETIAPINA%20FUMARATOCYP3A4>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864419> .
+
+<http://www.medicamentos.es/BioMarcador/AVAPRITINIBPDGFRA>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030422> .
+
+<http://www.medicamentos.es/BioMarcador/CEMIPLIMABALK>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17824987> .
+
+<http://www.medicamentos.es/BioMarcador/NIVOLUMABEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/ESCITALOPRAMCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/ENTRECTINIBNTRK3>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14897880> .
+
+<http://www.medicamentos.es/BioMarcador/LUTECIO%20%28177LU%29%20OXODOTREOTIDASSTR3>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18031732> .
+
+<http://www.medicamentos.es/BioMarcador/OLAPARIBBRCA1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q227339> .
+
+<http://www.medicamentos.es/BioMarcador/ATEZOLIZUMABEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/TEGAFURDPYD>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18022858> .
+
+<http://www.medicamentos.es/BioMarcador/TRAMETINIBBRAF>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q17853226> .
+
+<http://www.medicamentos.es/BioMarcador/METOPROLOL%20TARTRATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/CRIZOTINIBROS1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18031208> .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOPDGFRB>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030425> .
+
+<http://www.medicamentos.es/BioMarcador/CLOPIDOGRELCYP2C19>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14916187> .
+
+<http://www.medicamentos.es/BioMarcador/OSIMERTINIB%20MESILATOEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/LAROTRECTINIB%20SULFATONTRK2>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14897782> .
+
+<http://www.medicamentos.es/BioMarcador/PAROXETINA%20HIDROCLORURO%20HEMIHIDRATOCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIBPDGFRB>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18030425> .
+
+<http://www.medicamentos.es/BioMarcador/ERLOTINIB%20HIDROCLORUROEGFR>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14865565> .
+
+<http://www.medicamentos.es/BioMarcador/SIMVASTATINASLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .
+
+<http://www.medicamentos.es/BioMarcador/GEMTUZUMAB%20OZOGAMICINACD33>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q5009814> .
+
+<http://www.medicamentos.es/BioMarcador/PAROXETINA%20%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q14864427> .
+
+<http://www.medicamentos.es/BioMarcador/PITAVASTATINA%20CALCIOSLCO1B1>
+        med:bioMarcadorGen  <http://www.wikidata.org/entity/Q18035517> .

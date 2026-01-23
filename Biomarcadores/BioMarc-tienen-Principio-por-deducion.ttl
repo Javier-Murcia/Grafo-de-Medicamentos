@@ -1,0 +1,323 @@
+@prefix :      <http://example.org/rules/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix forma: <http://www.medicamentos.es/FormaFarmaceutica> .
+@prefix med:   <http://www.medicamentos.es/> .
+@prefix sitreg: <http://www.medicamentos.es/SituaciónRegistro> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dcp:   <http://www.medicamentos.es/DCP/> .
+@prefix rml:   <http://w3id.org/rml/> .
+@prefix atc:   <http://www.medicamentos.es/ATC/> .
+@prefix vias:  <http://www.medicamentos.es/ViaAdministracion> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix monu:  <http://www.monumentos.es/> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF> .
+@prefix dcsa:  <http://www.medicamentos.es/DCSA/> .
+@prefix prinactiv: <http://www.medicamentos.es/PrincipioActivo/> .
+@prefix umls:  <http://bioportal.bioontology.org/ontologies/umls/> .
+@prefix medpres: <http://www.medicamentos.es/MedicamentoPresentación/> .
+@prefix formasimp: <http://www.medicamentos.es/FormaFarmaceuticaSimplificada> .
+@prefix excip: <http://www.medicamentos.es/ExcipienteDeclObligatoria/> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix enva:  <http://www.medicamentos.es/Envase/> .
+@prefix lugares: <http://www.monumentos.es/lugares/> .
+@prefix unidconte: <http://www.medicamentos.es/UnidadContenido> .
+@prefix Laboratorio: <http://www.medicamentos.es/Laboratorio/> .
+
+<http://www.medicamentos.es/BioMarcador/ATOMOXETINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:9514 .
+
+<http://www.medicamentos.es/BioMarcador/VORTIOXETINA%20LACTATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:11238 .
+
+<http://www.medicamentos.es/BioMarcador/PAROXETINA%20HIDROCLORURO%20HEMIHIDRATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7467 .
+
+<http://www.medicamentos.es/BioMarcador/IRINOTECAN%20HIDROCLORURO%20TRIHIDRATOUGT1A1>
+        med:bioMarcadorPrincipioActivo  prinactiv:1532 .
+
+<http://www.medicamentos.es/BioMarcador/GILTERITINIB%20FUMARATOFLT3>
+        med:bioMarcadorPrincipioActivo  prinactiv:12470 .
+
+<http://www.medicamentos.es/BioMarcador/CAPMATINIB%20DIHIDROCLORURO%20MONOHIDRATOMET>
+        med:bioMarcadorPrincipioActivo  prinactiv:12355 .
+
+<http://www.medicamentos.es/BioMarcador/TEPOTINIB%20HIDROCLORURO%20MONOHIDRATOMET>
+        med:bioMarcadorPrincipioActivo  prinactiv:14878 .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOABL1%20%28Cromosoma%20Filadelfia%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:559 .
+
+<http://www.medicamentos.es/BioMarcador/IMIPRAMINA%20PAMOATOCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:2776 .
+
+<http://www.medicamentos.es/BioMarcador/TAMOXIFENO%20CITRATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:6157 .
+
+<http://www.medicamentos.es/BioMarcador/LAROTRECTINIB%20SULFATONTRK3>
+        med:bioMarcadorPrincipioActivo  prinactiv:12491 .
+
+<http://www.medicamentos.es/BioMarcador/ATAZANAVIR%20SULFATOCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:9366 .
+
+<http://www.medicamentos.es/BioMarcador/NERATINIB%20MALEATOPGR%20%20%28Receptor%20hormonal%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:10803 .
+
+<http://www.medicamentos.es/BioMarcador/CODEINA%20FOSFATO%20HEMIHIDRATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:2447 , prinactiv:2439 .
+
+<http://www.medicamentos.es/BioMarcador/ZUCLOPENTIXOL%20DECANOATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7086 .
+
+<http://www.medicamentos.es/BioMarcador/PAROXETINA%20%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7467 .
+
+<http://www.medicamentos.es/BioMarcador/OMEPRAZOL%20SODICOCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:6650 .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOBCR%28CromosomaFiladelfia%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:559 .
+
+<http://www.medicamentos.es/BioMarcador/PITAVASTATINA%20CALCIOSLCO1B1>
+        med:bioMarcadorPrincipioActivo  prinactiv:10216 .
+
+<http://www.medicamentos.es/BioMarcador/ZUCLOPENTIXOL%20ACETATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7086 .
+
+<http://www.medicamentos.es/BioMarcador/ALECTINIB%20HIDROCLORUROALK>
+        med:bioMarcadorPrincipioActivo  prinactiv:11502 .
+
+<http://www.medicamentos.es/BioMarcador/LENALIDOMIDA%20HIDROCLORURO%20HIDRATOanomal%C3%ADa%20citogen%C3%A9tica%20de%20deleci%C3%B3n%205q%20aislada>
+        med:bioMarcadorPrincipioActivo  prinactiv:9746 .
+
+<http://www.medicamentos.es/BioMarcador/CITALOPRAM%20HIDROBROMUROCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:1234 .
+
+<http://www.medicamentos.es/BioMarcador/NERATINIB%20MALEATOESR1%20%28Receptorhormonal%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:10803 .
+
+<http://www.medicamentos.es/BioMarcador/CLOMIPRAMINA%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:5962 .
+
+<http://www.medicamentos.es/BioMarcador/IBUPROFENO%20LISINACYP2C9>
+        med:bioMarcadorPrincipioActivo  prinactiv:2765 .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOFIP1L1>
+        med:bioMarcadorPrincipioActivo  prinactiv:559 .
+
+<http://www.medicamentos.es/BioMarcador/NIRAPARIB%20TOSILATO%20MONOHIDRATOBRCA2>
+        med:bioMarcadorPrincipioActivo  prinactiv:12011 .
+
+<http://www.medicamentos.es/BioMarcador/CLOPIDOGREL%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:1116 .
+
+<http://www.medicamentos.es/BioMarcador/LAROTRECTINIB%20SULFATONTRK2>
+        med:bioMarcadorPrincipioActivo  prinactiv:12491 .
+
+<http://www.medicamentos.es/BioMarcador/ROSUVASTATINA%20%20CALCICAABCG2>
+        med:bioMarcadorPrincipioActivo  prinactiv:9980 .
+
+<http://www.medicamentos.es/BioMarcador/ASCIMINIB%20HIDROCLORUROABL1%20%28Cromosoma%20Filadelfia%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:12625 .
+
+<http://www.medicamentos.es/BioMarcador/IMIPRAMINA%20PAMOATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:2776 .
+
+<http://www.medicamentos.es/BioMarcador/PROPAFENONA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:6395 .
+
+<http://www.medicamentos.es/BioMarcador/TRASTUZUMAB%20EMTANSINAERBB2%28HER2%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:1420 .
+
+<http://www.medicamentos.es/BioMarcador/RUCAPARIB%20CAMSILATOBRCA2>
+        med:bioMarcadorPrincipioActivo  prinactiv:12040 .
+
+<http://www.medicamentos.es/BioMarcador/TRAMADOL%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:6945 .
+
+<http://www.medicamentos.es/BioMarcador/METOPROLOL%20TARTRATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:4946 .
+
+<http://www.medicamentos.es/BioMarcador/QUETIAPINA%20FUMARATOCYP3A4>
+        med:bioMarcadorPrincipioActivo  prinactiv:1204 .
+
+<http://www.medicamentos.es/BioMarcador/FLUVOXAMINA%20MALEATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:6707 .
+
+<http://www.medicamentos.es/BioMarcador/ARSENICO%20TRIOXIDOPML>
+        med:bioMarcadorPrincipioActivo  prinactiv:4914 .
+
+<http://www.medicamentos.es/BioMarcador/FLECAINIDA%20ACETATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:6901 .
+
+<http://www.medicamentos.es/BioMarcador/AMITRIPTILINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:5370 .
+
+<http://www.medicamentos.es/BioMarcador/ATORVASTATINA%20CALCICASLCO1B1>
+        med:bioMarcadorPrincipioActivo  prinactiv:1497 .
+
+<http://www.medicamentos.es/BioMarcador/PANTOPRAZOL%20SODICO%20SESQUIHIDRATOCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:1062 , prinactiv:9435 .
+
+<http://www.medicamentos.es/BioMarcador/FENITOINA%20SODICAHLA-B>
+        med:bioMarcadorPrincipioActivo  prinactiv:1745 .
+
+<http://www.medicamentos.es/BioMarcador/ARSENICO%20TRIOXIDORARA>
+        med:bioMarcadorPrincipioActivo  prinactiv:4914 .
+
+<http://www.medicamentos.es/BioMarcador/ABACAVIR%20SULFATOHLA-B>
+        med:bioMarcadorPrincipioActivo  prinactiv:990 .
+
+<http://www.medicamentos.es/BioMarcador/BOSUTINIB%20MONOHIDRATOBCR%28CromosomaFiladelfia%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:10590 .
+
+<http://www.medicamentos.es/BioMarcador/DASATINIB%20MONOHIDRATOBCR%28CromosomaFiladelfia%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:9630 .
+
+<http://www.medicamentos.es/BioMarcador/NIRAPARIB%20TOSILATO%20MONOHIDRATOBRCA1>
+        med:bioMarcadorPrincipioActivo  prinactiv:12011 .
+
+<http://www.medicamentos.es/BioMarcador/ONDANSETRON%20HIDROCLORURO%20DIHIDRATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7425 .
+
+<http://www.medicamentos.es/BioMarcador/LAROTRECTINIB%20SULFATONTRK1>
+        med:bioMarcadorPrincipioActivo  prinactiv:12491 .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOPDGFRB>
+        med:bioMarcadorPrincipioActivo  prinactiv:559 .
+
+<http://www.medicamentos.es/BioMarcador/VENLAFAXINA%20%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:1287 .
+
+<http://www.medicamentos.es/BioMarcador/BOSUTINIB%20MONOHIDRATOABL1%20%28Cromosoma%20Filadelfia%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:10590 .
+
+<http://www.medicamentos.es/BioMarcador/SIPONIMOD%20ACIDO%20FUMARICOCYP2C9>
+        med:bioMarcadorPrincipioActivo  prinactiv:12556 .
+
+<http://www.medicamentos.es/BioMarcador/CLOMIPRAMINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:5962 .
+
+<http://www.medicamentos.es/BioMarcador/RUCAPARIB%20CAMSILATOBRCA1>
+        med:bioMarcadorPrincipioActivo  prinactiv:12040 .
+
+<http://www.medicamentos.es/BioMarcador/ATORVASTATINA%20CALCICA%20TRIHIDRATOSLCO1B1>
+        med:bioMarcadorPrincipioActivo  prinactiv:10337 , prinactiv:1497 .
+
+<http://www.medicamentos.es/BioMarcador/DOXEPINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:1885 .
+
+<http://www.medicamentos.es/BioMarcador/ROSUVASTATINA%20%20CALCICASLCO1B1>
+        med:bioMarcadorPrincipioActivo  prinactiv:9980 .
+
+<http://www.medicamentos.es/BioMarcador/ERLOTINIB%20HIDROCLORUROEGFR>
+        med:bioMarcadorPrincipioActivo  prinactiv:9537 .
+
+<http://www.medicamentos.es/BioMarcador/QUETIAPINA%20HEMIFUMARATOCYP3A4>
+        med:bioMarcadorPrincipioActivo  prinactiv:1204 .
+
+<http://www.medicamentos.es/BioMarcador/AMITRIPTILINA%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:5370 .
+
+<http://www.medicamentos.es/BioMarcador/METOPROLOL%20SUCCINATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:4946 .
+
+<http://www.medicamentos.es/BioMarcador/OSIMERTINIB%20MESILATOEGFR>
+        med:bioMarcadorPrincipioActivo  prinactiv:11941 .
+
+<http://www.medicamentos.es/BioMarcador/FLUVASTATINA%20SODICACYP2C9>
+        med:bioMarcadorPrincipioActivo  prinactiv:1324 .
+
+<http://www.medicamentos.es/BioMarcador/ZUCLOPENTIXOL%20DIHIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7086 .
+
+<http://www.medicamentos.es/BioMarcador/TRASTUZUMAB%20DERUXTECANERBB2%28HER2%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:1420 .
+
+<http://www.medicamentos.es/BioMarcador/IMIPRAMINA%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:2776 .
+
+<http://www.medicamentos.es/BioMarcador/CLOPIDOGREL%20HIDROGENOSULFATOCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:1116 .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOPDGFRA>
+        med:bioMarcadorPrincipioActivo  prinactiv:559 .
+
+<http://www.medicamentos.es/BioMarcador/TROPISETRON%20HIDROCLORUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7268 .
+
+<http://www.medicamentos.es/BioMarcador/GENTAMICINA%20SULFATOMT-ND1%0AMT-RNR1>
+        med:bioMarcadorPrincipioActivo  prinactiv:2489 .
+
+<http://www.medicamentos.es/BioMarcador/IMIPRAMINA%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:2776 .
+
+<http://www.medicamentos.es/BioMarcador/IBUPROFENO%20ARGININACYP2C9>
+        med:bioMarcadorPrincipioActivo  prinactiv:2765 .
+
+<http://www.medicamentos.es/BioMarcador/NERATINIB%20MALEATOERBB2%28HER2%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:10803 .
+
+<http://www.medicamentos.es/BioMarcador/SERTRALINA%20HIDROCLORUROCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:7234 .
+
+<http://www.medicamentos.es/BioMarcador/DABRAFENIB%20MESILATOBRAF>
+        med:bioMarcadorPrincipioActivo  prinactiv:10922 .
+
+<http://www.medicamentos.es/BioMarcador/PAROXETINA%20MESILATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7467 .
+
+<http://www.medicamentos.es/BioMarcador/ATORVASTATINA%20MAGNESIO%20TRIHIDRATOSLCO1B1>
+        med:bioMarcadorPrincipioActivo  prinactiv:1497 .
+
+<http://www.medicamentos.es/BioMarcador/IMATINIB%20MESILATOKIT>
+        med:bioMarcadorPrincipioActivo  prinactiv:559 .
+
+<http://www.medicamentos.es/BioMarcador/CODEINA%20FOSFATOCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:2439 .
+
+<http://www.medicamentos.es/BioMarcador/ASCIMINIB%20HIDROCLORUROBCR%28CromosomaFiladelfia%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:12625 .
+
+<http://www.medicamentos.es/BioMarcador/DACOMITINIB%20MONOHIDRATOEGFR>
+        med:bioMarcadorPrincipioActivo  prinactiv:11172 .
+
+<http://www.medicamentos.es/BioMarcador/SERTRALINA%20HIDROCLORUROCYP2B6>
+        med:bioMarcadorPrincipioActivo  prinactiv:7234 .
+
+<http://www.medicamentos.es/BioMarcador/TOBRAMICINA%20SULFATOMT-RNR1>
+        med:bioMarcadorPrincipioActivo  prinactiv:4271 .
+
+<http://www.medicamentos.es/BioMarcador/PANTOPRAZOL%20SODICOCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:1062 .
+
+<http://www.medicamentos.es/BioMarcador/CLOPIDOGREL%20BESILATOCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:1116 .
+
+<http://www.medicamentos.es/BioMarcador/NERATINIB%20MALEATOESR2%20%28Receptor%20hormonal%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:10803 .
+
+<http://www.medicamentos.es/BioMarcador/VORTIOXETINA%20HIDROBROMUROCYP2D6>
+        med:bioMarcadorPrincipioActivo  prinactiv:11238 .
+
+<http://www.medicamentos.es/BioMarcador/FENITOINA%20SODICACYP2C9>
+        med:bioMarcadorPrincipioActivo  prinactiv:1745 .
+
+<http://www.medicamentos.es/BioMarcador/DASATINIB%20MONOHIDRATOABL1%20%28Cromosoma%20Filadelfia%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:9630 .
+
+<http://www.medicamentos.es/BioMarcador/TAMOXIFENO%20CITRATOESR1%20%28Receptorhormonal%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:6157 .
+
+<http://www.medicamentos.es/BioMarcador/TUCATINIB%20HEMI-ETANOLATOERBB2%28HER2%29>
+        med:bioMarcadorPrincipioActivo  prinactiv:12744 .
+
+<http://www.medicamentos.es/BioMarcador/ESCITALOPRAM%20OXALATOCYP2C19>
+        med:bioMarcadorPrincipioActivo  prinactiv:787 .
+
+<http://www.medicamentos.es/BioMarcador/AMIKACINA%20SULFATOMT-RNR1>
+        med:bioMarcadorPrincipioActivo  prinactiv:5155 .
