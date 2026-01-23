@@ -1,0 +1,705 @@
+PREFIX :            <http://example.org/rules/>
+PREFIX Laboratorio: <http://www.medicamentos.es/Laboratorio/>
+PREFIX atc:         <http://www.medicamentos.es/ATC/>
+PREFIX dcp:         <http://www.medicamentos.es/DCP/>
+PREFIX dcpf:        <http://www.medicamentos.es/DCPF>
+PREFIX dcsa:        <http://www.medicamentos.es/DCSA/>
+PREFIX enva:        <http://www.medicamentos.es/Envase/>
+PREFIX excip:       <http://www.medicamentos.es/ExcipienteDeclObligatoria/>
+PREFIX forma:       <http://www.medicamentos.es/FormaFarmaceutica>
+PREFIX formasimp:   <http://www.medicamentos.es/FormaFarmaceuticaSimplificada>
+PREFIX geo:         <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geosparql:   <http://www.opengis.net/ont/geosparql#>
+PREFIX lugares:     <http://www.monumentos.es/lugares/>
+PREFIX med:         <http://www.medicamentos.es/>
+PREFIX medpres:     <http://www.medicamentos.es/MedicamentoPresentación/>
+PREFIX monu:        <http://www.monumentos.es/>
+PREFIX ns0:         <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:         <http://www.w3.org/2002/07/owl#>
+PREFIX prinactiv:   <http://www.medicamentos.es/PrincipioActivo/>
+PREFIX rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rml:         <http://w3id.org/rml/>
+PREFIX sitreg:      <http://www.medicamentos.es/SituaciónRegistro>
+PREFIX skos:        <http://www.w3.org/2004/02/skos/core#>
+PREFIX umls:        <http://bioportal.bioontology.org/ontologies/umls/>
+PREFIX unidconte:   <http://www.medicamentos.es/UnidadContenido>
+PREFIX vias:        <http://www.medicamentos.es/ViaAdministracion>
+PREFIX xml:         <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd:         <http://www.w3.org/2001/XMLSchema#>
+
+atc:G03DC03  med:interaccionaCon  atc:L02BB04 , atc:L01XE23 , atc:J05AG03 , atc:J05AG01 , atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:M01AB55  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:M01AG01  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AE , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:J04AM05  med:interaccionaCon  atc:P01AX06 , atc:C01EB18 , atc:J02AC02 , atc:J02AC01 , atc:N03AF01 , atc:J01FA15 , atc:G03XB02 , atc:G03AD02 , atc:C08CA06 , atc:C01BD07 , atc:B01AE07 .
+
+atc:C07BB03  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B , atc:N05AN01 .
+
+atc:A12BA91  med:interaccionaCon  atc:C03E , atc:C03D , atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A .
+
+atc:C03BA10  med:interaccionaCon  atc:N05AN01 .
+
+atc:C10AB02  med:interaccionaCon  atc:C10BA , atc:C10AA , atc:C10BX .
+
+atc:L01CA03  med:interaccionaCon  atc:J02AC02 .
+
+atc:L01BC03  med:interaccionaCon  atc:J05AB15 , atc:B01AA .
+
+atc:J01FA15  med:interaccionaCon  atc:L02BB04 , atc:L01XE23 , atc:J05AG03 , atc:J05AG01 , atc:J04AB04 , atc:C10BX03 , atc:C10AA02 , atc:L04AD01 , atc:L04AD02 , atc:J04AB02 , atc:J04AM , atc:N03AA , atc:N03AB , atc:N03AF01 , atc:M04AC01 , atc:C10AA01 , atc:C10B , atc:G02AB , atc:L04AA10 , atc:L04AA18 , atc:N02CA , atc:C10AA05 , atc:N03AF02 .
+
+atc:M01AX01  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C09AA08  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:J01EA01  med:interaccionaCon  atc:L01BA01 .
+
+atc:C01CA17  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:N06AA02  med:interaccionaCon  atc:C02AC01 , atc:N06AG , atc:N06AF .
+
+atc:N02CC07  med:interaccionaCon  atc:N04BD , atc:N02CA , atc:G02AB , atc:N06AG , atc:N06AF .
+
+atc:N06AA06  med:interaccionaCon  atc:C02AC01 , atc:N06AG , atc:N06AF .
+
+atc:N06AA12  med:interaccionaCon  atc:C02AC01 , atc:N06AG , atc:N06AF .
+
+atc:C09BB05  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C03EB01  med:interaccionaCon  atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:J04AM02  med:interaccionaCon  atc:P01AX06 , atc:C01EB18 , atc:J02AC02 , atc:J02AC01 , atc:N03AF01 , atc:J01FA15 , atc:G03XB02 , atc:G03AD02 , atc:C08CA06 , atc:C01BD07 , atc:B01AE07 .
+
+atc:J04AM06  med:interaccionaCon  atc:P01AX06 , atc:C01EB18 , atc:J02AC02 , atc:J02AC01 , atc:N03AF01 , atc:J01FA15 , atc:G03XB02 , atc:G03AD02 , atc:C08CA06 , atc:C01BD07 , atc:B01AE07 .
+
+atc:N06AB08  med:interaccionaCon  atc:N06AX21 , atc:N06AX22 , atc:N06AG , atc:N06AF .
+
+atc:C09BA07  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N05AG02  med:interaccionaCon  atc:A04AD12 , atc:J01FA01 , atc:N06AB06 , atc:N06AB05 , atc:J02AC01 , atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:C07CB03  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:P01BA01  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:N07BC02 , atc:N06CA02 , atc:N06AB10 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 .
+
+atc:J04AC51  med:interaccionaCon  atc:N03AF01 .
+
+atc:J04AC01  med:interaccionaCon  atc:N03AF01 .
+
+atc:C01CA04  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:C07AB14  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:C09DX06  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:J01AA13  med:interaccionaCon  atc:L01XX14 , atc:D11AH04 , atc:D10BA , atc:D05BB .
+
+atc:G03FB01  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C03CA02  med:interaccionaCon  atc:N05AN01 .
+
+atc:C08CA02  med:interaccionaCon  atc:J02AC02 .
+
+atc:N02CC08  med:interaccionaCon  atc:N02CA , atc:G02AB .
+
+atc:M01AE03  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C01BA03  med:interaccionaCon  atc:C07 , atc:C01BC , atc:J01FA01 , atc:J01FA09 , atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:N06CA02  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06AB10 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 .
+
+atc:C03AX91  med:interaccionaCon  atc:N05AN01 .
+
+atc:C03DA05  med:interaccionaCon  atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09BB06  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:G03AA18  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:G03FA04  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C09BB12  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:P01CX01  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:N06AB10 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 .
+
+atc:C09AA07  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C10BA10  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:C10BX05  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:C10BX09  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:C09DB05  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:J05AB15  med:interaccionaCon  atc:L01BC53 , atc:L01BC52 , atc:L01BC06 , atc:L01BC03 , atc:L01BC02 .
+
+atc:P01AX06  med:interaccionaCon  atc:J04AM , atc:J04AB02 .
+
+atc:G03AC10  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C02AC01  med:interaccionaCon  atc:N06AA , atc:C07 .
+
+atc:C01BB02  med:interaccionaCon  atc:C07 .
+
+atc:G03DC02  med:interaccionaCon  atc:L02BB04 , atc:L01XE23 , atc:J05AG03 , atc:J05AG01 , atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:G03AA11  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C01CA02  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:C09AA16  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:M01AH04  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C09DB07  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N02CC06  med:interaccionaCon  atc:N04BD , atc:N02CA , atc:G02AB , atc:N06AG , atc:N06AF .
+
+atc:A12BA30  med:interaccionaCon  atc:C03E , atc:C03D , atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A .
+
+atc:C10BX10  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:C01BA02  med:interaccionaCon  atc:C07 , atc:C01BC .
+
+atc:C01BC03  med:interaccionaCon  atc:C07 , atc:C01BC , atc:C01BA , atc:C08DB01 , atc:C08DA01 , atc:C01BD .
+
+atc:C07FX06  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:G03HA01  med:interaccionaCon  atc:L02BB04 , atc:L01XE23 , atc:J05AG03 , atc:J05AG01 , atc:N03AX22 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:G03FA  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:G03FA15  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:J02AC05  med:interaccionaCon  atc:M04AC01 , atc:N05CD08 .
+
+atc:N06AX03  med:interaccionaCon  atc:L02BB04 , atc:L01XE23 , atc:J05AG03 , atc:J05AG01 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 .
+
+atc:L01BB02  med:interaccionaCon  atc:M04AA .
+
+atc:C09AA10  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09DX04  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09BB07  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C01BA13  med:interaccionaCon  atc:C07 , atc:C01BC .
+
+atc:C09BB04  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N04BD03  med:interaccionaCon  atc:N02CC07 , atc:N02CC06 , atc:N02CC05 , atc:N02CC04 , atc:N02CC03 , atc:N02CC02 , atc:N02AB02 , atc:N02CC01 , atc:N06AX12 , atc:N06AG .
+
+atc:C03EA01  med:interaccionaCon  atc:N05AN01 , atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C10BA05  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:C10BA06  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:N06AX14  med:interaccionaCon  atc:N06AF .
+
+atc:C03EA06  med:interaccionaCon  atc:N05AN01 , atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C03EA04  med:interaccionaCon  atc:N05AN01 , atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:M01AE51  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C10BX06  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:C01BD07 , atc:J01FA15 , atc:A12BA01 , atc:A12BA04 , atc:A12BA30 , atc:A12BA51 , atc:A12BA91 , atc:L04AD01 , atc:C03D , atc:C03E , atc:N05AN01 , atc:N03AF01 , atc:C10AB , atc:J01XC01 , atc:J01FA09 , atc:J02AC02 .
+
+atc:C07AG01  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:L01CA01  med:interaccionaCon  atc:J02AC02 .
+
+atc:N07BB01  med:interaccionaCon  atc:N03AB02 .
+
+atc:A12BA04  med:interaccionaCon  atc:C03E , atc:C03D , atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A .
+
+atc:M01AX93  med:interaccionaCon  atc:B01AF , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:G03XB02  med:interaccionaCon  atc:G03AD , atc:G03AB , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AM , atc:J04AB02 , atc:G03HB , atc:G03HA01 , atc:G03FB , atc:G03FA , atc:G03DC , atc:G03DA , atc:G03AC , atc:G03AA .
+
+atc:A12BA01  med:interaccionaCon  atc:C03E , atc:C03D , atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A .
+
+atc:N05AL03  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:C03BA04  med:interaccionaCon  atc:N05AN01 .
+
+atc:N02CA52  med:interaccionaCon  atc:N02CC , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01FA15 .
+
+atc:N05AN01  med:interaccionaCon  atc:C09XA54 , atc:C03C , atc:C09XA52 , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:C03EA , atc:C09A , atc:C09BA , atc:C09BB , atc:C09C , atc:C09D , atc:C10BX06 , atc:C09DA , atc:C09DX , atc:C03BA , atc:C03AA , atc:C03AX , atc:C07BB , atc:M01AB , atc:M01AC , atc:M01AE .
+
+atc:A11CA01  med:interaccionaCon  atc:L01XX14 , atc:D11AH04 , atc:D10BA , atc:D05BB .
+
+atc:L04AX01  med:interaccionaCon  atc:M04AA .
+
+atc:M01AC01  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:N05CD05  med:interaccionaCon  atc:J01FA01 , atc:J02AC02 .
+
+atc:L01BC52  med:interaccionaCon  atc:J05AB15 .
+
+atc:N06BA12  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:N07BB05  med:interaccionaCon  atc:N07BC02 .
+
+atc:J01XC01  med:interaccionaCon  atc:C10BA , atc:C10AA , atc:C10BX .
+
+atc:C01BC04  med:interaccionaCon  atc:C07 , atc:C01BC , atc:C01BA , atc:C08DB01 , atc:C08DA01 , atc:C01BD .
+
+atc:G03DA04  med:interaccionaCon  atc:L02BB04 , atc:L01XE23 , atc:J05AG03 , atc:J05AG01 , atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:N06AA04  med:interaccionaCon  atc:C02AC01 , atc:N06AG , atc:N06AF .
+
+atc:J01AA92  med:interaccionaCon  atc:L01XX14 , atc:D11AH04 , atc:D10BA , atc:D05BB .
+
+atc:N03AX22  med:interaccionaCon  atc:G03AD , atc:G03AB , atc:G03HB , atc:G03HA01 , atc:G03FB , atc:G03FA , atc:G03DC , atc:G03DA , atc:G03AC , atc:G03AA .
+
+atc:J04AB04  med:interaccionaCon  atc:N06AX03 , atc:J01FA15 , atc:G03HB , atc:G03HA01 , atc:G03FB , atc:G03FA , atc:G03DC , atc:G03DA , atc:G03D , atc:G03AC , atc:G03AA .
+
+atc:G03FB06  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C09BA  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:G03AA  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C10BA03  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:R06AX28  med:interaccionaCon  atc:J01FA01 .
+
+atc:M01AC02  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C01CA  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:C07FB02  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:N06AA10  med:interaccionaCon  atc:C02AC01 , atc:N06AG , atc:N06AF .
+
+atc:L01BC06  med:interaccionaCon  atc:J05AB15 .
+
+atc:G03AA14  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:D05BB02  med:interaccionaCon  atc:J01A , atc:A11CA , atc:L01BA01 .
+
+atc:N06AG02  med:interaccionaCon  atc:N06BA12 , atc:N06AA , atc:C01CA , atc:N06CA01 , atc:N06BA04 , atc:N06BA09 , atc:N06AB , atc:N06AX11 , atc:N06AX16 , atc:N06AX21 , atc:N02AX02 , atc:N06AX12 , atc:R05DA09 , atc:N04BD , atc:N02CC01 , atc:N02AB02 , atc:N02CC02 , atc:N02CC03 , atc:N02CC04 , atc:N02CC05 , atc:N02CC06 , atc:N02CC07 .
+
+atc:N02CC04  med:interaccionaCon  atc:N04BD , atc:N02CA , atc:G02AB , atc:N06AG , atc:N06AF .
+
+atc:G03DA02  med:interaccionaCon  atc:L02BB04 , atc:L01XE23 , atc:J05AG03 , atc:J05AG01 , atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:N05AF05  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:G03XA01  med:interaccionaCon  atc:C10B , atc:C10AA01 .
+
+atc:N02AB02  med:interaccionaCon  atc:N04BD , atc:N06AG , atc:N06AF .
+
+atc:N07BB04  med:interaccionaCon  atc:N07BC02 .
+
+atc:N05AA01  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:M01AE52  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C09BA08  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:G03AC08  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C09BB10  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09CA08  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:M01AX02  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:N05AL01  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:C07BB12  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B , atc:N05AN01 .
+
+atc:C09XA52  med:interaccionaCon  atc:N05AN01 .
+
+atc:C10AA08  med:interaccionaCon  atc:J01XC01 , atc:C10AB .
+
+atc:C07AB02  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:C08DA01  med:interaccionaCon  atc:C01EB17 , atc:C07 , atc:C01BC , atc:M04AC01 , atc:N05AE03 .
+
+atc:J02AC  med:interaccionaCon  atc:M04AC01 , atc:N05CD08 .
+
+atc:C07AB09  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:N05AE03  med:interaccionaCon  atc:J01FA01 , atc:J02AC02 , atc:N06AB03 , atc:C08DB01 , atc:C08DA01 , atc:N06AB05 , atc:J01FA09 , atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:N06CA01  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:N06BA07  med:interaccionaCon  atc:L04AD01 .
+
+atc:M01AE53  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C09CA  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N04BX02  med:interaccionaCon  atc:N06AF .
+
+atc:G03AA13  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C01BG11  med:interaccionaCon  atc:C07 .
+
+atc:A04AD12  med:interaccionaCon  atc:N05AG02 .
+
+atc:R06AX25  med:interaccionaCon  atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:N06AB04 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:N06AB10 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 .
+
+atc:C03DB  med:interaccionaCon  atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:G03DB08  med:interaccionaCon  atc:L02BB04 , atc:L01XE23 , atc:J05AG03 , atc:J05AG01 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 .
+
+atc:N02CC02  med:interaccionaCon  atc:N04BD , atc:N02CA , atc:G02AB , atc:N06AG , atc:N06AF .
+
+atc:C09BA06  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:M04AA03  med:interaccionaCon  atc:L04AX01 , atc:L01BB02 .
+
+atc:G03AA16  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C01BD07  med:interaccionaCon  atc:C07 , atc:C01BC , atc:C01AA05 , atc:J01FA01 , atc:C10B , atc:C10AA01 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AM , atc:J04AB02 , atc:B01AE07 , atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:C03AA03  med:interaccionaCon  atc:N05AN01 .
+
+atc:L01CA05  med:interaccionaCon  atc:J02AC02 .
+
+atc:G03AD02  med:interaccionaCon  atc:G03AD , atc:G03AB , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AM , atc:J04AB02 , atc:G03HB , atc:G03HA01 , atc:G03FB , atc:G03FA , atc:G03DC , atc:G03DA , atc:G03AC , atc:G03AA .
+
+atc:L01CA02  med:interaccionaCon  atc:J02AC02 .
+
+atc:C09XA02  med:interaccionaCon  atc:J02AC02 , atc:L04AD01 .
+
+atc:C10BX03  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:N04BD01  med:interaccionaCon  atc:N02CC07 , atc:N02CC06 , atc:N02CC05 , atc:N02CC04 , atc:N02CC03 , atc:N02CC02 , atc:N02AB02 , atc:N02CC01 , atc:N06AX12 , atc:N06AG .
+
+atc:N05BB01  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N06AB10 .
+
+atc:D11AH04  med:interaccionaCon  atc:J01A , atc:A11CA .
+
+atc:G04BX14  med:interaccionaCon  atc:J01FA01 .
+
+atc:C01EB18  med:interaccionaCon  atc:J01FA01 , atc:J04AM , atc:J04AB02 .
+
+atc:C01CA06  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:G03FA01  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C01CA26  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:C07AA07  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B , atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:N07XX06  med:interaccionaCon  atc:N06AF .
+
+atc:C09DB02  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09BA09  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C07AB12  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:C09BB02  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N05AD08  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:C09CA02  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:G03FB05  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C07BB07  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B , atc:N05AN01 .
+
+atc:G03HB01  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:N06BA04  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:L01CA04  med:interaccionaCon  atc:J02AC02 .
+
+atc:C09BA05  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:G03AC09  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:J01EE01  med:interaccionaCon  atc:B01AA .
+
+atc:N06AA09  med:interaccionaCon  atc:C02AC01 , atc:N06AG , atc:N06AF .
+
+atc:M04AB03  med:interaccionaCon  atc:N02BA01 , atc:B01AC06 .
+
+atc:C09DA07  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N03AA03  med:interaccionaCon  atc:N06AX03 , atc:J01FA15 , atc:G03XB02 , atc:G03HB , atc:G03HA01 , atc:G03FB , atc:G03FA , atc:G03DC , atc:G03DA , atc:G03D , atc:G03AD02 , atc:G03AC , atc:G03AA , atc:C08CA06 , atc:C01BD07 , atc:B01AE07 .
+
+atc:C09AA09  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:J01AA07  med:interaccionaCon  atc:L01XX14 , atc:D11AH04 , atc:D10BA , atc:D05BB .
+
+atc:M01AH05  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:A03FA03  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:G03AA12  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C09DX01  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09DB01  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09DX03  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N06BA09  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:J01AA08  med:interaccionaCon  atc:L01XX14 , atc:D11AH04 , atc:D10BA , atc:D05BB .
+
+atc:N03AA02  med:interaccionaCon  atc:B01AE07 , atc:C01BD07 , atc:C08CA06 , atc:G03AA , atc:G03AC , atc:G03AD02 , atc:G03D , atc:G03DA , atc:G03DC , atc:G03FA , atc:G03FB , atc:G03HA01 , atc:G03HB , atc:G03XB02 , atc:J01FA15 , atc:N06AX03 .
+
+atc:B01AE07  med:interaccionaCon  atc:J02AC02 , atc:M01AX93 , atc:C01BD07 , atc:L04AD01 , atc:L04AD02 , atc:J04AB02 , atc:J04AM , atc:N03AA , atc:N03AB , atc:N03AF01 , atc:M01AB , atc:M01AC , atc:M01AE , atc:M01AG , atc:M01AH , atc:M01AX01 , atc:M01AX02 , atc:M01AX22 .
+
+atc:N05AH02  med:interaccionaCon  atc:N03AF01 .
+
+atc:C07AA05  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:R03DA04  med:interaccionaCon  atc:J01FA01 .
+
+atc:N02CC03  med:interaccionaCon  atc:N04BD , atc:N02CA , atc:G02AB , atc:N06AG , atc:N06AF .
+
+atc:N02CC05  med:interaccionaCon  atc:N04BD , atc:N02CA , atc:G02AB , atc:N06AG , atc:N06AF .
+
+atc:M04AC01  med:interaccionaCon  atc:J01FA01 , atc:C08DA01 , atc:J01FA09 , atc:J02AC , atc:L04AD01 , atc:J01FA15 .
+
+atc:C09DA08  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:J01AA12  med:interaccionaCon  atc:L01XX14 , atc:D11AH04 , atc:D10BA , atc:D05BB .
+
+atc:G03AA09  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:L04AD01  med:interaccionaCon  atc:N06BA07 , atc:C09XA02 , atc:B01AE07 , atc:J01FA15 , atc:A12BA01 , atc:A12BA04 , atc:A12BA30 , atc:A12BA51 , atc:A12BA91 , atc:C03D , atc:C03E , atc:M04AC01 , atc:C10B , atc:J01FA09 , atc:J02AC02 , atc:J01FA01 , atc:C10AA07 , atc:C10AX09 .
+
+atc:G03AA10  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:D10BA01  med:interaccionaCon  atc:J01A , atc:A11CA .
+
+atc:R06AX22  med:interaccionaCon  atc:J01FA07 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 .
+
+atc:N05AL05  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05BB01 , atc:N06AB10 .
+
+atc:C01EB17  med:interaccionaCon  atc:J01FA01 , atc:C08DB01 , atc:C08DA01 .
+
+atc:N03AX11  med:interaccionaCon  atc:G03AD , atc:G03AB , atc:G03HB , atc:G03FB , atc:G03FA , atc:G03DC , atc:G03DA , atc:G03AC , atc:G03AA .
+
+atc:J02AC04  med:interaccionaCon  atc:M04AC01 , atc:N05CD08 .
+
+atc:N03AX09  med:interaccionaCon  atc:N03AG02 , atc:N03AG01 .
+
+atc:C09CA04  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:G03AA15  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C10AB05  med:interaccionaCon  atc:C10BA , atc:C10AA , atc:C10BX .
+
+atc:C09DA01  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N04BD02  med:interaccionaCon  atc:N02CC07 , atc:N02CC06 , atc:N02CC05 , atc:N02CC04 , atc:N02CC03 , atc:N02CC02 , atc:N02AB02 , atc:N02CC01 , atc:N06AX12 , atc:N06AG .
+
+atc:G03AA07  med:interaccionaCon  atc:N03AX22 , atc:N03AX11 , atc:J04AB04 , atc:N03AF02 , atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AB02 , atc:G03XB02 , atc:G03AD02 .
+
+atc:C09AA06  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:A10BX02  med:interaccionaCon  atc:C10AB04 .
+
+atc:L01XX35  med:interaccionaCon  atc:B01AC23 .
+
+atc:C10AA04  med:interaccionaCon  atc:J01XC01 , atc:C10AB .
+
+atc:C10BA02  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:L04AD01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:N06AX21  med:interaccionaCon  atc:N06AB08 , atc:N06AG , atc:N06AF .
+
+atc:C09DA02  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09DA03  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:M01AC05  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:N06AX12  med:interaccionaCon  atc:N04BD , atc:L02BA01 , atc:N06AG , atc:N06AF .
+
+atc:N02CC01  med:interaccionaCon  atc:N04BD , atc:N02CA , atc:G02AB , atc:N06AG , atc:N06AF .
+
+atc:N05AD01  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:C09AA03  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09DA04  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:M01AC06  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C09BA03  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:R05DA09  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:C07AB03  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:J02AC02  med:interaccionaCon  atc:L01CA , atc:C10BX03 , atc:C09XA02 , atc:C08CA02 , atc:C10AA02 , atc:B01AF01 , atc:C10AA05 , atc:R06AX22 , atc:N05AE03 , atc:R06AX25 , atc:B01AE07 , atc:L04AD01 , atc:L04AD02 , atc:J04AB02 , atc:J04AM , atc:N05CD05 , atc:N05CD08 , atc:M04AC01 , atc:C10AA01 , atc:C10B , atc:G02AB , atc:L04AA10 , atc:L04AA18 , atc:N02CA .
+
+atc:M01AB16  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C10AB04  med:interaccionaCon  atc:A10BX02 , atc:C10BA , atc:C10AA , atc:C10BX .
+
+atc:C09AA04  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C03BA11  med:interaccionaCon  atc:N05AN01 .
+
+atc:L01BA01  med:interaccionaCon  atc:J01EA01 , atc:D05BB02 .
+
+atc:M01AE14  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:G02AB01  med:interaccionaCon  atc:N02CC , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01FA15 .
+
+atc:C09BA04  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:L02BA01  med:interaccionaCon  atc:N06AX12 , atc:N06AB03 , atc:N06AB05 .
+
+atc:C01CA07  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:C09DA06  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09BA01  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:J01AA02  med:interaccionaCon  atc:L01XX14 , atc:D11AH04 , atc:D10BA , atc:D05BB .
+
+atc:M01AB01  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:J04AB02  med:interaccionaCon  atc:P01AX06 , atc:C01EB18 , atc:J02AC02 , atc:J02AC01 , atc:B01AE07 , atc:C01BD07 , atc:C08CA06 , atc:G03AA , atc:G03AC , atc:G03AD02 , atc:G03D , atc:G03DA , atc:G03DC , atc:G03FA , atc:G03FB , atc:G03HA01 , atc:G03HB , atc:G03XB02 , atc:J01FA15 , atc:N06AX03 .
+
+atc:N05AA02  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:B01AA03  med:interaccionaCon  atc:L01BC03 , atc:J01EE01 , atc:L01BC02 , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:N02BA01 .
+
+atc:N03AG01  med:interaccionaCon  atc:N03AX09 .
+
+atc:M04AA01  med:interaccionaCon  atc:L04AX01 , atc:L01BB02 .
+
+atc:N03AF01  med:interaccionaCon  atc:N05AH02 , atc:J04AC , atc:J01FA01 , atc:C10B , atc:C10AA01 , atc:J04AM , atc:B01AE07 , atc:C01BD07 , atc:C08CA06 , atc:G03AA , atc:G03AC , atc:G03AD02 , atc:G03D , atc:G03DA , atc:G03DC , atc:G03FA , atc:G03FB , atc:G03HA01 , atc:G03HB , atc:G03XB02 , atc:J01FA15 , atc:N06AX03 .
+
+atc:C07AB07  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:C08DB01  med:interaccionaCon  atc:C01EB17 , atc:C07 , atc:C01BC , atc:N05AE03 .
+
+atc:J01FA01  med:interaccionaCon  atc:R06AX28 , atc:R03DA04 , atc:G04BX14 , atc:C01EB18 , atc:C01EB17 , atc:N05AH04 , atc:R06AX22 , atc:C01BA03 , atc:N05AE03 , atc:N05AG02 , atc:R06AX25 , atc:C01BD07 , atc:L04AD01 , atc:L04AD02 , atc:N03AF01 , atc:N05CD05 , atc:M04AC01 , atc:C10AA01 , atc:C10B , atc:G02AB , atc:L04AA10 , atc:L04AA18 , atc:N02CA .
+
+atc:C03DA01  med:interaccionaCon  atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:J02AC03  med:interaccionaCon  atc:M04AC01 , atc:N05CD08 .
+
+atc:B01AF03  med:interaccionaCon  atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB .
+
+atc:N02AX02  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:J01MA14  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:B01AC23  med:interaccionaCon  atc:L01XX35 .
+
+atc:M01AH01  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C10AA02  med:interaccionaCon  atc:J02AC02 , atc:J01XC01 , atc:C10AB , atc:J01FA15 .
+
+atc:C10AX09  med:interaccionaCon  atc:L04AD01 .
+
+atc:N06AA21  med:interaccionaCon  atc:C02AC01 , atc:N06AG , atc:N06AF .
+
+atc:L04AD02  med:interaccionaCon  atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 , atc:J01FA15 , atc:B01AE07 .
+
+atc:C10AA01  med:interaccionaCon  atc:G03XA01 , atc:J01FA01 , atc:J02AC02 , atc:J01FA09 , atc:J01XC01 , atc:C10AB , atc:N03AF01 , atc:J01FA15 , atc:C01BD07 .
+
+atc:B01AA07  med:interaccionaCon  atc:L01BC03 , atc:J01EE01 , atc:L01BC02 , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:N02BA01 .
+
+atc:C01BD01  med:interaccionaCon  atc:C07 , atc:C01BC , atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:A03FA03 , atc:C01BA03 , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 , atc:N06AB10 .
+
+atc:B01AF02  med:interaccionaCon  atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB .
+
+atc:C09CA07  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:B01AC06  med:interaccionaCon  atc:M04AB03 .
+
+atc:B01AC24  med:interaccionaCon  atc:J01FA09 .
+
+atc:C09DB04  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09AA02  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:M01AB05  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:L01BC02  med:interaccionaCon  atc:J05AB15 , atc:B01AA .
+
+atc:C01AA05  med:interaccionaCon  atc:C01BD07 .
+
+atc:N03AF02  med:interaccionaCon  atc:N06AX03 , atc:J01FA15 , atc:G03HB , atc:G03HA01 , atc:G03FB , atc:G03FA , atc:G03DC , atc:G03DA , atc:G03D , atc:G03AC , atc:G03AA .
+
+atc:C10AA07  med:interaccionaCon  atc:J01XC01 , atc:C10AB , atc:L04AD01 .
+
+atc:N05AH04  med:interaccionaCon  atc:J01FA01 .
+
+atc:N06AB10  med:interaccionaCon  atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:N06AG , atc:N06AF , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 .
+
+atc:N06AX16  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:B01AF01  med:interaccionaCon  atc:J02AC02 , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB .
+
+atc:M01AB15  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C01CA03  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:N07BC02  med:interaccionaCon  atc:N07BB05 , atc:N07BB04 , atc:N06AB04 , atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N06CA02 , atc:N06AB10 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 .
+
+atc:M01AE17  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C09AA01  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N06AX22  med:interaccionaCon  atc:N06AB08 .
+
+atc:C10AA05  med:interaccionaCon  atc:J02AC02 , atc:J01XC01 , atc:C10AB , atc:J01FA15 .
+
+atc:N06AB03  med:interaccionaCon  atc:L02BA01 , atc:N06AG , atc:N06AF , atc:N05AE03 .
+
+atc:C07AG02  med:interaccionaCon  atc:C08DB01 , atc:C08DA01 , atc:C02AC01 , atc:C01B .
+
+atc:C01CA24  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:M01AE02  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:C09AA05  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:M01AE01  med:interaccionaCon  atc:B01AF , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AC , atc:M01AB , atc:B01AA , atc:N05AN01 , atc:B01AE07 , atc:N02BA01 .
+
+atc:N02BA01  med:interaccionaCon  atc:M04AB03 , atc:M01AX93 , atc:M01AX22 , atc:M01AX02 , atc:M01AX01 , atc:M01AH , atc:M01AG , atc:M01AE , atc:M01AC , atc:M01AB , atc:B01AA .
+
+atc:C03CA01  med:interaccionaCon  atc:N05AN01 .
+
+atc:N06AB06  med:interaccionaCon  atc:N06AG , atc:N06AF , atc:N05AG02 .
+
+atc:N06AB05  med:interaccionaCon  atc:L02BA01 , atc:N06AG , atc:N06AF , atc:N05AG02 , atc:N05AE03 .
+
+atc:J01FA09  med:interaccionaCon  atc:R06AX22 , atc:N02CA , atc:L04AA18 , atc:L04AA10 , atc:G02AB , atc:C10B , atc:C10AA01 , atc:B01AC24 , atc:M04AC01 , atc:L04AD02 , atc:L04AD01 , atc:R06AX25 , atc:N05AE03 , atc:C01BA03 .
+
+atc:J02AC01  med:interaccionaCon  atc:M04AC01 , atc:N05CD08 , atc:J04AM , atc:J04AB02 , atc:N05AG02 .
+
+atc:C09BA02  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09CA01  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C10AA03  med:interaccionaCon  atc:J01XC01 , atc:C10AB .
+
+atc:C03CA04  med:interaccionaCon  atc:N05AN01 .
+
+atc:N05CD08  med:interaccionaCon  atc:J02AC .
+
+atc:C08CA06  med:interaccionaCon  atc:N03AF01 , atc:N03AB , atc:N03AA , atc:J04AM , atc:J04AB02 .
+
+atc:N06AX11  med:interaccionaCon  atc:N06AG , atc:N06AF .
+
+atc:C09CA03  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C09CA06  med:interaccionaCon  atc:N05AN01 , atc:C03E , atc:C03D , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:C03DA04  med:interaccionaCon  atc:L04AD02 , atc:L04AD01 , atc:C10BX06 , atc:C09D , atc:C09C , atc:C09BB , atc:C09BA , atc:C09A , atc:A12BA91 , atc:A12BA51 , atc:A12BA30 , atc:A12BA04 , atc:A12BA01 .
+
+atc:N03AB02  med:interaccionaCon  atc:N07BB01 , atc:B01AE07 , atc:C01BD07 , atc:C08CA06 , atc:G03AA , atc:G03AC , atc:G03AD02 , atc:G03D , atc:G03DA , atc:G03DC , atc:G03FA , atc:G03FB , atc:G03HA01 , atc:G03HB , atc:G03XB02 , atc:J01FA15 , atc:N06AX03 .
+
+atc:N06AB04  med:interaccionaCon  atc:R06AX25 , atc:R06AD07 , atc:P01CX01 , atc:P01BF05 , atc:P01BA01 , atc:N07BC02 , atc:N06CA02 , atc:N06AG , atc:N06AF , atc:N06AB10 , atc:A03FA03 , atc:C01BA03 , atc:C01BD , atc:C07AA07 , atc:J01MA14 , atc:N05AA01 , atc:N05AA02 , atc:N05AD01 , atc:N05AD08 , atc:N05AE03 , atc:N05AF05 , atc:N05AG02 , atc:N05AL01 , atc:N05AL03 , atc:N05AL05 , atc:N05BB01 .
