@@ -1,0 +1,1404 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix med:   <http://www.medicamentos.es/> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_locomotor>
+        skos:prefLabel  "Enfermedades del aparato locomotor"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas>
+        skos:prefLabel  "Enfermedades neurológicas"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_renales>
+        skos:prefLabel  "Enfermedades renales"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_reumatológicas>
+        skos:prefLabel  "Enfermedades reumatológicas"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_psiquiátricas>
+        skos:prefLabel  "Enfermedades psiquiátricas"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_urogenitales>
+        skos:prefLabel  "Enfermedades urogenitales"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_otorrinolaringológicas>
+        skos:prefLabel  "Enfermedades otorrinolaringológicas"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio>
+        skos:prefLabel  "Enfermedades del aparato respiratorio"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_ginecológicas_y_obstétricas>
+        skos:prefLabel  "Enfermedades ginecológicas y obstétricas"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_cardiovasculares>
+        skos:prefLabel  "Enfermedades cardiovasculares"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo>
+        skos:prefLabel  "Enfermedades del aparato digestivo"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_visual>
+        skos:prefLabel  "Enfermedades del sistema visual"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_hematológicas>
+        skos:prefLabel  "Enfermedades hematológicas"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Alucinaciones>
+                skos:prefLabel  "Alucinaciones"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño>
+                skos:prefLabel  "Trastornos del sueño"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Fallecidos_por_enfermedades_neurodegenerativas>
+                skos:prefLabel  "Fallecidos por enfermedades neurodegenerativas"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_del_sistema_nervioso_periférico>
+                skos:prefLabel  "Enfermedades y trastornos del sistema nervioso periférico"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Prion>
+                skos:prefLabel  "Prion"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Cefalea>
+                skos:prefLabel  "Cefalea"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas_por_categoría_de_enfermedad>
+                skos:prefLabel  "Enfermedades neurológicas por categoría de enfermedad"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas_en_niños>
+                skos:prefLabel  "Enfermedades neurológicas en niños"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Poliomielitis>
+                skos:prefLabel  "Poliomielitis"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_nervioso_central>
+                skos:prefLabel  "Enfermedades del sistema nervioso central"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Enfermedad_de_Alzheimer>
+                skos:prefLabel  "Enfermedad de Alzheimer"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Tumores_del_sistema_nervioso>
+                skos:prefLabel  "Tumores del sistema nervioso"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Leucodistrofias>
+                skos:prefLabel  "Leucodistrofias"@es .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_mama>
+                        skos:prefLabel  "Enfermedades de la mama"@es .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vulva>
+                        skos:prefLabel  "Enfermedades de la vulva"@es .
+
+                <http://es.dbpedia.org/resource/Categoría:Infertilidad>
+                        skos:prefLabel  "Infertilidad"@es .
+
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitales_femeninos>
+                        skos:prefLabel  "Tumores genitales femeninos"@es .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vagina>
+                        skos:prefLabel  "Enfermedades de la vagina"@es .
+
+                <http://es.dbpedia.org/resource/Categoría:Trastornos_menstruales>
+                        skos:prefLabel  "Trastornos menstruales"@es .
+
+                        <http://es.dbpedia.org/resource/Categoría:Trastornos_de_los_músculos_oculares,_de_los_movimientos_binoculares,_de_la_acomodación_y_la_refracción>
+                                skos:prefLabel  "Trastornos de los músculos oculares, de los movimientos binoculares, de la acomodación y la refracción"@es .
+
+                        <http://es.dbpedia.org/resource/Categoría:Distrofias_corneales>
+                                skos:prefLabel  "Distrofias corneales"@es .
+
+                        <http://es.dbpedia.org/resource/Categoría:Ceguera>
+                                skos:prefLabel  "Ceguera"@es .
+
+                        <http://es.dbpedia.org/resource/Categoría:Baja_visión>
+                                skos:prefLabel  "Baja visión"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo>
+                                        skos:prefLabel  "Tumores del aparato digestivo"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Intolerancia_a_los_alimentos>
+                                        skos:prefLabel  "Intolerancia a los alimentos"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales>
+                                        skos:prefLabel  "Enfermedades intestinales"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares>
+                                        skos:prefLabel  "Enfermedades hepáticas y biliares"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Cáncer_colorrectal>
+                                        skos:prefLabel  "Cáncer colorrectal"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_tracto_gastrointestinal>
+                                        skos:prefLabel  "Trastornos del tracto gastrointestinal"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Cáncer_de_estómago>
+                                        skos:prefLabel  "Cáncer de estómago"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_congénitas_del_sistema_digestivo>
+                                        skos:prefLabel  "Enfermedades congénitas del sistema digestivo"@es .
+
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral>
+                                        skos:prefLabel  "Enfermedades de la cavidad oral"@es .
+
+                                        <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_respiratorio>
+                                              skos:prefLabel  "Tumores del aparato respiratorio"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_pleura>
+                                              skos:prefLabel  "Enfermedades de la pleura"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_las_vías_respiratorias_superiores>
+                                              skos:prefLabel  "Enfermedades de las vías respiratorias superiores"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio>
+                                              skos:prefLabel  "Semiología del aparato respiratorio"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Síndromes_que_afectan_el_sistema_respiratorio>
+                                              skos:prefLabel  "Síndromes que afectan el sistema respiratorio"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Enfermedades_pulmonares_por_agentes_externos>
+                                              skos:prefLabel  "Enfermedades pulmonares por agentes externos"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Gripe>
+                                              skos:prefLabel  "Gripe"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Pleuritis>
+                                              skos:prefLabel  "Pleuritis"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Asma>
+                                              skos:prefLabel  "Asma"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Neumonía>
+                                              skos:prefLabel  "Neumonía"@es .
+
+                                      <http://es.dbpedia.org/resource/Categoría:Infecciones_agudas_de_las_vías_respiratorias_superiores>
+                                              skos:prefLabel  "Infecciones agudas de las vías respiratorias superiores"@es .
+
+
+                                              <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis>
+        skos:prefLabel  "Glomerulonefritis"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral>
+        skos:prefLabel  "Enfermedades de la cavidad oral"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_del_oído>
+        skos:prefLabel  "Enfermedades del oído"@es.
+
+        <http://es.dbpedia.org/resource/Categoría:Anemia>
+        skos:prefLabel  "Anemia"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Neoplasias_hematológicas>
+        skos:prefLabel  "Neoplasias hematológicas"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_de_los_eritrocitos>
+        skos:prefLabel  "Enfermedades y trastornos de los eritrocitos"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Coagulopatías>
+        skos:prefLabel  "Coagulopatías"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Enfermedades_traumatológicas>
+        skos:prefLabel  "Enfermedades traumatológicas"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_del_pie>
+        skos:prefLabel  "Enfermedades del pie"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Fracturas_óseas>
+        skos:prefLabel  "Fracturas óseas"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_congénitas_del_aparato_locomotor>
+        skos:prefLabel  "Enfermedades congénitas del aparato locomotor"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares>
+        skos:prefLabel  "Enfermedades musculares"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Vasculitis>
+        skos:prefLabel  "Vasculitis"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Tumores_genitourinarios>
+        skos:prefLabel  "Tumores genitourinarios"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_reproductor>
+        skos:prefLabel  "Enfermedades del aparato reproductor"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Cáncer_de_vejiga>
+        skos:prefLabel  "Cáncer de vejiga"@es .
+
+        <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares>
+        skos:prefLabel  "Enfermedades vasculares"@es .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas>
+        skos:prefLabel  "Enfermedades cardíacas"@es .
+
+<http://es.dbpedia.org/resource/Ginecomastia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_mama> .
+
+<http://es.dbpedia.org/resource/Vaginosis_bacteriana>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vagina> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vulva>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_ginecológicas_y_obstétricas> .
+
+<http://es.dbpedia.org/resource/Dismenorrea>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Trastornos_menstruales> .
+
+<http://es.dbpedia.org/resource/Vulvovaginitis_candidiásica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vagina> .
+
+<http://es.dbpedia.org/resource/Categoría:Tumores_genitales_femeninos>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_ginecológicas_y_obstétricas> .
+
+<http://es.dbpedia.org/resource/Virus_del_papiloma_humano>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vagina> , <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vulva> .
+
+<http://es.dbpedia.org/resource/Cáncer_de_endometrio>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitales_femeninos> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Mondor>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_mama> .
+
+<http://es.dbpedia.org/resource/Enfermedad_trofoblástica_gestacional>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitales_femeninos> .
+
+<http://es.dbpedia.org/resource/Trastorno_disfórico_premenstrual>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Trastornos_menstruales> .
+
+<http://es.dbpedia.org/resource/Herpes_simple>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vagina> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_mama>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_ginecológicas_y_obstétricas> .
+
+<http://es.dbpedia.org/resource/Candidiasis>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vagina> .
+
+<http://es.dbpedia.org/resource/Hipertrofia_virginal_de_los_senos>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_mama> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vagina>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_ginecológicas_y_obstétricas> .
+
+<http://es.dbpedia.org/resource/Vulvodinia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_vulva> .
+
+<http://es.dbpedia.org/resource/Cáncer_de_ovario>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitales_femeninos> .
+
+<http://es.dbpedia.org/resource/Categoría:Trastornos_menstruales>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_ginecológicas_y_obstétricas> .
+
+<http://es.dbpedia.org/resource/Amenorrea>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Trastornos_menstruales> .
+
+<http://es.dbpedia.org/resource/Síndrome_premenstrual>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Trastornos_menstruales> .
+
+<http://es.dbpedia.org/resource/Mastitis>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_mama> .
+
+<http://es.dbpedia.org/resource/Ectasia_ductal>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_mama> .
+
+
+
+                <http://es.dbpedia.org/resource/Somnolencia>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Meningitis>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_nervioso_central> .
+
+                <http://es.dbpedia.org/resource/Hipersomnia>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Hemicránea_paroxística>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Cefalea> .
+
+                <http://es.dbpedia.org/resource/Síndrome_de_la_fase_del_sueño_retrasada>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Glioblastoma>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_sistema_nervioso> .
+
+                <http://es.dbpedia.org/resource/Categoría:Tumores_del_sistema_nervioso>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas> .
+
+                <http://es.dbpedia.org/resource/Glioma>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_sistema_nervioso> .
+
+                <http://es.dbpedia.org/resource/Migraña>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Cefalea> .
+
+                <http://es.dbpedia.org/resource/Jet_lag>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Gliomatosis_cerebri>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_sistema_nervioso> .
+
+                <http://es.dbpedia.org/resource/Terror_nocturno>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Categoría:Cefalea>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas> .
+
+                <http://es.dbpedia.org/resource/Síndrome_de_la_cabeza_explosiva>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Cefalea_tensional>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Cefalea> .
+
+                <http://es.dbpedia.org/resource/Cefalea_en_racimos>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Cefalea> .
+
+                <http://es.dbpedia.org/resource/Astrocitoma_anaplásico>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_sistema_nervioso> .
+
+                <http://es.dbpedia.org/resource/Trastorno_bipolar>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_nervioso_central> , <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Fuga_espontánea_de_líquido_cefalorraquídeo>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_nervioso_central> .
+
+                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas> .
+
+                <http://es.dbpedia.org/resource/Enfermedad_de_Canavan>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Leucodistrofias> .
+
+                <http://es.dbpedia.org/resource/Insomnio>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Dolor_de_muela>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Cefalea> .
+
+                <http://es.dbpedia.org/resource/Meningioma>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_sistema_nervioso> .
+
+                <http://es.dbpedia.org/resource/Trastorno_del_sueño_del_ritmo_circadiano>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Neuroblastoma>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_sistema_nervioso> .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedad_de_Alzheimer>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas> .
+
+                <http://es.dbpedia.org/resource/Enfermedad_del_sistema_nervioso_central>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_nervioso_central> .
+
+                <http://es.dbpedia.org/resource/Cefalea>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Cefalea> .
+
+                <http://es.dbpedia.org/resource/Narcolepsia>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Enfermedad_de_Alzheimer>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedad_de_Alzheimer> .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_nervioso_central>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas> .
+
+                <http://es.dbpedia.org/resource/Neuropatía_diabética>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_del_sistema_nervioso_periférico> .
+
+                <http://es.dbpedia.org/resource/Trastorno_del_sueño>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Categoría:Leucodistrofias>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas> .
+
+                <http://es.dbpedia.org/resource/Espasmo_mioclónico>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Disomnia>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Síndrome_de_Zellweger>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Leucodistrofias> .
+
+                <http://es.dbpedia.org/resource/Síndrome_de_fase_de_sueño_avanzada_familiar>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_sueño> .
+
+                <http://es.dbpedia.org/resource/Insensibilidad_congénita_al_dolor_con_anhidrosis>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_del_sistema_nervioso_periférico> .
+
+                <http://es.dbpedia.org/resource/Meningitis_aséptica>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_nervioso_central> .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_del_sistema_nervioso_periférico>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_neurológicas> .
+
+                        <http://es.dbpedia.org/resource/Estrabismo>
+                                <http://purl.org/dc/terms/subject>
+                                        <http://es.dbpedia.org/resource/Categoría:Trastornos_de_los_músculos_oculares,_de_los_movimientos_binoculares,_de_la_acomodación_y_la_refracción> .
+
+                        <http://es.dbpedia.org/resource/Categoría:Trastornos_de_los_músculos_oculares,_de_los_movimientos_binoculares,_de_la_acomodación_y_la_refracción>
+                                skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_sistema_visual> .
+
+
+                                <http://es.dbpedia.org/resource/Ascitis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Síndrome_de_la_arteria_mesentérica_superior>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_tracto_gastrointestinal> .
+
+                                <http://es.dbpedia.org/resource/Parotiditis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Proctalgia_fugax>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo>
+                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales>
+                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Cáncer_de_ano>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> , <http://es.dbpedia.org/resource/Categoría:Cáncer_colorrectal> .
+
+                                <http://es.dbpedia.org/resource/Fascioliasis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Poliposis_adenomatosa_familiar>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> , <http://es.dbpedia.org/resource/Categoría:Cáncer_colorrectal> .
+
+                                <http://es.dbpedia.org/resource/Hemorroides>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Colangitis_aguda>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Fisura_anal>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Invaginación_intestinal>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral>
+                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Síndrome_del_intestino_corto>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Xerostomía>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Angina_de_Vincent>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Cirrosis_hepática>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Hematoma_perianal>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_tracto_gastrointestinal> .
+
+                                <http://es.dbpedia.org/resource/Colelitiasis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Cáncer_de_esófago>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Síndrome_de_Ogilvie>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Cálculo_de_la_glándula_salival>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Síndrome_del_recién_nacido_gris>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Tonsilolito>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Cáncer_de_estómago>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Cáncer_de_estómago> , <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Factores_de_riesgo_del_cáncer_gástrico>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Cáncer_de_estómago> .
+
+                                <http://es.dbpedia.org/resource/Síndrome_de_Papillon-Lefèvre>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Glositis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Impactación_fecal>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Gastroenterocolitis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Estreñimiento>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Síndrome_de_Gilbert>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Estomatitis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Categoría:Cáncer_colorrectal>
+                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Proctitis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Tumor_del_estroma_gastrointestinal>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Hepatocarcinoma>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Cáncer_de_páncreas>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/VIPoma>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Estomatitis_herpética>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Pólipos_de_colon_y_recto>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Cáncer_colorrectal> , <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Categoría:Cáncer_de_estómago>
+                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Cálculo_dental>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Cáncer_colorrectal>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> , <http://es.dbpedia.org/resource/Categoría:Cáncer_colorrectal> .
+
+                                <http://es.dbpedia.org/resource/Glosodinia>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Enfermedad_de_Wilson>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Diarrea>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Colangitis_biliar_primaria>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Periodontitis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Síndrome_del_intestino_irritable>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares>
+                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Celiaquía>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Intolerancia_a_los_alimentos> .
+
+                                <http://es.dbpedia.org/resource/Sensibilidad_al_gluten_no_celíaca>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Intolerancia_a_los_alimentos> .
+
+                                <http://es.dbpedia.org/resource/Sialorrea>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Categoría:Intolerancia_a_los_alimentos>
+                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Colestasis>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Enfermedad_de_Von_Gierke>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Lengua_negra_vellosa>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                                <http://es.dbpedia.org/resource/Galactosemia>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Intolerancia_a_los_alimentos> .
+
+                                <http://es.dbpedia.org/resource/Hepatotoxicidad>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Ictericia>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Intolerancia_a_la_lactosa>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Intolerancia_a_los_alimentos> .
+
+                                <http://es.dbpedia.org/resource/Perforación_intestinal>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_intestinales> .
+
+                                <http://es.dbpedia.org/resource/Esteatosis_hepática>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Absceso_hepático>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Categoría:Trastornos_del_tracto_gastrointestinal>
+                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Gastrinoma>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_digestivo> .
+
+                                <http://es.dbpedia.org/resource/Trombosis_de_la_vena_porta>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_hepáticas_y_biliares> .
+
+                                <http://es.dbpedia.org/resource/Enfermedad_mano-pie-boca>
+                                        <http://purl.org/dc/terms/subject>
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+
+                                                <http://es.dbpedia.org/resource/Absceso_pulmonar>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Neumonía> .
+
+                                                <http://es.dbpedia.org/resource/Carcinoma_de_cavum>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Congestión_nasal>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Tos>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_las_vías_respiratorias_superiores>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_pulmonares_por_agentes_externos>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Asma>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Asma_ocupacional>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Asma> .
+
+                                                <http://es.dbpedia.org/resource/Derrame_pleural>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_pleura> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Pleuritis>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Angiofibroma_nasofaríngeo_juvenil>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Mesotelioma>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_pleura> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_pleura>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Alveolitis_alérgica_extrínseca>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_pulmonares_por_agentes_externos> .
+
+                                                <http://es.dbpedia.org/resource/Neumotórax>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_pleura> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Neumonía>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Epistaxis>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Granulomatosis_eosinofílica_con_poliangitis>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Síndromes_que_afectan_el_sistema_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Infecciones_agudas_de_las_vías_respiratorias_superiores>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Neumoconiosis>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_pulmonares_por_agentes_externos> .
+
+                                                <http://es.dbpedia.org/resource/Síndrome_respiratorio_agudo_grave>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Neumonía> , <http://es.dbpedia.org/resource/Categoría:Síndromes_que_afectan_el_sistema_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Gripe_porcina>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Gripe> .
+
+                                                <http://es.dbpedia.org/resource/Hipo>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Neumonía_eosinofílica>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Neumonía> .
+
+                                                <http://es.dbpedia.org/resource/Gripe>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Gripe> .
+
+                                                <http://es.dbpedia.org/resource/Bisinosis>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_pulmonares_por_agentes_externos> .
+
+                                                <http://es.dbpedia.org/resource/Pleuritis>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Pleuritis> , <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio> , <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_pleura> .
+
+                                                <http://es.dbpedia.org/resource/Faringitis>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_las_vías_respiratorias_superiores> , <http://es.dbpedia.org/resource/Categoría:Infecciones_agudas_de_las_vías_respiratorias_superiores> .
+
+                                                <http://es.dbpedia.org/resource/Neumonía_adquirida_en_la_comunidad>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Neumonía> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Síndromes_que_afectan_el_sistema_respiratorio>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_respiratorio>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Neumonía_bacteriana>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Neumonía> .
+
+                                                <http://es.dbpedia.org/resource/Estridor>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Categoría:Gripe>
+                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Cáncer_de_pulmón_de_células_pequeñas>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Tumores_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Asma>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Asma> .
+
+                                                <http://es.dbpedia.org/resource/Estornudo>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Semiología_del_aparato_respiratorio> .
+
+                                                <http://es.dbpedia.org/resource/Enfermedad_pulmonar_inducida_por_fármacos>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_pulmonares_por_agentes_externos> .
+
+                                                <http://es.dbpedia.org/resource/Neumonía>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Neumonía> .
+
+                                                <http://es.dbpedia.org/resource/Urinotórax>
+                                                        <http://purl.org/dc/terms/subject>
+                                                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_pleura> .
+
+                                                                <http://es.dbpedia.org/resource/Glomerulonefritis>
+                                                                        <http://purl.org/dc/terms/subject>
+                                                                                <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis> .
+
+                                                                <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis>
+                                                                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_renales> .
+
+                                                                <http://es.dbpedia.org/resource/Glomerulonefritis_membranosa>
+                                                                        <http://purl.org/dc/terms/subject>
+                                                                                <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis> .
+
+                                                                <http://es.dbpedia.org/resource/Nefropatía_por_IgA>
+                                                                        <http://purl.org/dc/terms/subject>
+                                                                                <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis> .
+
+                                                                <http://es.dbpedia.org/resource/Glomerulonefritis_membranoproliferativa>
+                                                                        <http://purl.org/dc/terms/subject>
+                                                                                <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis> .
+
+                                                                <http://es.dbpedia.org/resource/Glomerulonefritis_rápidamente_progresiva>
+                                                                        <http://purl.org/dc/terms/subject>
+                                                                                <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis> .
+
+                                                                <http://es.dbpedia.org/resource/Glomeruloesclerosis_focal_y_segmentaria>
+                                                                        <http://purl.org/dc/terms/subject>
+                                                                                <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis> .
+
+                                                                <http://es.dbpedia.org/resource/Glomerulonefritis_posestreptocócica>
+                                                                        <http://purl.org/dc/terms/subject>
+                                                                                <http://es.dbpedia.org/resource/Categoría:Glomerulonefritis> .
+
+                                                                                <http://es.dbpedia.org/resource/Enfermedad_mano-pie-boca>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Tonsilolito>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_del_oído>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_otorrinolaringológicas> .
+
+<http://es.dbpedia.org/resource/Glosodinia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Cálculo_dental>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Angina_de_Vincent>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Estomatitis_herpética>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Estomatitis>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Papillon-Lefèvre>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Cálculo_de_la_glándula_salival>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Sialorrea>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Parotiditis>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Xerostomía>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_otorrinolaringológicas> .
+
+<http://es.dbpedia.org/resource/Otitis_externa>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_oído> .
+
+<http://es.dbpedia.org/resource/Lengua_negra_vellosa>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Periodontitis>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+<http://es.dbpedia.org/resource/Glositis>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_de_la_cavidad_oral> .
+
+                <http://es.dbpedia.org/resource/Porfiria>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_de_los_eritrocitos> .
+
+<http://es.dbpedia.org/resource/Diatesis_hemorrágica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Coagulación_intravascular_diseminada>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Púrpura_trombocitopénica_idiopática>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Porfiria_cutánea_tarda>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_de_los_eritrocitos> .
+
+<http://es.dbpedia.org/resource/Anemia_aplásica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Anemia_de_células_falciformes>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Anemia_ferropénica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Policitemia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_de_los_eritrocitos> .
+
+<http://es.dbpedia.org/resource/Trombosis_venosa_profunda>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Metahemoglobinemia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_de_los_eritrocitos> .
+
+<http://es.dbpedia.org/resource/Anemia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Trombocitosis_esencial>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Anemia_macrocítica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Categoría:Coagulopatías>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_hematológicas> .
+
+<http://es.dbpedia.org/resource/Anemia_hemolítica_autoinmune>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Anemia_microcítica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Anemia_megaloblástica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Anemia_hemolítica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Coagulopatía>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Anemia_sideroblástica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Anemia> .
+
+<http://es.dbpedia.org/resource/Resistencia_a_proteína_C_activada>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Deficiencia_de_factor_X>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Factor_V_Leiden>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_de_los_eritrocitos>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_hematológicas> .
+
+<http://es.dbpedia.org/resource/Ferropenia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_y_trastornos_de_los_eritrocitos> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_von_Willebrand>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Púrpura_trombocitopénica_trombótica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+<http://es.dbpedia.org/resource/Categoría:Anemia>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_hematológicas> .
+
+<http://es.dbpedia.org/resource/Trombofilia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Coagulopatías> .
+
+                <http://es.dbpedia.org/resource/Tendinopatía>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_traumatológicas> .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_pie>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_locomotor> .
+
+                <http://es.dbpedia.org/resource/Fractura_de_rótula>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas> .
+
+                <http://es.dbpedia.org/resource/Podoconiosis>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_pie> .
+
+                <http://es.dbpedia.org/resource/Parálisis_tirotóxica_periódica>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Atrofia_muscular_espinal>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Mialgia>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Tetania>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Fibromatosis_plantar>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_pie> .
+
+                <http://es.dbpedia.org/resource/Estrabismo>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Fractura_del_boxeador>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas> .
+
+                <http://es.dbpedia.org/resource/Pseudoartrosis>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas> .
+
+                <http://es.dbpedia.org/resource/Distrofia_miotónica_de_Steinert>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Fractura_costal>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas> .
+
+                <http://es.dbpedia.org/resource/Rabdomiólisis>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Proctalgia_fugax>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Acondroplasia>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_congénitas_del_aparato_locomotor> .
+
+                <http://es.dbpedia.org/resource/Síndrome_miasténico_de_Lambert-Eaton>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares> .
+
+                <http://es.dbpedia.org/resource/Fractura_de_cráneo>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas> .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_traumatológicas>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_locomotor> .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_musculares>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_locomotor> .
+
+                <http://es.dbpedia.org/resource/Fractura_de_Le_Fort>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas> .
+
+                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_locomotor> .
+
+                <http://es.dbpedia.org/resource/Espina_bífida>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Enfermedades_congénitas_del_aparato_locomotor> .
+
+                <http://es.dbpedia.org/resource/Fractura_de_fémur>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas> .
+
+                <http://es.dbpedia.org/resource/Fractura_de_compresión_vertebral>
+                        <http://purl.org/dc/terms/subject>
+                                <http://es.dbpedia.org/resource/Categoría:Fracturas_óseas> .
+
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_congénitas_del_aparato_locomotor>
+                        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_del_aparato_locomotor> .
+
+                        <http://es.dbpedia.org/resource/Arteritis_de_células_gigantes>
+                                <http://purl.org/dc/terms/subject>
+                                        <http://es.dbpedia.org/resource/Categoría:Vasculitis> .
+
+                        <http://es.dbpedia.org/resource/Enfermedad_de_Kawasaki>
+                                <http://purl.org/dc/terms/subject>
+                                        <http://es.dbpedia.org/resource/Categoría:Vasculitis> .
+
+                        <http://es.dbpedia.org/resource/Arteritis_de_Takayasu>
+                                <http://purl.org/dc/terms/subject>
+                                        <http://es.dbpedia.org/resource/Categoría:Vasculitis> .
+
+                        <http://es.dbpedia.org/resource/Categoría:Vasculitis>
+                                skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_reumatológicas> .
+
+                        <http://es.dbpedia.org/resource/Enfermedad_de_Mondor>
+                                <http://purl.org/dc/terms/subject>
+                                        <http://es.dbpedia.org/resource/Categoría:Vasculitis> .
+
+                        <http://es.dbpedia.org/resource/Granulomatosis_eosinofílica_con_poliangitis>
+                                <http://purl.org/dc/terms/subject>
+                                        <http://es.dbpedia.org/resource/Categoría:Vasculitis> .
+
+                                        <http://es.dbpedia.org/resource/Carcinoma_renal>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitourinarios> .
+
+<http://es.dbpedia.org/resource/Tumor_de_células_de_Sertoli-Leydig>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitourinarios> .
+
+<http://es.dbpedia.org/resource/Categoría:Tumores_genitourinarios>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_urogenitales> .
+
+<http://es.dbpedia.org/resource/Cáncer_de_próstata>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitourinarios> .
+
+<http://es.dbpedia.org/resource/Cáncer_de_vejiga>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitourinarios> .
+
+<http://es.dbpedia.org/resource/Tumor_venéreo_transmisible>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Tumores_genitourinarios> .
+
+                <http://es.dbpedia.org/resource/Depresión>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_psiquiátricas> .
+
+                <http://es.dbpedia.org/resource/Síndrome_de_Susac>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Hemorroides>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Enfermedades_cardiovasculares>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_muerte_súbita_inesperada>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Gangrena>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Stokes–Adams>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Trombosis_del_seno_venoso_cerebral>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Accidente_cerebrovascular>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Trombosis_venosa_profunda>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardiovasculares> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_moyamoya>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Trastornos_del_ritmo_cardíaco>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Síndrome_del_corazón_de_atleta>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Émbolo>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Fiebre_reumática>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Kawasaki>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Enfermedad_cerebrovascular>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_las_arterias_coronarias>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Edema_pulmonar>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Asistolia>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Ateroesclerosis>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Fenómeno_de_Raynaud>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Enfermedad_vascular_periférica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Enfermedad_de_Paget-Schrötter>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas>
+        skos:broader  <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardiovasculares> .
+
+<http://es.dbpedia.org/resource/Esclerosis_de_Monckeberg>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Síndrome_de_Romano-Ward>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_cardíacas> .
+
+<http://es.dbpedia.org/resource/Enfermedades_vasculares>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Insuficiencia_venosa_cerebroespinal_crónica>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
+
+<http://es.dbpedia.org/resource/Trombosis>
+        <http://purl.org/dc/terms/subject>
+                <http://es.dbpedia.org/resource/Categoría:Enfermedades_vasculares> .
