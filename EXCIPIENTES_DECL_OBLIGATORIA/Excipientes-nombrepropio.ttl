@@ -1,0 +1,3359 @@
+@prefix dcp:  <http://www.medicamentos.es/DCP/> .
+@prefix atc:  <http://www.medicamentos.es/ATC/> .
+@prefix excip:  <http://www.medicamentos.es/ExcipienteDeclObligatoria/> .
+@prefix dcsa:  <http://www.medicamentos.es/DCSA/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix enva:  <http://www.medicamentos.es/Envase/> .
+@prefix med:  <http://www.medicamentos.es/> .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/25>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Betadex"@es ;
+        med:codigoExcipiente  "25" ;
+        med:nombreExcipiente  "BETADEX" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/32>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carbonato Sodico Monohidrato"@es ;
+        med:codigoExcipiente  "32" ;
+        med:nombreExcipiente  "CARBONATO SODICO MONOHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/34>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Caseinato Sodico"@es ;
+        med:codigoExcipiente  "34" ;
+        med:nombreExcipiente  "CASEINATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/35>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Celactosa 80"@es ;
+        med:codigoExcipiente  "35" ;
+        med:nombreExcipiente  "CELACTOSA 80" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/51>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cremophor El"@es ;
+        med:codigoExcipiente  "51" ;
+        med:nombreExcipiente  "CREMOPHOR EL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/54>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cromato Sodico"@es ;
+        med:codigoExcipiente  "54" ;
+        med:nombreExcipiente  "CROMATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/61>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Cacahuete"@es ;
+        med:codigoExcipiente  "61" ;
+        med:nombreExcipiente  "ACEITE DE CACAHUETE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/62>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cacahuete, Aceite De, Hidrogenado"@es ;
+        med:codigoExcipiente  "62" ;
+        med:nombreExcipiente  "CACAHUETE, ACEITE DE, HIDROGENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/65>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Docusato De Sodio"@es ;
+        med:codigoExcipiente  "65" ;
+        med:nombreExcipiente  "DOCUSATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/66>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dodecil Sulfato Sodico"@es ;
+        med:codigoExcipiente  "66" ;
+        med:nombreExcipiente  "DODECIL SULFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/78>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Maiz"@es ;
+        med:codigoExcipiente  "78" ;
+        med:nombreExcipiente  "ACEITE DE MAIZ" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/87>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alfadex"@es ;
+        med:codigoExcipiente  "87" ;
+        med:nombreExcipiente  "ALFADEX" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/91>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Maltitol (E965)"@es ;
+        med:codigoExcipiente  "91" ;
+        med:nombreExcipiente  "MALTITOL (E965)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/93>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol Ester Hidrogenado De Colofonia"@es ;
+        med:codigoExcipiente  "93" ;
+        med:nombreExcipiente  "GLICEROL ESTER HIDROGENADO DE COLOFONIA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/100>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Isomalt C (Isomaltitol)"@es ;
+        med:codigoExcipiente  "100" ;
+        med:nombreExcipiente  "ISOMALT C (ISOMALTITOL)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/114>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfito De Sodio Heptahidrato"@es ;
+        med:codigoExcipiente  "114" ;
+        med:nombreExcipiente  "SULFITO DE SODIO HEPTAHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/120>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Isomalta"@es ;
+        med:codigoExcipiente  "120" ;
+        med:nombreExcipiente  "ISOMALTA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/121>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Sesamo"@es ;
+        med:codigoExcipiente  "121" ;
+        med:nombreExcipiente  "ACEITE DE SESAMO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/124>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfatidilglicerol De Huevo"@es ;
+        med:codigoExcipiente  "124" ;
+        med:nombreExcipiente  "FOSFATIDILGLICEROL DE HUEVO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/131>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Eter Cetoestearilico De Polietilenglicol (Brij 72)"@es ;
+        med:codigoExcipiente  "131" ;
+        med:nombreExcipiente  "ETER CETOESTEARILICO DE POLIETILENGLICOL (BRIJ 72)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/132>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Calcobutrol Sodico"@es ;
+        med:codigoExcipiente  "132" ;
+        med:nombreExcipiente  "CALCOBUTROL SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/133>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Isoestearatos Sorbitanglicerilo-Cera Abejas"@es ;
+        med:codigoExcipiente  "133" ;
+        med:nombreExcipiente  "ISOESTEARATOS SORBITANGLICERILO-CERA ABEJAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/136>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alquil Benzoato"@es ;
+        med:codigoExcipiente  "136" ;
+        med:nombreExcipiente  "ALQUIL BENZOATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/152>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Germen De Maiz"@es ;
+        med:codigoExcipiente  "152" ;
+        med:nombreExcipiente  "ACEITE DE GERMEN DE MAIZ" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/156>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfobutileter Betaciclodextrina De Sodio"@es ;
+        med:codigoExcipiente  "156" ;
+        med:nombreExcipiente  "SULFOBUTILETER BETACICLODEXTRINA DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/167>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fitato De Sodio Anhidro"@es ;
+        med:codigoExcipiente  "167" ;
+        med:nombreExcipiente  "FITATO DE SODIO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/172>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Triacetina"@es ;
+        med:codigoExcipiente  "172" ;
+        med:nombreExcipiente  "TRIACETINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/181>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogeno Ortofosfato Disodico"@es ;
+        med:codigoExcipiente  "181" ;
+        med:nombreExcipiente  "HIDROGENO ORTOFOSFATO DISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/182>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato De Propilo Sodico"@es ;
+        med:codigoExcipiente  "182" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO DE PROPILO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/183>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato De Etilo Sodico (E-215)"@es ;
+        med:codigoExcipiente  "183" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO DE ETILO SODICO (E-215)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/190>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fenilmercurio Acetato"@es ;
+        med:codigoExcipiente  "190" ;
+        med:nombreExcipiente  "FENILMERCURIO ACETATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/198>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acetato Sodico"@es ;
+        med:codigoExcipiente  "198" ;
+        med:nombreExcipiente  "ACETATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/202>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Anhidra"@es ;
+        med:codigoExcipiente  "202" ;
+        med:nombreExcipiente  "LACTOSA ANHIDRA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/207>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acetil Triptofanato Sodico"@es ;
+        med:codigoExcipiente  "207" ;
+        med:nombreExcipiente  "ACETIL TRIPTOFANATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/210>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polietilenglicol 120 Metilglucosa Dioleato"@es ;
+        med:codigoExcipiente  "210" ;
+        med:nombreExcipiente  "POLIETILENGLICOL 120 METILGLUCOSA DIOLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/214>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato De Metilo (E-218)"@es ;
+        med:codigoExcipiente  "214" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO DE METILO (E-218)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/224>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Monoestearato De Sacarosa"@es ;
+        med:codigoExcipiente  "224" ;
+        med:nombreExcipiente  "MONOESTEARATO DE SACAROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/231>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Oleato De Poliglicerol (Plurol Oleico)"@es ;
+        med:codigoExcipiente  "231" ;
+        med:nombreExcipiente  "OLEATO DE POLIGLICEROL (PLUROL OLEICO)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/250>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acido Benzoico (E210)"@es ;
+        med:codigoExcipiente  "250" ;
+        med:nombreExcipiente  "ACIDO BENZOICO (E210)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/252>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acido Borico"@es ;
+        med:codigoExcipiente  "252" ;
+        med:nombreExcipiente  "ACIDO BORICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/274>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato De Etilo (E-214)"@es ;
+        med:codigoExcipiente  "274" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO DE ETILO (E-214)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/275>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato De Metilo Sodico (E-219)"@es ;
+        med:codigoExcipiente  "275" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO DE METILO SODICO (E-219)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/276>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato De Propilo"@es ;
+        med:codigoExcipiente  "276" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO DE PROPILO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/297>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Rojo Allura Ac (E129)"@es ;
+        med:codigoExcipiente  "297" ;
+        med:nombreExcipiente  "ROJO ALLURA AC (E129)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/300>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarosa A La Silice"@es ;
+        med:codigoExcipiente  "300" ;
+        med:nombreExcipiente  "SACAROSA A LA SILICE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/308>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfato Dodecilo Sodico"@es ;
+        med:codigoExcipiente  "308" ;
+        med:nombreExcipiente  "SULFATO DODECILO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/319>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tiosulfato Sodico Pentahidratado"@es ;
+        med:codigoExcipiente  "319" ;
+        med:nombreExcipiente  "TIOSULFATO SODICO PENTAHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/325>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Pirofosfato Sodico Decahidratado"@es ;
+        med:codigoExcipiente  "325" ;
+        med:nombreExcipiente  "PIROFOSFATO SODICO DECAHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/331>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hialuronato Sodico"@es ;
+        med:codigoExcipiente  "331" ;
+        med:nombreExcipiente  "HIALURONATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/332>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarina Sodica Dihidrato"@es ;
+        med:codigoExcipiente  "332" ;
+        med:nombreExcipiente  "SACARINA SODICA DIHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/359>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Glucosa Deshidratado"@es ;
+        med:codigoExcipiente  "359" ;
+        med:nombreExcipiente  "JARABE DE GLUCOSA DESHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/367>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cera De Esteres Cetilicos"@es ;
+        med:codigoExcipiente  "367" ;
+        med:nombreExcipiente  "CERA DE ESTERES CETILICOS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/377>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol Trialcanoato"@es ;
+        med:codigoExcipiente  "377" ;
+        med:nombreExcipiente  "GLICEROL TRIALCANOATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/384>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acido Sorbico"@es ;
+        med:codigoExcipiente  "384" ;
+        med:nombreExcipiente  "ACIDO SORBICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/391>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Edta Sodico"@es ;
+        med:codigoExcipiente  "391" ;
+        med:nombreExcipiente  "EDTA SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/417>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Desnaturalizado"@es ;
+        med:codigoExcipiente  "417" ;
+        med:nombreExcipiente  "ALCOHOL DESNATURALIZADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/419>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Oleilico, Alcohol"@es ;
+        med:codigoExcipiente  "419" ;
+        med:nombreExcipiente  "OLEILICO, ALCOHOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/440>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carboximetilalmidon"@es ;
+        med:codigoExcipiente  "440" ;
+        med:nombreExcipiente  "CARBOXIMETILALMIDON" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/452>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Azucar , Esferas De"@es ;
+        med:codigoExcipiente  "452" ;
+        med:nombreExcipiente  "AZUCAR , ESFERAS DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/454>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Azucar De Confiteria"@es ;
+        med:codigoExcipiente  "454" ;
+        med:nombreExcipiente  "AZUCAR DE CONFITERIA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/458>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Monoestearato De Glicerol"@es ;
+        med:codigoExcipiente  "458" ;
+        med:nombreExcipiente  "MONOESTEARATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/468>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dibehenato De Glicerol"@es ;
+        med:codigoExcipiente  "468" ;
+        med:nombreExcipiente  "DIBEHENATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/470>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Pellets Neutros (Almidon De Maiz Y Esferas Azucar)"@es ;
+        med:codigoExcipiente  "470" ;
+        med:nombreExcipiente  "PELLETS NEUTROS (ALMIDON DE MAIZ Y ESFERAS AZUCAR)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/475>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogeno Carbonato De Sodio"@es ;
+        med:codigoExcipiente  "475" ;
+        med:nombreExcipiente  "HIDROGENO CARBONATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/476>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Disodico Dihidratado Hidrogenado"@es ;
+        med:codigoExcipiente  "476" ;
+        med:nombreExcipiente  "FOSFATO DISODICO DIHIDRATADO HIDROGENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/478>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Azucar De Grageado"@es ;
+        med:codigoExcipiente  "478" ;
+        med:nombreExcipiente  "AZUCAR DE GRAGEADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/485>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tiomersal"@es ;
+        med:codigoExcipiente  "485" ;
+        med:nombreExcipiente  "TIOMERSAL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/486>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogeno Carbonato Sodico Anhidro"@es ;
+        med:codigoExcipiente  "486" ;
+        med:nombreExcipiente  "HIDROGENO CARBONATO SODICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/496>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico"@es ;
+        med:codigoExcipiente  "496" ;
+        med:nombreExcipiente  "FOSFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/503>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarosa De Compresion"@es ;
+        med:codigoExcipiente  "503" ;
+        med:nombreExcipiente  "SACAROSA DE COMPRESION" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/507>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Metilhidroxibenzoato Sodico"@es ;
+        med:codigoExcipiente  "507" ;
+        med:nombreExcipiente  "METILHIDROXIBENZOATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/509>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Arlatone 983 S"@es ;
+        med:codigoExcipiente  "509" ;
+        med:nombreExcipiente  "ARLATONE 983 S" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/521>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Sda-3A"@es ;
+        med:codigoExcipiente  "521" ;
+        med:nombreExcipiente  "ALCOHOL SDA-3A" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/523>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Pellets De Azucar"@es ;
+        med:codigoExcipiente  "523" ;
+        med:nombreExcipiente  "PELLETS DE AZUCAR" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/524>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogeno Fosfato De Disodio Anhidro"@es ;
+        med:codigoExcipiente  "524" ;
+        med:nombreExcipiente  "HIDROGENO FOSFATO DE DISODIO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/525>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dihidrogenofosfato De Sodio Dihidrato"@es ;
+        med:codigoExcipiente  "525" ;
+        med:nombreExcipiente  "DIHIDROGENOFOSFATO DE SODIO DIHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/528>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarinato Sodico"@es ;
+        med:codigoExcipiente  "528" ;
+        med:nombreExcipiente  "SACARINATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/535>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Dihidrogeno Potasico"@es ;
+        med:codigoExcipiente  "535" ;
+        med:nombreExcipiente  "FOSFATO DIHIDROGENO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/537>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol Bidestilado"@es ;
+        med:codigoExcipiente  "537" ;
+        med:nombreExcipiente  "GLICEROL BIDESTILADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/538>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarosa / Maltodextrina"@es ;
+        med:codigoExcipiente  "538" ;
+        med:nombreExcipiente  "SACAROSA / MALTODEXTRINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/540>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Dihidratado"@es ;
+        med:codigoExcipiente  "540" ;
+        med:nombreExcipiente  "FOSFATO SODICO DIHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/544>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarosa / Almidon De Maiz"@es ;
+        med:codigoExcipiente  "544" ;
+        med:nombreExcipiente  "SACAROSA / ALMIDON DE MAIZ" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/549>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Monosodico Monohidrato"@es ;
+        med:codigoExcipiente  "549" ;
+        med:nombreExcipiente  "FOSFATO MONOSODICO MONOHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/551>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Dihidrogeno Disodico Dihidratado"@es ;
+        med:codigoExcipiente  "551" ;
+        med:nombreExcipiente  "FOSFATO DIHIDROGENO DISODICO DIHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/559>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Glucosa"@es ;
+        med:codigoExcipiente  "559" ;
+        med:nombreExcipiente  "JARABE DE GLUCOSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/573>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicolato Sodico"@es ;
+        med:codigoExcipiente  "573" ;
+        med:nombreExcipiente  "GLICOLATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/574>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Etilico Anhidro"@es ;
+        med:codigoExcipiente  "574" ;
+        med:nombreExcipiente  "ALCOHOL ETILICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/576>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dihidrogenofosfato De Potasio"@es ;
+        med:codigoExcipiente  "576" ;
+        med:nombreExcipiente  "DIHIDROGENOFOSFATO DE POTASIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/579>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Monopotasico"@es ;
+        med:codigoExcipiente  "579" ;
+        med:nombreExcipiente  "FOSFATO MONOPOTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/580>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenocarbonato De Potasio"@es ;
+        med:codigoExcipiente  "580" ;
+        med:nombreExcipiente  "HIDROGENOCARBONATO DE POTASIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/586>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acetato"@es ;
+        med:codigoExcipiente  "586" ;
+        med:nombreExcipiente  "ACETATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/587>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Naranja Pal Super (E-110)"@es ;
+        med:codigoExcipiente  "587" ;
+        med:nombreExcipiente  "NARANJA PAL SUPER (E-110)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/599>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogeno Fosfato De Disodio"@es ;
+        med:codigoExcipiente  "599" ;
+        med:nombreExcipiente  "HIDROGENO FOSFATO DE DISODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/600>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Glucosa Hidrogenado (Lycasin)"@es ;
+        med:codigoExcipiente  "600" ;
+        med:nombreExcipiente  "JARABE DE GLUCOSA HIDROGENADO (LYCASIN)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/601>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dihidrogenofosfato De Disodio Anhidro"@es ;
+        med:codigoExcipiente  "601" ;
+        med:nombreExcipiente  "DIHIDROGENOFOSFATO DE DISODIO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/609>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Betaciclodextrinas"@es ;
+        med:codigoExcipiente  "609" ;
+        med:nombreExcipiente  "BETACICLODEXTRINAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/626>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitol Anhidro"@es ;
+        med:codigoExcipiente  "626" ;
+        med:nombreExcipiente  "SORBITOL ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/646>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dextrosa Anhidra"@es ;
+        med:codigoExcipiente  "646" ;
+        med:nombreExcipiente  "DEXTROSA ANHIDRA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/647>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dextrosa"@es ;
+        med:codigoExcipiente  "647" ;
+        med:nombreExcipiente  "DEXTROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/656>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glutamato Sodico Monohidrato"@es ;
+        med:codigoExcipiente  "656" ;
+        med:nombreExcipiente  "GLUTAMATO SODICO MONOHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/659>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfato Sodico Decahidratado"@es ;
+        med:codigoExcipiente  "659" ;
+        med:nombreExcipiente  "SULFATO SODICO DECAHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/673>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarina Sodica Monohidratada"@es ;
+        med:codigoExcipiente  "673" ;
+        med:nombreExcipiente  "SACARINA SODICA MONOHIDRATADA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/674>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenofosfato De Sodio Dodecahidrato"@es ;
+        med:codigoExcipiente  "674" ;
+        med:nombreExcipiente  "HIDROGENOFOSFATO DE SODIO DODECAHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/688>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfosalicilato Disodico"@es ;
+        med:codigoExcipiente  "688" ;
+        med:nombreExcipiente  "SULFOSALICILATO DISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/689>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Bifosfato Sodico"@es ;
+        med:codigoExcipiente  "689" ;
+        med:nombreExcipiente  "BIFOSFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/696>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Esferas Lactosa Monohidrato-Celulosa Microcristalina"@es ;
+        med:codigoExcipiente  "696" ;
+        med:nombreExcipiente  "ESFERAS LACTOSA MONOHIDRATO-CELULOSA MICROCRISTALINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/703>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Disodico"@es ;
+        med:codigoExcipiente  "703" ;
+        med:nombreExcipiente  "FOSFATO DISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/704>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Isomalta E953"@es ;
+        med:codigoExcipiente  "704" ;
+        med:nombreExcipiente  "ISOMALTA E953" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/728>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glutamato Potasico"@es ;
+        med:codigoExcipiente  "728" ;
+        med:nombreExcipiente  "GLUTAMATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/742>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cremophor Rh40"@es ;
+        med:codigoExcipiente  "742" ;
+        med:nombreExcipiente  "CREMOPHOR RH40" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/769>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dihidroxialuminio Carbonato Sodico"@es ;
+        med:codigoExcipiente  "769" ;
+        med:nombreExcipiente  "DIHIDROXIALUMINIO CARBONATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/780>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol Formal"@es ;
+        med:codigoExcipiente  "780" ;
+        med:nombreExcipiente  "GLICEROL FORMAL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/793>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dihidrogenofosfato De Sodio Monohidrato"@es ;
+        med:codigoExcipiente  "793" ;
+        med:nombreExcipiente  "DIHIDROGENOFOSFATO DE SODIO MONOHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/811>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Gammaciclodextrina"@es ;
+        med:codigoExcipiente  "811" ;
+        med:nombreExcipiente  "GAMMACICLODEXTRINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/818>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Bencilico"@es ;
+        med:codigoExcipiente  "818" ;
+        med:nombreExcipiente  "ALCOHOL BENCILICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/829>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Beta Feniletilico"@es ;
+        med:codigoExcipiente  "829" ;
+        med:nombreExcipiente  "ALCOHOL BETA FENILETILICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/836>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cetoestearilico, Alcohol"@es ;
+        med:codigoExcipiente  "836" ;
+        med:nombreExcipiente  "CETOESTEARILICO, ALCOHOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/838>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cetilico, Alcohol"@es ;
+        med:codigoExcipiente  "838" ;
+        med:nombreExcipiente  "CETILICO, ALCOHOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/864>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol De Lanolina"@es ;
+        med:codigoExcipiente  "864" ;
+        med:nombreExcipiente  "ALCOHOL DE LANOLINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/870>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearilico, Alcohol"@es ;
+        med:codigoExcipiente  "870" ;
+        med:nombreExcipiente  "ESTEARILICO, ALCOHOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/873>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Etilico (Etanol)"@es ;
+        med:codigoExcipiente  "873" ;
+        med:nombreExcipiente  "ALCOHOL ETILICO (ETANOL)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/962>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alginato De Propilenglicol"@es ;
+        med:codigoExcipiente  "962" ;
+        med:nombreExcipiente  "ALGINATO DE PROPILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/967>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alginato Sodico"@es ;
+        med:codigoExcipiente  "967" ;
+        med:nombreExcipiente  "ALGINATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/974>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon"@es ;
+        med:codigoExcipiente  "974" ;
+        med:nombreExcipiente  "ALMIDON" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/975>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato De Butilo"@es ;
+        med:codigoExcipiente  "975" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO DE BUTILO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1025>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon De Maiz"@es ;
+        med:codigoExcipiente  "1025" ;
+        med:nombreExcipiente  "ALMIDON DE MAIZ" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1038>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon De Patata"@es ;
+        med:codigoExcipiente  "1038" ;
+        med:nombreExcipiente  "ALMIDON DE PATATA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1041>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon De Trigo"@es ;
+        med:codigoExcipiente  "1041" ;
+        med:nombreExcipiente  "ALMIDON DE TRIGO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1100>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Amaranto (Ci=16185,E-123)"@es ;
+        med:codigoExcipiente  "1100" ;
+        med:nombreExcipiente  "AMARANTO (CI=16185,E-123)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1133>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Amarillo De Quinoleina (E-104, Ci=47005)"@es ;
+        med:codigoExcipiente  "1133" ;
+        med:nombreExcipiente  "AMARILLO DE QUINOLEINA (E-104, CI=47005)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1166>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cloruro De Benzalconio Solucion Al 50%"@es ;
+        med:codigoExcipiente  "1166" ;
+        med:nombreExcipiente  "CLORURO DE BENZALCONIO SOLUCION AL 50%" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1187>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Amarillo Anaranjado S (E 110, Ci=15985)"@es ;
+        med:codigoExcipiente  "1187" ;
+        med:nombreExcipiente  "AMARILLO ANARANJADO S (E 110, CI=15985)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1202>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidroxibenzoato De Metilo"@es ;
+        med:codigoExcipiente  "1202" ;
+        med:nombreExcipiente  "HIDROXIBENZOATO DE METILO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1221>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon Pregelatinizado"@es ;
+        med:codigoExcipiente  "1221" ;
+        med:nombreExcipiente  "ALMIDON PREGELATINIZADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1230>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Colorante Rojo Cochinilla (E-124)"@es ;
+        med:codigoExcipiente  "1230" ;
+        med:nombreExcipiente  "COLORANTE ROJO COCHINILLA (E-124)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1270>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tartracina (E-102)"@es ;
+        med:codigoExcipiente  "1270" ;
+        med:nombreExcipiente  "TARTRACINA (E-102)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1276>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Macrogolglicerol, Hidroxiestearato De"@es ;
+        med:codigoExcipiente  "1276" ;
+        med:nombreExcipiente  "MACROGOLGLICEROL, HIDROXIESTEARATO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1414>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aroma De Frutas"@es ;
+        med:codigoExcipiente  "1414" ;
+        med:nombreExcipiente  "AROMA DE FRUTAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1424>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aroma De Miel"@es ;
+        med:codigoExcipiente  "1424" ;
+        med:nombreExcipiente  "AROMA DE MIEL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1562>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ascorbato De Sodio"@es ;
+        med:codigoExcipiente  "1562" ;
+        med:nombreExcipiente  "ASCORBATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1611>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Azucar"@es ;
+        med:codigoExcipiente  "1611" ;
+        med:nombreExcipiente  "AZUCAR" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1646>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Azucar Caramelizado"@es ;
+        med:codigoExcipiente  "1646" ;
+        med:nombreExcipiente  "AZUCAR CARAMELIZADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1668>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Azucar Invertida"@es ;
+        med:codigoExcipiente  "1668" ;
+        med:nombreExcipiente  "AZUCAR INVERTIDA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1755>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Barniz De Zeina"@es ;
+        med:codigoExcipiente  "1755" ;
+        med:nombreExcipiente  "BARNIZ DE ZEINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1797>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Benzoato De Bencilo"@es ;
+        med:codigoExcipiente  "1797" ;
+        med:nombreExcipiente  "BENZOATO DE BENCILO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1801>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Benzoato De Sodio  (E 211)"@es ;
+        med:codigoExcipiente  "1801" ;
+        med:nombreExcipiente  "BENZOATO DE SODIO  (E 211)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1833>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenocarbonato De Sodio"@es ;
+        med:codigoExcipiente  "1833" ;
+        med:nombreExcipiente  "HIDROGENOCARBONATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1845>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Etanol Anhidro"@es ;
+        med:codigoExcipiente  "1845" ;
+        med:nombreExcipiente  "ETANOL ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1854>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidroxipropil Gammaciclodextrina"@es ;
+        med:codigoExcipiente  "1854" ;
+        med:nombreExcipiente  "HIDROXIPROPIL GAMMACICLODEXTRINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1857>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hipromelosa/Dioxido De Titanio (E-171)/Propilengli"@es ;
+        med:codigoExcipiente  "1857" ;
+        med:nombreExcipiente  "HIPROMELOSA/DIOXIDO DE TITANIO (E-171)/PROPILENGLI" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1860>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitol Carbonato Calcico"@es ;
+        med:codigoExcipiente  "1860" ;
+        med:nombreExcipiente  "SORBITOL CARBONATO CALCICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1867>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Bisulfito Sodico"@es ;
+        med:codigoExcipiente  "1867" ;
+        med:nombreExcipiente  "BISULFITO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1870>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Bitartrato Sodico"@es ;
+        med:codigoExcipiente  "1870" ;
+        med:nombreExcipiente  "BITARTRATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1876>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Monolauril Sulfosuccinato Disodico"@es ;
+        med:codigoExcipiente  "1876" ;
+        med:nombreExcipiente  "MONOLAURIL SULFOSUCCINATO DISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1878>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Borato De Fenilmercurio"@es ;
+        med:codigoExcipiente  "1878" ;
+        med:nombreExcipiente  "BORATO DE FENILMERCURIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1882>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Borato Sodico (Borax)"@es ;
+        med:codigoExcipiente  "1882" ;
+        med:nombreExcipiente  "BORATO SODICO (BORAX)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1883>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dioleoilfosfatidilglicerol"@es ;
+        med:codigoExcipiente  "1883" ;
+        med:nombreExcipiente  "DIOLEOILFOSFATIDILGLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1884>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dipalmitoilfosfatidilglicerol"@es ;
+        med:codigoExcipiente  "1884" ;
+        med:nombreExcipiente  "DIPALMITOILFOSFATIDILGLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1891>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polioxietilen-Polioxipropilenglicol"@es ;
+        med:codigoExcipiente  "1891" ;
+        med:nombreExcipiente  "POLIOXIETILEN-POLIOXIPROPILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1892>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acido Caloxetico Trisodico"@es ;
+        med:codigoExcipiente  "1892" ;
+        med:nombreExcipiente  "ACIDO CALOXETICO TRISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1898>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Bromo-2-Nitropropano 1,3 Diol (Bronopol)"@es ;
+        med:codigoExcipiente  "1898" ;
+        med:nombreExcipiente  "BROMO-2-NITROPROPANO 1,3 DIOL (BRONOPOL)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1903>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenofosfato Disodico Dihidratado"@es ;
+        med:codigoExcipiente  "1903" ;
+        med:nombreExcipiente  "HIDROGENOFOSFATO DISODICO DIHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1908>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Butilhidroxianisol (E 320)"@es ;
+        med:codigoExcipiente  "1908" ;
+        med:nombreExcipiente  "BUTILHIDROXIANISOL (E 320)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1910>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Butilhidroxitolueno (E321)"@es ;
+        med:codigoExcipiente  "1910" ;
+        med:nombreExcipiente  "BUTILHIDROXITOLUENO (E321)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1911>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Butil Paraben"@es ;
+        med:codigoExcipiente  "1911" ;
+        med:nombreExcipiente  "BUTIL PARABEN" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1912>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Metilglucosa Sesquiestearato"@es ;
+        med:codigoExcipiente  "1912" ;
+        med:nombreExcipiente  "METILGLUCOSA SESQUIESTEARATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1937>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Macrogolglicerol, Ricinoleato De"@es ;
+        med:codigoExcipiente  "1937" ;
+        med:nombreExcipiente  "MACROGOLGLICEROL, RICINOLEATO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1942>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glucosa Liquida"@es ;
+        med:codigoExcipiente  "1942" ;
+        med:nombreExcipiente  "GLUCOSA LIQUIDA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1955>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Solucion Sulfito Sodico"@es ;
+        med:codigoExcipiente  "1955" ;
+        med:nombreExcipiente  "SOLUCION SULFITO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1964>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato, Semimicronizada"@es ;
+        med:codigoExcipiente  "1964" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO, SEMIMICRONIZADA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1965>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato, Micronizada"@es ;
+        med:codigoExcipiente  "1965" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO, MICRONIZADA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1985>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol (85%)"@es ;
+        med:codigoExcipiente  "1985" ;
+        med:nombreExcipiente  "GLICEROL (85%)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1986>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitol Liquido Cristalizable"@es ;
+        med:codigoExcipiente  "1986" ;
+        med:nombreExcipiente  "SORBITOL LIQUIDO CRISTALIZABLE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/1997>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Caprilato Sodico"@es ;
+        med:codigoExcipiente  "1997" ;
+        med:nombreExcipiente  "CAPRILATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2007>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Capsulas De Gelatina"@es ;
+        med:codigoExcipiente  "2007" ;
+        med:nombreExcipiente  "CAPSULAS DE GELATINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2009>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Capsulas De Gelatina Dura"@es ;
+        med:codigoExcipiente  "2009" ;
+        med:nombreExcipiente  "CAPSULAS DE GELATINA DURA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2071>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carbonato De Glicina Sodico"@es ;
+        med:codigoExcipiente  "2071" ;
+        med:nombreExcipiente  "CARBONATO DE GLICINA SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2096>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carbonato Potasico"@es ;
+        med:codigoExcipiente  "2096" ;
+        med:nombreExcipiente  "CARBONATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2097>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carbonato Potasico Anhidro"@es ;
+        med:codigoExcipiente  "2097" ;
+        med:nombreExcipiente  "CARBONATO POTASICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2098>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carbonato Sodico"@es ;
+        med:codigoExcipiente  "2098" ;
+        med:nombreExcipiente  "CARBONATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2100>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carbonato De Sodio Anhidro"@es ;
+        med:codigoExcipiente  "2100" ;
+        med:nombreExcipiente  "CARBONATO DE SODIO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2172>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Celulosa Microcristalina-Carmelosa Sodica"@es ;
+        med:codigoExcipiente  "2172" ;
+        med:nombreExcipiente  "CELULOSA MICROCRISTALINA-CARMELOSA SODICA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2198>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carmelosa Sodica"@es ;
+        med:codigoExcipiente  "2198" ;
+        med:nombreExcipiente  "CARMELOSA SODICA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2199>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carboximetilamilopectina Sodica"@es ;
+        med:codigoExcipiente  "2199" ;
+        med:nombreExcipiente  "CARBOXIMETILAMILOPECTINA SODICA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2200>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carboximetilalmidon Sodico"@es ;
+        med:codigoExcipiente  "2200" ;
+        med:nombreExcipiente  "CARBOXIMETILALMIDON SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2216>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Rojo Carmin, Cochinilla (E-120; Ci=75470)"@es ;
+        med:codigoExcipiente  "2216" ;
+        med:nombreExcipiente  "ROJO CARMIN, COCHINILLA (E-120; CI=75470)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2222>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Caramelo De Sulfito Amonico"@es ;
+        med:codigoExcipiente  "2222" ;
+        med:nombreExcipiente  "CARAMELO DE SULFITO AMONICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2224>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carragenato Sodico"@es ;
+        med:codigoExcipiente  "2224" ;
+        med:nombreExcipiente  "CARRAGENATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2228>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Caseina-Formaldehido"@es ;
+        med:codigoExcipiente  "2228" ;
+        med:nombreExcipiente  "CASEINA-FORMALDEHIDO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2249>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenofosfato Disodico Dodecahidratado"@es ;
+        med:codigoExcipiente  "2249" ;
+        med:nombreExcipiente  "HIDROGENOFOSFATO DISODICO DODECAHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2256>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dextrosa+Maltosa"@es ;
+        med:codigoExcipiente  "2256" ;
+        med:nombreExcipiente  "DEXTROSA+MALTOSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2258>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Metoxipropanodiol"@es ;
+        med:codigoExcipiente  "2258" ;
+        med:nombreExcipiente  "METOXIPROPANODIOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2261>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cera De Abejas"@es ;
+        med:codigoExcipiente  "2261" ;
+        med:nombreExcipiente  "CERA DE ABEJAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2281>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Isoestearilico"@es ;
+        med:codigoExcipiente  "2281" ;
+        med:nombreExcipiente  "ALCOHOL ISOESTEARILICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2291>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cera De Lana"@es ;
+        med:codigoExcipiente  "2291" ;
+        med:nombreExcipiente  "CERA DE LANA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2297>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cera Emulsificante"@es ;
+        med:codigoExcipiente  "2297" ;
+        med:nombreExcipiente  "CERA EMULSIFICANTE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2303>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cera Lanette"@es ;
+        med:codigoExcipiente  "2303" ;
+        med:nombreExcipiente  "CERA LANETTE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2338>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ciclamato De Sodio"@es ;
+        med:codigoExcipiente  "2338" ;
+        med:nombreExcipiente  "CICLAMATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2342>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Magrogol-Sorbitan-Monolaurato"@es ;
+        med:codigoExcipiente  "2342" ;
+        med:nombreExcipiente  "MAGROGOL-SORBITAN-MONOLAURATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2351>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citral"@es ;
+        med:codigoExcipiente  "2351" ;
+        med:nombreExcipiente  "CITRAL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2360>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citrato Potasico"@es ;
+        med:codigoExcipiente  "2360" ;
+        med:nombreExcipiente  "CITRATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2362>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citrato De Sodio (E-331)"@es ;
+        med:codigoExcipiente  "2362" ;
+        med:nombreExcipiente  "CITRATO DE SODIO (E-331)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2368>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citrato Sodico Anhidro"@es ;
+        med:codigoExcipiente  "2368" ;
+        med:nombreExcipiente  "CITRATO SODICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2372>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citrato Sodico Dihidrato"@es ;
+        med:codigoExcipiente  "2372" ;
+        med:nombreExcipiente  "CITRATO SODICO DIHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2380>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citrato Sodico Tribasico"@es ;
+        med:codigoExcipiente  "2380" ;
+        med:nombreExcipiente  "CITRATO SODICO TRIBASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2384>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citrato De Trietilo"@es ;
+        med:codigoExcipiente  "2384" ;
+        med:nombreExcipiente  "CITRATO DE TRIETILO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2413>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol De Lanolina Polioxietilenado"@es ;
+        med:codigoExcipiente  "2413" ;
+        med:nombreExcipiente  "ALCOHOL DE LANOLINA POLIOXIETILENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2423>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Oleato De Sorbitan"@es ;
+        med:codigoExcipiente  "2423" ;
+        med:nombreExcipiente  "OLEATO DE SORBITAN" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2429>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Clorocresol"@es ;
+        med:codigoExcipiente  "2429" ;
+        med:nombreExcipiente  "CLOROCRESOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2439>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Clorofilina A Cuprosodica (Ci=75810)"@es ;
+        med:codigoExcipiente  "2439" ;
+        med:nombreExcipiente  "CLOROFILINA A CUPROSODICA (CI=75810)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2446>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ester De Sacarosa"@es ;
+        med:codigoExcipiente  "2446" ;
+        med:nombreExcipiente  "ESTER DE SACAROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2453>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Benzalconio, Cloruro De"@es ;
+        med:codigoExcipiente  "2453" ;
+        med:nombreExcipiente  "BENZALCONIO, CLORURO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2477>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cloruro Potasico"@es ;
+        med:codigoExcipiente  "2477" ;
+        med:nombreExcipiente  "CLORURO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2479>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cloruro De Sodio"@es ;
+        med:codigoExcipiente  "2479" ;
+        med:nombreExcipiente  "CLORURO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2487>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Soja, Aceite De, Refinado"@es ;
+        med:codigoExcipiente  "2487" ;
+        med:nombreExcipiente  "SOJA, ACEITE DE, REFINADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2516>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sabor Guarana Fresa"@es ;
+        med:codigoExcipiente  "2516" ;
+        med:nombreExcipiente  "SABOR GUARANA FRESA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2542>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidroxipropilbetadex"@es ;
+        med:codigoExcipiente  "2542" ;
+        med:nombreExcipiente  "HIDROXIPROPILBETADEX" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2567>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearato Sodico Glicolado Tipo A"@es ;
+        med:codigoExcipiente  "2567" ;
+        med:nombreExcipiente  "ESTEARATO SODICO GLICOLADO TIPO A" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2620>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Monopalmitatoestearato De Propilenglicol"@es ;
+        med:codigoExcipiente  "2620" ;
+        med:nombreExcipiente  "MONOPALMITATOESTEARATO DE PROPILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2632>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Premezcla Lactosa/Almidon"@es ;
+        med:codigoExcipiente  "2632" ;
+        med:nombreExcipiente  "PREMEZCLA LACTOSA/ALMIDON" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2689>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidroxipropil Betaciclodextrina"@es ;
+        med:codigoExcipiente  "2689" ;
+        med:nombreExcipiente  "HIDROXIPROPIL BETACICLODEXTRINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2696>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "D-Glucitol -D-Manitol-Oligosacaridos"@es ;
+        med:codigoExcipiente  "2696" ;
+        med:nombreExcipiente  "D-GLUCITOL -D-MANITOL-OLIGOSACARIDOS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2741>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfato Aluminio Potasio"@es ;
+        med:codigoExcipiente  "2741" ;
+        med:nombreExcipiente  "SULFATO ALUMINIO POTASIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2742>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dihidrogeno Fosfato De Sodio"@es ;
+        med:codigoExcipiente  "2742" ;
+        med:nombreExcipiente  "DIHIDROGENO FOSFATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2743>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Monohidrogeno Fosfato De Sodio"@es ;
+        med:codigoExcipiente  "2743" ;
+        med:nombreExcipiente  "MONOHIDROGENO FOSFATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2751>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Diestearato De Glicerol"@es ;
+        med:codigoExcipiente  "2751" ;
+        med:nombreExcipiente  "DIESTEARATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2785>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Minicapsulas De Menta."@es ;
+        med:codigoExcipiente  "2785" ;
+        med:nombreExcipiente  "MINICAPSULAS DE MENTA." .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2795>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carragenano"@es ;
+        med:codigoExcipiente  "2795" ;
+        med:nombreExcipiente  "CARRAGENANO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2860>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carmoisina, Azorrubina (Ci=14720,E-122)"@es ;
+        med:codigoExcipiente  "2860" ;
+        med:nombreExcipiente  "CARMOISINA, AZORRUBINA (CI=14720,E-122)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2868>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acetato Potasico"@es ;
+        med:codigoExcipiente  "2868" ;
+        med:nombreExcipiente  "ACETATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2873>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitol Liquido No Cristalizable  (E420)"@es ;
+        med:codigoExcipiente  "2873" ;
+        med:nombreExcipiente  "SORBITOL LIQUIDO NO CRISTALIZABLE  (E420)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2898>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Etanol Al 96%"@es ;
+        med:codigoExcipiente  "2898" ;
+        med:nombreExcipiente  "ETANOL AL 96%" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2926>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbato De Potasio"@es ;
+        med:codigoExcipiente  "2926" ;
+        med:nombreExcipiente  "SORBATO DE POTASIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2929>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sequion (Sal Sodica De Dtpmp)"@es ;
+        med:codigoExcipiente  "2929" ;
+        med:nombreExcipiente  "SEQUION (SAL SODICA DE DTPMP)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2930>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Disodico Dihidrogeno Monohidrato"@es ;
+        med:codigoExcipiente  "2930" ;
+        med:nombreExcipiente  "FOSFATO DISODICO DIHIDROGENO MONOHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2934>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenofosfato Dipotasico"@es ;
+        med:codigoExcipiente  "2934" ;
+        med:nombreExcipiente  "HIDROGENOFOSFATO DIPOTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2956>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Opadry Amb Blanco 80W68912"@es ;
+        med:codigoExcipiente  "2956" ;
+        med:nombreExcipiente  "OPADRY AMB BLANCO 80W68912" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2959>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Docusato De Sodio + Benzoato De Sodio"@es ;
+        med:codigoExcipiente  "2959" ;
+        med:nombreExcipiente  "DOCUSATO DE SODIO + BENZOATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2960>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cromoglicato Sodico"@es ;
+        med:codigoExcipiente  "2960" ;
+        med:nombreExcipiente  "CROMOGLICATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2972>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "1,2 Dioleoil –Sn-Glicero-3-Fosfo-L-Serina Sal Monosodica"@es ;
+        med:codigoExcipiente  "2972" ;
+        med:nombreExcipiente  "1,2 DIOLEOIL –SN-GLICERO-3-FOSFO-L-SERINA SAL MONOSODICA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2978>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarosa Refinada"@es ;
+        med:codigoExcipiente  "2978" ;
+        med:nombreExcipiente  "SACAROSA REFINADA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2979>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polvo De Sacarosa"@es ;
+        med:codigoExcipiente  "2979" ;
+        med:nombreExcipiente  "POLVO DE SACAROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/2990>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Capsulas"@es ;
+        med:codigoExcipiente  "2990" ;
+        med:nombreExcipiente  "CAPSULAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3007>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cumarina"@es ;
+        med:codigoExcipiente  "3007" ;
+        med:nombreExcipiente  "CUMARINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3012>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cutina"@es ;
+        med:codigoExcipiente  "3012" ;
+        med:nombreExcipiente  "CUTINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3024>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarosa /Dioxido De Silicio Coloidal"@es ;
+        med:codigoExcipiente  "3024" ;
+        med:nombreExcipiente  "SACAROSA /DIOXIDO DE SILICIO COLOIDAL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3038>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Maltitol Liquido E965"@es ;
+        med:codigoExcipiente  "3038" ;
+        med:nombreExcipiente  "MALTITOL LIQUIDO E965" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3045>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Etilico 96%"@es ;
+        med:codigoExcipiente  "3045" ;
+        med:nombreExcipiente  "ALCOHOL ETILICO 96%" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3048>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato (Pharmatose 200M)"@es ;
+        med:codigoExcipiente  "3048" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO (PHARMATOSE 200M)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3049>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato (Pharmatose Dcl 11)"@es ;
+        med:codigoExcipiente  "3049" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO (PHARMATOSE DCL 11)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3052>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dextrina"@es ;
+        med:codigoExcipiente  "3052" ;
+        med:nombreExcipiente  "DEXTRINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3061>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carragenina Lambda"@es ;
+        med:codigoExcipiente  "3061" ;
+        med:nombreExcipiente  "CARRAGENINA LAMBDA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3076>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Cetoestearilico- Cetoestearilo Sulfato Sodico"@es ;
+        med:codigoExcipiente  "3076" ;
+        med:nombreExcipiente  "ALCOHOL CETOESTEARILICO- CETOESTEARILO SULFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3086>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Docosanoato Glicerol"@es ;
+        med:codigoExcipiente  "3086" ;
+        med:nombreExcipiente  "DOCOSANOATO GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3110>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dimetilsulfoxido"@es ;
+        med:codigoExcipiente  "3110" ;
+        med:nombreExcipiente  "DIMETILSULFOXIDO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3117>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dioctilsulfosuccinato Sodico"@es ;
+        med:codigoExcipiente  "3117" ;
+        med:nombreExcipiente  "DIOCTILSULFOSUCCINATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3120>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitol Dioleato"@es ;
+        med:codigoExcipiente  "3120" ;
+        med:nombreExcipiente  "SORBITOL DIOLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3147>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Manitol / Almidon De Maiz"@es ;
+        med:codigoExcipiente  "3147" ;
+        med:nombreExcipiente  "MANITOL / ALMIDON DE MAIZ" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3148>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenofosfato De Sodio Anhidro"@es ;
+        med:codigoExcipiente  "3148" ;
+        med:nombreExcipiente  "HIDROGENOFOSFATO DE SODIO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3162>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Edetato Calcico Disodico"@es ;
+        med:codigoExcipiente  "3162" ;
+        med:nombreExcipiente  "EDETATO CALCICO DISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3164>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Edetato Disodico Dihidratado"@es ;
+        med:codigoExcipiente  "3164" ;
+        med:nombreExcipiente  "EDETATO DISODICO DIHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3165>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Edetato De Disodio"@es ;
+        med:codigoExcipiente  "3165" ;
+        med:nombreExcipiente  "EDETATO DE DISODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3168>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato Molida"@es ;
+        med:codigoExcipiente  "3168" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO MOLIDA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3169>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato Secada Por Aspersion"@es ;
+        med:codigoExcipiente  "3169" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO SECADA POR ASPERSION" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3175>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Edetato Sodico"@es ;
+        med:codigoExcipiente  "3175" ;
+        med:nombreExcipiente  "EDETATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3176>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acetato Sodico Anhidro"@es ;
+        med:codigoExcipiente  "3176" ;
+        med:nombreExcipiente  "ACETATO SODICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3183>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cera Blanca De Abejas"@es ;
+        med:codigoExcipiente  "3183" ;
+        med:nombreExcipiente  "CERA BLANCA DE ABEJAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3197>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Benzil Benzoato"@es ;
+        med:codigoExcipiente  "3197" ;
+        med:nombreExcipiente  "BENZIL BENZOATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3217>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactitol (E-966)"@es ;
+        med:codigoExcipiente  "3217" ;
+        med:nombreExcipiente  "LACTITOL (E-966)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3219>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dioxido De Azufre (E-220)"@es ;
+        med:codigoExcipiente  "3219" ;
+        med:nombreExcipiente  "DIOXIDO DE AZUFRE (E-220)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3235>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Propilenglicol Monocaprilato"@es ;
+        med:codigoExcipiente  "3235" ;
+        med:nombreExcipiente  "PROPILENGLICOL MONOCAPRILATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3236>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alfaciclodextrina"@es ;
+        med:codigoExcipiente  "3236" ;
+        med:nombreExcipiente  "ALFACICLODEXTRINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3255>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Nitrato Sodico"@es ;
+        med:codigoExcipiente  "3255" ;
+        med:nombreExcipiente  "NITRATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3257>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Mica (Silicato De Potasio Y Aluminio - Oxido De Titanio)"@es ;
+        med:codigoExcipiente  "3257" ;
+        med:nombreExcipiente  "MICA (SILICATO DE POTASIO Y ALUMINIO - OXIDO DE TITANIO)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3377>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Esencia De Bergamota"@es ;
+        med:codigoExcipiente  "3377" ;
+        med:nombreExcipiente  "ESENCIA DE BERGAMOTA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3449>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Esencia De Frutas"@es ;
+        med:codigoExcipiente  "3449" ;
+        med:nombreExcipiente  "ESENCIA DE FRUTAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3940>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearato Potasico"@es ;
+        med:codigoExcipiente  "3940" ;
+        med:nombreExcipiente  "ESTEARATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3941>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearato Sodico"@es ;
+        med:codigoExcipiente  "3941" ;
+        med:nombreExcipiente  "ESTEARATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/3949>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fumarato De Estearilo Y Sodio"@es ;
+        med:codigoExcipiente  "3949" ;
+        med:nombreExcipiente  "FUMARATO DE ESTEARILO Y SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4047>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Eter Etilico"@es ;
+        med:codigoExcipiente  "4047" ;
+        med:nombreExcipiente  "ETER ETILICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4067>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Etil Paraben"@es ;
+        med:codigoExcipiente  "4067" ;
+        med:nombreExcipiente  "ETIL PARABEN" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4166>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Eugenol"@es ;
+        med:codigoExcipiente  "4166" ;
+        med:nombreExcipiente  "EUGENOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4382>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Formaldehido"@es ;
+        med:codigoExcipiente  "4382" ;
+        med:nombreExcipiente  "FORMALDEHIDO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4385>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Formaldehido Sulfoxilato Sodico"@es ;
+        med:codigoExcipiente  "4385" ;
+        med:nombreExcipiente  "FORMALDEHIDO SULFOXILATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4456>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenofosfato De Sodio Heptahidrato"@es ;
+        med:codigoExcipiente  "4456" ;
+        med:nombreExcipiente  "HIDROGENOFOSFATO DE SODIO HEPTAHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4487>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Potasico Dibasico"@es ;
+        med:codigoExcipiente  "4487" ;
+        med:nombreExcipiente  "FOSFATO POTASICO DIBASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4488>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Potasico Monobasico"@es ;
+        med:codigoExcipiente  "4488" ;
+        med:nombreExcipiente  "FOSFATO POTASICO MONOBASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4490>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Potasico Monobasico Anhidro"@es ;
+        med:codigoExcipiente  "4490" ;
+        med:nombreExcipiente  "FOSFATO POTASICO MONOBASICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4495>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Anhidro"@es ;
+        med:codigoExcipiente  "4495" ;
+        med:nombreExcipiente  "FOSFATO SODICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4500>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Dibasico"@es ;
+        med:codigoExcipiente  "4500" ;
+        med:nombreExcipiente  "FOSFATO SODICO DIBASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4502>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidrogenofosfato De Sodio Dihidrato"@es ;
+        med:codigoExcipiente  "4502" ;
+        med:nombreExcipiente  "HIDROGENOFOSFATO DE SODIO DIHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4503>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Monobasico"@es ;
+        med:codigoExcipiente  "4503" ;
+        med:nombreExcipiente  "FOSFATO SODICO MONOBASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4504>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Monobasico Anhidro"@es ;
+        med:codigoExcipiente  "4504" ;
+        med:nombreExcipiente  "FOSFATO SODICO MONOBASICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4506>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Monobasico Dihidrato"@es ;
+        med:codigoExcipiente  "4506" ;
+        med:nombreExcipiente  "FOSFATO SODICO MONOBASICO DIHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4507>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato De Sodio Monobasico Monohidratado"@es ;
+        med:codigoExcipiente  "4507" ;
+        med:nombreExcipiente  "FOSFATO DE SODIO MONOBASICO MONOHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4511>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Tribasico"@es ;
+        med:codigoExcipiente  "4511" ;
+        med:nombreExcipiente  "FOSFATO SODICO TRIBASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4512>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Dibasico Dodecahidrato"@es ;
+        med:codigoExcipiente  "4512" ;
+        med:nombreExcipiente  "FOSFATO SODICO DIBASICO DODECAHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4517>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfito Disodico"@es ;
+        med:codigoExcipiente  "4517" ;
+        med:nombreExcipiente  "FOSFITO DISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4562>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fructosa"@es ;
+        med:codigoExcipiente  "4562" ;
+        med:nombreExcipiente  "FRUCTOSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4636>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Palmito Estearato De Glicerol Y Polioxie"@es ;
+        med:codigoExcipiente  "4636" ;
+        med:nombreExcipiente  "PALMITO ESTEARATO DE GLICEROL Y POLIOXIE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4639>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Gentisato Sodico"@es ;
+        med:codigoExcipiente  "4639" ;
+        med:nombreExcipiente  "GENTISATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4642>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Geraniol"@es ;
+        med:codigoExcipiente  "4642" ;
+        med:nombreExcipiente  "GERANIOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4660>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol Formaldehido"@es ;
+        med:codigoExcipiente  "4660" ;
+        med:nombreExcipiente  "GLICEROL FORMALDEHIDO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4661>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol"@es ;
+        med:codigoExcipiente  "4661" ;
+        med:nombreExcipiente  "GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4755>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carboximetilalmidon Sodico"@es ;
+        med:codigoExcipiente  "4755" ;
+        med:nombreExcipiente  "CARBOXIMETILALMIDON SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4772>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Gluconato De Sodio"@es ;
+        med:codigoExcipiente  "4772" ;
+        med:nombreExcipiente  "GLUCONATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4774>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glucosa"@es ;
+        med:codigoExcipiente  "4774" ;
+        med:nombreExcipiente  "GLUCOSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4786>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glucosa Anhidra"@es ;
+        med:codigoExcipiente  "4786" ;
+        med:nombreExcipiente  "GLUCOSA ANHIDRA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4794>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glucosa Monohidrato"@es ;
+        med:codigoExcipiente  "4794" ;
+        med:nombreExcipiente  "GLUCOSA MONOHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4801>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glutamato Sodico"@es ;
+        med:codigoExcipiente  "4801" ;
+        med:nombreExcipiente  "GLUTAMATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4837>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Goma Arabiga (E414)"@es ;
+        med:codigoExcipiente  "4837" ;
+        med:nombreExcipiente  "GOMA ARABIGA (E414)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4864>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Goma De Tragacanto"@es ;
+        med:codigoExcipiente  "4864" ;
+        med:nombreExcipiente  "GOMA DE TRAGACANTO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4885>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Xantano, Goma De"@es ;
+        med:codigoExcipiente  "4885" ;
+        med:nombreExcipiente  "XANTANO, GOMA DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4924>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Harina Guar"@es ;
+        med:codigoExcipiente  "4924" ;
+        med:nombreExcipiente  "HARINA GUAR" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4927>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Heparina"@es ;
+        med:codigoExcipiente  "4927" ;
+        med:nombreExcipiente  "HEPARINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4986>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Potasio, Hidroxido De (E-525)"@es ;
+        med:codigoExcipiente  "4986" ;
+        med:nombreExcipiente  "POTASIO, HIDROXIDO DE (E-525)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/4991>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidroxido De Sodio"@es ;
+        med:codigoExcipiente  "4991" ;
+        med:nombreExcipiente  "HIDROXIDO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5083>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Isopropiliden Glicerol"@es ;
+        med:codigoExcipiente  "5083" ;
+        med:nombreExcipiente  "ISOPROPILIDEN GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5107>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Almidon"@es ;
+        med:codigoExcipiente  "5107" ;
+        med:nombreExcipiente  "JARABE DE ALMIDON" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5120>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Frambuesa"@es ;
+        med:codigoExcipiente  "5120" ;
+        med:nombreExcipiente  "JARABE DE FRAMBUESA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5128>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Tomillo"@es ;
+        med:codigoExcipiente  "5128" ;
+        med:nombreExcipiente  "JARABE DE TOMILLO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5133>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe Simple"@es ;
+        med:codigoExcipiente  "5133" ;
+        med:nombreExcipiente  "JARABE SIMPLE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5170>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Capro-Caprilato De Glicerol Y Polioxieti"@es ;
+        med:codigoExcipiente  "5170" ;
+        med:nombreExcipiente  "CAPRO-CAPRILATO DE GLICEROL Y POLIOXIETI" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5258>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactato Sodico"@es ;
+        med:codigoExcipiente  "5258" ;
+        med:nombreExcipiente  "LACTATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5266>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa"@es ;
+        med:codigoExcipiente  "5266" ;
+        med:nombreExcipiente  "LACTOSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5362>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lanolina"@es ;
+        med:codigoExcipiente  "5362" ;
+        med:nombreExcipiente  "LANOLINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5370>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lanolina Hidrogenada"@es ;
+        med:codigoExcipiente  "5370" ;
+        med:nombreExcipiente  "LANOLINA HIDROGENADA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5394>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laurileter Sulfosuccinato Disodico"@es ;
+        med:codigoExcipiente  "5394" ;
+        med:nombreExcipiente  "LAURILETER SULFOSUCCINATO DISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5398>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laurilsulfato De Sodio"@es ;
+        med:codigoExcipiente  "5398" ;
+        med:nombreExcipiente  "LAURILSULFATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5399>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laurilsulfoacetato Sodico"@es ;
+        med:codigoExcipiente  "5399" ;
+        med:nombreExcipiente  "LAURILSULFOACETATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5420>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lecitina De Soja"@es ;
+        med:codigoExcipiente  "5420" ;
+        med:nombreExcipiente  "LECITINA DE SOJA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5568>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Manitol (E-421)"@es ;
+        med:codigoExcipiente  "5568" ;
+        med:nombreExcipiente  "MANITOL (E-421)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5600>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Capril Caprilato De Glicerol"@es ;
+        med:codigoExcipiente  "5600" ;
+        med:nombreExcipiente  "CAPRIL CAPRILATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5601>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Marron Chocolate Ht (Ci=20285)"@es ;
+        med:codigoExcipiente  "5601" ;
+        med:nombreExcipiente  "MARRON CHOCOLATE HT (CI=20285)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5814>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Potasio, Metabisulfito De"@es ;
+        med:codigoExcipiente  "5814" ;
+        med:nombreExcipiente  "POTASIO, METABISULFITO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5817>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sodio, Metabisulfito De (E 223)"@es ;
+        med:codigoExcipiente  "5817" ;
+        med:nombreExcipiente  "SODIO, METABISULFITO DE (E 223)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5851>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Metil Paraben Sodico"@es ;
+        med:codigoExcipiente  "5851" ;
+        med:nombreExcipiente  "METIL PARABEN SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5852>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Metilparabeno (E 218)"@es ;
+        med:codigoExcipiente  "5852" ;
+        med:nombreExcipiente  "METILPARABENO (E 218)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5971>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Miel"@es ;
+        med:codigoExcipiente  "5971" ;
+        med:nombreExcipiente  "MIEL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/5977>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Propilenglicol Dicaprilato-Dicaprato"@es ;
+        med:codigoExcipiente  "5977" ;
+        med:nombreExcipiente  "PROPILENGLICOL DICAPRILATO-DICAPRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6013>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Mono Y Diestearato De Glicerol"@es ;
+        med:codigoExcipiente  "6013" ;
+        med:nombreExcipiente  "MONO Y DIESTEARATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6028>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Propilenglicol Monoestearato"@es ;
+        med:codigoExcipiente  "6028" ;
+        med:nombreExcipiente  "PROPILENGLICOL MONOESTEARATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6098>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Monooleato De Glicerol"@es ;
+        med:codigoExcipiente  "6098" ;
+        med:nombreExcipiente  "MONOOLEATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6175>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Negro Brillante Bn (E 151 Ci=28440)"@es ;
+        med:codigoExcipiente  "6175" ;
+        med:nombreExcipiente  "NEGRO BRILLANTE BN (E 151 CI=28440)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6266>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fenilmercurio Nitrato"@es ;
+        med:codigoExcipiente  "6266" ;
+        med:nombreExcipiente  "FENILMERCURIO NITRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6325>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sodio Oleato"@es ;
+        med:codigoExcipiente  "6325" ;
+        med:nombreExcipiente  "SODIO OLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6397>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato"@es ;
+        med:codigoExcipiente  "6397" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6435>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Palmitato De Sacarosa"@es ;
+        med:codigoExcipiente  "6435" ;
+        med:nombreExcipiente  "PALMITATO DE SACAROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6510>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sabor A Fruta De La Pasion"@es ;
+        med:codigoExcipiente  "6510" ;
+        med:nombreExcipiente  "SABOR A FRUTA DE LA PASION" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6596>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Pirofosfato Sodico"@es ;
+        med:codigoExcipiente  "6596" ;
+        med:nombreExcipiente  "PIROFOSFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6635>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polietilen Polipropilenglicol"@es ;
+        med:codigoExcipiente  "6635" ;
+        med:nombreExcipiente  "POLIETILEN POLIPROPILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6748>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polimetacrilato Potasico"@es ;
+        med:codigoExcipiente  "6748" ;
+        med:nombreExcipiente  "POLIMETACRILATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6789>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polisorbato 20"@es ;
+        med:codigoExcipiente  "6789" ;
+        med:nombreExcipiente  "POLISORBATO 20" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6791>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polisorbato 60"@es ;
+        med:codigoExcipiente  "6791" ;
+        med:nombreExcipiente  "POLISORBATO 60" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6792>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polisorbato 80"@es ;
+        med:codigoExcipiente  "6792" ;
+        med:nombreExcipiente  "POLISORBATO 80" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6897>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Rojo Ponceau 3R"@es ;
+        med:codigoExcipiente  "6897" ;
+        med:nombreExcipiente  "ROJO PONCEAU 3R" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6975>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Propilparabeno (E 216)"@es ;
+        med:codigoExcipiente  "6975" ;
+        med:nombreExcipiente  "PROPILPARABENO (E 216)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/6996>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Propilenglicol"@es ;
+        med:codigoExcipiente  "6996" ;
+        med:nombreExcipiente  "PROPILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7022>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Propil Paraben Sodico"@es ;
+        med:codigoExcipiente  "7022" ;
+        med:nombreExcipiente  "PROPIL PARABEN SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7100>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Riboflavina-5-Fosfato Sodico (E-101A)"@es ;
+        med:codigoExcipiente  "7100" ;
+        med:nombreExcipiente  "RIBOFLAVINA-5-FOSFATO SODICO (E-101A)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7168>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Rojo Ponceau 4R (Ci=16255, E-124)"@es ;
+        med:codigoExcipiente  "7168" ;
+        med:nombreExcipiente  "ROJO PONCEAU 4R (CI=16255, E-124)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7210>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sabor A Miel"@es ;
+        med:codigoExcipiente  "7210" ;
+        med:nombreExcipiente  "SABOR A MIEL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7231>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sabor A Frutas"@es ;
+        med:codigoExcipiente  "7231" ;
+        med:nombreExcipiente  "SABOR A FRUTAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7234>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Saborizante Frutas Del Bosque"@es ;
+        med:codigoExcipiente  "7234" ;
+        med:nombreExcipiente  "SABORIZANTE FRUTAS DEL BOSQUE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7238>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sabor A Guarana"@es ;
+        med:codigoExcipiente  "7238" ;
+        med:nombreExcipiente  "SABOR A GUARANA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7316>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarina Sodica"@es ;
+        med:codigoExcipiente  "7316" ;
+        med:nombreExcipiente  "SACARINA SODICA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7330>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarina Sodica Anhidra"@es ;
+        med:codigoExcipiente  "7330" ;
+        med:nombreExcipiente  "SACARINA SODICA ANHIDRA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7368>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarosa"@es ;
+        med:codigoExcipiente  "7368" ;
+        med:nombreExcipiente  "SACAROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7380>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cetoestearilo Sulfato Sodico"@es ;
+        med:codigoExcipiente  "7380" ;
+        med:nombreExcipiente  "CETOESTEARILO SULFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7397>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearato De Glicerol Y Polioxietilengli"@es ;
+        med:codigoExcipiente  "7397" ;
+        med:nombreExcipiente  "ESTEARATO DE GLICEROL Y POLIOXIETILENGLI" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7615>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbato Potasico"@es ;
+        med:codigoExcipiente  "7615" ;
+        med:nombreExcipiente  "SORBATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7628>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitan"@es ;
+        med:codigoExcipiente  "7628" ;
+        med:nombreExcipiente  "SORBITAN" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7633>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitan Monoestearato"@es ;
+        med:codigoExcipiente  "7633" ;
+        med:nombreExcipiente  "SORBITAN MONOESTEARATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7635>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitan, Laurato De"@es ;
+        med:codigoExcipiente  "7635" ;
+        med:nombreExcipiente  "SORBITAN, LAURATO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7636>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitan Monooleato"@es ;
+        med:codigoExcipiente  "7636" ;
+        med:nombreExcipiente  "SORBITAN MONOOLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7638>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitan Monopalmitato"@es ;
+        med:codigoExcipiente  "7638" ;
+        med:nombreExcipiente  "SORBITAN MONOPALMITATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7642>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitan Sesquioleato"@es ;
+        med:codigoExcipiente  "7642" ;
+        med:nombreExcipiente  "SORBITAN SESQUIOLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7643>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitan Trioleato"@es ;
+        med:codigoExcipiente  "7643" ;
+        med:nombreExcipiente  "SORBITAN TRIOLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7646>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitol"@es ;
+        med:codigoExcipiente  "7646" ;
+        med:nombreExcipiente  "SORBITOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7673>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitol Isopropilico"@es ;
+        med:codigoExcipiente  "7673" ;
+        med:nombreExcipiente  "SORBITOL ISOPROPILICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7746>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfato De Laurilo Y Sodio"@es ;
+        med:codigoExcipiente  "7746" ;
+        med:nombreExcipiente  "SULFATO DE LAURILO Y SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7759>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfato Potasico"@es ;
+        med:codigoExcipiente  "7759" ;
+        med:nombreExcipiente  "SULFATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7760>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfato Sodico"@es ;
+        med:codigoExcipiente  "7760" ;
+        med:nombreExcipiente  "SULFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7761>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfato Sodico Anhidro"@es ;
+        med:codigoExcipiente  "7761" ;
+        med:nombreExcipiente  "SULFATO SODICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7767>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfito Sodico"@es ;
+        med:codigoExcipiente  "7767" ;
+        med:nombreExcipiente  "SULFITO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7768>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfito De Sodio Anhidro"@es ;
+        med:codigoExcipiente  "7768" ;
+        med:nombreExcipiente  "SULFITO DE SODIO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7966>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sodio, Tartrato De"@es ;
+        med:codigoExcipiente  "7966" ;
+        med:nombreExcipiente  "SODIO, TARTRATO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/7969>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tartrazina (E-102; Ci=19140)"@es ;
+        med:codigoExcipiente  "7969" ;
+        med:nombreExcipiente  "TARTRAZINA (E-102; CI=19140)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8060>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Timerosal"@es ;
+        med:codigoExcipiente  "8060" ;
+        med:nombreExcipiente  "TIMEROSAL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8084>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tioglicerol"@es ;
+        med:codigoExcipiente  "8084" ;
+        med:nombreExcipiente  "TIOGLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8088>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tiosulfato Sodico"@es ;
+        med:codigoExcipiente  "8088" ;
+        med:nombreExcipiente  "TIOSULFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8163>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tripolifosfato Sodico"@es ;
+        med:codigoExcipiente  "8163" ;
+        med:nombreExcipiente  "TRIPOLIFOSFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8406>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Yoduro Potasico"@es ;
+        med:codigoExcipiente  "8406" ;
+        med:nombreExcipiente  "YODURO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8412>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Silicato Aluminico Sodico"@es ;
+        med:codigoExcipiente  "8412" ;
+        med:nombreExcipiente  "SILICATO ALUMINICO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8569>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Dibasico Anhidro"@es ;
+        med:codigoExcipiente  "8569" ;
+        med:nombreExcipiente  "FOSFATO SODICO DIBASICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8807>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Caucho Virgen"@es ;
+        med:codigoExcipiente  "8807" ;
+        med:nombreExcipiente  "CAUCHO VIRGEN" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8912>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Yoduro Sodico"@es ;
+        med:codigoExcipiente  "8912" ;
+        med:nombreExcipiente  "YODURO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8924>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Palmito Estearato De Glicerol"@es ;
+        med:codigoExcipiente  "8924" ;
+        med:nombreExcipiente  "PALMITO ESTEARATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8961>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Xilitol (E-967)"@es ;
+        med:codigoExcipiente  "8961" ;
+        med:nombreExcipiente  "XILITOL (E-967)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/8980>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acetobutil Ricinoleato"@es ;
+        med:codigoExcipiente  "8980" ;
+        med:nombreExcipiente  "ACETOBUTIL RICINOLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9032>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon De Maiz Desecado"@es ;
+        med:codigoExcipiente  "9032" ;
+        med:nombreExcipiente  "ALMIDON DE MAIZ DESECADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9041>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laurilmiristil Sulfato Sodico"@es ;
+        med:codigoExcipiente  "9041" ;
+        med:nombreExcipiente  "LAURILMIRISTIL SULFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9056>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Estearilico Polioxietilenado"@es ;
+        med:codigoExcipiente  "9056" ;
+        med:nombreExcipiente  "ALCOHOL ESTEARILICO POLIOXIETILENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9064>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tartrato Sodico Potasico"@es ;
+        med:codigoExcipiente  "9064" ;
+        med:nombreExcipiente  "TARTRATO SODICO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9071>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ricino, Aceite De, Hidrogenado"@es ;
+        med:codigoExcipiente  "9071" ;
+        med:nombreExcipiente  "RICINO, ACEITE DE, HIDROGENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9074>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Ricino Polioxietilenado"@es ;
+        med:codigoExcipiente  "9074" ;
+        med:nombreExcipiente  "ACEITE DE RICINO POLIOXIETILENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9085>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Cetoestearilico Polioxietilenado"@es ;
+        med:codigoExcipiente  "9085" ;
+        med:nombreExcipiente  "ALCOHOL CETOESTEARILICO POLIOXIETILENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9088>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polioxipropilen-15-Estearil Eter"@es ;
+        med:codigoExcipiente  "9088" ;
+        med:nombreExcipiente  "POLIOXIPROPILEN-15-ESTEARIL ETER" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9092>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laurilsarcosinato Sodico"@es ;
+        med:codigoExcipiente  "9092" ;
+        med:nombreExcipiente  "LAURILSARCOSINATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9115>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol De Lanolina Etoxilado"@es ;
+        med:codigoExcipiente  "9115" ;
+        med:nombreExcipiente  "ALCOHOL DE LANOLINA ETOXILADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9131>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Ricino Hidrogenado-Polioxietil"@es ;
+        med:codigoExcipiente  "9131" ;
+        med:nombreExcipiente  "ACEITE DE RICINO HIDROGENADO-POLIOXIETIL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9140>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Edetato Calcico Sodico"@es ;
+        med:codigoExcipiente  "9140" ;
+        med:nombreExcipiente  "EDETATO CALCICO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9142>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Croscarmelosa Sodica"@es ;
+        med:codigoExcipiente  "9142" ;
+        med:nombreExcipiente  "CROSCARMELOSA SODICA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9150>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acetato De Sodio Trihidrato"@es ;
+        med:codigoExcipiente  "9150" ;
+        med:nombreExcipiente  "ACETATO DE SODIO TRIHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9152>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Soja"@es ;
+        med:codigoExcipiente  "9152" ;
+        med:nombreExcipiente  "ACEITE DE SOJA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9153>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Soja, Aceite De, Hidrogenado"@es ;
+        med:codigoExcipiente  "9153" ;
+        med:nombreExcipiente  "SOJA, ACEITE DE, HIDROGENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9173>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Sorbitol Deshidratado (Sust. S"@es ;
+        med:codigoExcipiente  "9173" ;
+        med:nombreExcipiente  "JARABE DE SORBITOL DESHIDRATADO (SUST. S" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9174>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Tribasico Dodecahidrato"@es ;
+        med:codigoExcipiente  "9174" ;
+        med:nombreExcipiente  "FOSFATO SODICO TRIBASICO DODECAHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9180>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon Sucrosa"@es ;
+        med:codigoExcipiente  "9180" ;
+        med:nombreExcipiente  "ALMIDON SUCROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9195>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dibutil Hidroxi Tolueno"@es ;
+        med:codigoExcipiente  "9195" ;
+        med:nombreExcipiente  "DIBUTIL HIDROXI TOLUENO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9208>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Iodato Potasico"@es ;
+        med:codigoExcipiente  "9208" ;
+        med:nombreExcipiente  "IODATO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9214>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Sauco"@es ;
+        med:codigoExcipiente  "9214" ;
+        med:nombreExcipiente  "JARABE DE SAUCO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9216>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Edetato Tetrasodico"@es ;
+        med:codigoExcipiente  "9216" ;
+        med:nombreExcipiente  "EDETATO TETRASODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9217>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon De Maiz Pregelatinizado"@es ;
+        med:codigoExcipiente  "9217" ;
+        med:nombreExcipiente  "ALMIDON DE MAIZ PREGELATINIZADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9227>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citrato Sodico Dibasico"@es ;
+        med:codigoExcipiente  "9227" ;
+        med:nombreExcipiente  "CITRATO SODICO DIBASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9232>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Poliacrilato Sodico (Espesante,Polimero"@es ;
+        med:codigoExcipiente  "9232" ;
+        med:nombreExcipiente  "POLIACRILATO SODICO (ESPESANTE,POLIMERO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9233>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Resina De Formaldehido Y Melamina (Agent"@es ;
+        med:codigoExcipiente  "9233" ;
+        med:nombreExcipiente  "RESINA DE FORMALDEHIDO Y MELAMINA (AGENT" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9240>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Metilglucosa Dioleato De Propilenglicol"@es ;
+        med:codigoExcipiente  "9240" ;
+        med:nombreExcipiente  "METILGLUCOSA DIOLEATO DE PROPILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9259>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Saborizante Azucar Blanco"@es ;
+        med:codigoExcipiente  "9259" ;
+        med:nombreExcipiente  "SABORIZANTE AZUCAR BLANCO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9260>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Caldiamida Sodica"@es ;
+        med:codigoExcipiente  "9260" ;
+        med:nombreExcipiente  "CALDIAMIDA SODICA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9265>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Propionato Sodico"@es ;
+        med:codigoExcipiente  "9265" ;
+        med:nombreExcipiente  "PROPIONATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9266>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cianuro Potasico"@es ;
+        med:codigoExcipiente  "9266" ;
+        med:nombreExcipiente  "CIANURO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9267>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dipropilenglicol"@es ;
+        med:codigoExcipiente  "9267" ;
+        med:nombreExcipiente  "DIPROPILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9270>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearato De Glicerol"@es ;
+        med:codigoExcipiente  "9270" ;
+        med:nombreExcipiente  "ESTEARATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9273>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Crodalan Aws (Alcohol De Lanolina Acetil"@es ;
+        med:codigoExcipiente  "9273" ;
+        med:nombreExcipiente  "CRODALAN AWS (ALCOHOL DE LANOLINA ACETIL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9278>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Sodico Tribasico Monohidrato"@es ;
+        med:codigoExcipiente  "9278" ;
+        med:nombreExcipiente  "FOSFATO SODICO TRIBASICO MONOHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9284>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfatidilcolina Hidrogenada De Soja"@es ;
+        med:codigoExcipiente  "9284" ;
+        med:nombreExcipiente  "FOSFATIDILCOLINA HIDROGENADA DE SOJA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9285>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Diestearoil Fosfatidil Glicerol"@es ;
+        med:codigoExcipiente  "9285" ;
+        med:nombreExcipiente  "DIESTEAROIL FOSFATIDIL GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9286>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Succinato Disodico Hexahidrato"@es ;
+        med:codigoExcipiente  "9286" ;
+        med:nombreExcipiente  "SUCCINATO DISODICO HEXAHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9310>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Ricino Polimerizado"@es ;
+        med:codigoExcipiente  "9310" ;
+        med:nombreExcipiente  "ACEITE DE RICINO POLIMERIZADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9327>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Potasio"@es ;
+        med:codigoExcipiente  "9327" ;
+        med:nombreExcipiente  "POTASIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/9328>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sodio"@es ;
+        med:codigoExcipiente  "9328" ;
+        med:nombreExcipiente  "SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15000>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Arlatone"@es ;
+        med:codigoExcipiente  "15000" ;
+        med:nombreExcipiente  "ARLATONE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15025>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aspartamo (E-951)"@es ;
+        med:codigoExcipiente  "15025" ;
+        med:nombreExcipiente  "ASPARTAMO (E-951)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15042>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Oleato De Sodio"@es ;
+        med:codigoExcipiente  "15042" ;
+        med:nombreExcipiente  "OLEATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15049>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Miristato De Glicerol"@es ;
+        med:codigoExcipiente  "15049" ;
+        med:nombreExcipiente  "MIRISTATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15053>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laurileter Sulfato Sodico"@es ;
+        med:codigoExcipiente  "15053" ;
+        med:nombreExcipiente  "LAURILETER SULFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15069>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Etil Paraben Sodico"@es ;
+        med:codigoExcipiente  "15069" ;
+        med:nombreExcipiente  "ETIL PARABEN SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15085>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Solucion Tampon Citrato-Fosfato"@es ;
+        med:codigoExcipiente  "15085" ;
+        med:nombreExcipiente  "SOLUCION TAMPON CITRATO-FOSFATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15087>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Galactosa"@es ;
+        med:codigoExcipiente  "15087" ;
+        med:nombreExcipiente  "GALACTOSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15089>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Ricino Sulfatado (Actrasol C-7"@es ;
+        med:codigoExcipiente  "15089" ;
+        med:nombreExcipiente  "ACEITE DE RICINO SULFATADO (ACTRASOL C-7" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15095>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Tintura De Benjui"@es ;
+        med:codigoExcipiente  "15095" ;
+        med:nombreExcipiente  "TINTURA DE BENJUI" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15114>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alginato Calcico Y Sodico"@es ;
+        med:codigoExcipiente  "15114" ;
+        med:nombreExcipiente  "ALGINATO CALCICO Y SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15117>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laca De Aluminio Rojo Ponceau 4R (E 124, Ci=16255)"@es ;
+        med:codigoExcipiente  "15117" ;
+        med:nombreExcipiente  "LACA DE ALUMINIO ROJO PONCEAU 4R (E 124, CI=16255)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15134>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Behenato De Glicerol"@es ;
+        med:codigoExcipiente  "15134" ;
+        med:nombreExcipiente  "BEHENATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15135>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Clorhidrato-L-Cisteinato Sodico"@es ;
+        med:codigoExcipiente  "15135" ;
+        med:nombreExcipiente  "CLORHIDRATO-L-CISTEINATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15152>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fenilalanina"@es ;
+        med:codigoExcipiente  "15152" ;
+        med:nombreExcipiente  "FENILALANINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15153>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Olefina Sulfonato Sodico"@es ;
+        med:codigoExcipiente  "15153" ;
+        med:nombreExcipiente  "OLEFINA SULFONATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15195>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acetato Sodico Tetrahidrato"@es ;
+        med:codigoExcipiente  "15195" ;
+        med:nombreExcipiente  "ACETATO SODICO TETRAHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15199>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Oleato De Potasio"@es ;
+        med:codigoExcipiente  "15199" ;
+        med:nombreExcipiente  "OLEATO DE POTASIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15204>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol De Lanolina Acetilado"@es ;
+        med:codigoExcipiente  "15204" ;
+        med:nombreExcipiente  "ALCOHOL DE LANOLINA ACETILADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15212>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polioxietilen Sorbitan Monooleato"@es ;
+        med:codigoExcipiente  "15212" ;
+        med:nombreExcipiente  "POLIOXIETILEN SORBITAN MONOOLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15244>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Pirrolidona Carboxilato Sodico"@es ;
+        med:codigoExcipiente  "15244" ;
+        med:nombreExcipiente  "PIRROLIDONA CARBOXILATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15265>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acesulfamo Potasico"@es ;
+        med:codigoExcipiente  "15265" ;
+        med:nombreExcipiente  "ACESULFAMO POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15303>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lycasin (Mezcla Maltitol,Sorbitol Y Otro"@es ;
+        med:codigoExcipiente  "15303" ;
+        med:nombreExcipiente  "LYCASIN (MEZCLA MALTITOL,SORBITOL Y OTRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15305>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Hidratada"@es ;
+        med:codigoExcipiente  "15305" ;
+        med:nombreExcipiente  "LACTOSA HIDRATADA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15308>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Dmpg (Dimiristoil Fosfatidil Glicerol)"@es ;
+        med:codigoExcipiente  "15308" ;
+        med:nombreExcipiente  "DMPG (DIMIRISTOIL FOSFATIDIL GLICEROL)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15314>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfato De Colesteril Sodico"@es ;
+        med:codigoExcipiente  "15314" ;
+        med:nombreExcipiente  "SULFATO DE COLESTERIL SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15339>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Harina De Avena"@es ;
+        med:codigoExcipiente  "15339" ;
+        med:nombreExcipiente  "HARINA DE AVENA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15343>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Nonilfenol Eter Sulfato Sodico"@es ;
+        med:codigoExcipiente  "15343" ;
+        med:nombreExcipiente  "NONILFENOL ETER SULFATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15357>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Monomiristato De Glicerol"@es ;
+        med:codigoExcipiente  "15357" ;
+        med:nombreExcipiente  "MONOMIRISTATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15377>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hexadecil Hidrogeno Fosfato De Potasio"@es ;
+        med:codigoExcipiente  "15377" ;
+        med:nombreExcipiente  "HEXADECIL HIDROGENO FOSFATO DE POTASIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15378>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polidextrosa"@es ;
+        med:codigoExcipiente  "15378" ;
+        med:nombreExcipiente  "POLIDEXTROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15384>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcolec 662/Propilenglicol=Phosal"@es ;
+        med:codigoExcipiente  "15384" ;
+        med:nombreExcipiente  "ALCOLEC 662/PROPILENGLICOL=PHOSAL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15393>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "3-Hexiloxipropilenoglicol"@es ;
+        med:codigoExcipiente  "15393" ;
+        med:nombreExcipiente  "3-HEXILOXIPROPILENOGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15394>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Noniloxipropilenoglicol"@es ;
+        med:codigoExcipiente  "15394" ;
+        med:nombreExcipiente  "NONILOXIPROPILENOGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15395>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Diestearato De Sacarosa"@es ;
+        med:codigoExcipiente  "15395" ;
+        med:nombreExcipiente  "DIESTEARATO DE SACAROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15396>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Soja Parcialmente Hidrogenado"@es ;
+        med:codigoExcipiente  "15396" ;
+        med:nombreExcipiente  "ACEITE DE SOJA PARCIALMENTE HIDROGENADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15398>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Sacarosa"@es ;
+        med:codigoExcipiente  "15398" ;
+        med:nombreExcipiente  "JARABE DE SACAROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15404>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Jarabe De Maltitol (E965)"@es ;
+        med:codigoExcipiente  "15404" ;
+        med:nombreExcipiente  "JARABE DE MALTITOL (E965)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15413>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polimetacrilato De Glicerol"@es ;
+        med:codigoExcipiente  "15413" ;
+        med:nombreExcipiente  "POLIMETACRILATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15418>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Poliacrilin Potasico"@es ;
+        med:codigoExcipiente  "15418" ;
+        med:nombreExcipiente  "POLIACRILIN POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15448>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ricinoleato De Glicerol Y Polietilenglicol"@es ;
+        med:codigoExcipiente  "15448" ;
+        med:nombreExcipiente  "RICINOLEATO DE GLICEROL Y POLIETILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15462>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ion Sodio"@es ;
+        med:codigoExcipiente  "15462" ;
+        med:nombreExcipiente  "ION SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15469>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laurato De Propilenglicol"@es ;
+        med:codigoExcipiente  "15469" ;
+        med:nombreExcipiente  "LAURATO DE PROPILENGLICOL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15491>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ester Etilico De Vit F"@es ;
+        med:codigoExcipiente  "15491" ;
+        med:nombreExcipiente  "ESTER ETILICO DE VIT F" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15510>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ciclodextrina"@es ;
+        med:codigoExcipiente  "15510" ;
+        med:nombreExcipiente  "CICLODEXTRINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15515>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fenoparaben"@es ;
+        med:codigoExcipiente  "15515" ;
+        med:nombreExcipiente  "FENOPARABEN" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15516>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Colato Sodico"@es ;
+        med:codigoExcipiente  "15516" ;
+        med:nombreExcipiente  "COLATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15547>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato"@es ;
+        med:codigoExcipiente  "15547" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15567>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Trisodico Anhidro"@es ;
+        med:codigoExcipiente  "15567" ;
+        med:nombreExcipiente  "FOSFATO TRISODICO ANHIDRO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15569>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfato Disodico Dodecahidratado"@es ;
+        med:codigoExcipiente  "15569" ;
+        med:nombreExcipiente  "FOSFATO DISODICO DODECAHIDRATADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15574>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Etilico (Etanol) Desnaturalizado"@es ;
+        med:codigoExcipiente  "15574" ;
+        med:nombreExcipiente  "ALCOHOL ETILICO (ETANOL) DESNATURALIZADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15576>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Solucion De Sorbitol 70%"@es ;
+        med:codigoExcipiente  "15576" ;
+        med:nombreExcipiente  "SOLUCION DE SORBITOL 70%" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15577>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cera Amarilla De Abejas"@es ;
+        med:codigoExcipiente  "15577" ;
+        med:nombreExcipiente  "CERA AMARILLA DE ABEJAS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15587>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol 40-55, Monoestearato De"@es ;
+        med:codigoExcipiente  "15587" ;
+        med:nombreExcipiente  "GLICEROL 40-55, MONOESTEARATO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15611>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Peg 20 Metilglucosa Sesquiestearato"@es ;
+        med:codigoExcipiente  "15611" ;
+        med:nombreExcipiente  "PEG 20 METILGLUCOSA SESQUIESTEARATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15638>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carragenato Hidrolizado"@es ;
+        med:codigoExcipiente  "15638" ;
+        med:nombreExcipiente  "CARRAGENATO HIDROLIZADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15644>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polacrilin Potasico"@es ;
+        med:codigoExcipiente  "15644" ;
+        med:nombreExcipiente  "POLACRILIN POTASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15664>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon Octenil Succinato Aluminico(E 1452)"@es ;
+        med:codigoExcipiente  "15664" ;
+        med:nombreExcipiente  "ALMIDON OCTENIL SUCCINATO ALUMINICO(E 1452)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15668>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lecitina De Soja Hidrogenada"@es ;
+        med:codigoExcipiente  "15668" ;
+        med:nombreExcipiente  "LECITINA DE SOJA HIDROGENADA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15670>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon Octenil Succinato Sodio (E-1450)"@es ;
+        med:codigoExcipiente  "15670" ;
+        med:nombreExcipiente  "ALMIDON OCTENIL SUCCINATO SODIO (E-1450)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15681>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carboximetilalmidon Sodico Tipo A"@es ;
+        med:codigoExcipiente  "15681" ;
+        med:nombreExcipiente  "CARBOXIMETILALMIDON SODICO TIPO A" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15691>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cacahuete, Aceite De, Refinado"@es ;
+        med:codigoExcipiente  "15691" ;
+        med:nombreExcipiente  "CACAHUETE, ACEITE DE, REFINADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15735>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol, Monocaprilocaprato De"@es ;
+        med:codigoExcipiente  "15735" ;
+        med:nombreExcipiente  "GLICEROL, MONOCAPRILOCAPRATO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15769>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Citrato Sodico Monobasico"@es ;
+        med:codigoExcipiente  "15769" ;
+        med:nombreExcipiente  "CITRATO SODICO MONOBASICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15787>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitol Liquido, Parcialmente Deshidratado (E-420)"@es ;
+        med:codigoExcipiente  "15787" ;
+        med:nombreExcipiente  "SORBITOL LIQUIDO, PARCIALMENTE DESHIDRATADO (E-420)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15801>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sacarosa, Monopalmitato De"@es ;
+        med:codigoExcipiente  "15801" ;
+        med:nombreExcipiente  "SACAROSA, MONOPALMITATO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15883>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Manitol Sd 200"@es ;
+        med:codigoExcipiente  "15883" ;
+        med:nombreExcipiente  "MANITOL SD 200" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15884>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Manitol 35"@es ;
+        med:codigoExcipiente  "15884" ;
+        med:nombreExcipiente  "MANITOL 35" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15885>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Etanol 99,5%(V/V)"@es ;
+        med:codigoExcipiente  "15885" ;
+        med:nombreExcipiente  "ETANOL 99,5%(V/V)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15923>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polvo Sabor Vainilla"@es ;
+        med:codigoExcipiente  "15923" ;
+        med:nombreExcipiente  "POLVO SABOR VAINILLA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15962>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cetoestearilico, Alcohol, Emulsionante (Tipo B)"@es ;
+        med:codigoExcipiente  "15962" ;
+        med:nombreExcipiente  "CETOESTEARILICO, ALCOHOL, EMULSIONANTE (TIPO B)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/15998>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Mono/Di-(Z,R)-12-Hidroxioctadeca-9-Enoato De Glicerol"@es ;
+        med:codigoExcipiente  "15998" ;
+        med:nombreExcipiente  "MONO/DI-(Z,R)-12-HIDROXIOCTADECA-9-ENOATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16042>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Solucion De Hidroxido De Sodio"@es ;
+        med:codigoExcipiente  "16042" ;
+        med:nombreExcipiente  "SOLUCION DE HIDROXIDO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16047>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cloruro De Benzalconio Solucion"@es ;
+        med:codigoExcipiente  "16047" ;
+        med:nombreExcipiente  "CLORURO DE BENZALCONIO SOLUCION" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16088>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Acido Clorhidrico/Hidroxido De Sodio"@es ;
+        med:codigoExcipiente  "16088" ;
+        med:nombreExcipiente  "ACIDO CLORHIDRICO/HIDROXIDO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16090>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Almidon Modificado"@es ;
+        med:codigoExcipiente  "16090" ;
+        med:nombreExcipiente  "ALMIDON MODIFICADO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16120>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cloruro De Sodio Para Inyeccion"@es ;
+        med:codigoExcipiente  "16120" ;
+        med:nombreExcipiente  "CLORURO DE SODIO PARA INYECCION" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16155>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Solucion Sorbitol Al 70% (No Cristalizable)"@es ;
+        med:codigoExcipiente  "16155" ;
+        med:nombreExcipiente  "SOLUCION SORBITOL AL 70% (NO CRISTALIZABLE)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16168>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Pigmento Mezcla Pb-220001 Amarillo"@es ;
+        med:codigoExcipiente  "16168" ;
+        med:nombreExcipiente  "PIGMENTO MEZCLA PB-220001 AMARILLO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16208>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Succinato De Sodio"@es ;
+        med:codigoExcipiente  "16208" ;
+        med:nombreExcipiente  "SUCCINATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16242>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Hidroxido De Sodio Pellets"@es ;
+        med:codigoExcipiente  "16242" ;
+        med:nombreExcipiente  "HIDROXIDO DE SODIO PELLETS" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16288>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol Monoestearato 40-55 Tipo Ii"@es ;
+        med:codigoExcipiente  "16288" ;
+        med:nombreExcipiente  "GLICEROL MONOESTEARATO 40-55 TIPO II" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16297>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Edetato Magnesico Disodico"@es ;
+        med:codigoExcipiente  "16297" ;
+        med:nombreExcipiente  "EDETATO MAGNESICO DISODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16538>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearato De Sorbitan Tipo I"@es ;
+        med:codigoExcipiente  "16538" ;
+        med:nombreExcipiente  "ESTEARATO DE SORBITAN TIPO I" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16539>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearato De Sorbitan Tipo Ii"@es ;
+        med:codigoExcipiente  "16539" ;
+        med:nombreExcipiente  "ESTEARATO DE SORBITAN TIPO II" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16586>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Estearato De Sacarosa"@es ;
+        med:codigoExcipiente  "16586" ;
+        med:nombreExcipiente  "ESTEARATO DE SACAROSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16588>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Propilenglicol Monocaprilato Tipo Ii"@es ;
+        med:codigoExcipiente  "16588" ;
+        med:nombreExcipiente  "PROPILENGLICOL MONOCAPRILATO TIPO II" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16612>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sulfobutileter Betaciclodextrina"@es ;
+        med:codigoExcipiente  "16612" ;
+        med:nombreExcipiente  "SULFOBUTILETER BETACICLODEXTRINA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16645>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Fosfatidilcolina De Soja"@es ;
+        med:codigoExcipiente  "16645" ;
+        med:nombreExcipiente  "FOSFATIDILCOLINA DE SOJA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16711>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Esferas De Azucar (Sacarosa Y Almidon De Maiz)"@es ;
+        med:codigoExcipiente  "16711" ;
+        med:nombreExcipiente  "ESFERAS DE AZUCAR (SACAROSA Y ALMIDON DE MAIZ)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16808>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato 100 M"@es ;
+        med:codigoExcipiente  "16808" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO 100 M" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16814>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa Monohidrato 200 M"@es ;
+        med:codigoExcipiente  "16814" ;
+        med:nombreExcipiente  "LACTOSA MONOHIDRATO 200 M" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16815>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Mezcla De Etanol - Agua"@es ;
+        med:codigoExcipiente  "16815" ;
+        med:nombreExcipiente  "MEZCLA DE ETANOL - AGUA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/16816>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Opadry Ii 39K170005 Amarillo"@es ;
+        med:codigoExcipiente  "16816" ;
+        med:nombreExcipiente  "OPADRY II 39K170005 AMARILLO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17015>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "N- Acetiltriptofanato Sodico"@es ;
+        med:codigoExcipiente  "17015" ;
+        med:nombreExcipiente  "N- ACETILTRIPTOFANATO SODICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17030>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Laca Aluminio Amarillo Fd&C 6 (E110)"@es ;
+        med:codigoExcipiente  "17030" ;
+        med:nombreExcipiente  "LACA ALUMINIO AMARILLO FD&C 6 (E110)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17064>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Lactosa"@es ;
+        med:codigoExcipiente  "17064" ;
+        med:nombreExcipiente  "LACTOSA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17069>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Etil, Metil Y Propil Parahidroxibenzoato (E214, E218, E216)"@es ;
+        med:codigoExcipiente  "17069" ;
+        med:nombreExcipiente  "ETIL, METIL Y PROPIL PARAHIDROXIBENZOATO (E214, E218, E216)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17115>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Cetoestearilico, Alcohol, Emulsionante (Tipo A)"@es ;
+        med:codigoExcipiente  "17115" ;
+        med:nombreExcipiente  "CETOESTEARILICO, ALCOHOL, EMULSIONANTE (TIPO A)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17212>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ascorbato De Sodio"@es ;
+        med:codigoExcipiente  "17212" ;
+        med:nombreExcipiente  "ASCORBATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17235>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Parahidroxibenzoato De Isobutilo"@es ;
+        med:codigoExcipiente  "17235" ;
+        med:nombreExcipiente  "PARAHIDROXIBENZOATO DE ISOBUTILO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17278>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Aceite De Soja Hidrogenado (Tipo Ii)"@es ;
+        med:codigoExcipiente  "17278" ;
+        med:nombreExcipiente  "ACEITE DE SOJA HIDROGENADO (TIPO II)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17330>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Glicerol Dioleato"@es ;
+        med:codigoExcipiente  "17330" ;
+        med:nombreExcipiente  "GLICEROL DIOLEATO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17371>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Opadry Amarillo 03F520096"@es ;
+        med:codigoExcipiente  "17371" ;
+        med:nombreExcipiente  "OPADRY AMARILLO 03F520096" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17624>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Opadry Ii Amarillo 85F220127"@es ;
+        med:codigoExcipiente  "17624" ;
+        med:nombreExcipiente  "OPADRY II AMARILLO 85F220127" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17676>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Opadry 80W265010 Marron"@es ;
+        med:codigoExcipiente  "17676" ;
+        med:nombreExcipiente  "OPADRY 80W265010 MARRON" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17698>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Opadry Ii Beige 85F97282"@es ;
+        med:codigoExcipiente  "17698" ;
+        med:nombreExcipiente  "OPADRY II BEIGE 85F97282" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17711>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Opadry 03K510007 Verde"@es ;
+        med:codigoExcipiente  "17711" ;
+        med:nombreExcipiente  "OPADRY 03K510007 VERDE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17772>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "1,2-Dimiristoil-Rac-Glicero-3-Metoxipolietilen Glicol-2000 (Peg2000 Dmg)"@es ;
+        med:codigoExcipiente  "17772" ;
+        med:nombreExcipiente  "1,2-DIMIRISTOIL-RAC-GLICERO-3-METOXIPOLIETILEN GLICOL-2000 (PEG2000 DMG)" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/17937>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Macrogol 20 Glicerol, Monoestearato De"@es ;
+        med:codigoExcipiente  "17937" ;
+        med:nombreExcipiente  "MACROGOL 20 GLICEROL, MONOESTEARATO DE" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/18036>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Alcohol Feniiletilico"@es ;
+        med:codigoExcipiente  "18036" ;
+        med:nombreExcipiente  "ALCOHOL FENIILETILICO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/18221>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Ricinoleato De Glicerol"@es ;
+        med:codigoExcipiente  "18221" ;
+        med:nombreExcipiente  "RICINOLEATO DE GLICEROL" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/18280>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Etanol 94%"@es ;
+        med:codigoExcipiente  "18280" ;
+        med:nombreExcipiente  "ETANOL 94%" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/18303>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Carbonato De Sodio"@es ;
+        med:codigoExcipiente  "18303" ;
+        med:nombreExcipiente  "CARBONATO DE SODIO" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/18482>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Polacrilina Potasica"@es ;
+        med:codigoExcipiente  "18482" ;
+        med:nombreExcipiente  "POLACRILINA POTASICA" .
+
+<http://www.medicamentos.es/ExcipienteDeclObligatoria/100275>
+        rdf:type              med:ExcipienteDeclObligatoria ;
+        rdfs:label            "Sorbitan, Estearato De"@es ;
+        med:codigoExcipiente  "100275" ;
+        med:nombreExcipiente  "SORBITAN, ESTEARATO DE" .
