@@ -1,0 +1,373 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix med:  <http://www.medicamentos.es/> .
+@prefix dcp:  <http://www.medicamentos.es/DCP> .
+@prefix atc:  <http://www.medicamentos.es/ATC> .
+@prefix excip:  <http://www.medicamentos.es/ExcipienteDeclObligatoria> .
+@prefix dcsa:  <http://www.medicamentos.es/DCSA> .
+@prefix vias:  <http://www.medicamentos.es/ViaAdministracion> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix enva:  <http://www.medicamentos.es/Envase> .
+@prefix formasimp:  <http://www.medicamentos.es/FormaFarmaceuticaSimplificada> .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/1>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "ADHESIVO TISULAR"@es ;
+        med:codForfarSimplificada  "1" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/2>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "APÓSITO"@es ;
+        med:codForfarSimplificada  "2" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/3>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "BARNIZ DE UÑAS"@es ;
+        med:codForfarSimplificada  "3" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/4>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "CAPSULA"@es ;
+        med:codForfarSimplificada  "4" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/5>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "CAPSULA LIBERACION MODIFICADA"@es ;
+        med:codForfarSimplificada  "5" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/6>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "CHAMPU"@es ;
+        med:codForfarSimplificada  "6" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/7>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "CHICLE"@es ;
+        med:codForfarSimplificada  "7" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/8>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COLIRIO"@es ;
+        med:codForfarSimplificada  "8" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/9>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COLIRIO DE LIBERACION PROLONGADA"@es ;
+        med:codForfarSimplificada  "9" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/10>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COMPRIMIDO"@es ;
+        med:codForfarSimplificada  "10" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/11>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COMPRIMIDO BUCAL/PARA CHUPAR"@es ;
+        med:codForfarSimplificada  "11" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/12>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COMPRIMIDO BUCODISPERSABLE/LIOTAB"@es ;
+        med:codForfarSimplificada  "12" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/13>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COMPRIMIDO EFERVESCENTE"@es ;
+        med:codForfarSimplificada  "13" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/14>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COMPRIMIDO LIBERACION MODIFICADA"@es ;
+        med:codForfarSimplificada  "14" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/15>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COMPRIMIDO MASTICABLE"@es ;
+        med:codForfarSimplificada  "15" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/16>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "COMPRIMIDO SUBLINGUAL"@es ;
+        med:codForfarSimplificada  "16" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/17>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "CONSERVACION ORGANOS"@es ;
+        med:codForfarSimplificada  "17" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/18>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "CREMA"@es ;
+        med:codForfarSimplificada  "18" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/20>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "DIALISIS PERITONEAL"@es ;
+        med:codForfarSimplificada  "20" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/21>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "DISPOSITIVO INTRAUTERINO"@es ;
+        med:codForfarSimplificada  "21" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/22>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "DISPOSITIVO VAGINAL"@es ;
+        med:codForfarSimplificada  "22" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/23>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "EMULSION"@es ;
+        med:codForfarSimplificada  "23" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/24>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "GEL"@es ;
+        med:codForfarSimplificada  "24" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/25>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "GEL OFTALMICO"@es ;
+        med:codForfarSimplificada  "25" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/26>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "GEL/PASTA/LIQUIDO BUCAL"@es ;
+        med:codForfarSimplificada  "26" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/27>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "LÍQUIDO OTICO"@es ;
+        med:codForfarSimplificada  "27" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/29>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "HEMOFILTRACION"@es ;
+        med:codForfarSimplificada  "29" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/30>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "IMPLANTE"@es ;
+        med:codForfarSimplificada  "30" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/31>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "IMPLANTE OFTALMICO"@es ;
+        med:codForfarSimplificada  "31" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/32>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "INHALACION ENDOTRAQUEOPULMONAR"@es ;
+        med:codForfarSimplificada  "32" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/33>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "INHALACIÓN PULMONAR"@es ;
+        med:codForfarSimplificada  "33" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/34>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "INYECTABLE"@es ;
+        med:codForfarSimplificada  "34" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/35>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "INYECTABLE PERFUSION"@es ;
+        med:codForfarSimplificada  "35" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/37>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "LIQUIDO GASTROENTERICO"@es ;
+        med:codForfarSimplificada  "37" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/38>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "LIQUIDO RECTAL"@es ;
+        med:codForfarSimplificada  "38" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/39>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "LIQUIDO USO TOPICO"@es ;
+        med:codForfarSimplificada  "39" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/40>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "LIQUIDO VAGINAL"@es ;
+        med:codForfarSimplificada  "40" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/41>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "OVULO/CAPSULA/COMPRIMIDO VAGINAL"@es ;
+        med:codForfarSimplificada  "41" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/42>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PARCHE TRANSDERMICO"@es ;
+        med:codForfarSimplificada  "42" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/43>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PASTA"@es ;
+        med:codForfarSimplificada  "43" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/44>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCIÓN/SUSPENSIÓN ORAL EFERVESCENTE"@es ;
+        med:codForfarSimplificada  "44" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/45>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "POLVO/GRANULADO LIBERACION MODIFICADA"@es ;
+        med:codForfarSimplificada  "45" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/47>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "POMADA"@es ;
+        med:codForfarSimplificada  "47" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/48>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "POMADA OFTALMICA"@es ;
+        med:codForfarSimplificada  "48" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/49>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PREPARADO IRRIGACION VESICAL"@es ;
+        med:codForfarSimplificada  "49" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/50>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PREPARADO URETRAL"@es ;
+        med:codForfarSimplificada  "50" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/51>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PRODUCTO PARA EL BAÑO"@es ;
+        med:codForfarSimplificada  "51" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/52>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PRODUCTO USO BUCAL TOPICO"@es ;
+        med:codForfarSimplificada  "52" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/53>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PRODUCTO USO NASAL"@es ;
+        med:codForfarSimplificada  "53" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/54>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PULVERIZACION BUCAL"@es ;
+        med:codForfarSimplificada  "54" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/56>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PULVERIZACION SUBLINGUAL"@es ;
+        med:codForfarSimplificada  "56" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/57>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "RADIOFARMACO"@es ;
+        med:codForfarSimplificada  "57" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/59>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SEMISOLIDO RECTAL"@es ;
+        med:codForfarSimplificada  "59" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/60>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SEMISOLIDO VAGINAL"@es ;
+        med:codForfarSimplificada  "60" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/63>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLIDO USO TOPICO"@es ;
+        med:codForfarSimplificada  "63" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/64>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCION/SUSPENSION GOTAS ORALES"@es ;
+        med:codForfarSimplificada  "64" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/67>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SUPOSITORIO"@es ;
+        med:codForfarSimplificada  "67" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/69>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "GEL ENDOCERVICAL"@es ;
+        med:codForfarSimplificada  "69" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/71>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "POMADA OFTÁLMICA/ÓTICA"@es ;
+        med:codForfarSimplificada  "71" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/73>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PRODUCTO USO NASAL/BUCAL"@es ;
+        med:codForfarSimplificada  "73" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/75>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCIÓN/SUSPENSIÓN ORAL/INHALACIÓN PULMONAR"@es ;
+        med:codForfarSimplificada  "75" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/76>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCIÓN/SUSPENSIÓN ORAL/INYECTABLE"@es ;
+        med:codForfarSimplificada  "76" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/77>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCIÓN/SUSPENSIÓN ORAL/INYECTABLE PERFUSIÓN"@es ;
+        med:codForfarSimplificada  "77" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/78>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCIÓN/SUSPENSIÓN ORAL/RECTAL"@es ;
+        med:codForfarSimplificada  "78" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/91>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "PRUEBA ALERGIA"@es ;
+        med:codForfarSimplificada  "91" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/93>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCIÓN/SUSPENSIÓN ORAL"@es ;
+        med:codForfarSimplificada  "93" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/95>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCIÓN PARA MODIFICACIÓN DE LAS FRACCIONES SANGUÍNEAS"@es ;
+        med:codForfarSimplificada  "95" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/96>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "SOLUCIÓN TRANSDÉRMICA"@es ;
+        med:codForfarSimplificada  "96" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/97>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "EQUIVALENTE DE TEJIDO VIVO"@es ;
+        med:codForfarSimplificada  "97" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/98>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "INYECTABLE/INTRAVESICAL"@es ;
+        med:codForfarSimplificada  "98" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/99>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "GEL INTRAUTERINO"@es ;
+        med:codForfarSimplificada  "99" .
+
+<http://www.medicamentos.es/FormaFarmaceuticaSimplificada/100>
+        rdf:type                   med:FormaFarmaceuticaSimplificada ;
+        rdfs:label                 "GEL INTESTINAL"@es ;
+        med:codForfarSimplificada  "100" .
