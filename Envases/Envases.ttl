@@ -1,0 +1,310 @@
+@prefix dcp:  <http://www.medicamentos.es/DCP/> .
+@prefix atc:  <http://www.medicamentos.es/ATC/> .
+@prefix dcsa:  <http://www.medicamentos.es/DCSA/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix enva:  <http://www.medicamentos.es/Envase/> .
+@prefix med:  <http://www.medicamentos.es/> .
+
+<http://www.medicamentos.es/Envase/1>
+        rdf:type          med:Envase ;
+        rdfs:label        "Ampolla"@es ;
+        med:codigoEnvase  "1" ;
+        med:envaseTipo    "Ampolla" .
+
+<http://www.medicamentos.es/Envase/2>
+        rdf:type          med:Envase ;
+        rdfs:label        "Aplicador"@es ;
+        med:codigoEnvase  "2" ;
+        med:envaseTipo    "Aplicador" .
+
+<http://www.medicamentos.es/Envase/3>
+        rdf:type          med:Envase ;
+        rdfs:label        "Bolsa"@es ;
+        med:codigoEnvase  "3" ;
+        med:envaseTipo    "Bolsa" .
+
+<http://www.medicamentos.es/Envase/4>
+        rdf:type          med:Envase ;
+        rdfs:label        "Bidón"@es ;
+        med:codigoEnvase  "4" ;
+        med:envaseTipo    "Bidón" .
+
+<http://www.medicamentos.es/Envase/5>
+        rdf:type          med:Envase ;
+        rdfs:label        "Blister"@es ;
+        med:codigoEnvase  "5" ;
+        med:envaseTipo    "Blister" .
+
+<http://www.medicamentos.es/Envase/6>
+        rdf:type          med:Envase ;
+        rdfs:label        "Frasco"@es ;
+        med:codigoEnvase  "6" ;
+        med:envaseTipo    "Frasco" .
+
+<http://www.medicamentos.es/Envase/7>
+        rdf:type          med:Envase ;
+        rdfs:label        "Caja"@es ;
+        med:codigoEnvase  "7" ;
+        med:envaseTipo    "Caja" .
+
+<http://www.medicamentos.es/Envase/10>
+        rdf:type          med:Envase ;
+        rdfs:label        "Cánula"@es ;
+        med:codigoEnvase  "10" ;
+        med:envaseTipo    "Cánula" .
+
+<http://www.medicamentos.es/Envase/11>
+        rdf:type          med:Envase ;
+        rdfs:label        "Cápsula de cierre"@es ;
+        med:codigoEnvase  "11" ;
+        med:envaseTipo    "Cápsula de cierre" .
+
+<http://www.medicamentos.es/Envase/12>
+        rdf:type          med:Envase ;
+        rdfs:label        "Cartucho"@es ;
+        med:codigoEnvase  "12" ;
+        med:envaseTipo    "Cartucho" .
+
+<http://www.medicamentos.es/Envase/14>
+        rdf:type          med:Envase ;
+        rdfs:label        "Vaso dosificador"@es ;
+        med:codigoEnvase  "14" ;
+        med:envaseTipo    "Vaso dosificador" .
+
+<http://www.medicamentos.es/Envase/17>
+        rdf:type          med:Envase ;
+        rdfs:label        "Envase espolvoreador"@es ;
+        med:codigoEnvase  "17" ;
+        med:envaseTipo    "Envase espolvoreador" .
+
+<http://www.medicamentos.es/Envase/19>
+        rdf:type          med:Envase ;
+        rdfs:label        "Bala de gas"@es ;
+        med:codigoEnvase  "19" ;
+        med:envaseTipo    "Bala de gas" .
+
+<http://www.medicamentos.es/Envase/22>
+        rdf:type          med:Envase ;
+        rdfs:label        "Jeringa para inyección"@es ;
+        med:codigoEnvase  "22" ;
+        med:envaseTipo    "Jeringa para inyección" .
+
+<http://www.medicamentos.es/Envase/23>
+        rdf:type          med:Envase ;
+        rdfs:label        "Tarro"@es ;
+        med:codigoEnvase  "23" ;
+        med:envaseTipo    "Tarro" .
+
+<http://www.medicamentos.es/Envase/25>
+        rdf:type          med:Envase ;
+        rdfs:label        "Bomba dosificadora"@es ;
+        med:codigoEnvase  "25" ;
+        med:envaseTipo    "Bomba dosificadora" .
+
+<http://www.medicamentos.es/Envase/27>
+        rdf:type          med:Envase ;
+        rdfs:label        "Aplicador nasal"@es ;
+        med:codigoEnvase  "27" ;
+        med:envaseTipo    "Aplicador nasal" .
+
+<http://www.medicamentos.es/Envase/28>
+        rdf:type          med:Envase ;
+        rdfs:label        "Nebulizador"@es ;
+        med:codigoEnvase  "28" ;
+        med:envaseTipo    "Nebulizador" .
+
+<http://www.medicamentos.es/Envase/31>
+        rdf:type          med:Envase ;
+        rdfs:label        "Jeringa para uso oral"@es ;
+        med:codigoEnvase  "31" ;
+        med:envaseTipo    "Jeringa para uso oral" .
+
+<http://www.medicamentos.es/Envase/33>
+        rdf:type          med:Envase ;
+        rdfs:label        "Jeringa precargada"@es ;
+        med:codigoEnvase  "33" ;
+        med:envaseTipo    "Jeringa precargada" .
+
+<http://www.medicamentos.es/Envase/34>
+        rdf:type          med:Envase ;
+        rdfs:label        "Envase a presión"@es ;
+        med:codigoEnvase  "34" ;
+        med:envaseTipo    "Envase a presión" .
+
+<http://www.medicamentos.es/Envase/35>
+        rdf:type          med:Envase ;
+        rdfs:label        "Sobre"@es ;
+        med:codigoEnvase  "35" ;
+        med:envaseTipo    "Sobre" .
+
+<http://www.medicamentos.es/Envase/37>
+        rdf:type          med:Envase ;
+        rdfs:label        "Envase unidosis"@es ;
+        med:codigoEnvase  "37" ;
+        med:envaseTipo    "Envase unidosis" .
+
+<http://www.medicamentos.es/Envase/39>
+        rdf:type          med:Envase ;
+        rdfs:label        "Bomba pulverizadora"@es ;
+        med:codigoEnvase  "39" ;
+        med:envaseTipo    "Bomba pulverizadora" .
+
+<http://www.medicamentos.es/Envase/41>
+        rdf:type          med:Envase ;
+        rdfs:label        "Tapón"@es ;
+        med:codigoEnvase  "41" ;
+        med:envaseTipo    "Tapón" .
+
+<http://www.medicamentos.es/Envase/42>
+        rdf:type          med:Envase ;
+        rdfs:label        "Tiras"@es ;
+        med:codigoEnvase  "42" ;
+        med:envaseTipo    "Tiras" .
+
+<http://www.medicamentos.es/Envase/43>
+        rdf:type          med:Envase ;
+        rdfs:label        "Envase de comprimidos"@es ;
+        med:codigoEnvase  "43" ;
+        med:envaseTipo    "Envase de comprimidos" .
+
+<http://www.medicamentos.es/Envase/44>
+        rdf:type          med:Envase ;
+        rdfs:label        "Tubo"@es ;
+        med:codigoEnvase  "44" ;
+        med:envaseTipo    "Tubo" .
+
+<http://www.medicamentos.es/Envase/45>
+        rdf:type          med:Envase ;
+        rdfs:label        "Vial"@es ;
+        med:codigoEnvase  "45" ;
+        med:envaseTipo    "Vial" .
+
+<http://www.medicamentos.es/Envase/46>
+        rdf:type          med:Envase ;
+        rdfs:label        "Aplicador bucal"@es ;
+        med:codigoEnvase  "46" ;
+        med:envaseTipo    "Aplicador bucal" .
+
+<http://www.medicamentos.es/Envase/49>
+        rdf:type          med:Envase ;
+        rdfs:label        "Aplicador para pruebas de alérgenos"@es ;
+        med:codigoEnvase  "49" ;
+        med:envaseTipo    "Aplicador para pruebas de alérgenos" .
+
+<http://www.medicamentos.es/Envase/53>
+        rdf:type          med:Envase ;
+        rdfs:label        "Dispensador de dosis múltiples"@es ;
+        med:codigoEnvase  "53" ;
+        med:envaseTipo    "Dispensador de dosis múltiples" .
+
+<http://www.medicamentos.es/Envase/56>
+        rdf:type          med:Envase ;
+        rdfs:label        "Envase cuentagotas"@es ;
+        med:codigoEnvase  "56" ;
+        med:envaseTipo    "Envase cuentagotas" .
+
+<http://www.medicamentos.es/Envase/65>
+        rdf:type          med:Envase ;
+        rdfs:label        "Envase multidosis"@es ;
+        med:codigoEnvase  "65" ;
+        med:envaseTipo    "Envase multidosis" .
+
+<http://www.medicamentos.es/Envase/66>
+        rdf:type          med:Envase ;
+        rdfs:label        "Pluma precargada"@es ;
+        med:codigoEnvase  "66" ;
+        med:envaseTipo    "Pluma precargada" .
+
+<http://www.medicamentos.es/Envase/67>
+        rdf:type          med:Envase ;
+        rdfs:label        "Envase multidosis con bombeo sin entrada de aire"@es ;
+        med:codigoEnvase  "67" ;
+        med:envaseTipo    "Envase multidosis con bombeo sin entrada de aire" .
+
+<http://www.medicamentos.es/Envase/68>
+        rdf:type          med:Envase ;
+        rdfs:label        "Envase pulverizador"@es ;
+        med:codigoEnvase  "68" ;
+        med:envaseTipo    "Envase pulverizador" .
+
+<http://www.medicamentos.es/Envase/69>
+        rdf:type          med:Envase ;
+        rdfs:label        "Desconocido"@es ;
+        med:codigoEnvase  "69" ;
+        med:envaseTipo    "Desconocido" .
+
+<http://www.medicamentos.es/Envase/70>
+        rdf:type          med:Envase ;
+        rdfs:label        "Otros Envases"@es ;
+        med:codigoEnvase  "70" ;
+        med:envaseTipo    "Otros Envases" .
+
+<http://www.medicamentos.es/Envase/71>
+        rdf:type          med:Envase ;
+        rdfs:label        "Botella"@es ;
+        med:codigoEnvase  "71" ;
+        med:envaseTipo    "Botella" .
+
+<http://www.medicamentos.es/Envase/72>
+        rdf:type          med:Envase ;
+        rdfs:label        "Bote"@es ;
+        med:codigoEnvase  "72" ;
+        med:envaseTipo    "Bote" .
+
+<http://www.medicamentos.es/Envase/74>
+        rdf:type          med:Envase ;
+        rdfs:label        "Parche"@es ;
+        med:codigoEnvase  "74" ;
+        med:envaseTipo    "Parche" .
+
+<http://www.medicamentos.es/Envase/75>
+        rdf:type          med:Envase ;
+        rdfs:label        "Protector de goma Helvoet FM27/0"@es ;
+        med:codigoEnvase  "75" ;
+        med:envaseTipo    "Protector de goma Helvoet FM27/0" .
+
+<http://www.medicamentos.es/Envase/77>
+        rdf:type          med:Envase ;
+        rdfs:label        "Sticks"@es ;
+        med:codigoEnvase  "77" ;
+        med:envaseTipo    "Sticks" .
+
+<http://www.medicamentos.es/Envase/78>
+        rdf:type          med:Envase ;
+        rdfs:label        "Vial + Ampolla"@es ;
+        med:codigoEnvase  "78" ;
+        med:envaseTipo    "Vial + Ampolla" .
+
+<http://www.medicamentos.es/Envase/80>
+        rdf:type          med:Envase ;
+        rdfs:label        "Vial + Jeringa"@es ;
+        med:codigoEnvase  "80" ;
+        med:envaseTipo    "Vial + Jeringa" .
+
+<http://www.medicamentos.es/Envase/82>
+        rdf:type          med:Envase ;
+        rdfs:label        "Frasco + Vaso dosificador"@es ;
+        med:codigoEnvase  "82" ;
+        med:envaseTipo    "Frasco + Vaso dosificador" .
+
+<http://www.medicamentos.es/Envase/83>
+        rdf:type          med:Envase ;
+        rdfs:label        "Vial + Vial"@es ;
+        med:codigoEnvase  "83" ;
+        med:envaseTipo    "Vial + Vial" .
+
+<http://www.medicamentos.es/Envase/86>
+        rdf:type          med:Envase ;
+        rdfs:label        "Inhalador"@es ;
+        med:codigoEnvase  "86" ;
+        med:envaseTipo    "Inhalador" .
+
+<http://www.medicamentos.es/Envase/87>
+        rdf:type          med:Envase ;
+        rdfs:label        "Frasco+bomba dosificadora+jeringa"@es ;
+        med:codigoEnvase  "87" ;
+        med:envaseTipo    "Frasco+bomba dosificadora+jeringa" .
