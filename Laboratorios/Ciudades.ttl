@@ -1,0 +1,476 @@
+
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix forma: <http://www.medicamentos.es/FormaFarmaceutica> .
+@prefix sitreg: <http://www.medicamentos.es/SituaciónRegistro> .
+@prefix med:   <http://www.medicamentos.es/> .
+@prefix dcp:   <http://www.medicamentos.es/DCP> .
+@prefix rml:   <http://w3id.org/rml/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix atc:   <http://www.medicamentos.es/ATC> .
+@prefix vias:  <http://www.medicamentos.es/ViaAdministracion> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF> .
+@prefix dcsa:  <http://www.medicamentos.es/DCSA> .
+@prefix prinactiv: <http://www.medicamentos.es/PrincipioActivo/> .
+@prefix formasimp: <http://www.medicamentos.es/FormaFarmaceuticaSimplificada> .
+@prefix excip: <http://www.medicamentos.es/Excipiente_Decl_Obligatoria> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix enva:  <http://www.medicamentos.es/Envase> .
+@prefix lugares: <http://www.monumentos.es/lugares/> .
+@prefix unidconte: <http://www.medicamentos.es/UnidadContenido> .
+@prefix Laboratorio: <http://www.medicamentos.es/Laboratorio> .
+
+<http://es.dbpedia.org/resource/Barcelona>
+        rdfs:label  "Barcelona"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.1769444444444 41.3825)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Hospitalet_de_Llobregat>
+        rdfs:label  "Hospitalet de Llobregat"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.0991666666667 41.358888888889)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Pozuelo_de_Alarcón>
+        rdfs:label  "Pozuelo de Alarcón"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.8147222222222 40.440833333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Alcalá_de_Guadaíra>
+        rdfs:label  "Alcalá de Guadaíra"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-5.85 37.333333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Zaragoza>
+        rdfs:label  "Zaragoza"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.88333333333333 41.65)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Tarragona>
+        rdfs:label  "Tarragona"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(1.2527777777777778 41.1175)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Alcorcón>
+        rdfs:label  "Alcorcón"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.8284487 40.3493217)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Badalona>
+        rdfs:label  "Badalona"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.2333333333333 41.433333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Sardañola_del_Vallés>
+        rdfs:label  "Sardañola del Vallés"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.1388888888889 41.491944444444)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Burgos>
+        rdfs:label  "Burgos"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.6997222222222 42.340833333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Castellbisbal>
+        rdfs:label  "Castellbisbal"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(1.9822222222222 41.476666666667)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Lugo>
+        rdfs:label  "Lugo"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-7.5572222222222 43.011666666667)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Cornellá_de_Llobregat>
+        rdfs:label  "Cornellá de Llobregat"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.0711111111111 41.355)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Arganda_del_Rey>
+        rdfs:label  "Arganda del Rey"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.4408333333333 40.299444444444)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/San_Fernando_de_Henares>
+        rdfs:label  "San Fernando de Henares"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.5352777777778 40.425555555556)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Valencia>
+        rdfs:label  "Valencia"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.3763888888888889 39.47)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/San_Quintín_de_Mediona>
+        rdfs:label  "San Quintín de Mediona"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(1.665 41.464444444444)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/San_Cugat_del_Vallés>
+        rdfs:label  "San Cugat del Vallés"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.085244 41.473538)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Leganés>
+        rdfs:label  "Leganés"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.7654027777778 40.32825)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Fuenlabrada>
+        rdfs:label  "Fuenlabrada"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.8 40.283333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Granollers>
+        rdfs:label  "Granollers"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.288889 41.608333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Ribarroja_del_Turia>
+        rdfs:label  "Ribarroja del Turia"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.568333 39.5475)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Utebo>
+        rdfs:label  "Utebo"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.9943593 41.7140829)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Galapagar>
+        rdfs:label  "Galapagar"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-4.0019444444444 40.576388888889)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Madrid>
+        rdfs:label  "Madrid"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.703333333333333 40.41694444444445)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Santa_Coloma_de_Gramanet>
+        rdfs:label  "Santa Coloma de Gramanet"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.2111111111111 41.453888888889)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Castelldefels>
+        rdfs:label  "Castelldefels"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(1.9766666666667 41.28)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Camponaraya>
+        rdfs:label  "Camponaraya"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-6.6702777777778 42.580555555556)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/San_Justo_Desvern>
+        rdfs:label  "San Justo Desvern"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.075 41.383333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Bernedo>
+        rdfs:label  "Bernedo"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-2.4980928 42.6267187)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Meco>
+        rdfs:label  "Meco"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.3261111111111 40.553888888889)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Alcalá_de_Henares>
+        rdfs:label  "Alcalá de Henares"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.364305 40.481815)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Guadalajara>
+        rdfs:label  "Guadalajara"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.1666666666667 40.633333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Rentería>
+        rdfs:label  "Rentería"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-1.8986133 43.3125271)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Martorellas>
+        rdfs:label  "Martorellas"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.237507 41.527921)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Esplugas_de_Llobregat>
+        rdfs:label  "Esplugas de Llobregat"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.0858333333333 41.376666666667)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Marrachí>
+        rdfs:label  "Marrachí"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.752676 39.642148)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Vigo>
+        rdfs:label  "Vigo"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-8.7266666666667 42.235833333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Coslada>
+        rdfs:label  "Coslada"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.565 40.426111111111)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Almodóvar_del_Río>
+        rdfs:label  "Almodóvar del Río"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-5.0193713 37.8110474)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Azuqueca_de_Henares>
+        rdfs:label  "Azuqueca de Henares"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.2680555555556 40.564722222222)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Manlleu>
+        rdfs:label  "Manlleu"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.2836111111111 42.0)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Alcoy>
+        rdfs:label  "Alcoy"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.47361111111111 38.698333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Paterna>
+        rdfs:label  "Paterna"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.44055555555556 39.502777777778)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Las_Palmas_de_Gran_Canaria>
+        rdfs:label  "Las Palmas de Gran Canaria"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-15.431388888889 28.127222222222)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Alcobendas>
+        rdfs:label  "Alcobendas"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.6333333333333 40.533333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Almería>
+        rdfs:label  "Almería"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-2.4675000000000002 36.84)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/La_Roca_del_Vallés>
+        rdfs:label  "La Roca del Vallés"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.324701 41.582652)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Marchamalo>
+        rdfs:label  "Marchamalo"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.2022222222222 40.668888888889)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/El_Puerto_de_Santa_María>
+        rdfs:label  "El Puerto de Santa María"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-6.2381494 36.601468)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Avilés>
+        rdfs:label  "Avilés"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-5.9222222222222 43.556111111111)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Colmenar_Viejo>
+        rdfs:label  "Colmenar Viejo"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.7663207 40.6587901)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Viladecans>
+        rdfs:label  "Viladecans"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.0194444444444 41.315833333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Oviedo>
+        rdfs:label  "Oviedo"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-5.8502777777778 43.3625)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Benifayó>
+        rdfs:label  "Benifayó"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.426264 39.2854089)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Llissá_de_Vall>
+        rdfs:label  "Llissá de Vall"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.2430555555556 41.593611111111)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Bañolas>
+        rdfs:label  "Bañolas"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.7663888888889 42.119444444444)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Córdoba>
+        rdfs:label  "Córdoba"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-4.7666666666667 37.883333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Palau-solità_i_Plegamans>
+        rdfs:label  "Palau-solità i Plegamans"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.178529 41.587554)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Aranda_de_Duero>
+        rdfs:label  "Aranda de Duero"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.6863888888889 41.671388888889)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Barberá_del_Vallés>
+        rdfs:label  "Barberá del Vallés"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.1244444444444 41.516388888889)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Tres_Cantos>
+        rdfs:label  "Tres Cantos"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.7065364 40.6065832)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes>
+        rdfs:label  "San Sebastián de los Reyes"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.6258333333333 40.546944444444)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Sevilla>
+        rdfs:label  "Sevilla"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-5.9833333333333 37.383333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Alhaurín_el_Grande>
+        rdfs:label  "Alhaurín el Grande"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-4.6830555555556 36.633055555556)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Móstoles>
+        rdfs:label  "Móstoles"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.8666666666667 40.333333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Gijón>
+        rdfs:label  "Gijón"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-5.67732 43.52931)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/El_Prat_de_Llobregat>
+        rdfs:label  "El Prat de Llobregat"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.0952568 41.3246333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Cuarte_de_Huerva>
+        rdfs:label  "Cuarte de Huerva"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.9388829 41.5935919)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Yecla>
+        rdfs:label  "Yecla"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-1.116667 38.616667)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Ogíjares>
+        rdfs:label  "Ogíjares"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.6069444444444 37.12)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Ponferrada>
+        rdfs:label  "Ponferrada"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-6.590833333333333 42.54611111111111)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Granada>
+        rdfs:label  "Granada"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.6008333333333 37.178055555556)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/El_Ejido>
+        rdfs:label  "El Ejido"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-2.8166666666667 36.783055555556)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Cervelló>
+        rdfs:label  "Cervelló"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(1.958895 41.396166)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Las_Rozas_de_Madrid>
+        rdfs:label  "Las Rozas de Madrid"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.8733333333333 40.491666666667)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/San_Agustín_del_Guadalix>
+        rdfs:label  "San Agustín del Guadalix"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.615 40.678055555556)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Málaga>
+        rdfs:label  "Málaga"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-4.4166666666667 36.716666666667)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Vinaroz>
+        rdfs:label  "Vinaroz"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(0.4753888888888889 40.470444444444446)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Carriches>
+        rdfs:label  "Carriches"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-4.4577777777778 39.961666666667)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Mataró>
+        rdfs:label  "Mataró"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.45 41.533333333333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Getafe>
+        rdfs:label  "Getafe"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.7166666666667 40.3)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Montgat>
+        rdfs:label  "Montgat"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(2.2789654 41.4666983)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Puzol>
+        rdfs:label  "Puzol"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.301111 39.616667)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Alicante>
+        rdfs:label  "Alicante"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-0.48305555555556 38.345277777778)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Zamudio>
+        rdfs:label  "Zamudio"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-2.8623645 43.2827605)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Reus>
+        rdfs:label  "Reus"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(1.10871 41.15487)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Corbera_de_Llobregat>
+        rdfs:label  "Corbera de Llobregat"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(1.9313888888889 41.416944444444)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/La_Almunia_de_Doña_Godina>
+        rdfs:label  "La Almunia de Doña Godina"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-1.383333 41.483333)"^^geosparql:wktLiteral .
+
+<http://es.dbpedia.org/resource/Torrejón_de_Ardoz>
+        rdfs:label  "Torrejón de Ardoz"@es ;
+        <http://www.wikidata.org/prop/direct/P625>
+                "Point(-3.4830555555556 40.45)"^^geosparql:wktLiteral .

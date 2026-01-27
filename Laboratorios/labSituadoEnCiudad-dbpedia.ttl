@@ -1,0 +1,3254 @@
+PREFIX Laboratorio: <http://www.medicamentos.es/Laboratorio>
+PREFIX atc:         <http://www.medicamentos.es/ATC/>
+PREFIX med:         <http://www.medicamentos.es/>
+PREFIX owl:         <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:        <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd:         <http://www.w3.org/2001/XMLSchema#>
+
+<http://www.medicamentos.es/Laboratorio/9444>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Karlsruhe> .
+
+<http://www.medicamentos.es/Laboratorio/867>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Karlsruhe> .
+
+<http://www.medicamentos.es/Laboratorio/1242>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/41972>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/10536>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/36785>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/31780>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/1803>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/20852>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/6928>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/2374>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> , <http://es.dbpedia.org/resource/Badalona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/35323>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Municipio_de_Danderyd> , <http://es.dbpedia.org/resource/Danderyd> .
+
+<http://www.medicamentos.es/Laboratorio/28717>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Municipio_de_Danderyd> , <http://es.dbpedia.org/resource/Danderyd> .
+
+<http://www.medicamentos.es/Laboratorio/4102>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Giessen> .
+
+<http://www.medicamentos.es/Laboratorio/2787>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bad_Vilbel> .
+
+<http://www.medicamentos.es/Laboratorio/7687>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Purkersdorf> .
+
+<http://www.medicamentos.es/Laboratorio/7708>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Torino> .
+
+<http://www.medicamentos.es/Laboratorio/289>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcorcón> , <http://es.dbpedia.org/resource/Alcorcón_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/1622>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcorcón> , <http://es.dbpedia.org/resource/Alcorcón_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3050>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcorcón> , <http://es.dbpedia.org/resource/Alcorcón_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/28525>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puzol> , <http://es.dbpedia.org/resource/Puzol_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/33441>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puzol> , <http://es.dbpedia.org/resource/Puzol_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/8266>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Nicosia> .
+
+<http://www.medicamentos.es/Laboratorio/29611>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Nicosia> .
+
+<http://www.medicamentos.es/Laboratorio/16148>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ixelles> .
+
+<http://www.medicamentos.es/Laboratorio/38799>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lavaur> .
+
+<http://www.medicamentos.es/Laboratorio/38105>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/30213>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/14799>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/38090>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/1641>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/28384>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/36616>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/27207>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/32035>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/20123>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/11587>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/13382>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/30094>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/30579>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/24978>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/8386>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/10741>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> , <http://es.dbpedia.org/resource/Dublin> .
+
+<http://www.medicamentos.es/Laboratorio/7786>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ponferrada> , <http://es.dbpedia.org/resource/Ponferrada_(León)> .
+
+<http://www.medicamentos.es/Laboratorio/44000>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Neuilly-sur-Seine> .
+
+<http://www.medicamentos.es/Laboratorio/19738>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Siena> .
+
+<http://www.medicamentos.es/Laboratorio/16645>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cornellá_de_Llobregat> , <http://es.dbpedia.org/resource/Cornella_de_Llobregat> .
+
+<http://www.medicamentos.es/Laboratorio/8119>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marrachí> , <http://es.dbpedia.org/resource/Marratxi_(Islas_Baleares)> .
+
+<http://www.medicamentos.es/Laboratorio/11524>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Buckinghamshire> .
+
+<http://www.medicamentos.es/Laboratorio/10245>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/El_Prat_de_Llobregat> , <http://es.dbpedia.org/resource/El_Prat_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/445>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bernedo> , <http://es.dbpedia.org/resource/Bernedo_(Alava)> .
+
+<http://www.medicamentos.es/Laboratorio/15187>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cascaes> , <http://es.dbpedia.org/resource/Cascais> .
+
+<http://www.medicamentos.es/Laboratorio/9542>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/París> .
+
+<http://www.medicamentos.es/Laboratorio/37722>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/París> .
+
+<http://www.medicamentos.es/Laboratorio/5853>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Unterach_am_Attersee> , <http://es.dbpedia.org/resource/Unterach> .
+
+<http://www.medicamentos.es/Laboratorio/13047>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/31821>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/30019>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/37227>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/35063>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/30357>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/13468>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/31764>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/8325>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/28538>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/15213>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/38215>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/40111>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/29833>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/14993>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/34756>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/6034>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/13240>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/10867>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/7843>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paris> .
+
+<http://www.medicamentos.es/Laboratorio/24143>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Warsaw> .
+
+<http://www.medicamentos.es/Laboratorio/11719>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Warsaw> .
+
+<http://www.medicamentos.es/Laboratorio/180>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Henares> , <http://es.dbpedia.org/resource/Alcalá_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/27771>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bensheim> .
+
+<http://www.medicamentos.es/Laboratorio/12332>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Monza> .
+
+<http://www.medicamentos.es/Laboratorio/15601>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcarena> .
+
+<http://www.medicamentos.es/Laboratorio/7964>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Augsburgo> , <http://es.dbpedia.org/resource/Augsburg> .
+
+<http://www.medicamentos.es/Laboratorio/7980>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ribarroja_del_Turia> , <http://es.dbpedia.org/resource/Ribarroja_del_Turia_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/44254>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ribarroja_del_Turia> , <http://es.dbpedia.org/resource/Ribarroja_del_Turia_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/12478>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alanno> .
+
+<http://www.medicamentos.es/Laboratorio/24320>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Municipio_de_Solna> , <http://es.dbpedia.org/resource/Solna> .
+
+<http://www.medicamentos.es/Laboratorio/7876>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Camponaraya> , <http://es.dbpedia.org/resource/Camponaraya_(León)> .
+
+<http://www.medicamentos.es/Laboratorio/7120>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dresde> , <http://es.dbpedia.org/resource/Dresden> .
+
+<http://www.medicamentos.es/Laboratorio/34659>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dresde> , <http://es.dbpedia.org/resource/Dresden> .
+
+<http://www.medicamentos.es/Laboratorio/5422>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puurs> .
+
+<http://www.medicamentos.es/Laboratorio/8884>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Warwickshire> .
+
+<http://www.medicamentos.es/Laboratorio/14912>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Saint-Laurent-du-Var> , <http://es.dbpedia.org/resource/Saint_Laurent_du_Var> .
+
+<http://www.medicamentos.es/Laboratorio/12599>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Heerlen> .
+
+<http://www.medicamentos.es/Laboratorio/20125>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cervelló> , <http://es.dbpedia.org/resource/Cervello_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/20073>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Saint-Cloud> .
+
+<http://www.medicamentos.es/Laboratorio/10532>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Floriana> .
+
+<http://www.medicamentos.es/Laboratorio/38359>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Floriana> .
+
+<http://www.medicamentos.es/Laboratorio/29566>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Voorschoten> .
+
+<http://www.medicamentos.es/Laboratorio/2957>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Molins_de_Rei_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/36002>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Mertert> .
+
+<http://www.medicamentos.es/Laboratorio/9911>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Coímbra> , <http://es.dbpedia.org/resource/Coimbra> .
+
+<http://www.medicamentos.es/Laboratorio/15672>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rüsselsheim_am_Main> , <http://es.dbpedia.org/resource/Russelsheim> .
+
+<http://www.medicamentos.es/Laboratorio/15933>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Santa_Perpetua_de_Moguda> , <http://es.dbpedia.org/resource/Santa_Perpetua_de_Mogoda_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/8550>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Justo_Desvern> , <http://es.dbpedia.org/resource/Sant_Just_Desvern_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/6220>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Justo_Desvern> , <http://es.dbpedia.org/resource/Sant_Just_Desvern_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/5814>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Justo_Desvern> , <http://es.dbpedia.org/resource/Sant_Just_Desvern_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/7144>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Porto_Salvo> .
+
+<http://www.medicamentos.es/Laboratorio/38251>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Porto_Salvo> .
+
+<http://www.medicamentos.es/Laboratorio/20219>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Coslada> .
+
+<http://www.medicamentos.es/Laboratorio/15005>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Coslada> .
+
+<http://www.medicamentos.es/Laboratorio/29696>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Coslada> .
+
+<http://www.medicamentos.es/Laboratorio/15022>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Coslada> .
+
+<http://www.medicamentos.es/Laboratorio/11214>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puzol> , <http://es.dbpedia.org/resource/Puçol_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/15135>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bielefeld> .
+
+<http://www.medicamentos.es/Laboratorio/25909>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Agustín_del_Guadalix> , <http://es.dbpedia.org/resource/San_Agustin_del_Guadalix_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/30008>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Agustín_del_Guadalix> , <http://es.dbpedia.org/resource/San_Agustin_del_Guadalix_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/26804>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/2150>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sandwich_(Kent)> , <http://es.dbpedia.org/resource/Sandwich,_Kent> .
+
+<http://www.medicamentos.es/Laboratorio/34587>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Módena> , <http://es.dbpedia.org/resource/Modena> .
+
+<http://www.medicamentos.es/Laboratorio/9837>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Almodóvar_del_Río> , <http://es.dbpedia.org/resource/Almodovar_del_Rio_(Cordoba)> .
+
+<http://www.medicamentos.es/Laboratorio/11675>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hørsholm> , <http://es.dbpedia.org/resource/Horsholm> .
+
+<http://www.medicamentos.es/Laboratorio/21062>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hørsholm> , <http://es.dbpedia.org/resource/Horsholm> .
+
+<http://www.medicamentos.es/Laboratorio/27816>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Badalona> .
+
+<http://www.medicamentos.es/Laboratorio/2798>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sligo> .
+
+<http://www.medicamentos.es/Laboratorio/29995>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Reading> , <http://es.dbpedia.org/resource/Reading,_Berkshire> .
+
+<http://www.medicamentos.es/Laboratorio/32595>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Reading> , <http://es.dbpedia.org/resource/Reading,_Berkshire> .
+
+<http://www.medicamentos.es/Laboratorio/28152>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marrachí> , <http://es.dbpedia.org/resource/Marratxi> .
+
+<http://www.medicamentos.es/Laboratorio/40713>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Condado_de_Westmeath> , <http://es.dbpedia.org/resource/Westmeath> .
+
+<http://www.medicamentos.es/Laboratorio/29571>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Londres> .
+
+<http://www.medicamentos.es/Laboratorio/6173>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Londres> .
+
+<http://www.medicamentos.es/Laboratorio/39653>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fuenlabrada> , <http://es.dbpedia.org/resource/Fuenlabrada_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/486>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fuenlabrada> , <http://es.dbpedia.org/resource/Fuenlabrada_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/24118>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leiden> .
+
+<http://www.medicamentos.es/Laboratorio/11369>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leiden> .
+
+<http://www.medicamentos.es/Laboratorio/8474>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leiden> .
+
+<http://www.medicamentos.es/Laboratorio/12630>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leiden> .
+
+<http://www.medicamentos.es/Laboratorio/27366>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leiden> .
+
+<http://www.medicamentos.es/Laboratorio/1018>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Carriches> , <http://es.dbpedia.org/resource/Carriches_(Toledo)> .
+
+<http://www.medicamentos.es/Laboratorio/29941>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alfter> .
+
+<http://www.medicamentos.es/Laboratorio/11580>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lodi> .
+
+<http://www.medicamentos.es/Laboratorio/3793>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/28457>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/41206>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/38087>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/44008>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/8971>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/71>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/40506>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/27715>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/24170>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/20974>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lyon> .
+
+<http://www.medicamentos.es/Laboratorio/11573>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/La_Almunia_de_Doña_Godina> , <http://es.dbpedia.org/resource/La_Almunia_de_Doña_Godina_(Zaragoza)> .
+
+<http://www.medicamentos.es/Laboratorio/39533>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Región_Capital_(Dinamarca)> , <http://es.dbpedia.org/resource/Hovedstaden> .
+
+<http://www.medicamentos.es/Laboratorio/33758>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Capelle_aan_den_IJssel> .
+
+<http://www.medicamentos.es/Laboratorio/20303>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/SOFIA> .
+
+<http://www.medicamentos.es/Laboratorio/19788>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/La_Roca_del_Vallés> , <http://es.dbpedia.org/resource/La_Roca_del_Valles> .
+
+<http://www.medicamentos.es/Laboratorio/34734>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Granada> .
+
+<http://www.medicamentos.es/Laboratorio/11006>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Justo_Desvern> , <http://es.dbpedia.org/resource/Sant_Just_Desvern> .
+
+<http://www.medicamentos.es/Laboratorio/16402>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Justo_Desvern> , <http://es.dbpedia.org/resource/Sant_Just_Desvern> .
+
+<http://www.medicamentos.es/Laboratorio/4676>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/31805>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/4614>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/28570>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/6158>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3796>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/6492>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/23871>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3900>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/38217>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lisbon> .
+
+<http://www.medicamentos.es/Laboratorio/36156>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Málaga> , <http://es.dbpedia.org/resource/Malaga> .
+
+<http://www.medicamentos.es/Laboratorio/7735>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paterna> , <http://es.dbpedia.org/resource/Paterna_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/3769>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paterna> , <http://es.dbpedia.org/resource/Paterna_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/38834>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamelín> , <http://es.dbpedia.org/resource/Hameln> .
+
+<http://www.medicamentos.es/Laboratorio/37966>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Verona> .
+
+<http://www.medicamentos.es/Laboratorio/5023>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Verona> .
+
+<http://www.medicamentos.es/Laboratorio/39651>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Villaescusa_(Cantabria)> .
+
+<http://www.medicamentos.es/Laboratorio/11331>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Carnaxide> .
+
+<http://www.medicamentos.es/Laboratorio/88108>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/San_Cugat_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/38212>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rome> .
+
+<http://www.medicamentos.es/Laboratorio/2543>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tampere> .
+
+<http://www.medicamentos.es/Laboratorio/16744>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rueil-Malmaison> .
+
+<http://www.medicamentos.es/Laboratorio/28222>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rueil-Malmaison> .
+
+<http://www.medicamentos.es/Laboratorio/43609>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rueil-Malmaison> .
+
+<http://www.medicamentos.es/Laboratorio/10281>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Miesbach> .
+
+<http://www.medicamentos.es/Laboratorio/12180>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Utebo> , <http://es.dbpedia.org/resource/Utebo_(Zaragoza)> .
+
+<http://www.medicamentos.es/Laboratorio/1436>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Santa_Coloma_de_Gramanet> , <http://es.dbpedia.org/resource/Santa_Coloma_de_Gramanet_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/7527>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fráncfort_del_Meno> , <http://es.dbpedia.org/resource/Frankfurt_am_Main> .
+
+<http://www.medicamentos.es/Laboratorio/34732>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fráncfort_del_Meno> , <http://es.dbpedia.org/resource/Frankfurt_am_Main> .
+
+<http://www.medicamentos.es/Laboratorio/29168>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fráncfort_del_Meno> , <http://es.dbpedia.org/resource/Frankfurt_am_Main> .
+
+<http://www.medicamentos.es/Laboratorio/35078>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fráncfort_del_Meno> , <http://es.dbpedia.org/resource/Frankfurt_am_Main> .
+
+<http://www.medicamentos.es/Laboratorio/11265>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fráncfort_del_Meno> , <http://es.dbpedia.org/resource/Frankfurt_am_Main> .
+
+<http://www.medicamentos.es/Laboratorio/24319>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Amberes> , <http://es.dbpedia.org/resource/Antwerpen> .
+
+<http://www.medicamentos.es/Laboratorio/28226>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Roma> .
+
+<http://www.medicamentos.es/Laboratorio/12744>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Roma> .
+
+<http://www.medicamentos.es/Laboratorio/9759>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Roma> .
+
+<http://www.medicamentos.es/Laboratorio/30089>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Roma> .
+
+<http://www.medicamentos.es/Laboratorio/24215>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastian_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/12384>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastian_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/37632>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastian_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3956>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Málaga> .
+
+<http://www.medicamentos.es/Laboratorio/14412>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Blieskastel> .
+
+<http://www.medicamentos.es/Laboratorio/40831>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Martorellas> , <http://es.dbpedia.org/resource/Martorelles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/34600>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Martorellas> , <http://es.dbpedia.org/resource/Martorelles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/31906>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Martorellas> , <http://es.dbpedia.org/resource/Martorelles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/23345>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Unterach_am_Attersee> .
+
+<http://www.medicamentos.es/Laboratorio/44015>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> .
+
+<http://www.medicamentos.es/Laboratorio/32558>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> .
+
+<http://www.medicamentos.es/Laboratorio/37748>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> .
+
+<http://www.medicamentos.es/Laboratorio/13580>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> .
+
+<http://www.medicamentos.es/Laboratorio/2599>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Llissá_de_Vall> , <http://es.dbpedia.org/resource/Lliça_de_Vall_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/1390>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Llissá_de_Vall> , <http://es.dbpedia.org/resource/Lliça_de_Vall_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/12715>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Llissá_de_Vall> , <http://es.dbpedia.org/resource/Lliça_de_Vall_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/24038>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Montgat> , <http://es.dbpedia.org/resource/Montgat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/43584>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Nanterre> .
+
+<http://www.medicamentos.es/Laboratorio/403>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Getafe> , <http://es.dbpedia.org/resource/Getafe_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3755>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Getafe> , <http://es.dbpedia.org/resource/Getafe_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/13167>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Paço_de_Arcos> .
+
+<http://www.medicamentos.es/Laboratorio/29468>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Novo_Mesto> , <http://es.dbpedia.org/resource/Novo_mesto> .
+
+<http://www.medicamentos.es/Laboratorio/35498>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cornellá_de_Llobregat> , <http://es.dbpedia.org/resource/Cornellá_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/14292>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cornellá_de_Llobregat> , <http://es.dbpedia.org/resource/Cornellá_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/34845>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bromma> .
+
+<http://www.medicamentos.es/Laboratorio/4618>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/5478>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3525>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/2358>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3102>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/10473>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/10748>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Guadaíra> , <http://es.dbpedia.org/resource/Alcalá_de_Guadaira_(Sevilla)> .
+
+<http://www.medicamentos.es/Laboratorio/15233>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gräfelfing> .
+
+<http://www.medicamentos.es/Laboratorio/7131>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marchamalo> , <http://es.dbpedia.org/resource/Marchamalo_(Guadalajara)> .
+
+<http://www.medicamentos.es/Laboratorio/32477>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Florence> .
+
+<http://www.medicamentos.es/Laboratorio/42344>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Espoo> .
+
+<http://www.medicamentos.es/Laboratorio/8291>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Le_Pont-de-Claix> , <http://es.dbpedia.org/resource/Le_Pont_de_Claix> .
+
+<http://www.medicamentos.es/Laboratorio/19058>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Mortsel> .
+
+<http://www.medicamentos.es/Laboratorio/6701>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gidy> .
+
+<http://www.medicamentos.es/Laboratorio/30392>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Les_Ulis> .
+
+<http://www.medicamentos.es/Laboratorio/5144>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lugo> .
+
+<http://www.medicamentos.es/Laboratorio/9316>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Utrecht> .
+
+<http://www.medicamentos.es/Laboratorio/20183>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Utrecht> .
+
+<http://www.medicamentos.es/Laboratorio/30180>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Utrecht> .
+
+<http://www.medicamentos.es/Laboratorio/12346>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/42421>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/38814>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/9468>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/6010>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2876>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/5137>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/34082>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/41371>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/41736>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/318>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/21241>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1640>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/5695>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/40998>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/13592>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/913>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/35180>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/634>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2919>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/8295>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2887>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/10661>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/20729>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/4115>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/40842>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/27152>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/20363>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/6178>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/8672>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/5835>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1854>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2088>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/8405>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/953>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/945>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1945>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/6271>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/24060>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/23741>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/27143>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/10821>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/34088>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1605>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/6397>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/3743>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/20360>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/6672>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/44571>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2369>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/32672>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/30573>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/32157>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2131>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/19733>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/11104>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/13413>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/27221>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/7127>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/41334>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/6357>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/8454>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/88094>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/41943>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/37033>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/29206>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/41716>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/10546>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1045>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/34173>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/3047>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/849>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/468>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/29826>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/8346>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/13964>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1623>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/41089>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/24042>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/14371>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/10698>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/20478>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/6303>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/20957>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/23410>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2990>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/9099>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/32363>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/16157>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2494>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/10616>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/5205>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/88187>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/40911>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/23606>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/12082>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2869>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2075>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/16299>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/88185>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/27145>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/3051>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/40896>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1092>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1690>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/43981>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2317>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/7335>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/8306>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2219>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2082>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/28137>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/29513>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/14102>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/88128>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/44573>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/10255>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/5398>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2426>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/32417>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/14361>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/10266>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/16796>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/14285>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/8928>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/29808>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/29200>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/15077>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/6664>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/1710>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/27723>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/2204>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barcelona> .
+
+<http://www.medicamentos.es/Laboratorio/14199>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hennef> .
+
+<http://www.medicamentos.es/Laboratorio/32019>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Caen> .
+
+<http://www.medicamentos.es/Laboratorio/39979>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Palmas_de_Gran_Canaria> .
+
+<http://www.medicamentos.es/Laboratorio/27678>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Palmas_de_Gran_Canaria> .
+
+<http://www.medicamentos.es/Laboratorio/13503>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lissieu> .
+
+<http://www.medicamentos.es/Laboratorio/42358>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Vallès> .
+
+<http://www.medicamentos.es/Laboratorio/23988>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Vallès> .
+
+<http://www.medicamentos.es/Laboratorio/606>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cornellá_de_Llobregat> , <http://es.dbpedia.org/resource/Cornella_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/24004>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cornellá_de_Llobregat> , <http://es.dbpedia.org/resource/Cornella_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/25007>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/London> .
+
+<http://www.medicamentos.es/Laboratorio/19717>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/London> .
+
+<http://www.medicamentos.es/Laboratorio/10471>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/London> .
+
+<http://www.medicamentos.es/Laboratorio/29977>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Falero> , <http://es.dbpedia.org/resource/Paleo_Faliro> .
+
+<http://www.medicamentos.es/Laboratorio/31838>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lörrach> .
+
+<http://www.medicamentos.es/Laboratorio/13133>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cologno_Monzese> .
+
+<http://www.medicamentos.es/Laboratorio/7070>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Varsovia> .
+
+<http://www.medicamentos.es/Laboratorio/14994>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Varsovia> .
+
+<http://www.medicamentos.es/Laboratorio/9966>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Varsovia> .
+
+<http://www.medicamentos.es/Laboratorio/8141>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Varsovia> .
+
+<http://www.medicamentos.es/Laboratorio/20006>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hillerød> .
+
+<http://www.medicamentos.es/Laboratorio/9770>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Luxemburgo> , <http://es.dbpedia.org/resource/Luxembourg> .
+
+<http://www.medicamentos.es/Laboratorio/1234>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Parets> , <http://es.dbpedia.org/resource/Parets_del_Vallès_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/16587>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas> .
+
+<http://www.medicamentos.es/Laboratorio/15730>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas> .
+
+<http://www.medicamentos.es/Laboratorio/2558>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Salzgitter> .
+
+<http://www.medicamentos.es/Laboratorio/24290>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Wurzburgo> , <http://es.dbpedia.org/resource/Würzburg> .
+
+<http://www.medicamentos.es/Laboratorio/32398>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Warszawa> .
+
+<http://www.medicamentos.es/Laboratorio/2218>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Oslo> .
+
+<http://www.medicamentos.es/Laboratorio/7727>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Oslo> .
+
+<http://www.medicamentos.es/Laboratorio/32379>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Henares> , <http://es.dbpedia.org/resource/Alcala_de_Henares> .
+
+<http://www.medicamentos.es/Laboratorio/39341>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viladecans> , <http://es.dbpedia.org/resource/Viladecans_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/37937>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viladecans> , <http://es.dbpedia.org/resource/Viladecans_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/13187>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Colmenar_Viejo> .
+
+<http://www.medicamentos.es/Laboratorio/19781>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Valles> .
+
+<http://www.medicamentos.es/Laboratorio/29985>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Delft> .
+
+<http://www.medicamentos.es/Laboratorio/16179>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Saint-Maur-des-Fossés> , <http://es.dbpedia.org/resource/Saint_Maur_des_Fosses> .
+
+<http://www.medicamentos.es/Laboratorio/2604>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Saint-Maur-des-Fossés> , <http://es.dbpedia.org/resource/Saint_Maur_des_Fosses> .
+
+<http://www.medicamentos.es/Laboratorio/23570>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puchheim> .
+
+<http://www.medicamentos.es/Laboratorio/24324>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fráncfort_del_Meno> , <http://es.dbpedia.org/resource/Frankfurt> .
+
+<http://www.medicamentos.es/Laboratorio/30275>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> , <http://es.dbpedia.org/resource/Stockholm> .
+
+<http://www.medicamentos.es/Laboratorio/5284>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> , <http://es.dbpedia.org/resource/Stockholm> .
+
+<http://www.medicamentos.es/Laboratorio/15522>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> , <http://es.dbpedia.org/resource/Stockholm> .
+
+<http://www.medicamentos.es/Laboratorio/30204>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> , <http://es.dbpedia.org/resource/Stockholm> .
+
+<http://www.medicamentos.es/Laboratorio/41362>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> , <http://es.dbpedia.org/resource/Stockholm> .
+
+<http://www.medicamentos.es/Laboratorio/9126>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Melsungen> .
+
+<http://www.medicamentos.es/Laboratorio/26523>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leverkusen> .
+
+<http://www.medicamentos.es/Laboratorio/13227>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leverkusen> .
+
+<http://www.medicamentos.es/Laboratorio/12525>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leverkusen> .
+
+<http://www.medicamentos.es/Laboratorio/28087>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leverkusen> .
+
+<http://www.medicamentos.es/Laboratorio/12717>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Granada> , <http://es.dbpedia.org/resource/Granada_(Granada)> .
+
+<http://www.medicamentos.es/Laboratorio/12645>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Granada> , <http://es.dbpedia.org/resource/Granada_(Granada)> .
+
+<http://www.medicamentos.es/Laboratorio/11509>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Mesekenhagen> .
+
+<http://www.medicamentos.es/Laboratorio/9029>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Saint-Genis-Pouilly> , <http://es.dbpedia.org/resource/Saint_Genis_Pouilly> .
+
+<http://www.medicamentos.es/Laboratorio/43807>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/20944>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/6922>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/5964>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/4817>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/24172>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3732>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/6638>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/4822>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8717>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/32741>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/5127>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tres_Cantos> , <http://es.dbpedia.org/resource/Tres_Cantos_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/14745>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> , <http://es.dbpedia.org/resource/Vienna> .
+
+<http://www.medicamentos.es/Laboratorio/16885>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> , <http://es.dbpedia.org/resource/Vienna> .
+
+<http://www.medicamentos.es/Laboratorio/38009>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> , <http://es.dbpedia.org/resource/Vienna> .
+
+<http://www.medicamentos.es/Laboratorio/38052>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> , <http://es.dbpedia.org/resource/Vienna> .
+
+<http://www.medicamentos.es/Laboratorio/15503>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viena> , <http://es.dbpedia.org/resource/Vienna> .
+
+<http://www.medicamentos.es/Laboratorio/23820>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Luxemburgo> .
+
+<http://www.medicamentos.es/Laboratorio/17077>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Luxemburgo> .
+
+<http://www.medicamentos.es/Laboratorio/23783>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Luxemburgo> .
+
+<http://www.medicamentos.es/Laboratorio/1801>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Luxemburgo> .
+
+<http://www.medicamentos.es/Laboratorio/41928>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Luxemburgo> .
+
+<http://www.medicamentos.es/Laboratorio/30062>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Luxemburgo> .
+
+<http://www.medicamentos.es/Laboratorio/30177>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lörrach> , <http://es.dbpedia.org/resource/Lorrach> .
+
+<http://www.medicamentos.es/Laboratorio/13122>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bañolas> , <http://es.dbpedia.org/resource/Banyoles> .
+
+<http://www.medicamentos.es/Laboratorio/7220>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milán> , <http://es.dbpedia.org/resource/Milan> .
+
+<http://www.medicamentos.es/Laboratorio/1474>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milán> , <http://es.dbpedia.org/resource/Milan> .
+
+<http://www.medicamentos.es/Laboratorio/2359>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milán> , <http://es.dbpedia.org/resource/Milan> .
+
+<http://www.medicamentos.es/Laboratorio/834>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milán> , <http://es.dbpedia.org/resource/Milan> .
+
+<http://www.medicamentos.es/Laboratorio/28616>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milán> , <http://es.dbpedia.org/resource/Milan> .
+
+<http://www.medicamentos.es/Laboratorio/9505>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milán> , <http://es.dbpedia.org/resource/Milan> .
+
+<http://www.medicamentos.es/Laboratorio/10890>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Mataró> , <http://es.dbpedia.org/resource/Mataro_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/29522>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gotemburgo> , <http://es.dbpedia.org/resource/Goteborg> .
+
+<http://www.medicamentos.es/Laboratorio/43780>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Nice> .
+
+<http://www.medicamentos.es/Laboratorio/12647>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Roskilde> .
+
+<http://www.medicamentos.es/Laboratorio/6377>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Oxfordshire> .
+
+<http://www.medicamentos.es/Laboratorio/7993>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Érd> , <http://es.dbpedia.org/resource/Erd> .
+
+<http://www.medicamentos.es/Laboratorio/29309>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Condado_de_Meath> , <http://es.dbpedia.org/resource/County_Meath> .
+
+<http://www.medicamentos.es/Laboratorio/8198>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> .
+
+<http://www.medicamentos.es/Laboratorio/1651>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Neuilly-sur-Seine> , <http://es.dbpedia.org/resource/Neuilly_sur_Seine> .
+
+<http://www.medicamentos.es/Laboratorio/8427>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hafnarfjörður> , <http://es.dbpedia.org/resource/Hafnarfjordur> .
+
+<http://www.medicamentos.es/Laboratorio/14402>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Surrey> .
+
+<http://www.medicamentos.es/Laboratorio/5126>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ingelheim_am_Rhein> .
+
+<http://www.medicamentos.es/Laboratorio/7788>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Nottingham> .
+
+<http://www.medicamentos.es/Laboratorio/2126>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Córdoba> , <http://es.dbpedia.org/resource/Cordoba> .
+
+<http://www.medicamentos.es/Laboratorio/1778>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Córdoba> , <http://es.dbpedia.org/resource/Cordoba> .
+
+<http://www.medicamentos.es/Laboratorio/29505>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Aeropuerto_de_Ámsterdam-Schiphol> , <http://es.dbpedia.org/resource/Schiphol> .
+
+<http://www.medicamentos.es/Laboratorio/27707>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Palau-solità_i_Plegamans> , <http://es.dbpedia.org/resource/Palau-solita_i_Plegamans> .
+
+<http://www.medicamentos.es/Laboratorio/12611>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Liubliana> , <http://es.dbpedia.org/resource/Ljubljana> .
+
+<http://www.medicamentos.es/Laboratorio/480>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Liubliana> , <http://es.dbpedia.org/resource/Ljubljana> .
+
+<http://www.medicamentos.es/Laboratorio/19971>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rentería> , <http://es.dbpedia.org/resource/Renteria> .
+
+<http://www.medicamentos.es/Laboratorio/5626>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bernburg> .
+
+<http://www.medicamentos.es/Laboratorio/34960>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Neufeld_an_der_Leitha> .
+
+<http://www.medicamentos.es/Laboratorio/31234>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bertrange> .
+
+<http://www.medicamentos.es/Laboratorio/27661>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hanau> .
+
+<http://www.medicamentos.es/Laboratorio/14259>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bucks> .
+
+<http://www.medicamentos.es/Laboratorio/10258>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Boulogne-Billancourt> .
+
+<http://www.medicamentos.es/Laboratorio/27720>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puteaux> .
+
+<http://www.medicamentos.es/Laboratorio/33992>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puteaux> .
+
+<http://www.medicamentos.es/Laboratorio/44574>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puteaux> .
+
+<http://www.medicamentos.es/Laboratorio/20269>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puteaux> .
+
+<http://www.medicamentos.es/Laboratorio/32283>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Puteaux> .
+
+<http://www.medicamentos.es/Laboratorio/29446>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> , <http://es.dbpedia.org/resource/Bruxelles> .
+
+<http://www.medicamentos.es/Laboratorio/38237>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> , <http://es.dbpedia.org/resource/Bruxelles> .
+
+<http://www.medicamentos.es/Laboratorio/28948>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> , <http://es.dbpedia.org/resource/Bruxelles> .
+
+<http://www.medicamentos.es/Laboratorio/18099>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Vigo> .
+
+<http://www.medicamentos.es/Laboratorio/3020>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/20471>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/34859>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/28477>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/13686>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/2152>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/13040>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/37570>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/88072>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/44374>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/11954>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/1673>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8034>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/20140>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/2099>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/1695>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/2778>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/18017>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/7216>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/29929>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3688>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/9031>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/15855>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/4556>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/30101>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/5547>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8994>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8109>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/16944>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/30674>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/88227>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/5873>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/7528>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/88205>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/1016>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/20366>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/39858>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/10485>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/1473>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/2270>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/34492>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/10596>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/11622>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/34794>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/6345>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8730>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/20131>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/1457>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/9180>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/12947>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/3046>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> , <http://es.dbpedia.org/resource/Alcobendas_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/461>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dreieich> .
+
+<http://www.medicamentos.es/Laboratorio/1371>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Santander_(España)> , <http://es.dbpedia.org/resource/Santander_(Cantabria)> .
+
+<http://www.medicamentos.es/Laboratorio/5541>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Iserlohn> .
+
+<http://www.medicamentos.es/Laboratorio/25446>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fieberbrunn> .
+
+<http://www.medicamentos.es/Laboratorio/24273>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Múnich> , <http://es.dbpedia.org/resource/München> .
+
+<http://www.medicamentos.es/Laboratorio/34821>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Múnich> , <http://es.dbpedia.org/resource/München> .
+
+<http://www.medicamentos.es/Laboratorio/34623>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Múnich> , <http://es.dbpedia.org/resource/München> .
+
+<http://www.medicamentos.es/Laboratorio/2689>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rixensart> .
+
+<http://www.medicamentos.es/Laboratorio/1021>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hospitalet_de_Llobregat> , <http://es.dbpedia.org/resource/L'_Hospitalet_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/12812>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hospitalet_de_Llobregat> , <http://es.dbpedia.org/resource/L'_Hospitalet_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/10513>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Haarlem> .
+
+<http://www.medicamentos.es/Laboratorio/1769>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fleurus> .
+
+<http://www.medicamentos.es/Laboratorio/8756>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hospitalet_de_Llobregat> , <http://es.dbpedia.org/resource/Hospitalet_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/31986>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Levallois-Perret> , <http://es.dbpedia.org/resource/Levallois_Perret> .
+
+<http://www.medicamentos.es/Laboratorio/32419>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Levallois-Perret> , <http://es.dbpedia.org/resource/Levallois_Perret> .
+
+<http://www.medicamentos.es/Laboratorio/11990>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Levallois-Perret> , <http://es.dbpedia.org/resource/Levallois_Perret> .
+
+<http://www.medicamentos.es/Laboratorio/3756>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cuarte_de_Huerva> , <http://es.dbpedia.org/resource/Cuarte_de_Huerva_(Zaragoza)> .
+
+<http://www.medicamentos.es/Laboratorio/9945>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Almodóvar_del_Río> , <http://es.dbpedia.org/resource/Almodóvar_del_Río_(Córdoba)> .
+
+<http://www.medicamentos.es/Laboratorio/34763>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Róterdam> , <http://es.dbpedia.org/resource/Rotterdam> .
+
+<http://www.medicamentos.es/Laboratorio/8764>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ballerup> .
+
+<http://www.medicamentos.es/Laboratorio/1644>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ballerup> .
+
+<http://www.medicamentos.es/Laboratorio/12208>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Irlanda> .
+
+<http://www.medicamentos.es/Laboratorio/1665>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Azuqueca_de_Henares> , <http://es.dbpedia.org/resource/Azuqueca_de_Henares_(Guadalajara)> .
+
+<http://www.medicamentos.es/Laboratorio/8323>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Azuqueca_de_Henares> , <http://es.dbpedia.org/resource/Azuqueca_de_Henares_(Guadalajara)> .
+
+<http://www.medicamentos.es/Laboratorio/23901>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Azuqueca_de_Henares> , <http://es.dbpedia.org/resource/Azuqueca_de_Henares_(Guadalajara)> .
+
+<http://www.medicamentos.es/Laboratorio/6460>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pozuelo_de_Alarcón> , <http://es.dbpedia.org/resource/Pozuelo_de_Alarcon_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/21146>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pozuelo_de_Alarcón> , <http://es.dbpedia.org/resource/Pozuelo_de_Alarcon_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/6896>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pozuelo_de_Alarcón> , <http://es.dbpedia.org/resource/Pozuelo_de_Alarcon_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/12564>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pozuelo_de_Alarcón> , <http://es.dbpedia.org/resource/Pozuelo_de_Alarcon_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/29527>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pozuelo_de_Alarcón> , <http://es.dbpedia.org/resource/Pozuelo_de_Alarcon_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/23919>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pozuelo_de_Alarcón> , <http://es.dbpedia.org/resource/Pozuelo_de_Alarcon_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/35295>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lund> .
+
+<http://www.medicamentos.es/Laboratorio/12189>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lund> .
+
+<http://www.medicamentos.es/Laboratorio/30548>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lund> .
+
+<http://www.medicamentos.es/Laboratorio/28557>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gröbenzell> .
+
+<http://www.medicamentos.es/Laboratorio/7048>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Olèrdola> , <http://es.dbpedia.org/resource/Olerdola_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/35219>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> , <http://es.dbpedia.org/resource/Hamburg> .
+
+<http://www.medicamentos.es/Laboratorio/41014>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> , <http://es.dbpedia.org/resource/Hamburg> .
+
+<http://www.medicamentos.es/Laboratorio/27750>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> , <http://es.dbpedia.org/resource/Hamburg> .
+
+<http://www.medicamentos.es/Laboratorio/29331>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> , <http://es.dbpedia.org/resource/Hamburg> .
+
+<http://www.medicamentos.es/Laboratorio/36207>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> , <http://es.dbpedia.org/resource/Hamburg> .
+
+<http://www.medicamentos.es/Laboratorio/26643>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Destelbergen> .
+
+<http://www.medicamentos.es/Laboratorio/1479>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Palau-solità_i_Plegamans> , <http://es.dbpedia.org/resource/Palau-solita_i_Plegamans_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/7948>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Palau-solità_i_Plegamans> , <http://es.dbpedia.org/resource/Palau-solita_i_Plegamans_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/4405>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Palau-solità_i_Plegamans> , <http://es.dbpedia.org/resource/Palau-solita_i_Plegamans_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/7853>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Palau-solità_i_Plegamans> , <http://es.dbpedia.org/resource/Palau-solita_i_Plegamans_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/28158>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Palau-solità_i_Plegamans> , <http://es.dbpedia.org/resource/Palau-solita_i_Plegamans_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/41749>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gentilly> .
+
+<http://www.medicamentos.es/Laboratorio/37958>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gentilly> .
+
+<http://www.medicamentos.es/Laboratorio/40086>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gentilly> .
+
+<http://www.medicamentos.es/Laboratorio/7882>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Quintín_de_Mediona> , <http://es.dbpedia.org/resource/Sant_Quinti_de_Mediona_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/12972>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/El_Puerto_de_Santa_María> , <http://es.dbpedia.org/resource/Puerto_de_Santa_Maria_(Cadiz)> .
+
+<http://www.medicamentos.es/Laboratorio/14192>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Beerse> .
+
+<http://www.medicamentos.es/Laboratorio/6153>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Beerse> .
+
+<http://www.medicamentos.es/Laboratorio/21567>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Beerse> .
+
+<http://www.medicamentos.es/Laboratorio/1184>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Esplugas_de_Llobregat> , <http://es.dbpedia.org/resource/Esplugues_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/324>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Esplugas_de_Llobregat> , <http://es.dbpedia.org/resource/Esplugues_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/16620>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Esplugas_de_Llobregat> , <http://es.dbpedia.org/resource/Esplugues_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/7>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Esplugas_de_Llobregat> , <http://es.dbpedia.org/resource/Esplugues_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/2513>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Esplugas_de_Llobregat> , <http://es.dbpedia.org/resource/Esplugues_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/1893>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Meco> , <http://es.dbpedia.org/resource/Meco_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/5665>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Parma> .
+
+<http://www.medicamentos.es/Laboratorio/19683>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Parma> .
+
+<http://www.medicamentos.es/Laboratorio/6901>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Parma> .
+
+<http://www.medicamentos.es/Laboratorio/11636>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alicante> .
+
+<http://www.medicamentos.es/Laboratorio/82>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alicante> .
+
+<http://www.medicamentos.es/Laboratorio/2684>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alicante> .
+
+<http://www.medicamentos.es/Laboratorio/587>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alicante> .
+
+<http://www.medicamentos.es/Laboratorio/3845>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alicante> .
+
+<http://www.medicamentos.es/Laboratorio/355>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Valencia> , <http://es.dbpedia.org/resource/Valencia_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/9751>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Valencia> , <http://es.dbpedia.org/resource/Valencia_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/1481>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Valencia> , <http://es.dbpedia.org/resource/Valencia_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/37758>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Eindhoven> .
+
+<http://www.medicamentos.es/Laboratorio/23654>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Eindhoven> .
+
+<http://www.medicamentos.es/Laboratorio/7272>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Geldrop> .
+
+<http://www.medicamentos.es/Laboratorio/27806>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Benifayó> , <http://es.dbpedia.org/resource/Benifaio_(Valencia)> .
+
+<http://www.medicamentos.es/Laboratorio/10822>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lovaina> , <http://es.dbpedia.org/resource/Leuven> .
+
+<http://www.medicamentos.es/Laboratorio/11241>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcoy> , <http://es.dbpedia.org/resource/Alcoy_(Alicante)> .
+
+<http://www.medicamentos.es/Laboratorio/25018>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lisboa> .
+
+<http://www.medicamentos.es/Laboratorio/88150>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lisboa> .
+
+<http://www.medicamentos.es/Laboratorio/11026>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pardubice> .
+
+<http://www.medicamentos.es/Laboratorio/16769>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> .
+
+<http://www.medicamentos.es/Laboratorio/30618>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> .
+
+<http://www.medicamentos.es/Laboratorio/10714>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> .
+
+<http://www.medicamentos.es/Laboratorio/39350>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> .
+
+<http://www.medicamentos.es/Laboratorio/4617>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> .
+
+<http://www.medicamentos.es/Laboratorio/8910>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bruselas> .
+
+<http://www.medicamentos.es/Laboratorio/30591>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Múnich> , <http://es.dbpedia.org/resource/Munich> .
+
+<http://www.medicamentos.es/Laboratorio/8400>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Múnich> , <http://es.dbpedia.org/resource/Munich> .
+
+<http://www.medicamentos.es/Laboratorio/306>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rubí_(Barcelona)> , <http://es.dbpedia.org/resource/Rubi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/23805>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rubí_(Barcelona)> , <http://es.dbpedia.org/resource/Rubi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/33678>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milano> .
+
+<http://www.medicamentos.es/Laboratorio/24074>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milano> .
+
+<http://www.medicamentos.es/Laboratorio/11601>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Milano> .
+
+<http://www.medicamentos.es/Laboratorio/30116>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Châtillon> , <http://es.dbpedia.org/resource/Chatillon> .
+
+<http://www.medicamentos.es/Laboratorio/13572>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Châtillon> , <http://es.dbpedia.org/resource/Chatillon> .
+
+<http://www.medicamentos.es/Laboratorio/4091>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Guadalajara> .
+
+<http://www.medicamentos.es/Laboratorio/29498>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gante> , <http://es.dbpedia.org/resource/Gent> .
+
+<http://www.medicamentos.es/Laboratorio/1>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Masnou> , <http://es.dbpedia.org/resource/El_Masnou_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/3>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Masnou> , <http://es.dbpedia.org/resource/El_Masnou_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/10651>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Reus> , <http://es.dbpedia.org/resource/Reus_(Tarragona)> .
+
+<http://www.medicamentos.es/Laboratorio/2616>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Reus> , <http://es.dbpedia.org/resource/Reus_(Tarragona)> .
+
+<http://www.medicamentos.es/Laboratorio/2217>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Torrejón_de_Ardoz> , <http://es.dbpedia.org/resource/Torrejón_de_Ardoz_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8479>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Torrejón_de_Ardoz> , <http://es.dbpedia.org/resource/Torrejón_de_Ardoz_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/884>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Torrejón_de_Ardoz> , <http://es.dbpedia.org/resource/Torrejón_de_Ardoz_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/12943>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Coslada> , <http://es.dbpedia.org/resource/Coslada_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/6365>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Yecla> , <http://es.dbpedia.org/resource/Yecla_(Murcia)> .
+
+<http://www.medicamentos.es/Laboratorio/27240>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Condado_de_Cork> , <http://es.dbpedia.org/resource/County_Cork> .
+
+<http://www.medicamentos.es/Laboratorio/20700>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Condado_de_Cork> , <http://es.dbpedia.org/resource/County_Cork> .
+
+<http://www.medicamentos.es/Laboratorio/34670>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Amersfoort> .
+
+<http://www.medicamentos.es/Laboratorio/31884>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/La_Roca_del_Vallés> , <http://es.dbpedia.org/resource/La_Roca_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/1759>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/La_Roca_del_Vallés> , <http://es.dbpedia.org/resource/La_Roca_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/16823>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastian_de_los_Reyes> .
+
+<http://www.medicamentos.es/Laboratorio/30139>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Sebastián_de_los_Reyes> , <http://es.dbpedia.org/resource/San_Sebastian_de_los_Reyes> .
+
+<http://www.medicamentos.es/Laboratorio/8433>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Stulln> .
+
+<http://www.medicamentos.es/Laboratorio/16257>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Viladecans> .
+
+<http://www.medicamentos.es/Laboratorio/29191>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sofía> , <http://es.dbpedia.org/resource/Sofia> .
+
+<http://www.medicamentos.es/Laboratorio/20472>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sofía> , <http://es.dbpedia.org/resource/Sofia> .
+
+<http://www.medicamentos.es/Laboratorio/6442>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Mouvaux> .
+
+<http://www.medicamentos.es/Laboratorio/11137>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Wedel> .
+
+<http://www.medicamentos.es/Laboratorio/16696>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Camberley> .
+
+<http://www.medicamentos.es/Laboratorio/14210>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Nápoles> , <http://es.dbpedia.org/resource/Napoles> .
+
+<http://www.medicamentos.es/Laboratorio/4931>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ogíjares> , <http://es.dbpedia.org/resource/Ogijares_(Granada)> .
+
+<http://www.medicamentos.es/Laboratorio/5323>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Niederdorfelden> .
+
+<http://www.medicamentos.es/Laboratorio/8256>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Funchal> .
+
+<http://www.medicamentos.es/Laboratorio/428>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Beauvais> .
+
+<http://www.medicamentos.es/Laboratorio/8472>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Wiesbaden> .
+
+<http://www.medicamentos.es/Laboratorio/16860>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/35117>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/12588>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/38557>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/8142>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/12489>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/398>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/29788>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/24121>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/12299>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/28589>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Berlín> , <http://es.dbpedia.org/resource/Berlin> .
+
+<http://www.medicamentos.es/Laboratorio/7742>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Granollers> , <http://es.dbpedia.org/resource/Granollers_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/17737>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Castelldefels> , <http://es.dbpedia.org/resource/Castelldefels_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/6456>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Castelldefels> , <http://es.dbpedia.org/resource/Castelldefels_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/6787>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Castelldefels> , <http://es.dbpedia.org/resource/Castelldefels_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/35196>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leganés> , <http://es.dbpedia.org/resource/Leganes> .
+
+<http://www.medicamentos.es/Laboratorio/35843>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dungarvan> .
+
+<http://www.medicamentos.es/Laboratorio/30098>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Metamorphosis> .
+
+<http://www.medicamentos.es/Laboratorio/2327>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alhaurín_el_Grande> , <http://es.dbpedia.org/resource/Alhaurín_el_Grande_(Málaga)> .
+
+<http://www.medicamentos.es/Laboratorio/18672>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Feliu_de_Llobregat> .
+
+<http://www.medicamentos.es/Laboratorio/13469>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Torrejón_de_Ardoz> , <http://es.dbpedia.org/resource/Torrejon_de_Ardoz> .
+
+<http://www.medicamentos.es/Laboratorio/14219>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/9591>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6044>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/12622>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/40569>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8033>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6070>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/36570>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/3692>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8406>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/12386>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6378>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38109>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/9039>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/10608>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/4945>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/35449>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/5458>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/11989>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/3049>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/37363>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/7100>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/10603>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1140>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/40847>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/17>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/5187>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1907>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/33444>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6684>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/32277>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/41518>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/41667>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/42274>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38124>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/16607>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/16109>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/7728>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/3783>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/42120>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1486>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/33945>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/3689>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8790>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/37710>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38527>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/32206>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1643>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/23615>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/11709>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/27532>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/88172>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/14902>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/11310>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/20578>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/15682>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/40505>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/27912>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6472>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/13496>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/2488>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/5091>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/42094>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/21301>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6319>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/43878>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8265>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/40867>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/16981>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/4202>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/30717>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8979>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/19807>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38810>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/10754>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1515>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/14868>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1117>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/23666>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/29401>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/11407>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/41965>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/11700>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/36277>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/12310>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/3768>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/23771>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/42160>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/24369>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/10732>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/16788>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1775>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8876>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/32474>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/41519>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/34449>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8887>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/12863>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8768>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/19755>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/14137>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/28762>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/10392>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/238>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/36489>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/12699>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/13361>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/27401>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38013>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/43535>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/31982>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/43>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/30097>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/12836>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/40719>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/5190>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/42110>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1982>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8898>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8615>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/12891>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/769>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8352>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/32494>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/41777>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/31797>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/9364>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/39555>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38683>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/19986>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/9915>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/41044>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/32215>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/11482>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/711>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/991>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/30687>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/13097>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/44641>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/3774>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/29984>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/40022>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/5971>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/16312>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/15931>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1503>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6455>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/35455>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/48>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/7729>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/88146>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/88225>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/5880>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/16052>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/2162>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/37405>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/14552>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/36326>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/30243>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/23643>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/20254>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/35083>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/19752>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6849>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/16>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/3745>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/6703>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/4424>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1977>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/18403>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1860>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/10103>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/2879>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/2884>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/12074>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38524>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8285>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/36466>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/11860>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8014>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/5578>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/10222>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/17309>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38263>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/13977>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/137>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/13462>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/23799>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/23784>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/42030>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/44106>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/2085>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/17045>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/15860>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/19066>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/28192>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/42264>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/39013>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/38815>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/32259>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/44568>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/30282>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/32016>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/3039>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/21333>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/7808>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/23616>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1908>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/88125>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/44268>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/11708>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/1828>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/9376>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/15963>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/15114>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Madrid> .
+
+<http://www.medicamentos.es/Laboratorio/8653>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> .
+
+<http://www.medicamentos.es/Laboratorio/20763>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> .
+
+<http://www.medicamentos.es/Laboratorio/30007>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> .
+
+<http://www.medicamentos.es/Laboratorio/9866>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> .
+
+<http://www.medicamentos.es/Laboratorio/19693>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Estocolmo> .
+
+<http://www.medicamentos.es/Laboratorio/15979>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Taastrup> .
+
+<http://www.medicamentos.es/Laboratorio/2405>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pensilvania> .
+
+<http://www.medicamentos.es/Laboratorio/14257>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Praga_7> .
+
+<http://www.medicamentos.es/Laboratorio/16602>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Zamudio> .
+
+<http://www.medicamentos.es/Laboratorio/36177>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hellerup> .
+
+<http://www.medicamentos.es/Laboratorio/20952>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Antony> .
+
+<http://www.medicamentos.es/Laboratorio/38555>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Amberes> , <http://es.dbpedia.org/resource/Antwerp> .
+
+<http://www.medicamentos.es/Laboratorio/732>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Colmenar_Viejo> , <http://es.dbpedia.org/resource/Colmenar_Viejo_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/5722>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Colmenar_Viejo> , <http://es.dbpedia.org/resource/Colmenar_Viejo_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/10136>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Colmenar_Viejo> , <http://es.dbpedia.org/resource/Colmenar_Viejo_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/88229>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Pozuelo_de_Alarcón> , <http://es.dbpedia.org/resource/Pozuelo_de_Alarcón_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/35405>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Upsala> , <http://es.dbpedia.org/resource/Uppsala> .
+
+<http://www.medicamentos.es/Laboratorio/1100>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Upsala> , <http://es.dbpedia.org/resource/Uppsala> .
+
+<http://www.medicamentos.es/Laboratorio/16699>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Manlleu> , <http://es.dbpedia.org/resource/Manlleu_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/11528>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Riga> .
+
+<http://www.medicamentos.es/Laboratorio/28223>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Riga> .
+
+<http://www.medicamentos.es/Laboratorio/7469>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Welwyn_Garden_City> .
+
+<http://www.medicamentos.es/Laboratorio/29408>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Strausberg> .
+
+<http://www.medicamentos.es/Laboratorio/13109>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Burgos> .
+
+<http://www.medicamentos.es/Laboratorio/14325>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Gijón> , <http://es.dbpedia.org/resource/Gijón_(Asturias)> .
+
+<http://www.medicamentos.es/Laboratorio/8873>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hoofddorp> .
+
+<http://www.medicamentos.es/Laboratorio/29247>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hoofddorp> .
+
+<http://www.medicamentos.es/Laboratorio/13899>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Arganda_del_Rey> .
+
+<http://www.medicamentos.es/Laboratorio/28136>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Arganda_del_Rey> .
+
+<http://www.medicamentos.es/Laboratorio/804>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barberá_del_Vallés> , <http://es.dbpedia.org/resource/Barbera_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/2321>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Barberá_del_Vallés> , <http://es.dbpedia.org/resource/Barbera_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/3045>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Feliu_de_Llobregat> , <http://es.dbpedia.org/resource/Sant_Feliu_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/1455>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Feliu_de_Llobregat> , <http://es.dbpedia.org/resource/Sant_Feliu_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/9999>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Desconocida> .
+
+<http://www.medicamentos.es/Laboratorio/1722>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Henares> , <http://es.dbpedia.org/resource/Alcala_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/92>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Henares> , <http://es.dbpedia.org/resource/Alcala_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/2889>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Henares> , <http://es.dbpedia.org/resource/Alcala_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/32514>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Henares> , <http://es.dbpedia.org/resource/Alcala_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/32899>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Henares> , <http://es.dbpedia.org/resource/Alcala_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/2664>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Henares> , <http://es.dbpedia.org/resource/Alcala_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/9295>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Dublín> .
+
+<http://www.medicamentos.es/Laboratorio/8789>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Constanza_(Alemania)> , <http://es.dbpedia.org/resource/Konstanz> .
+
+<http://www.medicamentos.es/Laboratorio/5745>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Constanza_(Alemania)> , <http://es.dbpedia.org/resource/Konstanz> .
+
+<http://www.medicamentos.es/Laboratorio/5237>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Fernando_de_Henares> , <http://es.dbpedia.org/resource/San_Fernando_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/30564>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Fernando_de_Henares> , <http://es.dbpedia.org/resource/San_Fernando_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/20576>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Fernando_de_Henares> , <http://es.dbpedia.org/resource/San_Fernando_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/7348>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Fernando_de_Henares> , <http://es.dbpedia.org/resource/San_Fernando_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/621>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Fernando_de_Henares> , <http://es.dbpedia.org/resource/San_Fernando_de_Henares_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8130>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Fráncfort_(desambiguación)> , <http://es.dbpedia.org/resource/Franckfurt> .
+
+<http://www.medicamentos.es/Laboratorio/29504>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Senec> .
+
+<http://www.medicamentos.es/Laboratorio/11103>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Avilés> , <http://es.dbpedia.org/resource/Avilés_(Asturias)> .
+
+<http://www.medicamentos.es/Laboratorio/39556>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Avilés> , <http://es.dbpedia.org/resource/Avilés_(Asturias)> .
+
+<http://www.medicamentos.es/Laboratorio/529>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Oviedo> , <http://es.dbpedia.org/resource/Oviedo_(Asturias)> .
+
+<http://www.medicamentos.es/Laboratorio/6934>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Oviedo> , <http://es.dbpedia.org/resource/Oviedo_(Asturias)> .
+
+<http://www.medicamentos.es/Laboratorio/16893>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/28812>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/16635>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/28969>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/16790>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/15826>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/27792>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/37847>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/14430>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcobendas> .
+
+<http://www.medicamentos.es/Laboratorio/505>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/37989>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/14333>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/29470>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/30046>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/35485>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/34785>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/29251>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/34059>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/34767>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/32240>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/14800>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/30124>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Ámsterdam> , <http://es.dbpedia.org/resource/Amsterdam> .
+
+<http://www.medicamentos.es/Laboratorio/8909>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Lancashire> .
+
+<http://www.medicamentos.es/Laboratorio/88252>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Mataró> , <http://es.dbpedia.org/resource/Mataró_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/9050>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Reinbek> .
+
+<http://www.medicamentos.es/Laboratorio/15448>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Loos> .
+
+<http://www.medicamentos.es/Laboratorio/8840>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Corbera_de_Llobregat> , <http://es.dbpedia.org/resource/Corbera_de_Llobregat_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/6955>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Atenas> .
+
+<http://www.medicamentos.es/Laboratorio/13665>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Atenas> .
+
+<http://www.medicamentos.es/Laboratorio/8364>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Darmstadt> .
+
+<http://www.medicamentos.es/Laboratorio/1817>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Darmstadt> .
+
+<http://www.medicamentos.es/Laboratorio/2784>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcalá_de_Guadaíra> , <http://es.dbpedia.org/resource/Alcalá_de_Guadaíra_(Sevilla)> .
+
+<http://www.medicamentos.es/Laboratorio/40334>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Vitrolles> .
+
+<http://www.medicamentos.es/Laboratorio/9037>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Saint-Thibault-des-Vignes> , <http://es.dbpedia.org/resource/Saint_Thibault_des_Vignes> .
+
+<http://www.medicamentos.es/Laboratorio/20266>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marburgo> , <http://es.dbpedia.org/resource/Marburg> .
+
+<http://www.medicamentos.es/Laboratorio/19739>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marburgo> , <http://es.dbpedia.org/resource/Marburg> .
+
+<http://www.medicamentos.es/Laboratorio/19792>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marburgo> , <http://es.dbpedia.org/resource/Marburg> .
+
+<http://www.medicamentos.es/Laboratorio/30592>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marburgo> , <http://es.dbpedia.org/resource/Marburg> .
+
+<http://www.medicamentos.es/Laboratorio/1652>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Castellbisbal> , <http://es.dbpedia.org/resource/Castellbisbal_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/2495>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Castellbisbal> , <http://es.dbpedia.org/resource/Castellbisbal_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/13809>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Castellbisbal> , <http://es.dbpedia.org/resource/Castellbisbal_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/3690>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sevilla> .
+
+<http://www.medicamentos.es/Laboratorio/27712>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sevilla> .
+
+<http://www.medicamentos.es/Laboratorio/11470>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Neumarkt_in_der_Oberpfalz> .
+
+<http://www.medicamentos.es/Laboratorio/32623>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marusi> , <http://es.dbpedia.org/resource/Maroussi> .
+
+<http://www.medicamentos.es/Laboratorio/17203>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Castelldefels> .
+
+<http://www.medicamentos.es/Laboratorio/29137>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rueil-Malmaison> , <http://es.dbpedia.org/resource/Rueil_Malmaison> .
+
+<http://www.medicamentos.es/Laboratorio/28885>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bolonia> , <http://es.dbpedia.org/resource/Bologna> .
+
+<http://www.medicamentos.es/Laboratorio/388>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Zaragoza> .
+
+<http://www.medicamentos.es/Laboratorio/2423>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Zaragoza> .
+
+<http://www.medicamentos.es/Laboratorio/30261>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi> .
+
+<http://www.medicamentos.es/Laboratorio/10820>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cork> .
+
+<http://www.medicamentos.es/Laboratorio/37945>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cork> .
+
+<http://www.medicamentos.es/Laboratorio/37089>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cork> .
+
+<http://www.medicamentos.es/Laboratorio/23908>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Galapagar> , <http://es.dbpedia.org/resource/Galapagar_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/6130>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Aravaca> , <http://es.dbpedia.org/resource/Aravaca_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/16612>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Aravaca> , <http://es.dbpedia.org/resource/Aravaca_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8274>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Aravaca> , <http://es.dbpedia.org/resource/Aravaca_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/11187>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Copenhague> , <http://es.dbpedia.org/resource/Copenhagen> .
+
+<http://www.medicamentos.es/Laboratorio/29145>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Copenhague> , <http://es.dbpedia.org/resource/Copenhagen> .
+
+<http://www.medicamentos.es/Laboratorio/8093>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Budapest> .
+
+<http://www.medicamentos.es/Laboratorio/27230>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Budapest> .
+
+<http://www.medicamentos.es/Laboratorio/8334>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Budapest> .
+
+<http://www.medicamentos.es/Laboratorio/32858>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Budapest> .
+
+<http://www.medicamentos.es/Laboratorio/8385>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Budapest> .
+
+<http://www.medicamentos.es/Laboratorio/28186>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Limasol> , <http://es.dbpedia.org/resource/Limassol> .
+
+<http://www.medicamentos.es/Laboratorio/13671>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Limasol> , <http://es.dbpedia.org/resource/Limassol> .
+
+<http://www.medicamentos.es/Laboratorio/8478>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Almería> , <http://es.dbpedia.org/resource/Almería_(Almería)> .
+
+<http://www.medicamentos.es/Laboratorio/29688>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid> , <http://es.dbpedia.org/resource/Las_Rozas_de_Madrid_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/2829>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leganés> , <http://es.dbpedia.org/resource/Leganés_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/167>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Leganés> , <http://es.dbpedia.org/resource/Leganés_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/8602>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/8140>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/5841>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/3862>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/1786>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/2687>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/2058>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/712>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/11424>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/8605>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/2367>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sant_Joan_Despí> , <http://es.dbpedia.org/resource/Sant_Joan_Despi_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/12881>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Palau-solità_i_Plegamans> , <http://es.dbpedia.org/resource/Palau-solità_i_Plegamans_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/16633>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Vinaroz> , <http://es.dbpedia.org/resource/Vinaros> .
+
+<http://www.medicamentos.es/Laboratorio/5341>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rubí_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/1614>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Rubí_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/5161>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/El_Ejido> , <http://es.dbpedia.org/resource/El_Ejido_(Almería)> .
+
+<http://www.medicamentos.es/Laboratorio/11899>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> .
+
+<http://www.medicamentos.es/Laboratorio/10011>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> .
+
+<http://www.medicamentos.es/Laboratorio/1770>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> .
+
+<http://www.medicamentos.es/Laboratorio/380>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Hamburgo> .
+
+<http://www.medicamentos.es/Laboratorio/27632>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Torrejón_de_Ardoz> , <http://es.dbpedia.org/resource/Torrejon_de_Ardoz_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/1780>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Torrejón_de_Ardoz> , <http://es.dbpedia.org/resource/Torrejon_de_Ardoz_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/1097>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bad_Homburg> .
+
+<http://www.medicamentos.es/Laboratorio/28033>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Bad_Homburg> .
+
+<http://www.medicamentos.es/Laboratorio/1217>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Aranda_de_Duero> , <http://es.dbpedia.org/resource/Aranda_de_Duero_(Burgos)> .
+
+<http://www.medicamentos.es/Laboratorio/27457>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Marsella> , <http://es.dbpedia.org/resource/Marseille> .
+
+<http://www.medicamentos.es/Laboratorio/5682>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Tarragona> , <http://es.dbpedia.org/resource/Tarragona_(Tarragona)> .
+
+<http://www.medicamentos.es/Laboratorio/41184>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/10690>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/31904>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/6585>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/1046>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/470>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/24083>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/San_Cugat_del_Vallés> , <http://es.dbpedia.org/resource/Sant_Cugat_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/41309>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Saint-Genis-Pouilly> .
+
+<http://www.medicamentos.es/Laboratorio/13094>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Courbevoie> .
+
+<http://www.medicamentos.es/Laboratorio/1626>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sardañola_del_Vallés> , <http://es.dbpedia.org/resource/Cerdanyola_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/4840>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sardañola_del_Vallés> , <http://es.dbpedia.org/resource/Cerdanyola_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/32666>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sardañola_del_Vallés> , <http://es.dbpedia.org/resource/Cerdanyola_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/9606>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Sardañola_del_Vallés> , <http://es.dbpedia.org/resource/Cerdanyola_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/5361>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Cambridge> .
+
+<http://www.medicamentos.es/Laboratorio/27695>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Móstoles> , <http://es.dbpedia.org/resource/Mostoles_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/28047>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Wien> .
+
+<http://www.medicamentos.es/Laboratorio/5150>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Wien> .
+
+<http://www.medicamentos.es/Laboratorio/29467>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Wien> .
+
+<http://www.medicamentos.es/Laboratorio/23613>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Vilna> , <http://es.dbpedia.org/resource/Vilnius> .
+
+<http://www.medicamentos.es/Laboratorio/1946>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Parets> , <http://es.dbpedia.org/resource/Parets_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/4085>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Parets> , <http://es.dbpedia.org/resource/Parets_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/3896>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Parets> , <http://es.dbpedia.org/resource/Parets_del_Valles_(Barcelona)> .
+
+<http://www.medicamentos.es/Laboratorio/9965>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Maroussi_BC> , <http://es.dbpedia.org/resource/Maroussi_Atenas> .
+
+<http://www.medicamentos.es/Laboratorio/1725>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Alcorcón> , <http://es.dbpedia.org/resource/Alcorcon_(Madrid)> .
+
+<http://www.medicamentos.es/Laboratorio/7159>
+        med:labSituadoEnCiudad  <http://es.dbpedia.org/resource/Uxbridge> .
