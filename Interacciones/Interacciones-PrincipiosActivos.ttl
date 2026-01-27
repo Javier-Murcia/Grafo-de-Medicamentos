@@ -1,0 +1,657 @@
+PREFIX :            <http://example.org/rules/>
+PREFIX Laboratorio: <http://www.medicamentos.es/Laboratorio/>
+PREFIX atc:         <http://www.medicamentos.es/ATC/>
+PREFIX dcp:         <http://www.medicamentos.es/DCP/>
+PREFIX dcpf:        <http://www.medicamentos.es/DCPF>
+PREFIX dcsa:        <http://www.medicamentos.es/DCSA/>
+PREFIX enva:        <http://www.medicamentos.es/Envase/>
+PREFIX excip:       <http://www.medicamentos.es/ExcipienteDeclObligatoria/>
+PREFIX forma:       <http://www.medicamentos.es/FormaFarmaceutica>
+PREFIX formasimp:   <http://www.medicamentos.es/FormaFarmaceuticaSimplificada>
+PREFIX geo:         <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geosparql:   <http://www.opengis.net/ont/geosparql#>
+PREFIX lugares:     <http://www.monumentos.es/lugares/>
+PREFIX med:         <http://www.medicamentos.es/>
+PREFIX medpres:     <http://www.medicamentos.es/MedicamentoPresentación/>
+PREFIX monu:        <http://www.monumentos.es/>
+PREFIX ns0:         <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:         <http://www.w3.org/2002/07/owl#>
+PREFIX prinactiv:   <http://www.medicamentos.es/PrincipioActivo/>
+PREFIX rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:        <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rml:         <http://w3id.org/rml/>
+PREFIX sitreg:      <http://www.medicamentos.es/SituaciónRegistro>
+PREFIX skos:        <http://www.w3.org/2004/02/skos/core#>
+PREFIX umls:        <http://bioportal.bioontology.org/ontologies/umls/>
+PREFIX unidconte:   <http://www.medicamentos.es/UnidadContenido>
+PREFIX vias:        <http://www.medicamentos.es/ViaAdministracion>
+PREFIX xml:         <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd:         <http://www.w3.org/2001/XMLSchema#>
+
+prinactiv:2937  med:interaccionaCon  prinactiv:10954 , prinactiv:987 , prinactiv:12130 , prinactiv:908 , prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:6654  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:350  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:549 .
+
+prinactiv:2991  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:10688  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:5542  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 , prinactiv:153 .
+
+prinactiv:4267  med:interaccionaCon  prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:2856 , prinactiv:7166 , prinactiv:2738 , prinactiv:7984 , prinactiv:2781 , prinactiv:6886 , prinactiv:1768 .
+
+prinactiv:4469  med:interaccionaCon  prinactiv:153 .
+
+prinactiv:6256  med:interaccionaCon  prinactiv:7036 .
+
+prinactiv:6319  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 .
+
+prinactiv:3948  med:interaccionaCon  prinactiv:7066 .
+
+prinactiv:549  med:interaccionaCon  prinactiv:10954 , prinactiv:987 , prinactiv:12130 , prinactiv:908 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 , prinactiv:7961 , prinactiv:3773 , prinactiv:5760 , prinactiv:1958 , prinactiv:7502 , prinactiv:10337 , prinactiv:2856 , prinactiv:1497 , prinactiv:10060 , prinactiv:7413 , prinactiv:6744 , prinactiv:7177 , prinactiv:7721 .
+
+prinactiv:6646  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:4687  med:interaccionaCon  prinactiv:5760 .
+
+prinactiv:6384  med:interaccionaCon  prinactiv:5416 , prinactiv:6673 .
+
+prinactiv:2777  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:4319  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:1886  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:4301  med:interaccionaCon  prinactiv:7961 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 , prinactiv:2856 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 .
+
+prinactiv:2433  med:interaccionaCon  prinactiv:7961 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 , prinactiv:2856 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 .
+
+prinactiv:3531  med:interaccionaCon  prinactiv:574 , prinactiv:10372 , prinactiv:7036 , prinactiv:7032 , prinactiv:5760 , prinactiv:549 , prinactiv:10451 , prinactiv:6845 , prinactiv:11343 , prinactiv:10472 , prinactiv:10078 .
+
+prinactiv:2067  med:interaccionaCon  prinactiv:574 , prinactiv:10372 , prinactiv:7036 , prinactiv:7032 , prinactiv:5760 , prinactiv:549 , prinactiv:10451 , prinactiv:6845 , prinactiv:11343 , prinactiv:10472 , prinactiv:10078 .
+
+prinactiv:6708  med:interaccionaCon  prinactiv:649 , prinactiv:9434 , prinactiv:12302 , prinactiv:12303 , prinactiv:10308 .
+
+prinactiv:3498  med:interaccionaCon  prinactiv:8947 , prinactiv:10651 , prinactiv:1952 , prinactiv:1954 , prinactiv:7234 , prinactiv:7235 , prinactiv:4378 , prinactiv:7467 , prinactiv:1327 , prinactiv:7468 , prinactiv:7032 , prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:4134 .
+
+prinactiv:6011  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:4683  med:interaccionaCon  prinactiv:5760 .
+
+prinactiv:2470  med:interaccionaCon  prinactiv:574 , prinactiv:10372 , prinactiv:7036 , prinactiv:7032 , prinactiv:549 , prinactiv:10451 , prinactiv:6845 , prinactiv:11343 , prinactiv:10472 , prinactiv:10078 , prinactiv:5760 .
+
+prinactiv:5371  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:3542  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:5669  med:interaccionaCon  prinactiv:153 .
+
+prinactiv:1851  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:10282 , prinactiv:7214 , prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4376 , prinactiv:6319 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 .
+
+prinactiv:3018  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:2324  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:4727  med:interaccionaCon  prinactiv:153 .
+
+prinactiv:4159  med:interaccionaCon  prinactiv:153 .
+
+prinactiv:6758  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:15981  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:2392  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:1104  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:3847  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:745  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:7185  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:1189  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:12617  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:2438 , prinactiv:5760 , prinactiv:5398 , prinactiv:769 , prinactiv:549 , prinactiv:11343 , prinactiv:10472 .
+
+prinactiv:10506  med:interaccionaCon  prinactiv:2438 .
+
+prinactiv:7066  med:interaccionaCon  prinactiv:1790 , prinactiv:1562 , prinactiv:3948 , prinactiv:3930 .
+
+prinactiv:574  med:interaccionaCon  prinactiv:3773 .
+
+prinactiv:11343  med:interaccionaCon  prinactiv:6206 , prinactiv:1952 , prinactiv:1954 , prinactiv:7502 , prinactiv:5760 , prinactiv:3773 , prinactiv:10078 , prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:1007  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:12302  med:interaccionaCon  prinactiv:6708 .
+
+prinactiv:1419  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:7973  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:12046  med:interaccionaCon  prinactiv:5473 , prinactiv:5397 .
+
+prinactiv:9462  med:interaccionaCon  prinactiv:6665 .
+
+prinactiv:447  med:interaccionaCon  prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:2856 , prinactiv:7166 , prinactiv:2738 , prinactiv:7984 , prinactiv:2781 , prinactiv:6886 , prinactiv:1768 .
+
+prinactiv:5458  med:interaccionaCon  prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:2856 , prinactiv:7166 , prinactiv:2738 , prinactiv:7984 , prinactiv:2781 , prinactiv:6886 , prinactiv:1768 .
+
+prinactiv:12203  med:interaccionaCon  prinactiv:6665 .
+
+prinactiv:11863  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:5175 , prinactiv:4384 .
+
+prinactiv:6396  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 .
+
+prinactiv:4947  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:3233  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:9980  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:5760 , prinactiv:549 , prinactiv:11343 , prinactiv:10472 , prinactiv:2438 , prinactiv:5398 , prinactiv:769 .
+
+prinactiv:11798  med:interaccionaCon  prinactiv:5967 , prinactiv:1952 , prinactiv:1954 , prinactiv:5175 , prinactiv:4384 .
+
+prinactiv:9516  med:interaccionaCon  prinactiv:2867 , prinactiv:7875 , prinactiv:5059 , prinactiv:956 , prinactiv:917 , prinactiv:877 , prinactiv:928 , prinactiv:3032 , prinactiv:7489 , prinactiv:7490 , prinactiv:7672 .
+
+prinactiv:7110  med:interaccionaCon  prinactiv:153 .
+
+prinactiv:8947  med:interaccionaCon  prinactiv:3498 .
+
+prinactiv:11664  med:interaccionaCon  prinactiv:1958 , prinactiv:6803 , prinactiv:6802 .
+
+prinactiv:168  med:interaccionaCon  prinactiv:10954 , prinactiv:987 , prinactiv:12130 , prinactiv:908 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 .
+
+prinactiv:11607  med:interaccionaCon  prinactiv:2867 , prinactiv:7875 , prinactiv:5059 , prinactiv:956 , prinactiv:917 , prinactiv:877 , prinactiv:928 , prinactiv:3032 , prinactiv:7489 , prinactiv:7490 , prinactiv:7672 .
+
+prinactiv:11636  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:8778  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:11245  med:interaccionaCon  prinactiv:2867 , prinactiv:7875 , prinactiv:5059 , prinactiv:956 , prinactiv:917 , prinactiv:877 , prinactiv:928 , prinactiv:3032 , prinactiv:7489 , prinactiv:7490 , prinactiv:7672 .
+
+prinactiv:11660  med:interaccionaCon  prinactiv:2867 , prinactiv:7875 , prinactiv:5059 , prinactiv:956 , prinactiv:917 , prinactiv:877 , prinactiv:928 , prinactiv:3032 , prinactiv:7489 , prinactiv:7490 , prinactiv:7672 .
+
+prinactiv:649  med:interaccionaCon  prinactiv:6708 .
+
+prinactiv:5235  med:interaccionaCon  prinactiv:153 , prinactiv:7961 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 , prinactiv:2856 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 .
+
+prinactiv:12413  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:2438 , prinactiv:5760 , prinactiv:5398 , prinactiv:769 , prinactiv:549 , prinactiv:11343 , prinactiv:10472 .
+
+prinactiv:4408  med:interaccionaCon  prinactiv:153 , prinactiv:7961 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 , prinactiv:2856 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 .
+
+prinactiv:3716  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:7678  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:6388  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:6246  med:interaccionaCon  prinactiv:7036 .
+
+prinactiv:1853  med:interaccionaCon  prinactiv:1745 , prinactiv:1747 .
+
+prinactiv:445  med:interaccionaCon  prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:2856 , prinactiv:7166 , prinactiv:2738 , prinactiv:7984 , prinactiv:2781 , prinactiv:6886 , prinactiv:1768 .
+
+prinactiv:5892  med:interaccionaCon  prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:2856 , prinactiv:7166 , prinactiv:2738 , prinactiv:7984 , prinactiv:2781 , prinactiv:6886 , prinactiv:1768 .
+
+prinactiv:2820  med:interaccionaCon  prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:448  med:interaccionaCon  prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:2856 , prinactiv:7166 , prinactiv:2738 , prinactiv:7984 , prinactiv:2781 , prinactiv:6886 , prinactiv:1768 .
+
+prinactiv:272  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:4476  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 , prinactiv:7961 , prinactiv:1424 , prinactiv:153 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 , prinactiv:2856 , prinactiv:769 , prinactiv:5398 .
+
+prinactiv:2391  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:549 .
+
+prinactiv:1903  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:549 .
+
+prinactiv:153  med:interaccionaCon  prinactiv:9760 , prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:2856 , prinactiv:7166 , prinactiv:2738 , prinactiv:7984 , prinactiv:2781 , prinactiv:6886 , prinactiv:1768 .
+
+prinactiv:6383  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:6175  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:217  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:285  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 .
+
+prinactiv:1790  med:interaccionaCon  prinactiv:7066 .
+
+prinactiv:11089  med:interaccionaCon  prinactiv:3065 .
+
+prinactiv:3684  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:6902  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 .
+
+prinactiv:3670  med:interaccionaCon  prinactiv:10954 , prinactiv:987 , prinactiv:12130 , prinactiv:908 , prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:5964  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:4449  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:4321  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:10955  med:interaccionaCon  prinactiv:5872 , prinactiv:744 , prinactiv:530 , prinactiv:5415 , prinactiv:6377 .
+
+prinactiv:7721  med:interaccionaCon  prinactiv:168 , prinactiv:549 , prinactiv:5872 , prinactiv:744 , prinactiv:530 , prinactiv:5415 , prinactiv:6377 .
+
+prinactiv:1889  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:996  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 .
+
+prinactiv:6414  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:2438 , prinactiv:5760 , prinactiv:5398 , prinactiv:769 , prinactiv:549 , prinactiv:11343 , prinactiv:10472 .
+
+prinactiv:6719  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:1206  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 .
+
+prinactiv:6846  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:787  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:6763  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 , prinactiv:7036 , prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:3306  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:2913  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 .
+
+prinactiv:1562  med:interaccionaCon  prinactiv:7066 .
+
+prinactiv:7573  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:7096  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:7016  med:interaccionaCon  prinactiv:5416 , prinactiv:6673 .
+
+prinactiv:7476  med:interaccionaCon  prinactiv:10545 , prinactiv:4533 , prinactiv:3306 , prinactiv:6155 , prinactiv:5371 , prinactiv:2986 , prinactiv:5217 , prinactiv:5218 , prinactiv:9515 , prinactiv:2867 , prinactiv:7875 , prinactiv:5059 , prinactiv:1444 , prinactiv:12401 , prinactiv:1305 , prinactiv:9434 , prinactiv:649 , prinactiv:6954 , prinactiv:7672 , prinactiv:6141 , prinactiv:6140 , prinactiv:7490 , prinactiv:7489 , prinactiv:3032 , prinactiv:928 , prinactiv:877 , prinactiv:917 , prinactiv:956 .
+
+prinactiv:5380  med:interaccionaCon  prinactiv:10954 , prinactiv:987 , prinactiv:12130 , prinactiv:908 , prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:7089  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 , prinactiv:6935 .
+
+prinactiv:7088  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 , prinactiv:6935 .
+
+prinactiv:7087  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 , prinactiv:6935 .
+
+prinactiv:5316  med:interaccionaCon  prinactiv:7502 .
+
+prinactiv:10282  med:interaccionaCon  prinactiv:6861 , prinactiv:7502 , prinactiv:10673 , prinactiv:1958 , prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:1072 , prinactiv:792 , prinactiv:1851 .
+
+prinactiv:7074  med:interaccionaCon  prinactiv:3065 .
+
+prinactiv:6019  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 .
+
+prinactiv:10284  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:1462  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:525  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:7530  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:149  med:interaccionaCon  prinactiv:2820 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:1887  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:4134  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:10216  med:interaccionaCon  prinactiv:2438 .
+
+prinactiv:6691  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:4384  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 , prinactiv:11863 , prinactiv:11798 , prinactiv:9542 , prinactiv:1958 , prinactiv:792 .
+
+prinactiv:4356  med:interaccionaCon  prinactiv:7454 .
+
+prinactiv:2397  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:1551  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:792  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:6724 , prinactiv:6725 , prinactiv:5175 , prinactiv:4384 , prinactiv:4378 , prinactiv:7467 , prinactiv:1327 , prinactiv:7468 , prinactiv:10282 , prinactiv:7214 , prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 .
+
+prinactiv:1527  med:interaccionaCon  prinactiv:5398 , prinactiv:769 .
+
+prinactiv:2861  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:6650  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:8010  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:10651  med:interaccionaCon  prinactiv:3498 .
+
+prinactiv:1072  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:1234 , prinactiv:2802 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:1944  med:interaccionaCon  prinactiv:7961 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 , prinactiv:2856 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 .
+
+prinactiv:9455  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:9981  med:interaccionaCon  prinactiv:5473 , prinactiv:5397 .
+
+prinactiv:547  med:interaccionaCon  prinactiv:10954 , prinactiv:987 , prinactiv:12130 , prinactiv:908 , prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:10472  med:interaccionaCon  prinactiv:6206 , prinactiv:1952 , prinactiv:1954 , prinactiv:7502 , prinactiv:5760 , prinactiv:3773 , prinactiv:10078 , prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:10500  med:interaccionaCon  prinactiv:7036 .
+
+prinactiv:10451  med:interaccionaCon  prinactiv:5760 , prinactiv:3773 , prinactiv:5872 , prinactiv:744 , prinactiv:530 , prinactiv:5415 , prinactiv:6377 .
+
+prinactiv:6250  med:interaccionaCon  prinactiv:7036 .
+
+prinactiv:9760  med:interaccionaCon  prinactiv:153 , prinactiv:7036 , prinactiv:5398 , prinactiv:769 .
+
+prinactiv:6922  med:interaccionaCon  prinactiv:2867 , prinactiv:7875 , prinactiv:5059 , prinactiv:956 , prinactiv:917 , prinactiv:877 , prinactiv:928 , prinactiv:3032 , prinactiv:7489 , prinactiv:7490 , prinactiv:7672 .
+
+prinactiv:7961  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 , prinactiv:549 , prinactiv:10078 .
+
+prinactiv:10060  med:interaccionaCon  prinactiv:7036 , prinactiv:2438 , prinactiv:549 .
+
+prinactiv:2657  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:9859  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 .
+
+prinactiv:10372  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:3773 .
+
+prinactiv:5398  med:interaccionaCon  prinactiv:1527 , prinactiv:9760 , prinactiv:7994 , prinactiv:10078 , prinactiv:549 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1958 , prinactiv:7214 , prinactiv:10282 , prinactiv:7036 , prinactiv:1954 , prinactiv:1952 , prinactiv:8003 , prinactiv:9980 .
+
+prinactiv:1204  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 .
+
+prinactiv:4987  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 , prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 .
+
+prinactiv:7116  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:746  med:interaccionaCon  prinactiv:153 , prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:4378  med:interaccionaCon  prinactiv:6158 , prinactiv:3498 , prinactiv:792 .
+
+prinactiv:794  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:1701  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 .
+
+prinactiv:633  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:744  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:2341  med:interaccionaCon  prinactiv:10954 , prinactiv:987 , prinactiv:12130 , prinactiv:908 , prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:5416  med:interaccionaCon  prinactiv:6384 , prinactiv:7016 .
+
+prinactiv:5872  med:interaccionaCon  prinactiv:10954 , prinactiv:987 , prinactiv:12130 , prinactiv:908 , prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:9363  med:interaccionaCon  prinactiv:7036 .
+
+prinactiv:538  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:873  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:5370  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:5556  med:interaccionaCon  prinactiv:2742 , prinactiv:2738 .
+
+prinactiv:3660  med:interaccionaCon  prinactiv:168 , prinactiv:549 , prinactiv:5872 , prinactiv:744 , prinactiv:530 , prinactiv:10451 , prinactiv:5415 , prinactiv:6377 , prinactiv:6845 , prinactiv:11343 , prinactiv:10472 , prinactiv:10078 .
+
+prinactiv:7117  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:278  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:7913  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:4376  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 .
+
+prinactiv:530  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:3156  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:5730  med:interaccionaCon  prinactiv:168 , prinactiv:549 , prinactiv:5872 , prinactiv:744 , prinactiv:530 , prinactiv:10451 , prinactiv:5415 , prinactiv:6377 , prinactiv:6845 , prinactiv:11343 , prinactiv:10472 , prinactiv:10078 .
+
+prinactiv:10078  med:interaccionaCon  prinactiv:7036 , prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:5760 , prinactiv:3773 , prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:11343 , prinactiv:10472 .
+
+prinactiv:6033  med:interaccionaCon  prinactiv:5760 .
+
+prinactiv:3686  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:5027  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 .
+
+prinactiv:7467  med:interaccionaCon  prinactiv:6158 , prinactiv:3498 , prinactiv:792 .
+
+prinactiv:1958  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:4384 , prinactiv:10282 , prinactiv:7214 , prinactiv:7032 , prinactiv:5398 , prinactiv:769 , prinactiv:549 .
+
+prinactiv:8002  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:9573  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:5415  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:769  med:interaccionaCon  prinactiv:1527 , prinactiv:9760 , prinactiv:7994 , prinactiv:10078 , prinactiv:549 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1958 , prinactiv:7214 , prinactiv:10282 , prinactiv:7036 , prinactiv:1954 , prinactiv:1952 , prinactiv:8003 , prinactiv:9980 .
+
+prinactiv:6873  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:6861  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 .
+
+prinactiv:6935  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:6724  med:interaccionaCon  prinactiv:6158 , prinactiv:792 .
+
+prinactiv:9542  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:5175 , prinactiv:4384 .
+
+prinactiv:7767  med:interaccionaCon  prinactiv:744 , prinactiv:530 , prinactiv:5415 , prinactiv:6377 .
+
+prinactiv:9547  med:interaccionaCon  prinactiv:1958 , prinactiv:6803 , prinactiv:6802 .
+
+prinactiv:7454  med:interaccionaCon  prinactiv:4356 , prinactiv:4357 .
+
+prinactiv:6001  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:2766  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:9517  med:interaccionaCon  prinactiv:2867 , prinactiv:7875 , prinactiv:5059 , prinactiv:956 , prinactiv:917 , prinactiv:877 , prinactiv:928 , prinactiv:3032 , prinactiv:7489 , prinactiv:7490 , prinactiv:7672 .
+
+prinactiv:1745  med:interaccionaCon  prinactiv:1853 , prinactiv:168 , prinactiv:549 , prinactiv:5872 , prinactiv:744 , prinactiv:530 , prinactiv:10451 , prinactiv:5415 , prinactiv:6377 , prinactiv:6845 , prinactiv:11343 , prinactiv:10472 , prinactiv:10078 .
+
+prinactiv:6377  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:2917  med:interaccionaCon  prinactiv:10955 , prinactiv:7767 , prinactiv:7721 , prinactiv:7413 , prinactiv:5760 , prinactiv:3773 , prinactiv:10451 .
+
+prinactiv:7171  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:974  med:interaccionaCon  prinactiv:5968 .
+
+prinactiv:9463  med:interaccionaCon  prinactiv:6665 .
+
+prinactiv:665  med:interaccionaCon  prinactiv:2438 .
+
+prinactiv:1234  med:interaccionaCon  prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:9434  med:interaccionaCon  prinactiv:6708 .
+
+prinactiv:5457  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:870  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:7672  med:interaccionaCon  prinactiv:6158 .
+
+prinactiv:2586  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 .
+
+prinactiv:6886  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:1520  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:7671  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:6858  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:4885  med:interaccionaCon  prinactiv:153 , prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:7036  med:interaccionaCon  prinactiv:7177 , prinactiv:9760 , prinactiv:6763 , prinactiv:6744 , prinactiv:10231 , prinactiv:10060 , prinactiv:1497 , prinactiv:792 , prinactiv:1072 , prinactiv:10078 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 , prinactiv:7961 , prinactiv:3773 , prinactiv:285 , prinactiv:6802 , prinactiv:6803 , prinactiv:1958 , prinactiv:7502 , prinactiv:6861 , prinactiv:10337 , prinactiv:2856 .
+
+prinactiv:7333  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:5968  med:interaccionaCon  prinactiv:974 .
+
+prinactiv:7480  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:6673  med:interaccionaCon  prinactiv:6384 , prinactiv:7016 .
+
+prinactiv:526  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:6720  med:interaccionaCon  prinactiv:153 , prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:3109  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:549 .
+
+prinactiv:7984  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:2781  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:1952  med:interaccionaCon  prinactiv:1206 , prinactiv:5027 , prinactiv:9859 , prinactiv:10372 , prinactiv:11863 , prinactiv:11798 , prinactiv:9542 , prinactiv:1204 , prinactiv:10953 , prinactiv:1851 , prinactiv:792 , prinactiv:3498 , prinactiv:1072 , prinactiv:10472 , prinactiv:11343 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 , prinactiv:7961 , prinactiv:5760 , prinactiv:285 , prinactiv:1958 , prinactiv:7502 , prinactiv:6861 , prinactiv:7885 .
+
+prinactiv:6158  med:interaccionaCon  prinactiv:7672 , prinactiv:6724 , prinactiv:6725 , prinactiv:4378 , prinactiv:7467 , prinactiv:1327 , prinactiv:7468 .
+
+prinactiv:1893  med:interaccionaCon  prinactiv:1560 .
+
+prinactiv:2530  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:3773  med:interaccionaCon  prinactiv:5760 , prinactiv:10078 , prinactiv:10472 , prinactiv:11343 , prinactiv:6845 , prinactiv:6377 , prinactiv:5415 , prinactiv:10451 , prinactiv:530 , prinactiv:744 , prinactiv:5872 , prinactiv:549 , prinactiv:168 , prinactiv:7032 , prinactiv:7036 , prinactiv:10372 , prinactiv:574 .
+
+prinactiv:2914  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 .
+
+prinactiv:4411  med:interaccionaCon  prinactiv:3948 , prinactiv:6384 , prinactiv:4106 , prinactiv:3930 , prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:4357  med:interaccionaCon  prinactiv:7454 .
+
+prinactiv:4324  med:interaccionaCon  prinactiv:5473 , prinactiv:5397 .
+
+prinactiv:5760  med:interaccionaCon  prinactiv:10078 , prinactiv:10472 , prinactiv:11343 , prinactiv:6845 , prinactiv:6377 , prinactiv:5415 , prinactiv:10451 , prinactiv:530 , prinactiv:744 , prinactiv:5872 , prinactiv:549 , prinactiv:168 , prinactiv:7502 , prinactiv:1954 , prinactiv:1952 , prinactiv:6033 .
+
+prinactiv:10721  med:interaccionaCon  prinactiv:153 , prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:5175  med:interaccionaCon  prinactiv:11863 , prinactiv:11798 , prinactiv:9542 , prinactiv:792 .
+
+prinactiv:12303  med:interaccionaCon  prinactiv:6708 .
+
+prinactiv:1954  med:interaccionaCon  prinactiv:1206 , prinactiv:5027 , prinactiv:9859 , prinactiv:10372 , prinactiv:11863 , prinactiv:11798 , prinactiv:9542 , prinactiv:1204 , prinactiv:10953 , prinactiv:1851 , prinactiv:792 , prinactiv:3498 , prinactiv:1072 , prinactiv:10472 , prinactiv:11343 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 , prinactiv:7961 , prinactiv:5760 , prinactiv:285 , prinactiv:1958 , prinactiv:7502 , prinactiv:6861 , prinactiv:7885 .
+
+prinactiv:4463  med:interaccionaCon  prinactiv:153 , prinactiv:7961 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 , prinactiv:2856 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 .
+
+prinactiv:7959  med:interaccionaCon  prinactiv:1958 , prinactiv:6803 , prinactiv:6802 .
+
+prinactiv:11715  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 .
+
+prinactiv:7798  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 , prinactiv:4134 , prinactiv:272 .
+
+prinactiv:6665  med:interaccionaCon  prinactiv:9462 , prinactiv:12203 , prinactiv:9463 .
+
+prinactiv:1149  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:7865  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:6744  med:interaccionaCon  prinactiv:7036 , prinactiv:2438 , prinactiv:549 .
+
+prinactiv:7994  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:2438 , prinactiv:5760 , prinactiv:549 , prinactiv:11343 , prinactiv:10472 , prinactiv:5398 , prinactiv:769 .
+
+prinactiv:2968  med:interaccionaCon  prinactiv:5967 .
+
+prinactiv:1424  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 , prinactiv:549 , prinactiv:10078 .
+
+prinactiv:7502  med:interaccionaCon  prinactiv:5398 , prinactiv:769 , prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:2438 , prinactiv:5760 , prinactiv:549 , prinactiv:11343 , prinactiv:10472 .
+
+prinactiv:3650  med:interaccionaCon  prinactiv:3948 , prinactiv:6384 , prinactiv:4106 , prinactiv:3930 , prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:5367  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:1327  med:interaccionaCon  prinactiv:6158 , prinactiv:3498 , prinactiv:792 .
+
+prinactiv:10691  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 .
+
+prinactiv:2738  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:2438 , prinactiv:5760 , prinactiv:5556 , prinactiv:6646 , prinactiv:149 , prinactiv:2820 , prinactiv:10472 , prinactiv:11343 , prinactiv:549 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:769 , prinactiv:5398 , prinactiv:153 .
+
+prinactiv:10673  med:interaccionaCon  prinactiv:10282 , prinactiv:7214 .
+
+prinactiv:972  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:7177  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:153 , prinactiv:10472 , prinactiv:11343 , prinactiv:549 , prinactiv:769 , prinactiv:5398 , prinactiv:5760 , prinactiv:2438 , prinactiv:7214 , prinactiv:10282 .
+
+prinactiv:6176  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:3930  med:interaccionaCon  prinactiv:7066 .
+
+prinactiv:6206  med:interaccionaCon  prinactiv:11343 , prinactiv:10472 .
+
+prinactiv:7413  med:interaccionaCon  prinactiv:168 , prinactiv:549 , prinactiv:5872 , prinactiv:744 , prinactiv:530 , prinactiv:5415 , prinactiv:6377 .
+
+prinactiv:8003  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:5760 , prinactiv:549 , prinactiv:11343 , prinactiv:10472 , prinactiv:2438 , prinactiv:5398 , prinactiv:769 .
+
+prinactiv:10953  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 .
+
+prinactiv:1497  med:interaccionaCon  prinactiv:7036 , prinactiv:2438 , prinactiv:549 .
+
+prinactiv:7885  med:interaccionaCon  prinactiv:1952 , prinactiv:1954 .
+
+prinactiv:1422  med:interaccionaCon  prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:10231  med:interaccionaCon  prinactiv:7036 , prinactiv:2820 , prinactiv:149 , prinactiv:6646 .
+
+prinactiv:7314  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:3065  med:interaccionaCon  prinactiv:11089 , prinactiv:7074 , prinactiv:1234 , prinactiv:2802 , prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
+
+prinactiv:2856  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:549 , prinactiv:2438 , prinactiv:7036 , prinactiv:10472 , prinactiv:11343 , prinactiv:769 , prinactiv:5398 , prinactiv:5760 , prinactiv:7214 , prinactiv:10282 , prinactiv:1954 , prinactiv:1952 , prinactiv:5316 , prinactiv:448 , prinactiv:5892 , prinactiv:445 .
+
+prinactiv:1336  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:5323  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:10308  med:interaccionaCon  prinactiv:6708 .
+
+prinactiv:10337  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:10282 , prinactiv:7214 , prinactiv:5760 , prinactiv:5398 , prinactiv:769 , prinactiv:11343 , prinactiv:10472 , prinactiv:7036 , prinactiv:2438 , prinactiv:549 .
+
+prinactiv:6725  med:interaccionaCon  prinactiv:6158 , prinactiv:792 .
+
+prinactiv:7031  med:interaccionaCon  prinactiv:5175 , prinactiv:4384 , prinactiv:5967 .
+
+prinactiv:6803  med:interaccionaCon  prinactiv:7032 .
+
+prinactiv:7234  med:interaccionaCon  prinactiv:3498 .
+
+prinactiv:3231  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:7166  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:153 , prinactiv:10472 , prinactiv:11343 , prinactiv:549 , prinactiv:769 , prinactiv:5398 , prinactiv:5760 , prinactiv:2438 , prinactiv:7214 , prinactiv:10282 .
+
+prinactiv:2765  med:interaccionaCon  prinactiv:2820 , prinactiv:149 , prinactiv:6646 , prinactiv:153 , prinactiv:10078 , prinactiv:2738 , prinactiv:2742 .
+
+prinactiv:2742  med:interaccionaCon  prinactiv:5556 , prinactiv:2820 , prinactiv:149 , prinactiv:6646 .
+
+prinactiv:2430  med:interaccionaCon  prinactiv:153 .
+
+prinactiv:7235  med:interaccionaCon  prinactiv:3498 .
+
+prinactiv:7468  med:interaccionaCon  prinactiv:6158 , prinactiv:3498 , prinactiv:792 .
+
+prinactiv:7214  med:interaccionaCon  prinactiv:6861 , prinactiv:7502 , prinactiv:10673 , prinactiv:1958 , prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:1072 , prinactiv:792 , prinactiv:1851 .
+
+prinactiv:7032  med:interaccionaCon  prinactiv:1958 , prinactiv:6803 , prinactiv:6802 , prinactiv:3773 , prinactiv:3498 .
+
+prinactiv:6652  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:1768  med:interaccionaCon  prinactiv:7961 , prinactiv:1424 , prinactiv:5398 , prinactiv:769 , prinactiv:2856 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:153 , prinactiv:5967 , prinactiv:4384 , prinactiv:5175 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 .
+
+prinactiv:1414  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:1070  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:10282 , prinactiv:7214 , prinactiv:5760 , prinactiv:5398 , prinactiv:769 , prinactiv:549 , prinactiv:11343 , prinactiv:10472 , prinactiv:2438 .
+
+prinactiv:6894  med:interaccionaCon  prinactiv:153 .
+
+prinactiv:6802  med:interaccionaCon  prinactiv:7032 .
+
+prinactiv:6845  med:interaccionaCon  prinactiv:5760 , prinactiv:3773 .
+
+prinactiv:651  med:interaccionaCon  prinactiv:5316 , prinactiv:1952 , prinactiv:1954 , prinactiv:7036 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:153 , prinactiv:10472 , prinactiv:11343 , prinactiv:549 , prinactiv:769 , prinactiv:5398 , prinactiv:5760 , prinactiv:2438 , prinactiv:7214 , prinactiv:10282 .
+
+prinactiv:8038  med:interaccionaCon  prinactiv:153 , prinactiv:4267 , prinactiv:447 , prinactiv:5458 , prinactiv:445 , prinactiv:5892 , prinactiv:448 .
+
+prinactiv:9374  med:interaccionaCon  prinactiv:7961 , prinactiv:448 , prinactiv:5892 , prinactiv:445 , prinactiv:5458 , prinactiv:447 , prinactiv:4267 , prinactiv:1768 , prinactiv:6886 , prinactiv:2781 , prinactiv:7984 , prinactiv:2738 , prinactiv:7166 , prinactiv:2856 , prinactiv:769 , prinactiv:5398 , prinactiv:1424 .
+
+prinactiv:1747  med:interaccionaCon  prinactiv:1853 , prinactiv:168 , prinactiv:549 , prinactiv:5872 , prinactiv:744 , prinactiv:530 , prinactiv:10451 , prinactiv:5415 , prinactiv:6377 , prinactiv:6845 , prinactiv:11343 , prinactiv:10472 , prinactiv:10078 .
+
+prinactiv:2802  med:interaccionaCon  prinactiv:1072 , prinactiv:7185 , prinactiv:6011 , prinactiv:3065 , prinactiv:3018 , prinactiv:2324 , prinactiv:787 , prinactiv:1422 , prinactiv:8778 , prinactiv:2657 , prinactiv:6935 , prinactiv:272 , prinactiv:4134 , prinactiv:4376 , prinactiv:6319 , prinactiv:1851 , prinactiv:4987 , prinactiv:7798 , prinactiv:996 , prinactiv:6019 , prinactiv:2914 , prinactiv:2913 , prinactiv:2586 , prinactiv:1701 , prinactiv:792 , prinactiv:7087 , prinactiv:7088 , prinactiv:7089 , prinactiv:3498 .
