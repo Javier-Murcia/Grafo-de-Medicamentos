@@ -1,0 +1,28 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sitreg:  <http://www.medicamentos.es/SituaciónRegistro> .
+@prefix med:  <http://www.medicamentos.es/> .
+@prefix dcp:  <http://www.medicamentos.es/DCP> .
+@prefix atc:  <http://www.medicamentos.es/ATC> .
+@prefix excip:  <http://www.medicamentos.es/ExcipienteDeclObligatoria> .
+@prefix dcsa:  <http://www.medicamentos.es/DCSA> .
+@prefix vias:  <http://www.medicamentos.es/ViaAdministracion> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix enva:  <http://www.medicamentos.es/Envase> .
+
+<http://www.medicamentos.es/Situaci%C3%B3nRegistro/1>
+        rdf:type                     med:SituaciónRegistro ;
+        rdfs:label                   "Autorizado"@es ;
+        med:codigoSituacionRegistro  "1" .
+
+<http://www.medicamentos.es/Situaci%C3%B3nRegistro/3>
+        rdf:type                     med:SituaciónRegistro ;
+        rdfs:label                   "Anulado"@es ;
+        med:codigoSituacionRegistro  "3" .
+
+<http://www.medicamentos.es/Situaci%C3%B3nRegistro/4>
+        rdf:type                     med:SituaciónRegistro ;
+        rdfs:label                   "Suspenso"@es ;
+        med:codigoSituacionRegistro  "4" .
