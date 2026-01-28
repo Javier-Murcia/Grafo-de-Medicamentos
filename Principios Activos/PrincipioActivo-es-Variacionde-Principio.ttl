@@ -1,0 +1,3200 @@
+@prefix :      <http://example.org/rules/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix forma: <http://www.medicamentos.es/FormaFarmaceutica> .
+@prefix sitreg: <http://www.medicamentos.es/SituaciónRegistro> .
+@prefix med:   <http://www.medicamentos.es/> .
+@prefix rml:   <http://w3id.org/rml/> .
+@prefix dcp:   <http://www.medicamentos.es/DCP/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix atc:   <http://www.medicamentos.es/ATC/> .
+@prefix vias:  <http://www.medicamentos.es/ViaAdministracion> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix monu:  <http://www.monumentos.es/> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF> .
+@prefix dcsa:  <http://www.medicamentos.es/DCSA/> .
+@prefix prinactiv: <http://www.medicamentos.es/PrincipioActivo/> .
+@prefix umls:  <http://bioportal.bioontology.org/ontologies/umls/> .
+@prefix medpres: <http://www.medicamentos.es/MedicamentoPresentación/> .
+@prefix formasimp: <http://www.medicamentos.es/FormaFarmaceuticaSimplificada> .
+@prefix excip: <http://www.medicamentos.es/ExcipienteDeclObligatoria/> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix enva:  <http://www.medicamentos.es/Envase/> .
+@prefix lugares: <http://www.monumentos.es/lugares/> .
+@prefix Laboratorio: <http://www.medicamentos.es/Laboratorio/> .
+@prefix unidconte: <http://www.medicamentos.es/UnidadContenido> .
+
+prinactiv:11691  med:esVariacionDePrincipioActivo
+                prinactiv:3173 , prinactiv:3174 .
+
+prinactiv:2977  med:esVariacionDePrincipioActivo
+                prinactiv:2976 .
+
+prinactiv:12343  med:esVariacionDePrincipioActivo
+                prinactiv:11172 .
+
+prinactiv:7246  med:esVariacionDePrincipioActivo
+                prinactiv:7245 .
+
+prinactiv:110  med:esVariacionDePrincipioActivo
+                prinactiv:104 .
+
+prinactiv:538  med:esVariacionDePrincipioActivo
+                prinactiv:2765 .
+
+prinactiv:1951  med:esVariacionDePrincipioActivo
+                prinactiv:1950 .
+
+prinactiv:2447  med:esVariacionDePrincipioActivo
+                prinactiv:2439 .
+
+prinactiv:6064  med:esVariacionDePrincipioActivo
+                prinactiv:6055 .
+
+prinactiv:5380  med:esVariacionDePrincipioActivo
+                prinactiv:5379 .
+
+prinactiv:11880  med:esVariacionDePrincipioActivo
+                prinactiv:11879 .
+
+prinactiv:2913  med:esVariacionDePrincipioActivo
+                prinactiv:2910 .
+
+prinactiv:10652  med:esVariacionDePrincipioActivo
+                prinactiv:531 .
+
+prinactiv:1200  med:esVariacionDePrincipioActivo
+                prinactiv:7756 .
+
+prinactiv:11382  med:esVariacionDePrincipioActivo
+                prinactiv:11381 .
+
+prinactiv:10154  med:esVariacionDePrincipioActivo
+                prinactiv:10153 .
+
+prinactiv:5057  med:esVariacionDePrincipioActivo
+                prinactiv:4375 .
+
+prinactiv:1849  med:esVariacionDePrincipioActivo
+                prinactiv:1846 .
+
+prinactiv:2151  med:esVariacionDePrincipioActivo
+                prinactiv:6979 .
+
+prinactiv:6253  med:esVariacionDePrincipioActivo
+                prinactiv:6251 .
+
+prinactiv:6474  med:esVariacionDePrincipioActivo
+                prinactiv:6473 .
+
+prinactiv:6221  med:esVariacionDePrincipioActivo
+                prinactiv:6218 .
+
+prinactiv:7379  med:esVariacionDePrincipioActivo
+                prinactiv:7429 .
+
+prinactiv:1190  med:esVariacionDePrincipioActivo
+                prinactiv:1944 .
+
+prinactiv:7126  med:esVariacionDePrincipioActivo
+                prinactiv:6903 .
+
+prinactiv:6617  med:esVariacionDePrincipioActivo
+                prinactiv:6616 .
+
+prinactiv:11041  med:esVariacionDePrincipioActivo
+                prinactiv:1664 .
+
+prinactiv:7347  med:esVariacionDePrincipioActivo
+                prinactiv:6979 .
+
+prinactiv:12619  med:esVariacionDePrincipioActivo
+                prinactiv:11671 .
+
+prinactiv:6663  med:esVariacionDePrincipioActivo
+                prinactiv:1846 .
+
+prinactiv:8077  med:esVariacionDePrincipioActivo
+                prinactiv:7176 .
+
+prinactiv:4751  med:esVariacionDePrincipioActivo
+                prinactiv:7287 .
+
+prinactiv:1508  med:esVariacionDePrincipioActivo
+                prinactiv:1507 .
+
+prinactiv:2594  med:esVariacionDePrincipioActivo
+                prinactiv:2588 .
+
+prinactiv:78  med:esVariacionDePrincipioActivo
+                prinactiv:77 .
+
+prinactiv:7361  med:esVariacionDePrincipioActivo
+                prinactiv:7217 .
+
+prinactiv:2284  med:esVariacionDePrincipioActivo
+                prinactiv:2283 .
+
+prinactiv:10002  med:esVariacionDePrincipioActivo
+                prinactiv:10001 .
+
+prinactiv:2206  med:esVariacionDePrincipioActivo
+                prinactiv:2204 .
+
+prinactiv:6308  med:esVariacionDePrincipioActivo
+                prinactiv:6307 .
+
+prinactiv:10721  med:esVariacionDePrincipioActivo
+                prinactiv:6719 .
+
+prinactiv:18803  med:esVariacionDePrincipioActivo
+                prinactiv:12480 .
+
+prinactiv:7038  med:esVariacionDePrincipioActivo
+                prinactiv:7037 .
+
+prinactiv:8013  med:esVariacionDePrincipioActivo
+                prinactiv:6055 .
+
+prinactiv:7084  med:esVariacionDePrincipioActivo
+                prinactiv:3173 .
+
+prinactiv:1070  med:esVariacionDePrincipioActivo
+                prinactiv:7713 .
+
+prinactiv:12103  med:esVariacionDePrincipioActivo
+                prinactiv:1185 .
+
+prinactiv:2705  med:esVariacionDePrincipioActivo
+                prinactiv:2701 .
+
+prinactiv:5347  med:esVariacionDePrincipioActivo
+                prinactiv:5346 .
+
+prinactiv:10490  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:18747  med:esVariacionDePrincipioActivo
+                prinactiv:12593 .
+
+prinactiv:5568  med:esVariacionDePrincipioActivo
+                prinactiv:5567 .
+
+prinactiv:12370  med:esVariacionDePrincipioActivo
+                prinactiv:4204 , prinactiv:4206 .
+
+prinactiv:6298  med:esVariacionDePrincipioActivo
+                prinactiv:6297 .
+
+prinactiv:1687  med:esVariacionDePrincipioActivo
+                prinactiv:1686 .
+
+prinactiv:2164  med:esVariacionDePrincipioActivo
+                prinactiv:2163 .
+
+prinactiv:1900  med:esVariacionDePrincipioActivo
+                prinactiv:1897 .
+
+prinactiv:1189  med:esVariacionDePrincipioActivo
+                prinactiv:1183 .
+
+prinactiv:10135  med:esVariacionDePrincipioActivo
+                prinactiv:10134 .
+
+prinactiv:5582  med:esVariacionDePrincipioActivo
+                prinactiv:9747 .
+
+prinactiv:7416  med:esVariacionDePrincipioActivo
+                prinactiv:432 , prinactiv:7108 .
+
+prinactiv:288  med:esVariacionDePrincipioActivo
+                prinactiv:286 .
+
+prinactiv:9549  med:esVariacionDePrincipioActivo
+                prinactiv:6689 .
+
+prinactiv:12734  med:esVariacionDePrincipioActivo
+                prinactiv:10485 .
+
+prinactiv:5006  med:esVariacionDePrincipioActivo
+                prinactiv:5005 .
+
+prinactiv:4322  med:esVariacionDePrincipioActivo
+                prinactiv:4321 .
+
+prinactiv:6280  med:esVariacionDePrincipioActivo
+                prinactiv:6279 .
+
+prinactiv:9517  med:esVariacionDePrincipioActivo
+                prinactiv:9516 .
+
+prinactiv:7185  med:esVariacionDePrincipioActivo
+                prinactiv:6631 .
+
+prinactiv:4298  med:esVariacionDePrincipioActivo
+                prinactiv:4297 .
+
+prinactiv:12204  med:esVariacionDePrincipioActivo
+                prinactiv:11835 .
+
+prinactiv:1171  med:esVariacionDePrincipioActivo
+                prinactiv:12331 .
+
+prinactiv:10545  med:esVariacionDePrincipioActivo
+                prinactiv:10544 .
+
+prinactiv:11022  med:esVariacionDePrincipioActivo
+                prinactiv:11021 .
+
+prinactiv:10047  med:esVariacionDePrincipioActivo
+                prinactiv:1846 , prinactiv:6663 .
+
+prinactiv:445  med:esVariacionDePrincipioActivo
+                prinactiv:444 .
+
+prinactiv:1567  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:12646  med:esVariacionDePrincipioActivo
+                prinactiv:12392 .
+
+prinactiv:666  med:esVariacionDePrincipioActivo
+                prinactiv:4661 .
+
+prinactiv:3259  med:esVariacionDePrincipioActivo
+                prinactiv:3257 .
+
+prinactiv:6192  med:esVariacionDePrincipioActivo
+                prinactiv:6190 .
+
+prinactiv:168  med:esVariacionDePrincipioActivo
+                prinactiv:167 .
+
+prinactiv:10282  med:esVariacionDePrincipioActivo
+                prinactiv:7214 .
+
+prinactiv:136  med:esVariacionDePrincipioActivo
+                prinactiv:131 .
+
+prinactiv:2233  med:esVariacionDePrincipioActivo
+                prinactiv:404 .
+
+prinactiv:11607  med:esVariacionDePrincipioActivo
+                prinactiv:9516 .
+
+prinactiv:6381  med:esVariacionDePrincipioActivo
+                prinactiv:6380 .
+
+prinactiv:10678  med:esVariacionDePrincipioActivo
+                prinactiv:4487 .
+
+prinactiv:5872  med:esVariacionDePrincipioActivo
+                prinactiv:5871 .
+
+prinactiv:4897  med:esVariacionDePrincipioActivo
+                prinactiv:6055 , prinactiv:6058 .
+
+prinactiv:15445  med:esVariacionDePrincipioActivo
+                prinactiv:10803 .
+
+prinactiv:3669  med:esVariacionDePrincipioActivo
+                prinactiv:3668 .
+
+prinactiv:12130  med:esVariacionDePrincipioActivo
+                prinactiv:908 .
+
+prinactiv:2985  med:esVariacionDePrincipioActivo
+                prinactiv:2983 .
+
+prinactiv:6058  med:esVariacionDePrincipioActivo
+                prinactiv:6055 .
+
+prinactiv:10471  med:esVariacionDePrincipioActivo
+                prinactiv:10470 .
+
+prinactiv:6777  med:esVariacionDePrincipioActivo
+                prinactiv:3013 .
+
+prinactiv:3637  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:6026  med:esVariacionDePrincipioActivo
+                prinactiv:6024 .
+
+prinactiv:1240  med:esVariacionDePrincipioActivo
+                prinactiv:3004 .
+
+prinactiv:3683  med:esVariacionDePrincipioActivo
+                prinactiv:3682 .
+
+prinactiv:11344  med:esVariacionDePrincipioActivo
+                prinactiv:9643 .
+
+prinactiv:7941  med:esVariacionDePrincipioActivo
+                prinactiv:5764 .
+
+prinactiv:1889  med:esVariacionDePrincipioActivo
+                prinactiv:1887 .
+
+prinactiv:514  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:6713  med:esVariacionDePrincipioActivo
+                prinactiv:6710 .
+
+prinactiv:6293  med:esVariacionDePrincipioActivo
+                prinactiv:7358 .
+
+prinactiv:2423  med:esVariacionDePrincipioActivo
+                prinactiv:2421 .
+
+prinactiv:1138  med:esVariacionDePrincipioActivo
+                prinactiv:4098 .
+
+prinactiv:10337  med:esVariacionDePrincipioActivo
+                prinactiv:1497 .
+
+prinactiv:560  med:esVariacionDePrincipioActivo
+                prinactiv:5358 .
+
+prinactiv:6215  med:esVariacionDePrincipioActivo
+                prinactiv:6213 .
+
+prinactiv:735  med:esVariacionDePrincipioActivo
+                prinactiv:7676 .
+
+prinactiv:12761  med:esVariacionDePrincipioActivo
+                prinactiv:12040 .
+
+prinactiv:6261  med:esVariacionDePrincipioActivo
+                prinactiv:6259 .
+
+prinactiv:12217  med:esVariacionDePrincipioActivo
+                prinactiv:10797 .
+
+prinactiv:23551  med:esVariacionDePrincipioActivo
+                prinactiv:14208 .
+
+prinactiv:781  med:esVariacionDePrincipioActivo
+                prinactiv:780 .
+
+prinactiv:6980  med:esVariacionDePrincipioActivo
+                prinactiv:6979 .
+
+prinactiv:5752  med:esVariacionDePrincipioActivo
+                prinactiv:5751 .
+
+prinactiv:6902  med:esVariacionDePrincipioActivo
+                prinactiv:6901 .
+
+prinactiv:11035  med:esVariacionDePrincipioActivo
+                prinactiv:10134 , prinactiv:10135 .
+
+prinactiv:7885  med:esVariacionDePrincipioActivo
+                prinactiv:1204 .
+
+prinactiv:458  med:esVariacionDePrincipioActivo
+                prinactiv:444 .
+
+prinactiv:11501  med:esVariacionDePrincipioActivo
+                prinactiv:564 , prinactiv:11840 .
+
+prinactiv:1327  med:esVariacionDePrincipioActivo
+                prinactiv:7467 .
+
+prinactiv:4713  med:esVariacionDePrincipioActivo
+                prinactiv:10705 .
+
+prinactiv:9733  med:esVariacionDePrincipioActivo
+                prinactiv:9732 .
+
+prinactiv:3065  med:esVariacionDePrincipioActivo
+                prinactiv:3064 .
+
+prinactiv:4468  med:esVariacionDePrincipioActivo
+                prinactiv:4467 .
+
+prinactiv:6173  med:esVariacionDePrincipioActivo
+                prinactiv:6171 .
+
+prinactiv:12420  med:esVariacionDePrincipioActivo
+                prinactiv:1483 .
+
+prinactiv:10217  med:esVariacionDePrincipioActivo
+                prinactiv:931 .
+
+prinactiv:440  med:esVariacionDePrincipioActivo
+                prinactiv:432 .
+
+prinactiv:7078  med:esVariacionDePrincipioActivo
+                prinactiv:5443 .
+
+prinactiv:10936  med:esVariacionDePrincipioActivo
+                prinactiv:5318 .
+
+prinactiv:5839  med:esVariacionDePrincipioActivo
+                prinactiv:5838 .
+
+prinactiv:2777  med:esVariacionDePrincipioActivo
+                prinactiv:2776 .
+
+prinactiv:4902  med:esVariacionDePrincipioActivo
+                prinactiv:4901 .
+
+prinactiv:2524  med:esVariacionDePrincipioActivo
+                prinactiv:318 .
+
+prinactiv:6141  med:esVariacionDePrincipioActivo
+                prinactiv:6140 .
+
+prinactiv:661  med:esVariacionDePrincipioActivo
+                prinactiv:660 .
+
+prinactiv:10904  med:esVariacionDePrincipioActivo
+                prinactiv:3629 , prinactiv:3633 .
+
+prinactiv:11887  med:esVariacionDePrincipioActivo
+                prinactiv:694 .
+
+prinactiv:6362  med:esVariacionDePrincipioActivo
+                prinactiv:6361 .
+
+prinactiv:4159  med:esVariacionDePrincipioActivo
+                prinactiv:4156 .
+
+prinactiv:882  med:esVariacionDePrincipioActivo
+                prinactiv:5222 .
+
+prinactiv:10950  med:esVariacionDePrincipioActivo
+                prinactiv:10949 .
+
+prinactiv:12111  med:esVariacionDePrincipioActivo
+                prinactiv:9747 .
+
+prinactiv:1428  med:esVariacionDePrincipioActivo
+                prinactiv:7228 .
+
+prinactiv:7488  med:esVariacionDePrincipioActivo
+                prinactiv:7487 .
+
+prinactiv:7235  med:esVariacionDePrincipioActivo
+                prinactiv:7234 .
+
+prinactiv:11104  med:esVariacionDePrincipioActivo
+                prinactiv:11103 .
+
+prinactiv:5576  med:esVariacionDePrincipioActivo
+                prinactiv:5575 .
+
+prinactiv:11578  med:esVariacionDePrincipioActivo
+                prinactiv:990 .
+
+prinactiv:2902  med:esVariacionDePrincipioActivo
+                prinactiv:2901 .
+
+prinactiv:6772  med:esVariacionDePrincipioActivo
+                prinactiv:6771 .
+
+prinactiv:2657  med:esVariacionDePrincipioActivo
+                prinactiv:2656 .
+
+prinactiv:7922  med:esVariacionDePrincipioActivo
+                prinactiv:6299 , prinactiv:7001 .
+
+prinactiv:6947  med:esVariacionDePrincipioActivo
+                prinactiv:5700 .
+
+prinactiv:4316  med:esVariacionDePrincipioActivo
+                prinactiv:4315 .
+
+prinactiv:6274  med:esVariacionDePrincipioActivo
+                prinactiv:6273 .
+
+prinactiv:3632  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:1197  med:esVariacionDePrincipioActivo
+                prinactiv:1196 .
+
+prinactiv:794  med:esVariacionDePrincipioActivo
+                prinactiv:793 .
+
+prinactiv:7470  med:esVariacionDePrincipioActivo
+                prinactiv:6885 .
+
+prinactiv:2625  med:esVariacionDePrincipioActivo
+                prinactiv:2623 .
+
+prinactiv:10111  med:esVariacionDePrincipioActivo
+                prinactiv:4533 .
+
+prinactiv:1884  med:esVariacionDePrincipioActivo
+                prinactiv:1883 .
+
+prinactiv:4505  med:esVariacionDePrincipioActivo
+                prinactiv:4501 .
+
+prinactiv:12244  med:esVariacionDePrincipioActivo
+                prinactiv:10799 .
+
+prinactiv:7147  med:esVariacionDePrincipioActivo
+                prinactiv:6650 .
+
+prinactiv:264  med:esVariacionDePrincipioActivo
+                prinactiv:1578 .
+
+prinactiv:6210  med:esVariacionDePrincipioActivo
+                prinactiv:6209 .
+
+prinactiv:5235  med:esVariacionDePrincipioActivo
+                prinactiv:5234 .
+
+prinactiv:439  med:esVariacionDePrincipioActivo
+                prinactiv:432 .
+
+prinactiv:5701  med:esVariacionDePrincipioActivo
+                prinactiv:5700 .
+
+prinactiv:10055  med:esVariacionDePrincipioActivo
+                prinactiv:286 .
+
+prinactiv:4947  med:esVariacionDePrincipioActivo
+                prinactiv:4946 .
+
+prinactiv:23476  med:esVariacionDePrincipioActivo
+                prinactiv:16488 .
+
+prinactiv:453  med:esVariacionDePrincipioActivo
+                prinactiv:444 .
+
+prinactiv:6652  med:esVariacionDePrincipioActivo
+                prinactiv:6651 .
+
+prinactiv:16225  med:esVariacionDePrincipioActivo
+                prinactiv:356 .
+
+prinactiv:13338  med:esVariacionDePrincipioActivo
+                prinactiv:12147 .
+
+prinactiv:12401  med:esVariacionDePrincipioActivo
+                prinactiv:1444 .
+
+prinactiv:6122  med:esVariacionDePrincipioActivo
+                prinactiv:6120 .
+
+prinactiv:5866  med:esVariacionDePrincipioActivo
+                prinactiv:5862 .
+
+prinactiv:817  med:esVariacionDePrincipioActivo
+                prinactiv:816 .
+
+prinactiv:8002  med:esVariacionDePrincipioActivo
+                prinactiv:12716 .
+
+prinactiv:1985  med:esVariacionDePrincipioActivo
+                prinactiv:1984 .
+
+prinactiv:3456  med:esVariacionDePrincipioActivo
+                prinactiv:3455 , prinactiv:3454 .
+
+prinactiv:6098  med:esVariacionDePrincipioActivo
+                prinactiv:6097 .
+
+prinactiv:18593  med:esVariacionDePrincipioActivo
+                prinactiv:12578 .
+
+prinactiv:7792  med:esVariacionDePrincipioActivo
+                prinactiv:5613 .
+
+prinactiv:1907  med:esVariacionDePrincipioActivo
+                prinactiv:1903 .
+
+prinactiv:7967  med:esVariacionDePrincipioActivo
+                prinactiv:7963 .
+
+prinactiv:14050  med:esVariacionDePrincipioActivo
+                prinactiv:12470 .
+
+prinactiv:3424  med:esVariacionDePrincipioActivo
+                prinactiv:3423 .
+
+prinactiv:1953  med:esVariacionDePrincipioActivo
+                prinactiv:1950 .
+
+prinactiv:2993  med:esVariacionDePrincipioActivo
+                prinactiv:2992 .
+
+prinactiv:508  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:12068  med:esVariacionDePrincipioActivo
+                prinactiv:11251 .
+
+prinactiv:3645  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:11559  med:esVariacionDePrincipioActivo
+                prinactiv:11557 .
+
+prinactiv:2417  med:esVariacionDePrincipioActivo
+                prinactiv:2416 .
+
+prinactiv:5059  med:esVariacionDePrincipioActivo
+                prinactiv:7875 .
+
+prinactiv:729  med:esVariacionDePrincipioActivo
+                prinactiv:728 .
+
+prinactiv:5525  med:esVariacionDePrincipioActivo
+                prinactiv:5524 .
+
+prinactiv:7230  med:esVariacionDePrincipioActivo
+                prinactiv:7229 .
+
+prinactiv:5027  med:esVariacionDePrincipioActivo
+                prinactiv:5023 .
+
+prinactiv:5571  med:esVariacionDePrincipioActivo
+                prinactiv:5569 .
+
+prinactiv:9363  med:esVariacionDePrincipioActivo
+                prinactiv:7462 .
+
+prinactiv:6942  med:esVariacionDePrincipioActivo
+                prinactiv:2050 .
+
+prinactiv:4564  med:esVariacionDePrincipioActivo
+                prinactiv:4563 .
+
+prinactiv:5967  med:esVariacionDePrincipioActivo
+                prinactiv:5966 .
+
+prinactiv:12050  med:esVariacionDePrincipioActivo
+                prinactiv:11741 .
+
+prinactiv:7672  med:esVariacionDePrincipioActivo
+                prinactiv:1490 .
+
+prinactiv:3802  med:esVariacionDePrincipioActivo
+                prinactiv:3800 .
+
+prinactiv:11969  med:esVariacionDePrincipioActivo
+                prinactiv:564 , prinactiv:11840 .
+
+prinactiv:711  med:esVariacionDePrincipioActivo
+                prinactiv:564 , prinactiv:11840 .
+
+prinactiv:6910  med:esVariacionDePrincipioActivo
+                prinactiv:6909 .
+
+prinactiv:8577  med:esVariacionDePrincipioActivo
+                prinactiv:4944 .
+
+prinactiv:6490  med:esVariacionDePrincipioActivo
+                prinactiv:6486 .
+
+prinactiv:11218  med:esVariacionDePrincipioActivo
+                prinactiv:11217 .
+
+prinactiv:213  med:esVariacionDePrincipioActivo
+                prinactiv:208 .
+
+prinactiv:4034  med:esVariacionDePrincipioActivo
+                prinactiv:4033 .
+
+prinactiv:9054  med:esVariacionDePrincipioActivo
+                prinactiv:9053 .
+
+prinactiv:12492  med:esVariacionDePrincipioActivo
+                prinactiv:12491 .
+
+prinactiv:12667  med:esVariacionDePrincipioActivo
+                prinactiv:6908 .
+
+prinactiv:12414  med:esVariacionDePrincipioActivo
+                prinactiv:11963 , prinactiv:9643 .
+
+prinactiv:6886  med:esVariacionDePrincipioActivo
+                prinactiv:6858 .
+
+prinactiv:434  med:esVariacionDePrincipioActivo
+                prinactiv:432 .
+
+prinactiv:7363  med:esVariacionDePrincipioActivo
+                prinactiv:7362 .
+
+prinactiv:17189  med:esVariacionDePrincipioActivo
+                prinactiv:6983 .
+
+prinactiv:6388  med:esVariacionDePrincipioActivo
+                prinactiv:6387 .
+
+prinactiv:7110  med:esVariacionDePrincipioActivo
+                prinactiv:2781 .
+
+prinactiv:10004  med:esVariacionDePrincipioActivo
+                prinactiv:6175 .
+
+prinactiv:1777  med:esVariacionDePrincipioActivo
+                prinactiv:1775 .
+
+prinactiv:5879  med:esVariacionDePrincipioActivo
+                prinactiv:5876 .
+
+prinactiv:10723  med:esVariacionDePrincipioActivo
+                prinactiv:4350 .
+
+prinactiv:1524  med:esVariacionDePrincipioActivo
+                prinactiv:1522 .
+
+prinactiv:9418  med:esVariacionDePrincipioActivo
+                prinactiv:9417 .
+
+prinactiv:6356  med:esVariacionDePrincipioActivo
+                prinactiv:6345 .
+
+prinactiv:876  med:esVariacionDePrincipioActivo
+                prinactiv:875 .
+
+prinactiv:6822  med:esVariacionDePrincipioActivo
+                prinactiv:5191 .
+
+prinactiv:6577  med:esVariacionDePrincipioActivo
+                prinactiv:6573 .
+
+prinactiv:4490  med:esVariacionDePrincipioActivo
+                prinactiv:4487 .
+
+prinactiv:2707  med:esVariacionDePrincipioActivo
+                prinactiv:2701 .
+
+prinactiv:6324  med:esVariacionDePrincipioActivo
+                prinactiv:6323 .
+
+prinactiv:5640  med:esVariacionDePrincipioActivo
+                prinactiv:5636 .
+
+prinactiv:7054  med:esVariacionDePrincipioActivo
+                prinactiv:7053 .
+
+prinactiv:5815  med:esVariacionDePrincipioActivo
+                prinactiv:5813 .
+
+prinactiv:6079  med:esVariacionDePrincipioActivo
+                prinactiv:6078 .
+
+prinactiv:890  med:esVariacionDePrincipioActivo
+                prinactiv:889 .
+
+prinactiv:9607  med:esVariacionDePrincipioActivo
+                prinactiv:9606 .
+
+prinactiv:5861  med:esVariacionDePrincipioActivo
+                prinactiv:5859 .
+
+prinactiv:12372  med:esVariacionDePrincipioActivo
+                prinactiv:9746 .
+
+prinactiv:567  med:esVariacionDePrincipioActivo
+                prinactiv:6931 .
+
+prinactiv:11863  med:esVariacionDePrincipioActivo
+                prinactiv:9542 .
+
+prinactiv:22109  med:esVariacionDePrincipioActivo
+                prinactiv:18579 .
+
+prinactiv:7916  med:esVariacionDePrincipioActivo
+                prinactiv:1671 .
+
+prinactiv:9621  med:esVariacionDePrincipioActivo
+                prinactiv:9618 .
+
+prinactiv:5584  med:esVariacionDePrincipioActivo
+                prinactiv:7027 .
+
+prinactiv:13918  med:esVariacionDePrincipioActivo
+                prinactiv:12468 , prinactiv:7946 .
+
+prinactiv:6734  med:esVariacionDePrincipioActivo
+                prinactiv:6732 .
+
+prinactiv:10603  med:esVariacionDePrincipioActivo
+                prinactiv:10536 .
+
+prinactiv:1404  med:esVariacionDePrincipioActivo
+                prinactiv:4483 .
+
+prinactiv:3847  med:esVariacionDePrincipioActivo
+                prinactiv:4374 .
+
+prinactiv:2387  med:esVariacionDePrincipioActivo
+                prinactiv:2385 .
+
+prinactiv:3174  med:esVariacionDePrincipioActivo
+                prinactiv:3173 .
+
+prinactiv:503  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:2490  med:esVariacionDePrincipioActivo
+                prinactiv:2489 .
+
+prinactiv:3893  med:esVariacionDePrincipioActivo
+                prinactiv:3888 .
+
+prinactiv:3640  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:6250  med:esVariacionDePrincipioActivo
+                prinactiv:6249 .
+
+prinactiv:5994  med:esVariacionDePrincipioActivo
+                prinactiv:5993 .
+
+prinactiv:8383  med:esVariacionDePrincipioActivo
+                prinactiv:1289 .
+
+prinactiv:447  med:esVariacionDePrincipioActivo
+                prinactiv:444 .
+
+prinactiv:10340  med:esVariacionDePrincipioActivo
+                prinactiv:939 .
+
+prinactiv:10049  med:esVariacionDePrincipioActivo
+                prinactiv:1530 .
+
+prinactiv:12427  med:esVariacionDePrincipioActivo
+                prinactiv:11491 .
+
+prinactiv:991  med:esVariacionDePrincipioActivo
+                prinactiv:990 .
+
+prinactiv:1141  med:esVariacionDePrincipioActivo
+                prinactiv:7641 .
+
+prinactiv:4987  med:esVariacionDePrincipioActivo
+                prinactiv:4986 .
+
+prinactiv:6692  med:esVariacionDePrincipioActivo
+                prinactiv:6404 .
+
+prinactiv:11245  med:esVariacionDePrincipioActivo
+                prinactiv:9516 .
+
+prinactiv:7123  med:esVariacionDePrincipioActivo
+                prinactiv:5993 .
+
+prinactiv:3520  med:esVariacionDePrincipioActivo
+                prinactiv:3519 .
+
+prinactiv:3727  med:esVariacionDePrincipioActivo
+                prinactiv:3725 .
+
+prinactiv:6369  med:esVariacionDePrincipioActivo
+                prinactiv:6363 .
+
+prinactiv:10238  med:esVariacionDePrincipioActivo
+                prinactiv:939 .
+
+prinactiv:6660  med:esVariacionDePrincipioActivo
+                prinactiv:6653 .
+
+prinactiv:1726  med:esVariacionDePrincipioActivo
+                prinactiv:1725 .
+
+prinactiv:10957  med:esVariacionDePrincipioActivo
+                prinactiv:10956 .
+
+prinactiv:5109  med:esVariacionDePrincipioActivo
+                prinactiv:10876 .
+
+prinactiv:7067  med:esVariacionDePrincipioActivo
+                prinactiv:9561 .
+
+prinactiv:1551  med:esVariacionDePrincipioActivo
+                prinactiv:1550 .
+
+prinactiv:10284  med:esVariacionDePrincipioActivo
+                prinactiv:1493 .
+
+prinactiv:12662  med:esVariacionDePrincipioActivo
+                prinactiv:10441 .
+
+prinactiv:4425  med:esVariacionDePrincipioActivo
+                prinactiv:4421 .
+
+prinactiv:2766  med:esVariacionDePrincipioActivo
+                prinactiv:2765 .
+
+prinactiv:5653  med:esVariacionDePrincipioActivo
+                prinactiv:5650 .
+
+prinactiv:3275  med:esVariacionDePrincipioActivo
+                prinactiv:3273 .
+
+prinactiv:11609  med:esVariacionDePrincipioActivo
+                prinactiv:4117 .
+
+prinactiv:17184  med:esVariacionDePrincipioActivo
+                prinactiv:1420 .
+
+prinactiv:12164  med:esVariacionDePrincipioActivo
+                prinactiv:5416 .
+
+prinactiv:6803  med:esVariacionDePrincipioActivo
+                prinactiv:6802 .
+
+prinactiv:6383  med:esVariacionDePrincipioActivo
+                prinactiv:6380 .
+
+prinactiv:18587  med:esVariacionDePrincipioActivo
+                prinactiv:10117 , prinactiv:10118 .
+
+prinactiv:10252  med:esVariacionDePrincipioActivo
+                prinactiv:10251 .
+
+prinactiv:1772  med:esVariacionDePrincipioActivo
+                prinactiv:1770 .
+
+prinactiv:6351  med:esVariacionDePrincipioActivo
+                prinactiv:6345 .
+
+prinactiv:1449  med:esVariacionDePrincipioActivo
+                prinactiv:7659 .
+
+prinactiv:3211  med:esVariacionDePrincipioActivo
+                prinactiv:3208 .
+
+prinactiv:1915  med:esVariacionDePrincipioActivo
+                prinactiv:1913 .
+
+prinactiv:120  med:esVariacionDePrincipioActivo
+                prinactiv:117 .
+
+prinactiv:1417  med:esVariacionDePrincipioActivo
+                prinactiv:1416 .
+
+prinactiv:3432  med:esVariacionDePrincipioActivo
+                prinactiv:3431 .
+
+prinactiv:6793  med:esVariacionDePrincipioActivo
+                prinactiv:3454 .
+
+prinactiv:10118  med:esVariacionDePrincipioActivo
+                prinactiv:10117 .
+
+prinactiv:12749  med:esVariacionDePrincipioActivo
+                prinactiv:300 , prinactiv:303 .
+
+prinactiv:2923  med:esVariacionDePrincipioActivo
+                prinactiv:2920 .
+
+prinactiv:769  med:esVariacionDePrincipioActivo
+                prinactiv:5398 .
+
+prinactiv:18071  med:esVariacionDePrincipioActivo
+                prinactiv:11631 .
+
+prinactiv:3109  med:esVariacionDePrincipioActivo
+                prinactiv:3106 .
+
+prinactiv:7270  med:esVariacionDePrincipioActivo
+                prinactiv:7268 .
+
+prinactiv:3828  med:esVariacionDePrincipioActivo
+                prinactiv:3827 .
+
+prinactiv:11567  med:esVariacionDePrincipioActivo
+                prinactiv:7956 .
+
+prinactiv:10339  med:esVariacionDePrincipioActivo
+                prinactiv:10338 .
+
+prinactiv:6761  med:esVariacionDePrincipioActivo
+                prinactiv:6759 .
+
+prinactiv:1431  med:esVariacionDePrincipioActivo
+                prinactiv:2000 .
+
+prinactiv:5035  med:esVariacionDePrincipioActivo
+                prinactiv:5032 .
+
+prinactiv:6904  med:esVariacionDePrincipioActivo
+                prinactiv:6903 .
+
+prinactiv:2867  med:esVariacionDePrincipioActivo
+                prinactiv:2673 .
+
+prinactiv:1154  med:esVariacionDePrincipioActivo
+                prinactiv:7527 .
+
+prinactiv:12486  med:esVariacionDePrincipioActivo
+                prinactiv:3809 .
+
+prinactiv:8111  med:esVariacionDePrincipioActivo
+                prinactiv:1532 .
+
+prinactiv:9560  med:esVariacionDePrincipioActivo
+                prinactiv:8001 .
+
+prinactiv:6673  med:esVariacionDePrincipioActivo
+                prinactiv:5416 .
+
+prinactiv:15562  med:esVariacionDePrincipioActivo
+                prinactiv:12557 .
+
+prinactiv:6848  med:esVariacionDePrincipioActivo
+                prinactiv:6847 .
+
+prinactiv:8087  med:esVariacionDePrincipioActivo
+                prinactiv:7533 .
+
+prinactiv:5911  med:esVariacionDePrincipioActivo
+                prinactiv:5909 .
+
+prinactiv:11447  med:esVariacionDePrincipioActivo
+                prinactiv:11446 .
+
+prinactiv:2248  med:esVariacionDePrincipioActivo
+                prinactiv:2247 .
+
+prinactiv:442  med:esVariacionDePrincipioActivo
+                prinactiv:441 .
+
+prinactiv:6396  med:esVariacionDePrincipioActivo
+                prinactiv:6395 .
+
+prinactiv:2526  med:esVariacionDePrincipioActivo
+                prinactiv:2524 , prinactiv:318 .
+
+prinactiv:119  med:esVariacionDePrincipioActivo
+                prinactiv:117 .
+
+prinactiv:6318  med:esVariacionDePrincipioActivo
+                prinactiv:6317 .
+
+prinactiv:3256  med:esVariacionDePrincipioActivo
+                prinactiv:3254 .
+
+prinactiv:7048  med:esVariacionDePrincipioActivo
+                prinactiv:7047 .
+
+prinactiv:16481  med:esVariacionDePrincipioActivo
+                prinactiv:10341 .
+
+prinactiv:9426  med:esVariacionDePrincipioActivo
+                prinactiv:3564 , prinactiv:6952 .
+
+prinactiv:6364  med:esVariacionDePrincipioActivo
+                prinactiv:6363 .
+
+prinactiv:10233  med:esVariacionDePrincipioActivo
+                prinactiv:10232 .
+
+prinactiv:1209  med:esVariacionDePrincipioActivo
+                prinactiv:1161 .
+
+prinactiv:2793  med:esVariacionDePrincipioActivo
+                prinactiv:2791 .
+
+prinactiv:11682  med:esVariacionDePrincipioActivo
+                prinactiv:7869 .
+
+prinactiv:2968  med:esVariacionDePrincipioActivo
+                prinactiv:2967 .
+
+prinactiv:133  med:esVariacionDePrincipioActivo
+                prinactiv:131 .
+
+prinactiv:852  med:esVariacionDePrincipioActivo
+                prinactiv:851 .
+
+prinactiv:7735  med:esVariacionDePrincipioActivo
+                prinactiv:6733 .
+
+prinactiv:3698  med:esVariacionDePrincipioActivo
+                prinactiv:3697 .
+
+prinactiv:3445  med:esVariacionDePrincipioActivo
+                prinactiv:3431 , prinactiv:3433 .
+
+prinactiv:70  med:esVariacionDePrincipioActivo
+                prinactiv:67 .
+
+prinactiv:5578  med:esVariacionDePrincipioActivo
+                prinactiv:5575 .
+
+prinactiv:3666  med:esVariacionDePrincipioActivo
+                prinactiv:6573 .
+
+prinactiv:5371  med:esVariacionDePrincipioActivo
+                prinactiv:5370 .
+
+prinactiv:12302  med:esVariacionDePrincipioActivo
+                prinactiv:10308 .
+
+prinactiv:322  med:esVariacionDePrincipioActivo
+                prinactiv:318 .
+
+prinactiv:1619  med:esVariacionDePrincipioActivo
+                prinactiv:1618 .
+
+prinactiv:12776  med:esVariacionDePrincipioActivo
+                prinactiv:4714 .
+
+prinactiv:23566  med:esVariacionDePrincipioActivo
+                prinactiv:18175 .
+
+prinactiv:7426  med:esVariacionDePrincipioActivo
+                prinactiv:7425 .
+
+prinactiv:9384  med:esVariacionDePrincipioActivo
+                prinactiv:631 .
+
+prinactiv:12025  med:esVariacionDePrincipioActivo
+                prinactiv:10153 .
+
+prinactiv:4830  med:esVariacionDePrincipioActivo
+                prinactiv:4829 .
+
+prinactiv:2627  med:esVariacionDePrincipioActivo
+                prinactiv:2626 .
+
+prinactiv:2317  med:esVariacionDePrincipioActivo
+                prinactiv:2315 .
+
+prinactiv:1886  med:esVariacionDePrincipioActivo
+                prinactiv:1885 .
+
+prinactiv:5988  med:esVariacionDePrincipioActivo
+                prinactiv:5986 .
+
+prinactiv:511  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:12246  med:esVariacionDePrincipioActivo
+                prinactiv:12245 .
+
+prinactiv:6212  med:esVariacionDePrincipioActivo
+                prinactiv:6211 .
+
+prinactiv:5956  med:esVariacionDePrincipioActivo
+                prinactiv:5942 .
+
+prinactiv:17013  med:esVariacionDePrincipioActivo
+                prinactiv:12538 .
+
+prinactiv:1135  med:esVariacionDePrincipioActivo
+                prinactiv:1113 .
+
+prinactiv:732  med:esVariacionDePrincipioActivo
+                prinactiv:731 .
+
+prinactiv:4553  med:esVariacionDePrincipioActivo
+                prinactiv:4552 .
+
+prinactiv:7195  med:esVariacionDePrincipioActivo
+                prinactiv:6721 .
+
+prinactiv:12467  med:esVariacionDePrincipioActivo
+                prinactiv:12466 .
+
+prinactiv:10380  med:esVariacionDePrincipioActivo
+                prinactiv:10379 .
+
+prinactiv:11239  med:esVariacionDePrincipioActivo
+                prinactiv:11238 .
+
+prinactiv:7117  med:esVariacionDePrincipioActivo
+                prinactiv:7116 .
+
+prinactiv:10555  med:esVariacionDePrincipioActivo
+                prinactiv:6929 .
+
+prinactiv:4521  med:esVariacionDePrincipioActivo
+                prinactiv:4520 .
+
+prinactiv:10057  med:esVariacionDePrincipioActivo
+                prinactiv:10056 .
+
+prinactiv:7882  med:esVariacionDePrincipioActivo
+                prinactiv:7027 .
+
+prinactiv:2830  med:esVariacionDePrincipioActivo
+                prinactiv:2828 .
+
+prinactiv:7850  med:esVariacionDePrincipioActivo
+                prinactiv:6747 .
+
+prinactiv:4419  med:esVariacionDePrincipioActivo
+                prinactiv:4418 .
+
+prinactiv:3560  med:esVariacionDePrincipioActivo
+                prinactiv:3558 .
+
+prinactiv:12158  med:esVariacionDePrincipioActivo
+                prinactiv:9641 .
+
+prinactiv:4710  med:esVariacionDePrincipioActivo
+                prinactiv:10704 .
+
+prinactiv:8755  med:esVariacionDePrincipioActivo
+                prinactiv:6931 .
+
+prinactiv:399  med:esVariacionDePrincipioActivo
+                prinactiv:395 .
+
+prinactiv:6598  med:esVariacionDePrincipioActivo
+                prinactiv:6122 , prinactiv:6120 .
+
+prinactiv:10214  med:esVariacionDePrincipioActivo
+                prinactiv:1116 .
+
+prinactiv:3458  med:esVariacionDePrincipioActivo
+                prinactiv:3455 , prinactiv:3454 .
+
+prinactiv:10688  med:esVariacionDePrincipioActivo
+                prinactiv:2776 .
+
+prinactiv:1909  med:esVariacionDePrincipioActivo
+                prinactiv:1903 .
+
+prinactiv:7969  med:esVariacionDePrincipioActivo
+                prinactiv:7001 .
+
+prinactiv:6566  med:esVariacionDePrincipioActivo
+                prinactiv:6565 .
+
+prinactiv:114  med:esVariacionDePrincipioActivo
+                prinactiv:113 .
+
+prinactiv:1955  med:esVariacionDePrincipioActivo
+                prinactiv:1950 .
+
+prinactiv:160  med:esVariacionDePrincipioActivo
+                prinactiv:159 .
+
+prinactiv:1457  med:esVariacionDePrincipioActivo
+                prinactiv:10485 .
+
+prinactiv:3647  med:esVariacionDePrincipioActivo
+                prinactiv:3629 , prinactiv:3645 .
+
+prinactiv:2419  med:esVariacionDePrincipioActivo
+                prinactiv:2418 .
+
+prinactiv:9642  med:esVariacionDePrincipioActivo
+                prinactiv:9641 .
+
+prinactiv:556  med:esVariacionDePrincipioActivo
+                prinactiv:1159 .
+
+prinactiv:4377  med:esVariacionDePrincipioActivo
+                prinactiv:866 .
+
+prinactiv:2109  med:esVariacionDePrincipioActivo
+                prinactiv:2106 .
+
+prinactiv:303  med:esVariacionDePrincipioActivo
+                prinactiv:300 .
+
+prinactiv:6082  med:esVariacionDePrincipioActivo
+                prinactiv:7001 .
+
+prinactiv:9863  med:esVariacionDePrincipioActivo
+                prinactiv:1121 .
+
+prinactiv:2931  med:esVariacionDePrincipioActivo
+                prinactiv:2930 .
+
+prinactiv:777  med:esVariacionDePrincipioActivo
+                prinactiv:776 .
+
+prinactiv:7951  med:esVariacionDePrincipioActivo
+                prinactiv:5700 .
+
+prinactiv:2433  med:esVariacionDePrincipioActivo
+                prinactiv:2430 .
+
+prinactiv:7453  med:esVariacionDePrincipioActivo
+                prinactiv:6671 .
+
+prinactiv:4566  med:esVariacionDePrincipioActivo
+                prinactiv:4565 .
+
+prinactiv:2829  med:esVariacionDePrincipioActivo
+                prinactiv:2828 .
+
+prinactiv:9508  med:esVariacionDePrincipioActivo
+                prinactiv:9507 .
+
+prinactiv:6446  med:esVariacionDePrincipioActivo
+                prinactiv:6444 .
+
+prinactiv:5218  med:esVariacionDePrincipioActivo
+                prinactiv:5217 .
+
+prinactiv:3306  med:esVariacionDePrincipioActivo
+                prinactiv:3304 .
+
+prinactiv:934  med:esVariacionDePrincipioActivo
+                prinactiv:933 .
+
+prinactiv:7397  med:esVariacionDePrincipioActivo
+                prinactiv:3564 .
+
+prinactiv:2067  med:esVariacionDePrincipioActivo
+                prinactiv:2066 .
+
+prinactiv:436  med:esVariacionDePrincipioActivo
+                prinactiv:432 .
+
+prinactiv:4004  med:esVariacionDePrincipioActivo
+                prinactiv:4003 .
+
+prinactiv:2598  med:esVariacionDePrincipioActivo
+                prinactiv:2596 .
+
+prinactiv:1305  med:esVariacionDePrincipioActivo
+                prinactiv:1287 .
+
+prinactiv:7112  med:esVariacionDePrincipioActivo
+                prinactiv:3564 .
+
+prinactiv:4478  med:esVariacionDePrincipioActivo
+                prinactiv:4477 .
+
+prinactiv:10725  med:esVariacionDePrincipioActivo
+                prinactiv:4241 , prinactiv:4240 .
+
+prinactiv:12430  med:esVariacionDePrincipioActivo
+                prinactiv:12431 .
+
+prinactiv:3716  med:esVariacionDePrincipioActivo
+                prinactiv:3714 .
+
+prinactiv:2256  med:esVariacionDePrincipioActivo
+                prinactiv:2255 .
+
+prinactiv:7088  med:esVariacionDePrincipioActivo
+                prinactiv:7086 .
+
+prinactiv:6824  med:esVariacionDePrincipioActivo
+                prinactiv:6421 .
+
+prinactiv:5421  med:esVariacionDePrincipioActivo
+                prinactiv:5420 .
+
+prinactiv:1747  med:esVariacionDePrincipioActivo
+                prinactiv:1745 .
+
+prinactiv:3218  med:esVariacionDePrincipioActivo
+                prinactiv:3216 .
+
+prinactiv:10020  med:esVariacionDePrincipioActivo
+                prinactiv:694 .
+
+prinactiv:12107  med:esVariacionDePrincipioActivo
+                prinactiv:12105 .
+
+prinactiv:15293  med:esVariacionDePrincipioActivo
+                prinactiv:10507 .
+
+prinactiv:9434  med:esVariacionDePrincipioActivo
+                prinactiv:649 .
+
+prinactiv:11690  med:esVariacionDePrincipioActivo
+                prinactiv:2701 .
+
+prinactiv:7024  med:esVariacionDePrincipioActivo
+                prinactiv:7434 .
+
+prinactiv:2478  med:esVariacionDePrincipioActivo
+                prinactiv:2476 .
+
+prinactiv:7964  med:esVariacionDePrincipioActivo
+                prinactiv:1664 .
+
+prinactiv:6736  med:esVariacionDePrincipioActivo
+                prinactiv:6735 .
+
+prinactiv:1659  med:esVariacionDePrincipioActivo
+                prinactiv:1656 .
+
+prinactiv:1406  med:esVariacionDePrincipioActivo
+                prinactiv:1151 .
+
+prinactiv:2446  med:esVariacionDePrincipioActivo
+                prinactiv:2439 , prinactiv:2447 .
+
+prinactiv:2389  med:esVariacionDePrincipioActivo
+                prinactiv:2385 .
+
+prinactiv:10651  med:esVariacionDePrincipioActivo
+                prinactiv:10650 .
+
+prinactiv:5554  med:esVariacionDePrincipioActivo
+                prinactiv:5552 .
+
+prinactiv:12065  med:esVariacionDePrincipioActivo
+                prinactiv:5389 .
+
+prinactiv:5729  med:esVariacionDePrincipioActivo
+                prinactiv:5727 .
+
+prinactiv:6031  med:esVariacionDePrincipioActivo
+                prinactiv:6030 .
+
+prinactiv:1848  med:esVariacionDePrincipioActivo
+                prinactiv:1846 .
+
+prinactiv:10549  med:esVariacionDePrincipioActivo
+                prinactiv:2701 .
+
+prinactiv:5996  med:esVariacionDePrincipioActivo
+                prinactiv:5993 .
+
+prinactiv:23044  med:esVariacionDePrincipioActivo
+                prinactiv:14878 .
+
+prinactiv:1816  med:esVariacionDePrincipioActivo
+                prinactiv:1815 .
+
+prinactiv:5918  med:esVariacionDePrincipioActivo
+                prinactiv:5917 .
+
+prinactiv:2856  med:esVariacionDePrincipioActivo
+                prinactiv:1497 , prinactiv:10337 .
+
+prinactiv:10342  med:esVariacionDePrincipioActivo
+                prinactiv:10341 .
+
+prinactiv:11745  med:esVariacionDePrincipioActivo
+                prinactiv:9602 .
+
+prinactiv:5964  med:esVariacionDePrincipioActivo
+                prinactiv:5962 .
+
+prinactiv:7378  med:esVariacionDePrincipioActivo
+                prinactiv:7377 .
+
+prinactiv:6869  med:esVariacionDePrincipioActivo
+                prinactiv:4350 .
+
+prinactiv:417  med:esVariacionDePrincipioActivo
+                prinactiv:415 .
+
+prinactiv:1830  med:esVariacionDePrincipioActivo
+                prinactiv:1828 .
+
+prinactiv:7171  med:esVariacionDePrincipioActivo
+                prinactiv:7170 .
+
+prinactiv:4704  med:esVariacionDePrincipioActivo
+                prinactiv:4703 .
+
+prinactiv:4459  med:esVariacionDePrincipioActivo
+                prinactiv:4456 .
+
+prinactiv:4206  med:esVariacionDePrincipioActivo
+                prinactiv:4204 .
+
+prinactiv:16954  med:esVariacionDePrincipioActivo
+                prinactiv:12576 .
+
+prinactiv:7314  med:esVariacionDePrincipioActivo
+                prinactiv:6839 .
+
+prinactiv:859  med:esVariacionDePrincipioActivo
+                prinactiv:553 .
+
+prinactiv:2593  med:esVariacionDePrincipioActivo
+                prinactiv:2588 .
+
+prinactiv:2768  med:esVariacionDePrincipioActivo
+                prinactiv:2767 .
+
+prinactiv:2515  med:esVariacionDePrincipioActivo
+                prinactiv:2514 .
+
+prinactiv:6132  med:esVariacionDePrincipioActivo
+                prinactiv:6131 .
+
+prinactiv:3245  med:esVariacionDePrincipioActivo
+                prinactiv:3243 .
+
+prinactiv:2561  med:esVariacionDePrincipioActivo
+                prinactiv:2560 .
+
+prinactiv:3711  med:esVariacionDePrincipioActivo
+                prinactiv:3710 .
+
+prinactiv:12309  med:esVariacionDePrincipioActivo
+                prinactiv:10335 .
+
+prinactiv:1742  med:esVariacionDePrincipioActivo
+                prinactiv:1740 .
+
+prinactiv:8486  med:esVariacionDePrincipioActivo
+                prinactiv:849 .
+
+prinactiv:10696  med:esVariacionDePrincipioActivo
+                prinactiv:539 .
+
+prinactiv:9636  med:esVariacionDePrincipioActivo
+                prinactiv:7164 .
+
+prinactiv:7005  med:esVariacionDePrincipioActivo
+                prinactiv:7004 .
+
+prinactiv:11846  med:esVariacionDePrincipioActivo
+                prinactiv:564 , prinactiv:11692 .
+
+prinactiv:1419  med:esVariacionDePrincipioActivo
+                prinactiv:522 .
+
+prinactiv:7051  med:esVariacionDePrincipioActivo
+                prinactiv:7050 .
+
+prinactiv:9604  med:esVariacionDePrincipioActivo
+                prinactiv:9603 .
+
+prinactiv:1290  med:esVariacionDePrincipioActivo
+                prinactiv:7501 .
+
+prinactiv:3900  med:esVariacionDePrincipioActivo
+                prinactiv:3896 .
+
+prinactiv:10664  med:esVariacionDePrincipioActivo
+                prinactiv:10663 .
+
+prinactiv:11814  med:esVariacionDePrincipioActivo
+                prinactiv:11652 .
+
+prinactiv:3402  med:esVariacionDePrincipioActivo
+                prinactiv:3401 .
+
+prinactiv:11569  med:esVariacionDePrincipioActivo
+                prinactiv:11568 .
+
+prinactiv:12299  med:esVariacionDePrincipioActivo
+                prinactiv:11502 .
+
+prinactiv:12046  med:esVariacionDePrincipioActivo
+                prinactiv:9981 .
+
+prinactiv:7240  med:esVariacionDePrincipioActivo
+                prinactiv:7239 .
+
+prinactiv:5581  med:esVariacionDePrincipioActivo
+                prinactiv:5575 .
+
+prinactiv:6984  med:esVariacionDePrincipioActivo
+                prinactiv:6983 .
+
+prinactiv:6906  med:esVariacionDePrincipioActivo
+                prinactiv:4309 .
+
+prinactiv:7889  med:esVariacionDePrincipioActivo
+                prinactiv:3839 .
+
+prinactiv:5258  med:esVariacionDePrincipioActivo
+                prinactiv:5257 .
+
+prinactiv:6952  med:esVariacionDePrincipioActivo
+                prinactiv:3564 .
+
+prinactiv:928  med:esVariacionDePrincipioActivo
+                prinactiv:927 .
+
+prinactiv:721  med:esVariacionDePrincipioActivo
+                prinactiv:6971 .
+
+prinactiv:10078  med:esVariacionDePrincipioActivo
+                prinactiv:10077 .
+
+prinactiv:11053  med:esVariacionDePrincipioActivo
+                prinactiv:10590 .
+
+prinactiv:4717  med:esVariacionDePrincipioActivo
+                prinactiv:6911 .
+
+prinactiv:12203  med:esVariacionDePrincipioActivo
+                prinactiv:9462 , prinactiv:9463 .
+
+prinactiv:6422  med:esVariacionDePrincipioActivo
+                prinactiv:6421 .
+
+prinactiv:3535  med:esVariacionDePrincipioActivo
+                prinactiv:3534 .
+
+prinactiv:4510  med:esVariacionDePrincipioActivo
+                prinactiv:3173 , prinactiv:7084 .
+
+prinactiv:6398  med:esVariacionDePrincipioActivo
+                prinactiv:6397 .
+
+prinactiv:3083  med:esVariacionDePrincipioActivo
+                prinactiv:4683 .
+
+prinactiv:665  med:esVariacionDePrincipioActivo
+                prinactiv:1324 .
+
+prinactiv:10060  med:esVariacionDePrincipioActivo
+                prinactiv:1497 .
+
+prinactiv:2749  med:esVariacionDePrincipioActivo
+                prinactiv:2747 .
+
+prinactiv:7096  med:esVariacionDePrincipioActivo
+                prinactiv:7095 .
+
+prinactiv:10281  med:esVariacionDePrincipioActivo
+                prinactiv:1116 .
+
+prinactiv:26  med:esVariacionDePrincipioActivo
+                prinactiv:25 .
+
+prinactiv:135  med:esVariacionDePrincipioActivo
+                prinactiv:131 .
+
+prinactiv:5359  med:esVariacionDePrincipioActivo
+                prinactiv:5358 .
+
+prinactiv:7064  med:esVariacionDePrincipioActivo
+                prinactiv:7063 .
+
+prinactiv:11108  med:esVariacionDePrincipioActivo
+                prinactiv:11107 .
+
+prinactiv:12382  med:esVariacionDePrincipioActivo
+                prinactiv:11129 .
+
+prinactiv:11154  med:esVariacionDePrincipioActivo
+                prinactiv:11153 .
+
+prinactiv:11620  med:esVariacionDePrincipioActivo
+                prinactiv:11619 .
+
+prinactiv:5548  med:esVariacionDePrincipioActivo
+                prinactiv:5547 .
+
+prinactiv:1492  med:esVariacionDePrincipioActivo
+                prinactiv:1004 .
+
+prinactiv:798  med:esVariacionDePrincipioActivo
+                prinactiv:797 .
+
+prinactiv:6278  med:esVariacionDePrincipioActivo
+                prinactiv:6275 .
+
+prinactiv:9631  med:esVariacionDePrincipioActivo
+                prinactiv:9630 .
+
+prinactiv:7000  med:esVariacionDePrincipioActivo
+                prinactiv:6999 .
+
+prinactiv:7972  med:esVariacionDePrincipioActivo
+                prinactiv:7971 .
+
+prinactiv:1414  med:esVariacionDePrincipioActivo
+                prinactiv:7678 .
+
+prinactiv:7474  med:esVariacionDePrincipioActivo
+                prinactiv:7473 .
+
+prinactiv:2397  med:esVariacionDePrincipioActivo
+                prinactiv:2392 .
+
+prinactiv:11343  med:esVariacionDePrincipioActivo
+                prinactiv:10472 .
+
+prinactiv:6246  med:esVariacionDePrincipioActivo
+                prinactiv:6245 .
+
+prinactiv:4509  med:esVariacionDePrincipioActivo
+                prinactiv:1910 .
+
+prinactiv:4380  med:esVariacionDePrincipioActivo
+                prinactiv:519 .
+
+prinactiv:10336  med:esVariacionDePrincipioActivo
+                prinactiv:10335 .
+
+prinactiv:5783  med:esVariacionDePrincipioActivo
+                prinactiv:5776 .
+
+prinactiv:734  med:esVariacionDePrincipioActivo
+                prinactiv:6238 .
+
+prinactiv:5705  med:esVariacionDePrincipioActivo
+                prinactiv:5700 , prinactiv:5704 .
+
+prinactiv:8347  med:esVariacionDePrincipioActivo
+                prinactiv:8346 .
+
+prinactiv:12216  med:esVariacionDePrincipioActivo
+                prinactiv:1878 .
+
+prinactiv:2333  med:esVariacionDePrincipioActivo
+                prinactiv:2332 .
+
+prinactiv:7410  med:esVariacionDePrincipioActivo
+                prinactiv:6175 .
+
+prinactiv:955  med:esVariacionDePrincipioActivo
+                prinactiv:954 .
+
+prinactiv:11928  med:esVariacionDePrincipioActivo
+                prinactiv:9599 .
+
+prinactiv:6158  med:esVariacionDePrincipioActivo
+                prinactiv:6157 .
+
+prinactiv:10027  med:esVariacionDePrincipioActivo
+                prinactiv:7459 .
+
+prinactiv:1372  med:esVariacionDePrincipioActivo
+                prinactiv:6519 .
+
+prinactiv:13388  med:esVariacionDePrincipioActivo
+                prinactiv:11238 .
+
+prinactiv:3018  med:esVariacionDePrincipioActivo
+                prinactiv:3017 .
+
+prinactiv:8038  med:esVariacionDePrincipioActivo
+                prinactiv:873 .
+
+prinactiv:6379  med:esVariacionDePrincipioActivo
+                prinactiv:6378 .
+
+prinactiv:5442  med:esVariacionDePrincipioActivo
+                prinactiv:5440 .
+
+prinactiv:3530  med:esVariacionDePrincipioActivo
+                prinactiv:3529 .
+
+prinactiv:9409  med:esVariacionDePrincipioActivo
+                prinactiv:6055 .
+
+prinactiv:3032  med:esVariacionDePrincipioActivo
+                prinactiv:3030 .
+
+prinactiv:9455  med:esVariacionDePrincipioActivo
+                prinactiv:7480 .
+
+prinactiv:7796  med:esVariacionDePrincipioActivo
+                prinactiv:7533 .
+
+prinactiv:2523  med:esVariacionDePrincipioActivo
+                prinactiv:2522 .
+
+prinactiv:18344  med:esVariacionDePrincipioActivo
+                prinactiv:12618 .
+
+prinactiv:10981  med:esVariacionDePrincipioActivo
+                prinactiv:1493 , prinactiv:10284 .
+
+prinactiv:835  med:esVariacionDePrincipioActivo
+                prinactiv:5122 .
+
+prinactiv:10230  med:esVariacionDePrincipioActivo
+                prinactiv:10229 .
+
+prinactiv:1206  med:esVariacionDePrincipioActivo
+                prinactiv:545 .
+
+prinactiv:3649  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:2965  med:esVariacionDePrincipioActivo
+                prinactiv:7304 .
+
+prinactiv:9644  med:esVariacionDePrincipioActivo
+                prinactiv:9643 .
+
+prinactiv:10451  med:esVariacionDePrincipioActivo
+                prinactiv:10450 .
+
+prinactiv:11854  med:esVariacionDePrincipioActivo
+                prinactiv:7965 .
+
+prinactiv:4379  med:esVariacionDePrincipioActivo
+                prinactiv:1788 .
+
+prinactiv:3442  med:esVariacionDePrincipioActivo
+                prinactiv:3431 , prinactiv:3433 .
+
+prinactiv:9146  med:esVariacionDePrincipioActivo
+                prinactiv:9967 .
+
+prinactiv:12584  med:esVariacionDePrincipioActivo
+                prinactiv:12100 .
+
+prinactiv:779  med:esVariacionDePrincipioActivo
+                prinactiv:778 .
+
+prinactiv:7409  med:esVariacionDePrincipioActivo
+                prinactiv:6279 .
+
+prinactiv:4891  med:esVariacionDePrincipioActivo
+                prinactiv:4889 .
+
+prinactiv:6725  med:esVariacionDePrincipioActivo
+                prinactiv:6724 .
+
+prinactiv:3838  med:esVariacionDePrincipioActivo
+                prinactiv:3836 .
+
+prinactiv:7455  med:esVariacionDePrincipioActivo
+                prinactiv:2952 .
+
+prinactiv:747  med:esVariacionDePrincipioActivo
+                prinactiv:7521 .
+
+prinactiv:3631  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:11798  med:esVariacionDePrincipioActivo
+                prinactiv:9542 .
+
+prinactiv:4361  med:esVariacionDePrincipioActivo
+                prinactiv:4360 .
+
+prinactiv:2877  med:esVariacionDePrincipioActivo
+                prinactiv:2875 .
+
+prinactiv:1630  med:esVariacionDePrincipioActivo
+                prinactiv:1629 .
+
+prinactiv:982  med:esVariacionDePrincipioActivo
+                prinactiv:981 .
+
+prinactiv:10506  med:esVariacionDePrincipioActivo
+                prinactiv:10216 .
+
+prinactiv:11236  med:esVariacionDePrincipioActivo
+                prinactiv:11235 .
+
+prinactiv:11955  med:esVariacionDePrincipioActivo
+                prinactiv:11941 .
+
+prinactiv:6605  med:esVariacionDePrincipioActivo
+                prinactiv:2560 .
+
+prinactiv:1528  med:esVariacionDePrincipioActivo
+                prinactiv:5769 .
+
+prinactiv:5423  med:esVariacionDePrincipioActivo
+                prinactiv:5422 .
+
+prinactiv:98  med:esVariacionDePrincipioActivo
+                prinactiv:97 .
+
+prinactiv:12109  med:esVariacionDePrincipioActivo
+                prinactiv:12105 .
+
+prinactiv:23443  med:esVariacionDePrincipioActivo
+                prinactiv:12355 .
+
+prinactiv:4241  med:esVariacionDePrincipioActivo
+                prinactiv:4240 .
+
+prinactiv:5819  med:esVariacionDePrincipioActivo
+                prinactiv:5817 .
+
+prinactiv:9436  med:esVariacionDePrincipioActivo
+                prinactiv:7368 , prinactiv:7369 .
+
+prinactiv:1510  med:esVariacionDePrincipioActivo
+                prinactiv:6037 .
+
+prinactiv:11692  med:esVariacionDePrincipioActivo
+                prinactiv:564 .
+
+prinactiv:143  med:esVariacionDePrincipioActivo
+                prinactiv:142 .
+
+prinactiv:7998  med:esVariacionDePrincipioActivo
+                prinactiv:10046 .
+
+prinactiv:5367  med:esVariacionDePrincipioActivo
+                prinactiv:5366 .
+
+prinactiv:5114  med:esVariacionDePrincipioActivo
+                prinactiv:5113 .
+
+prinactiv:3455  med:esVariacionDePrincipioActivo
+                prinactiv:3454 .
+
+prinactiv:10930  med:esVariacionDePrincipioActivo
+                prinactiv:559 .
+
+prinactiv:6019  med:esVariacionDePrincipioActivo
+                prinactiv:6018 .
+
+prinactiv:7966  med:esVariacionDePrincipioActivo
+                prinactiv:7957 .
+
+prinactiv:1952  med:esVariacionDePrincipioActivo
+                prinactiv:1950 .
+
+prinactiv:19497  med:esVariacionDePrincipioActivo
+                prinactiv:11954 , prinactiv:7946 .
+
+prinactiv:7468  med:esVariacionDePrincipioActivo
+                prinactiv:7467 .
+
+prinactiv:585  med:esVariacionDePrincipioActivo
+                prinactiv:10355 .
+
+prinactiv:2914  med:esVariacionDePrincipioActivo
+                prinactiv:2910 .
+
+prinactiv:1454  med:esVariacionDePrincipioActivo
+                prinactiv:1453 .
+
+prinactiv:6959  med:esVariacionDePrincipioActivo
+                prinactiv:6958 .
+
+prinactiv:507  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:6706  med:esVariacionDePrincipioActivo
+                prinactiv:6622 .
+
+prinactiv:6286  med:esVariacionDePrincipioActivo
+                prinactiv:6283 , prinactiv:11039 .
+
+prinactiv:11130  med:esVariacionDePrincipioActivo
+                prinactiv:10922 .
+
+prinactiv:5058  med:esVariacionDePrincipioActivo
+                prinactiv:3386 .
+
+prinactiv:6752  med:esVariacionDePrincipioActivo
+                prinactiv:6751 .
+
+prinactiv:6208  med:esVariacionDePrincipioActivo
+                prinactiv:5862 .
+
+prinactiv:3146  med:esVariacionDePrincipioActivo
+                prinactiv:3145 .
+
+prinactiv:1422  med:esVariacionDePrincipioActivo
+                prinactiv:787 .
+
+prinactiv:12035  med:esVariacionDePrincipioActivo
+                prinactiv:9537 .
+
+prinactiv:3612  med:esVariacionDePrincipioActivo
+                prinactiv:3608 .
+
+prinactiv:6973  med:esVariacionDePrincipioActivo
+                prinactiv:6972 .
+
+prinactiv:1896  med:esVariacionDePrincipioActivo
+                prinactiv:1895 .
+
+prinactiv:6001  med:esVariacionDePrincipioActivo
+                prinactiv:6000 .
+
+prinactiv:6429  med:esVariacionDePrincipioActivo
+                prinactiv:6427 .
+
+prinactiv:6720  med:esVariacionDePrincipioActivo
+                prinactiv:6719 .
+
+prinactiv:15862  med:esVariacionDePrincipioActivo
+                prinactiv:15861 .
+
+prinactiv:6475  med:esVariacionDePrincipioActivo
+                prinactiv:6474 , prinactiv:6473 .
+
+prinactiv:10344  med:esVariacionDePrincipioActivo
+                prinactiv:10343 .
+
+prinactiv:917  med:esVariacionDePrincipioActivo
+                prinactiv:916 .
+
+prinactiv:2341  med:esVariacionDePrincipioActivo
+                prinactiv:2340 .
+
+prinactiv:1366  med:esVariacionDePrincipioActivo
+                prinactiv:4477 .
+
+prinactiv:11715  med:esVariacionDePrincipioActivo
+                prinactiv:11657 .
+
+prinactiv:4286  med:esVariacionDePrincipioActivo
+                prinactiv:4285 .
+
+prinactiv:18440  med:esVariacionDePrincipioActivo
+                prinactiv:10314 .
+
+prinactiv:212  med:esVariacionDePrincipioActivo
+                prinactiv:208 .
+
+prinactiv:1334  med:esVariacionDePrincipioActivo
+                prinactiv:1332 .
+
+prinactiv:16956  med:esVariacionDePrincipioActivo
+                prinactiv:10341 .
+
+prinactiv:4208  med:esVariacionDePrincipioActivo
+                prinactiv:4204 , prinactiv:4206 .
+
+prinactiv:12666  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:7141  med:esVariacionDePrincipioActivo
+                prinactiv:7140 .
+
+prinactiv:5902  med:esVariacionDePrincipioActivo
+                prinactiv:5900 .
+
+prinactiv:12413  med:esVariacionDePrincipioActivo
+                prinactiv:9980 .
+
+prinactiv:5404  med:esVariacionDePrincipioActivo
+                prinactiv:5402 .
+
+prinactiv:8046  med:esVariacionDePrincipioActivo
+                prinactiv:8045 .
+
+prinactiv:10256  med:esVariacionDePrincipioActivo
+                prinactiv:939 .
+
+prinactiv:3791  med:esVariacionDePrincipioActivo
+                prinactiv:3789 .
+
+prinactiv:18804  med:esVariacionDePrincipioActivo
+                prinactiv:13375 .
+
+prinactiv:18384  med:esVariacionDePrincipioActivo
+                prinactiv:4077 , prinactiv:4081 .
+
+prinactiv:8014  med:esVariacionDePrincipioActivo
+                prinactiv:1272 .
+
+prinactiv:9463  med:esVariacionDePrincipioActivo
+                prinactiv:9462 .
+
+prinactiv:2221  med:esVariacionDePrincipioActivo
+                prinactiv:2219 .
+
+prinactiv:843  med:esVariacionDePrincipioActivo
+                prinactiv:842 .
+
+prinactiv:1965  med:esVariacionDePrincipioActivo
+                prinactiv:1963 .
+
+prinactiv:4411  med:esVariacionDePrincipioActivo
+                prinactiv:4410 .
+
+prinactiv:10491  med:esVariacionDePrincipioActivo
+                prinactiv:6259 .
+
+prinactiv:6299  med:esVariacionDePrincipioActivo
+                prinactiv:7001 .
+
+prinactiv:9652  med:esVariacionDePrincipioActivo
+                prinactiv:1477 .
+
+prinactiv:7993  med:esVariacionDePrincipioActivo
+                prinactiv:6979 .
+
+prinactiv:10809  med:esVariacionDePrincipioActivo
+                prinactiv:10808 .
+
+prinactiv:12592  med:esVariacionDePrincipioActivo
+                prinactiv:2182 .
+
+prinactiv:12048  med:esVariacionDePrincipioActivo
+                prinactiv:7861 .
+
+prinactiv:10680  med:esVariacionDePrincipioActivo
+                prinactiv:6974 , prinactiv:6975 .
+
+prinactiv:5583  med:esVariacionDePrincipioActivo
+                prinactiv:7880 .
+
+prinactiv:7961  med:esVariacionDePrincipioActivo
+                prinactiv:1424 .
+
+prinactiv:4102  med:esVariacionDePrincipioActivo
+                prinactiv:4098 .
+
+prinactiv:709  med:esVariacionDePrincipioActivo
+                prinactiv:541 .
+
+prinactiv:1403  med:esVariacionDePrincipioActivo
+                prinactiv:1402 .
+
+prinactiv:289  med:esVariacionDePrincipioActivo
+                prinactiv:286 .
+
+prinactiv:6954  med:esVariacionDePrincipioActivo
+                prinactiv:6945 .
+
+prinactiv:5551  med:esVariacionDePrincipioActivo
+                prinactiv:5549 .
+
+prinactiv:5979  med:esVariacionDePrincipioActivo
+                prinactiv:5978 .
+
+prinactiv:1379  med:esVariacionDePrincipioActivo
+                prinactiv:1378 .
+
+prinactiv:2354  med:esVariacionDePrincipioActivo
+                prinactiv:2353 .
+
+prinactiv:6922  med:esVariacionDePrincipioActivo
+                prinactiv:6921 .
+
+prinactiv:7186  med:esVariacionDePrincipioActivo
+                prinactiv:6294 .
+
+prinactiv:7108  med:esVariacionDePrincipioActivo
+                prinactiv:432 .
+
+prinactiv:2807  med:esVariacionDePrincipioActivo
+                prinactiv:2806 .
+
+prinactiv:15566  med:esVariacionDePrincipioActivo
+                prinactiv:12580 .
+
+prinactiv:944  med:esVariacionDePrincipioActivo
+                prinactiv:1502 .
+
+prinactiv:10048  med:esVariacionDePrincipioActivo
+                prinactiv:1530 .
+
+prinactiv:11023  med:esVariacionDePrincipioActivo
+                prinactiv:6357 .
+
+prinactiv:1140  med:esVariacionDePrincipioActivo
+                prinactiv:7523 .
+
+prinactiv:6645  med:esVariacionDePrincipioActivo
+                prinactiv:6644 .
+
+prinactiv:4014  med:esVariacionDePrincipioActivo
+                prinactiv:4013 .
+
+prinactiv:5961  med:esVariacionDePrincipioActivo
+                prinactiv:5960 .
+
+prinactiv:912  med:esVariacionDePrincipioActivo
+                prinactiv:7441 .
+
+prinactiv:12472  med:esVariacionDePrincipioActivo
+                prinactiv:6283 , prinactiv:11039 .
+
+prinactiv:8778  med:esVariacionDePrincipioActivo
+                prinactiv:2656 .
+
+prinactiv:6691  med:esVariacionDePrincipioActivo
+                prinactiv:4946 .
+
+prinactiv:11963  med:esVariacionDePrincipioActivo
+                prinactiv:9643 .
+
+prinactiv:2091  med:esVariacionDePrincipioActivo
+                prinactiv:2088 .
+
+prinactiv:3726  med:esVariacionDePrincipioActivo
+                prinactiv:3725 .
+
+prinactiv:460  med:esVariacionDePrincipioActivo
+                prinactiv:444 .
+
+prinactiv:3772  med:esVariacionDePrincipioActivo
+                prinactiv:3770 .
+
+prinactiv:7311  med:esVariacionDePrincipioActivo
+                prinactiv:7310 .
+
+prinactiv:8041  med:esVariacionDePrincipioActivo
+                prinactiv:8040 .
+
+prinactiv:5329  med:esVariacionDePrincipioActivo
+                prinactiv:5328 .
+
+prinactiv:4691  med:esVariacionDePrincipioActivo
+                prinactiv:4690 .
+
+prinactiv:4147  med:esVariacionDePrincipioActivo
+                prinactiv:4144 .
+
+prinactiv:6571  med:esVariacionDePrincipioActivo
+                prinactiv:6565 .
+
+prinactiv:7974  med:esVariacionDePrincipioActivo
+                prinactiv:2791 .
+
+prinactiv:11598  med:esVariacionDePrincipioActivo
+                prinactiv:1378 .
+
+prinactiv:5311  med:esVariacionDePrincipioActivo
+                prinactiv:5309 .
+
+prinactiv:9601  med:esVariacionDePrincipioActivo
+                prinactiv:9600 .
+
+prinactiv:10661  med:esVariacionDePrincipioActivo
+                prinactiv:10660 .
+
+prinactiv:7942  med:esVariacionDePrincipioActivo
+                prinactiv:152 .
+
+prinactiv:1462  med:esVariacionDePrincipioActivo
+                prinactiv:7573 .
+
+prinactiv:6967  med:esVariacionDePrincipioActivo
+                prinactiv:4362 .
+
+prinactiv:11811  med:esVariacionDePrincipioActivo
+                prinactiv:564 , prinactiv:11840 .
+
+prinactiv:6714  med:esVariacionDePrincipioActivo
+                prinactiv:2983 .
+
+prinactiv:4802  med:esVariacionDePrincipioActivo
+                prinactiv:4801 .
+
+prinactiv:6760  med:esVariacionDePrincipioActivo
+                prinactiv:6759 .
+
+prinactiv:736  med:esVariacionDePrincipioActivo
+                prinactiv:7676 .
+
+prinactiv:9577  med:esVariacionDePrincipioActivo
+                prinactiv:9576 .
+
+prinactiv:7490  med:esVariacionDePrincipioActivo
+                prinactiv:7489 .
+
+prinactiv:2645  med:esVariacionDePrincipioActivo
+                prinactiv:2643 .
+
+prinactiv:6262  med:esVariacionDePrincipioActivo
+                prinactiv:6259 .
+
+prinactiv:5034  med:esVariacionDePrincipioActivo
+                prinactiv:5032 .
+
+prinactiv:7412  med:esVariacionDePrincipioActivo
+                prinactiv:7411 .
+
+prinactiv:18932  med:esVariacionDePrincipioActivo
+                prinactiv:12579 .
+
+prinactiv:5500  med:esVariacionDePrincipioActivo
+                prinactiv:5499 .
+
+prinactiv:7886  med:esVariacionDePrincipioActivo
+                prinactiv:954 .
+
+prinactiv:750  med:esVariacionDePrincipioActivo
+                prinactiv:5099 .
+
+prinactiv:12485  med:esVariacionDePrincipioActivo
+                prinactiv:12011 .
+
+prinactiv:925  med:esVariacionDePrincipioActivo
+                prinactiv:1988 .
+
+prinactiv:5476  med:esVariacionDePrincipioActivo
+                prinactiv:5475 .
+
+prinactiv:11050  med:esVariacionDePrincipioActivo
+                prinactiv:11049 .
+
+prinactiv:12453  med:esVariacionDePrincipioActivo
+                prinactiv:12148 .
+
+prinactiv:4294  med:esVariacionDePrincipioActivo
+                prinactiv:4293 .
+
+prinactiv:2802  med:esVariacionDePrincipioActivo
+                prinactiv:1234 .
+
+prinactiv:3785  med:esVariacionDePrincipioActivo
+                prinactiv:3786 .
+
+prinactiv:5910  med:esVariacionDePrincipioActivo
+                prinactiv:5909 .
+
+prinactiv:10043  med:esVariacionDePrincipioActivo
+                prinactiv:10042 .
+
+prinactiv:6893  med:esVariacionDePrincipioActivo
+                prinactiv:6741 .
+
+prinactiv:869  med:esVariacionDePrincipioActivo
+                prinactiv:1056 .
+
+prinactiv:87  med:esVariacionDePrincipioActivo
+                prinactiv:86 .
+
+prinactiv:9457  med:esVariacionDePrincipioActivo
+                prinactiv:9456 .
+
+prinactiv:15957  med:esVariacionDePrincipioActivo
+                prinactiv:5551 , prinactiv:5549 .
+
+prinactiv:2525  med:esVariacionDePrincipioActivo
+                prinactiv:2524 , prinactiv:318 .
+
+prinactiv:7798  med:esVariacionDePrincipioActivo
+                prinactiv:996 .
+
+prinactiv:7545  med:esVariacionDePrincipioActivo
+                prinactiv:7269 .
+
+prinactiv:1531  med:esVariacionDePrincipioActivo
+                prinactiv:1530 .
+
+prinactiv:164  med:esVariacionDePrincipioActivo
+                prinactiv:163 .
+
+prinactiv:7093  med:esVariacionDePrincipioActivo
+                prinactiv:7092 .
+
+prinactiv:3223  med:esVariacionDePrincipioActivo
+                prinactiv:3221 .
+
+prinactiv:7015  med:esVariacionDePrincipioActivo
+                prinactiv:7021 .
+
+prinactiv:3910  med:esVariacionDePrincipioActivo
+                prinactiv:3908 .
+
+prinactiv:10674  med:esVariacionDePrincipioActivo
+                prinactiv:954 .
+
+prinactiv:6552  med:esVariacionDePrincipioActivo
+                prinactiv:6548 .
+
+prinactiv:6229  med:esVariacionDePrincipioActivo
+                prinactiv:6228 .
+
+prinactiv:10895  med:esVariacionDePrincipioActivo
+                prinactiv:954 .
+
+prinactiv:5798  med:esVariacionDePrincipioActivo
+                prinactiv:5797 .
+
+prinactiv:3633  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:9383  med:esVariacionDePrincipioActivo
+                prinactiv:9373 .
+
+prinactiv:4331  med:esVariacionDePrincipioActivo
+                prinactiv:4330 .
+
+prinactiv:6962  med:esVariacionDePrincipioActivo
+                prinactiv:6961 .
+
+prinactiv:510  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:1632  med:esVariacionDePrincipioActivo
+                prinactiv:1631 .
+
+prinactiv:265  med:esVariacionDePrincipioActivo
+                prinactiv:1578 , prinactiv:264 .
+
+prinactiv:11989  med:esVariacionDePrincipioActivo
+                prinactiv:11988 .
+
+prinactiv:984  med:esVariacionDePrincipioActivo
+                prinactiv:983 .
+
+prinactiv:10508  med:esVariacionDePrincipioActivo
+                prinactiv:10507 .
+
+prinactiv:5702  med:esVariacionDePrincipioActivo
+                prinactiv:5700 .
+
+prinactiv:7369  med:esVariacionDePrincipioActivo
+                prinactiv:7368 .
+
+prinactiv:233  med:esVariacionDePrincipioActivo
+                prinactiv:232 .
+
+prinactiv:5457  med:esVariacionDePrincipioActivo
+                prinactiv:633 .
+
+prinactiv:14890  med:esVariacionDePrincipioActivo
+                prinactiv:12390 .
+
+prinactiv:9249  med:esVariacionDePrincipioActivo
+                prinactiv:7898 .
+
+prinactiv:12687  med:esVariacionDePrincipioActivo
+                prinactiv:1113 , prinactiv:1135 .
+
+prinactiv:9540  med:esVariacionDePrincipioActivo
+                prinactiv:9539 .
+
+prinactiv:7337  med:esVariacionDePrincipioActivo
+                prinactiv:10329 .
+
+prinactiv:1576  med:esVariacionDePrincipioActivo
+                prinactiv:1574 .
+
+prinactiv:6400  med:esVariacionDePrincipioActivo
+                prinactiv:6357 .
+
+prinactiv:10498  med:esVariacionDePrincipioActivo
+                prinactiv:7869 .
+
+prinactiv:3061  med:esVariacionDePrincipioActivo
+                prinactiv:3059 .
+
+prinactiv:6123  med:esVariacionDePrincipioActivo
+                prinactiv:6122 , prinactiv:6120 .
+
+prinactiv:8501  med:esVariacionDePrincipioActivo
+                prinactiv:6120 .
+
+prinactiv:5867  med:esVariacionDePrincipioActivo
+                prinactiv:5862 .
+
+prinactiv:7028  med:esVariacionDePrincipioActivo
+                prinactiv:7027 .
+
+prinactiv:8003  med:esVariacionDePrincipioActivo
+                prinactiv:9980 .
+
+prinactiv:11441  med:esVariacionDePrincipioActivo
+                prinactiv:3629 , prinactiv:3640 .
+
+prinactiv:1267  med:esVariacionDePrincipioActivo
+                prinactiv:11832 .
+
+prinactiv:7074  med:esVariacionDePrincipioActivo
+                prinactiv:7073 .
+
+prinactiv:10932  med:esVariacionDePrincipioActivo
+                prinactiv:10931 .
+
+prinactiv:12599  med:esVariacionDePrincipioActivo
+                prinactiv:12270 .
+
+prinactiv:19025  med:esVariacionDePrincipioActivo
+                prinactiv:15563 .
+
+prinactiv:23680  med:esVariacionDePrincipioActivo
+                prinactiv:12565 .
+
+prinactiv:10687  med:esVariacionDePrincipioActivo
+                prinactiv:10686 .
+
+prinactiv:7968  med:esVariacionDePrincipioActivo
+                prinactiv:7962 .
+
+prinactiv:1954  med:esVariacionDePrincipioActivo
+                prinactiv:1950 .
+
+prinactiv:10655  med:esVariacionDePrincipioActivo
+                prinactiv:10654 .
+
+prinactiv:509  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:6708  med:esVariacionDePrincipioActivo
+                prinactiv:6707 .
+
+prinactiv:800  med:esVariacionDePrincipioActivo
+                prinactiv:799 .
+
+prinactiv:3646  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:6288  med:esVariacionDePrincipioActivo
+                prinactiv:6287 .
+
+prinactiv:4376  med:esVariacionDePrincipioActivo
+                prinactiv:6319 .
+
+prinactiv:5779  med:esVariacionDePrincipioActivo
+                prinactiv:5776 .
+
+prinactiv:3148  med:esVariacionDePrincipioActivo
+                prinactiv:3147 .
+
+prinactiv:6081  med:esVariacionDePrincipioActivo
+                prinactiv:7001 .
+
+prinactiv:7484  med:esVariacionDePrincipioActivo
+                prinactiv:7483 .
+
+prinactiv:6256  med:esVariacionDePrincipioActivo
+                prinactiv:6255 .
+
+prinactiv:1179  med:esVariacionDePrincipioActivo
+                prinactiv:1172 .
+
+prinactiv:6003  med:esVariacionDePrincipioActivo
+                prinactiv:6002 .
+
+prinactiv:6975  med:esVariacionDePrincipioActivo
+                prinactiv:6974 .
+
+prinactiv:278  med:esVariacionDePrincipioActivo
+                prinactiv:276 .
+
+prinactiv:6224  med:esVariacionDePrincipioActivo
+                prinactiv:6223 .
+
+prinactiv:744  med:esVariacionDePrincipioActivo
+                prinactiv:2392 .
+
+prinactiv:1193  med:esVariacionDePrincipioActivo
+                prinactiv:1191 .
+
+prinactiv:5042  med:esVariacionDePrincipioActivo
+                prinactiv:5041 .
+
+prinactiv:4708  med:esVariacionDePrincipioActivo
+                prinactiv:10704 .
+
+prinactiv:2621  med:esVariacionDePrincipioActivo
+                prinactiv:2619 .
+
+prinactiv:11219  med:esVariacionDePrincipioActivo
+                prinactiv:1491 .
+
+prinactiv:6666  med:esVariacionDePrincipioActivo
+                prinactiv:1205 .
+
+prinactiv:1336  med:esVariacionDePrincipioActivo
+                prinactiv:1149 .
+
+prinactiv:4081  med:esVariacionDePrincipioActivo
+                prinactiv:4077 .
+
+prinactiv:435  med:esVariacionDePrincipioActivo
+                prinactiv:432 , prinactiv:434 .
+
+prinactiv:5659  med:esVariacionDePrincipioActivo
+                prinactiv:5658 .
+
+prinactiv:3572  med:esVariacionDePrincipioActivo
+                prinactiv:3570 .
+
+prinactiv:4224  med:esVariacionDePrincipioActivo
+                prinactiv:4223 .
+
+prinactiv:1350  med:esVariacionDePrincipioActivo
+                prinactiv:3013 .
+
+prinactiv:10724  med:esVariacionDePrincipioActivo
+                prinactiv:1062 , prinactiv:9435 .
+
+prinactiv:3793  med:esVariacionDePrincipioActivo
+                prinactiv:3792 .
+
+prinactiv:49  med:esVariacionDePrincipioActivo
+                prinactiv:46 .
+
+prinactiv:1571  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:3042  med:esVariacionDePrincipioActivo
+                prinactiv:3041 .
+
+prinactiv:2002  med:esVariacionDePrincipioActivo
+                prinactiv:2000 .
+
+prinactiv:7507  med:esVariacionDePrincipioActivo
+                prinactiv:7506 .
+
+prinactiv:7087  med:esVariacionDePrincipioActivo
+                prinactiv:7086 .
+
+prinactiv:6823  med:esVariacionDePrincipioActivo
+                prinactiv:5567 .
+
+prinactiv:5175  med:esVariacionDePrincipioActivo
+                prinactiv:5173 .
+
+prinactiv:6150  med:esVariacionDePrincipioActivo
+                prinactiv:208 , prinactiv:212 .
+
+prinactiv:12106  med:esVariacionDePrincipioActivo
+                prinactiv:12105 .
+
+prinactiv:11675  med:esVariacionDePrincipioActivo
+                prinactiv:9643 .
+
+prinactiv:670  med:esVariacionDePrincipioActivo
+                prinactiv:669 .
+
+prinactiv:2708  med:esVariacionDePrincipioActivo
+                prinactiv:2701 .
+
+prinactiv:3438  med:esVariacionDePrincipioActivo
+                prinactiv:3431 .
+
+prinactiv:10493  med:esVariacionDePrincipioActivo
+                prinactiv:10492 .
+
+prinactiv:6094  med:esVariacionDePrincipioActivo
+                prinactiv:6091 .
+
+prinactiv:7244  med:esVariacionDePrincipioActivo
+                prinactiv:2658 .
+
+prinactiv:9622  med:esVariacionDePrincipioActivo
+                prinactiv:9618 .
+
+prinactiv:789  med:esVariacionDePrincipioActivo
+                prinactiv:788 .
+
+prinactiv:3129  med:esVariacionDePrincipioActivo
+                prinactiv:3128 .
+
+prinactiv:2445  med:esVariacionDePrincipioActivo
+                prinactiv:2439 .
+
+prinactiv:2388  med:esVariacionDePrincipioActivo
+                prinactiv:2385 .
+
+prinactiv:20290  med:esVariacionDePrincipioActivo
+                prinactiv:12062 .
+
+prinactiv:6283  med:esVariacionDePrincipioActivo
+                prinactiv:11039 .
+
+prinactiv:10152  med:esVariacionDePrincipioActivo
+                prinactiv:10151 .
+
+prinactiv:3816  med:esVariacionDePrincipioActivo
+                prinactiv:3815 .
+
+prinactiv:6426  med:esVariacionDePrincipioActivo
+                prinactiv:6425 .
+
+prinactiv:5521  med:esVariacionDePrincipioActivo
+                prinactiv:5512 .
+
+prinactiv:6924  med:esVariacionDePrincipioActivo
+                prinactiv:6923 .
+
+prinactiv:6679  med:esVariacionDePrincipioActivo
+                prinactiv:6678 .
+
+prinactiv:10373  med:esVariacionDePrincipioActivo
+                prinactiv:10314 .
+
+prinactiv:1174  med:esVariacionDePrincipioActivo
+                prinactiv:7001 .
+
+prinactiv:12207  med:esVariacionDePrincipioActivo
+                prinactiv:9762 , prinactiv:9763 .
+
+prinactiv:2324  med:esVariacionDePrincipioActivo
+                prinactiv:2323 .
+
+prinactiv:1893  med:esVariacionDePrincipioActivo
+                prinactiv:1887 .
+
+prinactiv:5995  med:esVariacionDePrincipioActivo
+                prinactiv:5993 .
+
+prinactiv:3539  med:esVariacionDePrincipioActivo
+                prinactiv:12562 .
+
+prinactiv:3830  med:esVariacionDePrincipioActivo
+                prinactiv:3829 .
+
+prinactiv:4269  med:esVariacionDePrincipioActivo
+                prinactiv:4268 .
+
+prinactiv:1142  med:esVariacionDePrincipioActivo
+                prinactiv:6482 .
+
+prinactiv:11246  med:esVariacionDePrincipioActivo
+                prinactiv:10682 .
+
+prinactiv:5290  med:esVariacionDePrincipioActivo
+                prinactiv:5289 .
+
+prinactiv:6693  med:esVariacionDePrincipioActivo
+                prinactiv:1629 .
+
+prinactiv:3087  med:esVariacionDePrincipioActivo
+                prinactiv:3085 .
+
+prinactiv:20124  med:esVariacionDePrincipioActivo
+                prinactiv:10639 .
+
+prinactiv:10239  med:esVariacionDePrincipioActivo
+                prinactiv:855 .
+
+prinactiv:4030  med:esVariacionDePrincipioActivo
+                prinactiv:4029 .
+
+prinactiv:8075  med:esVariacionDePrincipioActivo
+                prinactiv:4914 .
+
+prinactiv:12165  med:esVariacionDePrincipioActivo
+                prinactiv:11592 .
+
+prinactiv:5156  med:esVariacionDePrincipioActivo
+                prinactiv:5155 .
+
+prinactiv:6306  med:esVariacionDePrincipioActivo
+                prinactiv:6305 .
+
+prinactiv:10972  med:esVariacionDePrincipioActivo
+                prinactiv:1420 .
+
+prinactiv:5875  med:esVariacionDePrincipioActivo
+                prinactiv:5873 .
+
+prinactiv:153  med:esVariacionDePrincipioActivo
+                prinactiv:152 .
+
+prinactiv:6352  med:esVariacionDePrincipioActivo
+                prinactiv:6345 .
+
+prinactiv:12101  med:esVariacionDePrincipioActivo
+                prinactiv:11759 .
+
+prinactiv:121  med:esVariacionDePrincipioActivo
+                prinactiv:117 .
+
+prinactiv:3686  med:esVariacionDePrincipioActivo
+                prinactiv:3684 .
+
+prinactiv:3433  med:esVariacionDePrincipioActivo
+                prinactiv:3431 .
+
+prinactiv:9358  med:esVariacionDePrincipioActivo
+                prinactiv:7860 .
+
+prinactiv:7990  med:esVariacionDePrincipioActivo
+                prinactiv:6363 .
+
+prinactiv:4384  med:esVariacionDePrincipioActivo
+                prinactiv:4383 .
+
+prinactiv:3156  med:esVariacionDePrincipioActivo
+                prinactiv:3155 .
+
+prinactiv:5534  med:esVariacionDePrincipioActivo
+                prinactiv:5532 .
+
+prinactiv:6264  med:esVariacionDePrincipioActivo
+                prinactiv:6263 .
+
+prinactiv:6011  med:esVariacionDePrincipioActivo
+                prinactiv:6010 .
+
+prinactiv:3377  med:esVariacionDePrincipioActivo
+                prinactiv:3376 .
+
+prinactiv:4352  med:esVariacionDePrincipioActivo
+                prinactiv:4350 .
+
+prinactiv:11038  med:esVariacionDePrincipioActivo
+                prinactiv:2548 .
+
+prinactiv:12013  med:esVariacionDePrincipioActivo
+                prinactiv:298 , prinactiv:299 .
+
+prinactiv:7460  med:esVariacionDePrincipioActivo
+                prinactiv:7459 .
+
+prinactiv:752  med:esVariacionDePrincipioActivo
+                prinactiv:751 .
+
+prinactiv:2305  med:esVariacionDePrincipioActivo
+                prinactiv:2303 .
+
+prinactiv:9593  med:esVariacionDePrincipioActivo
+                prinactiv:2701 .
+
+prinactiv:1621  med:esVariacionDePrincipioActivo
+                prinactiv:1620 .
+
+prinactiv:7137  med:esVariacionDePrincipioActivo
+                prinactiv:7136 .
+
+prinactiv:9515  med:esVariacionDePrincipioActivo
+                prinactiv:9514 .
+
+prinactiv:11052  med:esVariacionDePrincipioActivo
+                prinactiv:11051 .
+
+prinactiv:4716  med:esVariacionDePrincipioActivo
+                prinactiv:4714 .
+
+prinactiv:222  med:esVariacionDePrincipioActivo
+                prinactiv:219 .
+
+prinactiv:5446  med:esVariacionDePrincipioActivo
+                prinactiv:5443 .
+
+prinactiv:6849  med:esVariacionDePrincipioActivo
+                prinactiv:21792 .
+
+prinactiv:11273  med:esVariacionDePrincipioActivo
+                prinactiv:8031 , prinactiv:8032 .
+
+prinactiv:6176  med:esVariacionDePrincipioActivo
+                prinactiv:6175 .
+
+prinactiv:10045  med:esVariacionDePrincipioActivo
+                prinactiv:5573 .
+
+prinactiv:3036  med:esVariacionDePrincipioActivo
+                prinactiv:3035 .
+
+prinactiv:3580  med:esVariacionDePrincipioActivo
+                prinactiv:2020 .
+
+prinactiv:618  med:esVariacionDePrincipioActivo
+                prinactiv:617 .
+
+prinactiv:19576  med:esVariacionDePrincipioActivo
+                prinactiv:12744 .
+
+prinactiv:2295  med:esVariacionDePrincipioActivo
+                prinactiv:2294 .
+
+prinactiv:1786  med:esVariacionDePrincipioActivo
+                prinactiv:7296 .
+
+prinactiv:6610  med:esVariacionDePrincipioActivo
+                prinactiv:6609 .
+
+prinactiv:10953  med:esVariacionDePrincipioActivo
+                prinactiv:1204 .
+
+prinactiv:4200  med:esVariacionDePrincipioActivo
+                prinactiv:4198 .
+
+prinactiv:134  med:esVariacionDePrincipioActivo
+                prinactiv:131 .
+
+prinactiv:7782  med:esVariacionDePrincipioActivo
+                prinactiv:6800 .
+
+prinactiv:5579  med:esVariacionDePrincipioActivo
+                prinactiv:5575 .
+
+prinactiv:3667  med:esVariacionDePrincipioActivo
+                prinactiv:3666 , prinactiv:6573 .
+
+prinactiv:12303  med:esVariacionDePrincipioActivo
+                prinactiv:10308 .
+
+prinactiv:6775  med:esVariacionDePrincipioActivo
+                prinactiv:2757 .
+
+prinactiv:323  med:esVariacionDePrincipioActivo
+                prinactiv:318 .
+
+prinactiv:4319  med:esVariacionDePrincipioActivo
+                prinactiv:4318 .
+
+prinactiv:3635  med:esVariacionDePrincipioActivo
+                prinactiv:3629 .
+
+prinactiv:2175  med:esVariacionDePrincipioActivo
+                prinactiv:2173 .
+
+prinactiv:6996  med:esVariacionDePrincipioActivo
+                prinactiv:3774 .
+
+prinactiv:11840  med:esVariacionDePrincipioActivo
+                prinactiv:564 .
+
+prinactiv:1666  med:esVariacionDePrincipioActivo
+                prinactiv:1664 .
+
+prinactiv:6070  med:esVariacionDePrincipioActivo
+                prinactiv:6069 .
+
+prinactiv:299  med:esVariacionDePrincipioActivo
+                prinactiv:298 .
+
+prinactiv:512  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:1634  med:esVariacionDePrincipioActivo
+                prinactiv:1631 .
+
+prinactiv:986  med:esVariacionDePrincipioActivo
+                prinactiv:985 .
+
+prinactiv:2849  med:esVariacionDePrincipioActivo
+                prinactiv:2847 .
+
+prinactiv:9528  med:esVariacionDePrincipioActivo
+                prinactiv:849 .
+
+prinactiv:17014  med:esVariacionDePrincipioActivo
+                prinactiv:7024 , prinactiv:7434 .
+
+prinactiv:2111  med:esVariacionDePrincipioActivo
+                prinactiv:2106 .
+
+prinactiv:12713  med:esVariacionDePrincipioActivo
+                prinactiv:208 , prinactiv:213 .
+
+prinactiv:12468  med:esVariacionDePrincipioActivo
+                prinactiv:7946 .
+
+prinactiv:10801  med:esVariacionDePrincipioActivo
+                prinactiv:502 , prinactiv:1567 .
+
+prinactiv:5704  med:esVariacionDePrincipioActivo
+                prinactiv:5700 .
+
+prinactiv:235  med:esVariacionDePrincipioActivo
+                prinactiv:234 .
+
+prinactiv:1104  med:esVariacionDePrincipioActivo
+                prinactiv:1103 .
+
+prinactiv:23479  med:esVariacionDePrincipioActivo
+                prinactiv:12625 .
+
+prinactiv:7883  med:esVariacionDePrincipioActivo
+                prinactiv:5836 .
+
+prinactiv:456  med:esVariacionDePrincipioActivo
+                prinactiv:444 .
+
+prinactiv:6655  med:esVariacionDePrincipioActivo
+                prinactiv:2385 .
+
+prinactiv:203  med:esVariacionDePrincipioActivo
+                prinactiv:202 .
+
+prinactiv:9763  med:esVariacionDePrincipioActivo
+                prinactiv:9762 .
+
+prinactiv:7851  med:esVariacionDePrincipioActivo
+                prinactiv:6747 .
+
+prinactiv:6876  med:esVariacionDePrincipioActivo
+                prinactiv:6875 .
+
+prinactiv:4245  med:esVariacionDePrincipioActivo
+                prinactiv:4243 .
+
+prinactiv:5648  med:esVariacionDePrincipioActivo
+                prinactiv:5644 .
+
+prinactiv:4711  med:esVariacionDePrincipioActivo
+                prinactiv:10705 .
+
+prinactiv:10247  med:esVariacionDePrincipioActivo
+                prinactiv:4374 .
+
+prinactiv:3704  med:esVariacionDePrincipioActivo
+                prinactiv:3701 .
+
+prinactiv:6346  med:esVariacionDePrincipioActivo
+                prinactiv:6345 .
+
+prinactiv:10215  med:esVariacionDePrincipioActivo
+                prinactiv:1116 .
+
+prinactiv:4687  med:esVariacionDePrincipioActivo
+                prinactiv:4683 .
+
+prinactiv:6392  med:esVariacionDePrincipioActivo
+                prinactiv:6391 .
+
+prinactiv:4189  med:esVariacionDePrincipioActivo
+                prinactiv:4188 .
+
+prinactiv:11664  med:esVariacionDePrincipioActivo
+                prinactiv:11327 .
+
+prinactiv:11411  med:esVariacionDePrincipioActivo
+                prinactiv:9366 .
+
+prinactiv:5339  med:esVariacionDePrincipioActivo
+                prinactiv:5338 .
+
+prinactiv:161  med:esVariacionDePrincipioActivo
+                prinactiv:159 .
+
+prinactiv:10657  med:esVariacionDePrincipioActivo
+                prinactiv:9753 .
+
+prinactiv:3220  med:esVariacionDePrincipioActivo
+                prinactiv:3219 .
+
+prinactiv:20  med:esVariacionDePrincipioActivo
+                prinactiv:14 .
+
+prinactiv:7984  med:esVariacionDePrincipioActivo
+                prinactiv:7480 .
+
+prinactiv:4378  med:esVariacionDePrincipioActivo
+                prinactiv:7467 .
+
+prinactiv:7486  med:esVariacionDePrincipioActivo
+                prinactiv:7960 .
+
+prinactiv:3616  med:esVariacionDePrincipioActivo
+                prinactiv:3613 .
+
+prinactiv:6258  med:esVariacionDePrincipioActivo
+                prinactiv:6257 .
+
+prinactiv:3837  med:esVariacionDePrincipioActivo
+                prinactiv:3838 , prinactiv:3836 .
+
+prinactiv:11576  med:esVariacionDePrincipioActivo
+                prinactiv:805 .
+
+prinactiv:746  med:esVariacionDePrincipioActivo
+                prinactiv:745 .
+
+prinactiv:4314  med:esVariacionDePrincipioActivo
+                prinactiv:4312 .
+
+prinactiv:5297  med:esVariacionDePrincipioActivo
+                prinactiv:5296 .
+
+prinactiv:3805  med:esVariacionDePrincipioActivo
+                prinactiv:3804 .
+
+prinactiv:11544  med:esVariacionDePrincipioActivo
+                prinactiv:1895 .
+
+prinactiv:3385  med:esVariacionDePrincipioActivo
+                prinactiv:3384 .
+
+prinactiv:4535  med:esVariacionDePrincipioActivo
+                prinactiv:4533 .
+
+prinactiv:11299  med:esVariacionDePrincipioActivo
+                prinactiv:1134 .
+
+prinactiv:7177  med:esVariacionDePrincipioActivo
+                prinactiv:7176 .
+
+prinactiv:2391  med:esVariacionDePrincipioActivo
+                prinactiv:2390 .
+
+prinactiv:12449  med:esVariacionDePrincipioActivo
+                prinactiv:12448 .
+
+prinactiv:16066  med:esVariacionDePrincipioActivo
+                prinactiv:12556 .
+
+prinactiv:2313  med:esVariacionDePrincipioActivo
+                prinactiv:2311 .
+
+prinactiv:8120  med:esVariacionDePrincipioActivo
+                prinactiv:3386 .
+
+prinactiv:7145  med:esVariacionDePrincipioActivo
+                prinactiv:6449 .
+
+prinactiv:10583  med:esVariacionDePrincipioActivo
+                prinactiv:1493 .
+
+prinactiv:6461  med:esVariacionDePrincipioActivo
+                prinactiv:6459 .
+
+prinactiv:7864  med:esVariacionDePrincipioActivo
+                prinactiv:5899 .
+
+prinactiv:1559  med:esVariacionDePrincipioActivo
+                prinactiv:502 .
+
+prinactiv:4977  med:esVariacionDePrincipioActivo
+                prinactiv:4976 .
+
+prinactiv:2812  med:esVariacionDePrincipioActivo
+                prinactiv:2806 .
+
+prinactiv:5454  med:esVariacionDePrincipioActivo
+                prinactiv:5449 .
+
+prinactiv:11954  med:esVariacionDePrincipioActivo
+                prinactiv:7946 .
+
+prinactiv:3297  med:esVariacionDePrincipioActivo
+                prinactiv:3296 .
+
+prinactiv:3717  med:esVariacionDePrincipioActivo
+                prinactiv:3714 .
+
+prinactiv:7334  med:esVariacionDePrincipioActivo
+                prinactiv:5862 .
+
+prinactiv:4272  med:esVariacionDePrincipioActivo
+                prinactiv:4271 .
+
+prinactiv:7089  med:esVariacionDePrincipioActivo
+                prinactiv:7086 .
+
+prinactiv:23442  med:esVariacionDePrincipioActivo
+                prinactiv:9976 .
+
+prinactiv:672  med:esVariacionDePrincipioActivo
+                prinactiv:671 .
+
+prinactiv:12108  med:esVariacionDePrincipioActivo
+                prinactiv:12105 .
+
+prinactiv:19  med:esVariacionDePrincipioActivo
+                prinactiv:14 .
+
+prinactiv:128  med:esVariacionDePrincipioActivo
+                prinactiv:125 .
+
+prinactiv:3012  med:esVariacionDePrincipioActivo
+                prinactiv:3008 .
+
+prinactiv:847  med:esVariacionDePrincipioActivo
+                prinactiv:846 .
+
+prinactiv:1969  med:esVariacionDePrincipioActivo
+                prinactiv:1963 .
+
+prinactiv:12154  med:esVariacionDePrincipioActivo
+                prinactiv:7004 , prinactiv:7005 .
+
+prinactiv:8032  med:esVariacionDePrincipioActivo
+                prinactiv:8031 .
+
+prinactiv:9435  med:esVariacionDePrincipioActivo
+                prinactiv:1062 .
+
+prinactiv:23410  med:esVariacionDePrincipioActivo
+                prinactiv:18176 .
+
+prinactiv:11147  med:esVariacionDePrincipioActivo
+                prinactiv:11145 .
+
+prinactiv:15981  med:esVariacionDePrincipioActivo
+                prinactiv:13383 .
+
+prinactiv:3233  med:esVariacionDePrincipioActivo
+                prinactiv:3231 .
+
+prinactiv:5611  med:esVariacionDePrincipioActivo
+                prinactiv:5610 .
