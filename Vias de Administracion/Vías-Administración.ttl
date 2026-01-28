@@ -1,0 +1,297 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix med:  <http://www.medicamentos.es/> .
+@prefix dcp:  <http://www.medicamentos.es/DCP> .
+@prefix atc:  <http://www.medicamentos.es/ATC> .
+@prefix excip:  <http://www.medicamentos.es/Excipiente_Decl_Obligatoria> .
+@prefix dcsa:  <http://www.medicamentos.es/DCSA> .
+@prefix vias:  <http://www.medicamentos.es/ViaAdministracion> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix enva:  <http://www.medicamentos.es/Envase> .
+
+<http://www.medicamentos.es/ViaAdministracion/7>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "HEMODIÁLISIS"@es ;
+        med:codigoViaAdministracion  "7" .
+
+<http://www.medicamentos.es/ViaAdministracion/10>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "OTRA VÍA"@es ;
+        med:codigoViaAdministracion  "10" .
+
+<http://www.medicamentos.es/ViaAdministracion/15>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO CUTÁNEO"@es ;
+        med:codigoViaAdministracion  "15" .
+
+<http://www.medicamentos.es/ViaAdministracion/16>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO DENTAL"@es ;
+        med:codigoViaAdministracion  "16" .
+
+<http://www.medicamentos.es/ViaAdministracion/19>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO GINGIVAL"@es ;
+        med:codigoViaAdministracion  "19" .
+
+<http://www.medicamentos.es/ViaAdministracion/21>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO BUCOFARÍNGEO"@es ;
+        med:codigoViaAdministracion  "21" .
+
+<http://www.medicamentos.es/ViaAdministracion/22>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA ENDOCERVICAL"@es ;
+        med:codigoViaAdministracion  "22" .
+
+<http://www.medicamentos.es/ViaAdministracion/24>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA ENDOTRAQUEOPULMONAR"@es ;
+        med:codigoViaAdministracion  "24" .
+
+<http://www.medicamentos.es/ViaAdministracion/25>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA EPIDURAL"@es ;
+        med:codigoViaAdministracion  "25" .
+
+<http://www.medicamentos.es/ViaAdministracion/27>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA GASTROENTÉRICA"@es ;
+        med:codigoViaAdministracion  "27" .
+
+<http://www.medicamentos.es/ViaAdministracion/29>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAARTERIAL"@es ;
+        med:codigoViaAdministracion  "29" .
+
+<http://www.medicamentos.es/ViaAdministracion/30>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAARTICULAR"@es ;
+        med:codigoViaAdministracion  "30" .
+
+<http://www.medicamentos.es/ViaAdministracion/31>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRACARDIACA"@es ;
+        med:codigoViaAdministracion  "31" .
+
+<http://www.medicamentos.es/ViaAdministracion/32>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRACAVERNOSA"@es ;
+        med:codigoViaAdministracion  "32" .
+
+<http://www.medicamentos.es/ViaAdministracion/35>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRADÉRMICA"@es ;
+        med:codigoViaAdministracion  "35" .
+
+<http://www.medicamentos.es/ViaAdministracion/38>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRALESIONAL"@es ;
+        med:codigoViaAdministracion  "38" .
+
+<http://www.medicamentos.es/ViaAdministracion/40>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAMAMARIA"@es ;
+        med:codigoViaAdministracion  "40" .
+
+<http://www.medicamentos.es/ViaAdministracion/41>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAMUSCULAR"@es ;
+        med:codigoViaAdministracion  "41" .
+
+<http://www.medicamentos.es/ViaAdministracion/42>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAOCULAR"@es ;
+        med:codigoViaAdministracion  "42" .
+
+<http://www.medicamentos.es/ViaAdministracion/43>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAPERITONEAL"@es ;
+        med:codigoViaAdministracion  "43" .
+
+<http://www.medicamentos.es/ViaAdministracion/44>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAPLEURAL"@es ;
+        med:codigoViaAdministracion  "44" .
+
+<http://www.medicamentos.es/ViaAdministracion/46>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRASINOVIAL"@es ;
+        med:codigoViaAdministracion  "46" .
+
+<http://www.medicamentos.es/ViaAdministracion/47>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRATECAL"@es ;
+        med:codigoViaAdministracion  "47" .
+
+<http://www.medicamentos.es/ViaAdministracion/48>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAUTERINA"@es ;
+        med:codigoViaAdministracion  "48" .
+
+<http://www.medicamentos.es/ViaAdministracion/49>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAVENOSA"@es ;
+        med:codigoViaAdministracion  "49" .
+
+<http://www.medicamentos.es/ViaAdministracion/50>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAVESICAL"@es ;
+        med:codigoViaAdministracion  "50" .
+
+<http://www.medicamentos.es/ViaAdministracion/51>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA NASAL"@es ;
+        med:codigoViaAdministracion  "51" .
+
+<http://www.medicamentos.es/ViaAdministracion/53>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA OFTÁLMICA"@es ;
+        med:codigoViaAdministracion  "53" .
+
+<http://www.medicamentos.es/ViaAdministracion/54>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA ORAL"@es ;
+        med:codigoViaAdministracion  "54" .
+
+<http://www.medicamentos.es/ViaAdministracion/55>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA ÓTICA"@es ;
+        med:codigoViaAdministracion  "55" .
+
+<http://www.medicamentos.es/ViaAdministracion/57>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA PERIARTICULAR"@es ;
+        med:codigoViaAdministracion  "57" .
+
+<http://www.medicamentos.es/ViaAdministracion/58>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA PERINEURAL"@es ;
+        med:codigoViaAdministracion  "58" .
+
+<http://www.medicamentos.es/ViaAdministracion/59>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA RECTAL"@es ;
+        med:codigoViaAdministracion  "59" .
+
+<http://www.medicamentos.es/ViaAdministracion/62>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA SUBCUTÁNEA"@es ;
+        med:codigoViaAdministracion  "62" .
+
+<http://www.medicamentos.es/ViaAdministracion/63>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA TRANSDÉRMICA"@es ;
+        med:codigoViaAdministracion  "63" .
+
+<http://www.medicamentos.es/ViaAdministracion/64>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA URETRAL"@es ;
+        med:codigoViaAdministracion  "64" .
+
+<http://www.medicamentos.es/ViaAdministracion/65>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA VAGINAL"@es ;
+        med:codigoViaAdministracion  "65" .
+
+<http://www.medicamentos.es/ViaAdministracion/67>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INHALATORIA"@es ;
+        med:codigoViaAdministracion  "67" .
+
+<http://www.medicamentos.es/ViaAdministracion/68>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "Vía bucal (buccal use)"@es ;
+        med:codigoViaAdministracion  "68" .
+
+<http://www.medicamentos.es/ViaAdministracion/69>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA SUBLINGUAL"@es ;
+        med:codigoViaAdministracion  "69" .
+
+<http://www.medicamentos.es/ViaAdministracion/73>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRATUMORAL"@es ;
+        med:codigoViaAdministracion  "73" .
+
+<http://www.medicamentos.es/ViaAdministracion/74>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAVÍTREA"@es ;
+        med:codigoViaAdministracion  "74" .
+
+<http://www.medicamentos.es/ViaAdministracion/89>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO RETROBULBAR"@es ;
+        med:codigoViaAdministracion  "89" .
+
+<http://www.medicamentos.es/ViaAdministracion/102>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO EPILESIONAL"@es ;
+        med:codigoViaAdministracion  "102" .
+
+<http://www.medicamentos.es/ViaAdministracion/104>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO INTESTINAL"@es ;
+        med:codigoViaAdministracion  "104" .
+
+<http://www.medicamentos.es/ViaAdministracion/105>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "VÍA INTRAÓSEA"@es ;
+        med:codigoViaAdministracion  "105" .
+
+<http://www.medicamentos.es/ViaAdministracion/106>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO PERIODONTAL"@es ;
+        med:codigoViaAdministracion  "106" .
+
+<http://www.medicamentos.es/ViaAdministracion/124>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO PERIÓSEO"@es ;
+        med:codigoViaAdministracion  "124" .
+
+<http://www.medicamentos.es/ViaAdministracion/125>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "IMPLANTACIÓN"@es ;
+        med:codigoViaAdministracion  "125" .
+
+<http://www.medicamentos.es/ViaAdministracion/127>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "INFILTRACIÓN"@es ;
+        med:codigoViaAdministracion  "127" .
+
+<http://www.medicamentos.es/ViaAdministracion/129>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO EXTRACORPORAL"@es ;
+        med:codigoViaAdministracion  "129" .
+
+<http://www.medicamentos.es/ViaAdministracion/131>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO PERITUMORAL"@es ;
+        med:codigoViaAdministracion  "131" .
+
+<http://www.medicamentos.es/ViaAdministracion/132>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO INTRAGLANDULAR"@es ;
+        med:codigoViaAdministracion  "132" .
+
+<http://www.medicamentos.es/ViaAdministracion/136>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO SUBRETINAL"@es ;
+        med:codigoViaAdministracion  "136" .
+
+<http://www.medicamentos.es/ViaAdministracion/137>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO INTRACAMERAL"@es ;
+        med:codigoViaAdministracion  "137" .
+
+<http://www.medicamentos.es/ViaAdministracion/139>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO INTRACOLANGIOPANCREATICO"@es ;
+        med:codigoViaAdministracion  "139" .
+
+<http://www.medicamentos.es/ViaAdministracion/142>
+        rdf:type                     med:ViaAdministracion ;
+        rdfs:label                   "USO PERILESIONAL"@es ;
+        med:codigoViaAdministracion  "142" .
