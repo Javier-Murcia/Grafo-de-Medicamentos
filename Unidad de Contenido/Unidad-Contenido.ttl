@@ -1,0 +1,294 @@
+@prefix dcsa:  <http://www.medicamentos.es/DCSA> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix formasimp:  <http://www.medicamentos.es/FormaFarmaceuticaSimplificada> .
+@prefix med:  <http://www.medicamentos.es/> .
+@prefix dcp:  <http://www.medicamentos.es/DCP> .
+@prefix excip:  <http://www.medicamentos.es/ExcipienteDeclObligatoria> .
+@prefix atc:  <http://www.medicamentos.es/ATC> .
+@prefix vias:  <http://www.medicamentos.es/ViaAdministracion> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcpf:  <http://www.medicamentos.es/DCPF> .
+@prefix enva:  <http://www.medicamentos.es/Envase> .
+@prefix unidconte:  <http://www.medicamentos.es/UnidadContenido> .
+
+<http://www.medicamentos.es/UnidadContenido/1>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "ampolla para inyección"@es ;
+        med:codigoUnidadContenido  "1" .
+
+<http://www.medicamentos.es/UnidadContenido/5>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "aplicacion rectal"@es ;
+        med:codigoUnidadContenido  "5" .
+
+<http://www.medicamentos.es/UnidadContenido/6>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "aplicación uretral"@es ;
+        med:codigoUnidadContenido  "6" .
+
+<http://www.medicamentos.es/UnidadContenido/8>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "cápsula inhalación/alveolo"@es ;
+        med:codigoUnidadContenido  "8" .
+
+<http://www.medicamentos.es/UnidadContenido/9>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "chicle"@es ;
+        med:codigoUnidadContenido  "9" .
+
+<http://www.medicamentos.es/UnidadContenido/10>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "comprimido"@es ;
+        med:codigoUnidadContenido  "10" .
+
+<http://www.medicamentos.es/UnidadContenido/11>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "cápsula/comprimido vaginal"@es ;
+        med:codigoUnidadContenido  "11" .
+
+<http://www.medicamentos.es/UnidadContenido/12>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "dispositivo intrauterino"@es ;
+        med:codigoUnidadContenido  "12" .
+
+<http://www.medicamentos.es/UnidadContenido/13>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "dosis oral en envase multidosis"@es ;
+        med:codigoUnidadContenido  "13" .
+
+<http://www.medicamentos.es/UnidadContenido/14>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "enema"@es ;
+        med:codigoUnidadContenido  "14" .
+
+<http://www.medicamentos.es/UnidadContenido/16>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase uso oftalmico unidosis"@es ;
+        med:codigoUnidadContenido  "16" .
+
+<http://www.medicamentos.es/UnidadContenido/17>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase uso oral unidosis"@es ;
+        med:codigoUnidadContenido  "17" .
+
+<http://www.medicamentos.es/UnidadContenido/18>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase uso vaginal unidosis"@es ;
+        med:codigoUnidadContenido  "18" .
+
+<http://www.medicamentos.es/UnidadContenido/19>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "esponja"@es ;
+        med:codigoUnidadContenido  "19" .
+
+<http://www.medicamentos.es/UnidadContenido/21>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "g"@es ;
+        med:codigoUnidadContenido  "21" .
+
+<http://www.medicamentos.es/UnidadContenido/23>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "implante"@es ;
+        med:codigoUnidadContenido  "23" .
+
+<http://www.medicamentos.es/UnidadContenido/25>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "l"@es ;
+        med:codigoUnidadContenido  "25" .
+
+<http://www.medicamentos.es/UnidadContenido/26>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "ml"@es ;
+        med:codigoUnidadContenido  "26" .
+
+<http://www.medicamentos.es/UnidadContenido/27>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "óvulo"@es ;
+        med:codigoUnidadContenido  "27" .
+
+<http://www.medicamentos.es/UnidadContenido/28>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "parche"@es ;
+        med:codigoUnidadContenido  "28" .
+
+<http://www.medicamentos.es/UnidadContenido/29>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "pastilla"@es ;
+        med:codigoUnidadContenido  "29" .
+
+<http://www.medicamentos.es/UnidadContenido/30>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "pulverización inhalada"@es ;
+        med:codigoUnidadContenido  "30" .
+
+<http://www.medicamentos.es/UnidadContenido/31>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "pulverización nasal"@es ;
+        med:codigoUnidadContenido  "31" .
+
+<http://www.medicamentos.es/UnidadContenido/32>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "pulverización sublingual"@es ;
+        med:codigoUnidadContenido  "32" .
+
+<http://www.medicamentos.es/UnidadContenido/33>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "supositorio"@es ;
+        med:codigoUnidadContenido  "33" .
+
+<http://www.medicamentos.es/UnidadContenido/34>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "vial para inyección"@es ;
+        med:codigoUnidadContenido  "34" .
+
+<http://www.medicamentos.es/UnidadContenido/35>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "vial para inyección/nebulización"@es ;
+        med:codigoUnidadContenido  "35" .
+
+<http://www.medicamentos.es/UnidadContenido/36>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "N/A (más de 4 PA)"@es ;
+        med:codigoUnidadContenido  "36" .
+
+<http://www.medicamentos.es/UnidadContenido/37>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase uso nasal unidosis"@es ;
+        med:codigoUnidadContenido  "37" .
+
+<http://www.medicamentos.es/UnidadContenido/40>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "ampolla nebulización"@es ;
+        med:codigoUnidadContenido  "40" .
+
+<http://www.medicamentos.es/UnidadContenido/41>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "gota"@es ;
+        med:codigoUnidadContenido  "41" .
+
+<http://www.medicamentos.es/UnidadContenido/43>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "cápsula"@es ;
+        med:codigoUnidadContenido  "43" .
+
+<http://www.medicamentos.es/UnidadContenido/44>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase uso tópico unidosis"@es ;
+        med:codigoUnidadContenido  "44" .
+
+<http://www.medicamentos.es/UnidadContenido/45>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "dosis inyectable en envase multidosis"@es ;
+        med:codigoUnidadContenido  "45" .
+
+<http://www.medicamentos.es/UnidadContenido/48>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "frasco perfusión"@es ;
+        med:codigoUnidadContenido  "48" .
+
+<http://www.medicamentos.es/UnidadContenido/49>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "pluma precargada"@es ;
+        med:codigoUnidadContenido  "49" .
+
+<http://www.medicamentos.es/UnidadContenido/50>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "generador"@es ;
+        med:codigoUnidadContenido  "50" .
+
+<http://www.medicamentos.es/UnidadContenido/51>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase uso ótico unidosis"@es ;
+        med:codigoUnidadContenido  "51" .
+
+<http://www.medicamentos.es/UnidadContenido/53>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "ampolla bebible"@es ;
+        med:codigoUnidadContenido  "53" .
+
+<http://www.medicamentos.es/UnidadContenido/54>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase irrigación vesical"@es ;
+        med:codigoUnidadContenido  "54" .
+
+<http://www.medicamentos.es/UnidadContenido/56>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "aplicación"@es ;
+        med:codigoUnidadContenido  "56" .
+
+<http://www.medicamentos.es/UnidadContenido/57>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "cartucho precargado"@es ;
+        med:codigoUnidadContenido  "57" .
+
+<http://www.medicamentos.es/UnidadContenido/58>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "mg"@es ;
+        med:codigoUnidadContenido  "58" .
+
+<http://www.medicamentos.es/UnidadContenido/59>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "vial bebible"@es ;
+        med:codigoUnidadContenido  "59" .
+
+<http://www.medicamentos.es/UnidadContenido/60>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "vial nebulización"@es ;
+        med:codigoUnidadContenido  "60" .
+
+<http://www.medicamentos.es/UnidadContenido/61>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "jeringa precargada"@es ;
+        med:codigoUnidadContenido  "61" .
+
+<http://www.medicamentos.es/UnidadContenido/63>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase uso oral/rectal unidosis"@es ;
+        med:codigoUnidadContenido  "63" .
+
+<http://www.medicamentos.es/UnidadContenido/64>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "sobre"@es ;
+        med:codigoUnidadContenido  "64" .
+
+<http://www.medicamentos.es/UnidadContenido/65>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "bolsa perfusión"@es ;
+        med:codigoUnidadContenido  "65" .
+
+<http://www.medicamentos.es/UnidadContenido/69>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "apósito"@es ;
+        med:codigoUnidadContenido  "69" .
+
+<http://www.medicamentos.es/UnidadContenido/70>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "envase"@es ;
+        med:codigoUnidadContenido  "70" .
+
+<http://www.medicamentos.es/UnidadContenido/71>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "pulverización transdérmica"@es ;
+        med:codigoUnidadContenido  "71" .
+
+<http://www.medicamentos.es/UnidadContenido/73>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "pulverización bucal"@es ;
+        med:codigoUnidadContenido  "73" .
+
+<http://www.medicamentos.es/UnidadContenido/76>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "Vial para inyección/Instilación intravesical"@es ;
+        med:codigoUnidadContenido  "76" .
+
+<http://www.medicamentos.es/UnidadContenido/77>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "inyector precargado"@es ;
+        med:codigoUnidadContenido  "77" .
+
+<http://www.medicamentos.es/UnidadContenido/78>
+        rdf:type                   med:UnidadContenido ;
+        rdfs:label                 "ampolla uso extracorporal"@es ;
+        med:codigoUnidadContenido  "78" .
