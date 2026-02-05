@@ -1,0 +1,2253 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.medicamentos.es/"
+     xml:base="http://www.medicamentos.es/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.medicamentos.es/">
+        <owl:versionIRI rdf:resource="http://www.medicamentos.es//"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.medicamentos.es/DCPFtieneCodigoDCP -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/DCPFtieneCodigoDCP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCPF"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/DCP"/>
+        <rdfs:label xml:lang="es">DCPFtieneCodigoDCP</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/DCPtieneCodigoDCSA -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/DCPtieneCodigoDCSA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.medicamentos.es/DCSAtieneCodigoDCP"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCP"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/DCSA"/>
+        <rdfs:comment>Descripción Clínica del Producto&quot; (DCP)  tiene Descripción Clínica de la Sustancia Activa (DCSA) que la describe</rdfs:comment>
+        <rdfs:label xml:lang="es">DCPtieneCodigoDCSA</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/DCSAtieneCodigoDCP -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/DCSAtieneCodigoDCP">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCSA"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/DCP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PrinActivoInteraccionaPrinActivo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/PrinActivoInteraccionaPrinActivo">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/bioMarcadorGen -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/bioMarcadorGen">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/BioMarcador"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/bioMarcadorPrincipioActivo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/bioMarcadorPrincipioActivo">
+        <owl:inverseOf rdf:resource="http://www.medicamentos.es/principioActivoBioMarcador"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/BioMarcador"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codExcipientePO -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/codExcipientePO">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/ExcipienteDeclObligatoria"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codForfarPO -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/codForfarPO">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/FormaFarmaceutica"/>
+        <rdfs:label xml:lang="es">Forma farmacéutica Propiedad de Objeto</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codForfarSimplificadaPO -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/codForfarSimplificadaPO">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/FormaFarmaceuticaSimplificada"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoEnvasePO -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/codigoEnvasePO">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/Envase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/duplicadaCon -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/duplicadaCon">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Duplicidad"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/ATC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/enfermedadTieneTratamiento -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/enfermedadTieneTratamiento">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Enfermedad"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/esVariacionDePrincipioActivo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/esVariacionDePrincipioActivo">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/interaccionaCon -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/interaccionaCon">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Interacción"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/ATC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/labSituadoEnCiudad -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/labSituadoEnCiudad">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Laboratorio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/medTieneATC -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/medTieneATC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/ATC"/>
+        <rdfs:label xml:lang="es">medTieneATC</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/medTieneLaboratorio -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/medTieneLaboratorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/Laboratorio"/>
+        <rdfs:label xml:lang="es">medTieneLaboratorio</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/medTienePrescripción -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/medTienePrescripción"/>
+    
+
+
+    <!-- http://www.medicamentos.es/mismoPrincipioActivo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/mismoPrincipioActivo">
+        <rdfs:comment xml:lang="es">Relaciona principios activos uso humano y vetrinario</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/principioActivoBioMarcador -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/principioActivoBioMarcador">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/BioMarcador"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/principioActivoDuplicidad -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/principioActivoDuplicidad">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Duplicidad"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/principioActivoInteraccion -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/principioActivoInteraccion">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Interacción"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/principioActivoInteracción -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/principioActivoInteracción">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/Interacción"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/seRefiereATC -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/seRefiereATC">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.medicamentos.es/Duplicidad"/>
+                    <rdf:Description rdf:about="http://www.medicamentos.es/Interacción"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/ATC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tieneComposicionPa -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/tieneComposicionPa">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/FormaFarmaceutica"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tieneFormaFarmaceutica -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/tieneFormaFarmaceutica">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/FormaFarmaceutica"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tienePresentación -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/tienePresentación">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tienePrincipioActivo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/tienePrincipioActivo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.medicamentos.es/Duplicidad"/>
+                    <rdf:Description rdf:about="http://www.medicamentos.es/Interacción"/>
+                    <rdf:Description rdf:about="http://www.medicamentos.es/Medicamento"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/unidContenidoPO -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.medicamentos.es/unidContenidoPO">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.medicamentos.es/UnidadContenido"/>
+        <rdfs:label xml:lang="es">Unidad de contenido Propiedad de Objeto</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.medicamentos.es/PorpiedadesDCPF -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PorpiedadesDCPF">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCPF"/>
+        <rdfs:label xml:lang="es">PorpiedadesDCPF</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PripiedadesFormaFarmaceuticaSimplificada -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PripiedadesFormaFarmaceuticaSimplificada">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/FormaFarmaceuticaSimplificada"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesATC -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesATC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ATC"/>
+        <rdfs:label xml:lang="es">PropiedadesATC</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesBioMarcador -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesBioMarcador"/>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesComposicionPa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesComposicionPa">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesDCP -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesDCP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCP"/>
+        <rdfs:label xml:lang="es">PropiedadesDCP</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesDCSA -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesDCSA">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCSA"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesDuplicidad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesDuplicidad"/>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesEnvase -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesEnvase">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Envase"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesExcipiente -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesExcipiente">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ExcipienteDeclObligatoria"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesFormaFarmaceutica -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesFormaFarmaceutica"/>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesFormaFarmaceuticaSimplificada -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesFormaFarmaceuticaSimplificada"/>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesInteracción -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesInteracción"/>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesLaboratorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesLaboratorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Laboratorio"/>
+        <rdfs:label xml:lang="es">PropiedadesLaboratorio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesMedicamentoPresentación -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesMedicamentos -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesMedicamentos">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:label xml:lang="es">PropiedadesMedicamentos</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesPrescripción -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesPrescripción">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesPrincipiosActivos -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesPrincipiosActivos">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesSituaciónRegistro -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesSituaciónRegistro"/>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesUnidadContenido -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesUnidadContenido">
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/UnidadContenido"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/PropiedadesViaAdministracion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/PropiedadesViaAdministracion"/>
+    
+
+
+    <!-- http://www.medicamentos.es/afectaConduccion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/afectaConduccion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/alertaGeriatria -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/alertaGeriatria">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/aportacionDelBeneficiario -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/aportacionDelBeneficiario">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/asuntoNotaSeguridad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/asuntoNotaSeguridad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/atcDuplicidad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/atcDuplicidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/atcInteraccion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/atcInteraccion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/baseAplantas -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/baseAplantas">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/biomarcador -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/biomarcador">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/biomarcadoresClase -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/biomarcadoresClase">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesBioMarcador"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/biomarcadoresDescripcion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/biomarcadoresDescripcion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesBioMarcador"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/biomarcadoresNotas -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/biomarcadoresNotas">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesBioMarcador"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/biosimilar -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/biosimilar">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/cantidadVolumenUnidadAdministracion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/cantidadVolumenUnidadAdministracion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/cantidadVolumenUnidadComposicion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/cantidadVolumenUnidadComposicion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/cifLaboratorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/cifLaboratorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesLaboratorio"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Laboratorio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">cifLaboratorio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codExcipiente -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codExcipiente">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codForfar -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codForfar">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesFormaFarmaceutica"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/FormaFarmaceutica"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codForfarSimplificada -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codForfarSimplificada">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesFormaFarmaceuticaSimplificada"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/FormaFarmaceutica"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/FormaFarmaceuticaSimplificada"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codNacionalesInactivos -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codNacionalesInactivos">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codPrincipioActivo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codPrincipioActivo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codSitReg -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codSitReg">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codSitRegPresen -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codSitRegPresen">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoATC -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoATC">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesATC"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentos"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ATC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">codigoAtc</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoDCP -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoDCP">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesDCP"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Debería ser  un IRI para apuntar a él</rdfs:comment>
+        <rdfs:label xml:lang="es">codigoDCP</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoDCPF -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoDCPF">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PorpiedadesDCPF"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCPF"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">codigoDCPF</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoDCSA -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoDCSA">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesDCP"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesDCSA"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCP"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCSA"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Compartido con Diccionario DCSA, hay una propiedad de objeto que apunta a un IRI</rdfs:comment>
+        <rdfs:label xml:lang="es">codigoDCSA</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoDeLaAgrupacionHomegeneaDelProductorSanitario -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoDeLaAgrupacionHomegeneaDelProductorSanitario">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoDelLaboratorioOfertante -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoDelLaboratorioOfertante">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoEnvase -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoEnvase">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesEnvase"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Envase"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">codigo de envase</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoExcipiente -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoExcipiente">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesExcipiente"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ExcipienteDeclObligatoria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoLaboratorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoLaboratorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesLaboratorio"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Laboratorio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">codigoLaboratorio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoNacional -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoNacional">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoPrincipioActivo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoPrincipioActivo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrincipiosActivos"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoSituacionRegistro -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoSituacionRegistro">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesSituaciónRegistro"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/SituaciónRegistro"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoUnidadContenido -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoUnidadContenido">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesUnidadContenido"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/UnidadContenido"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigoViaAdministracion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigoViaAdministracion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesViaAdministracion"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ViaAdministracion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/codigopostalLaboratorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/codigopostalLaboratorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesLaboratorio"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Laboratorio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">codigopostalLaboratorio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/comercializado -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/comercializado">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentos"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/comercializadoPrescrip -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/comercializadoPrescrip">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/contenido -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/contenido">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/UnidadContenido"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/descAtc -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/descAtc">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesATC"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ATC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Descripción de ATC</rdfs:comment>
+        <rdfs:label xml:lang="es">descAtc</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/descDosificación -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/descDosificación">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/descPresentación -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/descPresentación">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/descripcionAtcDuplicidad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/descripcionAtcDuplicidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesDuplicidad"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/descripcionAtcInteraccion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/descripcionAtcInteraccion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesInteracción"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/diagnosticoHospitalario -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/diagnosticoHospitalario">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/direccionLaboratorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/direccionLaboratorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesLaboratorio"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Laboratorio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">direccionLaboratorio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/dosisAdministracion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/dosisAdministracion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/dosisComposicion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/dosisComposicion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/dosisPa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/dosisPa">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/dosisPrescripcion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/dosisPrescripcion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/efectoDuplicidad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/efectoDuplicidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesDuplicidad"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/efectoInteraccion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/efectoInteraccion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesInteracción"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/envaseClinico -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/envaseClinico">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/envaseTipo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/envaseTipo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesEnvase"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Envase"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Tipo de envase</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/especialControlMedico -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/especialControlMedico">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/estado -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/estado">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">estado</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/estupefaciente -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/estupefaciente">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaAutoriza -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaAutoriza">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentos"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="es">fechaAutorizacion</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaCaducidadUltimoLoteObligadoSerializacion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaCaducidadUltimoLoteObligadoSerializacion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaCaducidadUltimoLoteObligatorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaCaducidadUltimoLoteObligatorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaComercializa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaComercializa">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaDeAltaEnElNomenclátor -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaDeAltaEnElNomenclátor">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaDeBajaEnElNomenclátor -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaDeBajaEnElNomenclátor">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaEstado -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaEstado">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentos"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="es">fechaEstado</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaNotaSeguridad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaNotaSeguridad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaSitRegPresen -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaSitRegPresen">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/fechaSituacionRegistro -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/fechaSituacionRegistro">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/generico -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/generico">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/genotipoFenotipo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/genotipoFenotipo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/gtinCodigo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/gtinCodigo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/huerfano -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/huerfano">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/imgenvase -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/imgenvase">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/imgformafarmaceutica -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/imgformafarmaceutica">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/importacionParalela -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/importacionParalela">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/inclusionCarteraSns -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/inclusionCarteraSns">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/laboratorioComercializador -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/laboratorioComercializador">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/laboratorioTitular -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/laboratorioTitular">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/listaEstupefaciente -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/listaEstupefaciente">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrincipiosActivos"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/listaPsicotropo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/listaPsicotropo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrincipiosActivos"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/localidadLaboratorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/localidadLaboratorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesLaboratorio"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Laboratorio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">localidadLaboratorio</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/medicamentoHuerfano -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/medicamentoHuerfano">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/menorPrecioDeLaAgrupacionHomogenaDelProductoSanitario -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/menorPrecioDeLaAgrupacionHomogenaDelProductoSanitario">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nombreDCP -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nombreDCP">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesDCP"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">nombreDCP</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nombreDCPF -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nombreDCPF">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PorpiedadesDCPF"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/DCPF"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">nombreDCPF</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nombreDCSA -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nombreDCSA">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesDCSA"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nombreDeLaAgrupacionHomogeneaDelProductoSanitario -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nombreDeLaAgrupacionHomogeneaDelProductoSanitario">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nombreExcipiente -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nombreExcipiente">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesExcipiente"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ExcipienteDeclObligatoria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nombreGenericoEfectoYaccesorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nombreGenericoEfectoYaccesorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nroAtc -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nroAtc">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesATC"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ATC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">nroAtc</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nroConte -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nroConte">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nroPactiv -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nroPactiv">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesFormaFarmaceutica"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/FormaFarmaceutica"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nroPrincipioActivo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nroPrincipioActivo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrincipiosActivos"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/PrincipioActivo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/nuRegistro -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/nuRegistro">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentos"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">numeroRegistro</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/numeroNotaSeguridad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/numeroNotaSeguridad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/ordenColacion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/ordenColacion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/precioDeReferencia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/precioDeReferencia">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/precioDeVentaAlPublicoConIVA -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/precioDeVentaAlPublicoConIVA">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/principioActivo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/principioActivo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentos"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/problemasSuministroFechaInicio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/problemasSuministroFechaInicio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/problemasSuministroObservaciones -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/problemasSuministroObservaciones">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/programasaludpublica -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/programasaludpublica">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/psicotropo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/psicotropo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/radiofarmaco -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/radiofarmaco">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/receta -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/receta">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/recomendacionDuplicidad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/recomendacionDuplicidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesDuplicidad"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/recomendacionGeriatria -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/recomendacionGeriatria">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/recomendacionInteraccion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/recomendacionInteraccion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesInteracción"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/referenciaNotaSeguridad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/referenciaNotaSeguridad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/riesgoPacienceGeriatria -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/riesgoPacienceGeriatria">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/seccionesFt -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/seccionesFt">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/serializacion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/serializacion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/situacionRegistro -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/situacionRegistro">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesSituaciónRegistro"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/SituaciónRegistro"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/sustituible -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/sustituible">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/teratogenia -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/teratogenia">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tieneExcipientesDeclObligatoria -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/tieneExcipientesDeclObligatoria">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tieneLaboratorio -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/tieneLaboratorio">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentos"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tienePrinciActivo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/tienePrinciActivo">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentos"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Medicamento"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tipoDeFarmaco -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/tipoDeFarmaco">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tld -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/tld">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/tratamientoDeLargaDuracion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/tratamientoDeLargaDuracion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesMedicamentoPresentación"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/MedicamentoPresentación"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/trianguloNegro -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/trianguloNegro">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/unidContenido -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/unidContenido">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/unidadAdministracion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/unidadAdministracion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/unidadComposicion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/unidadComposicion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/unidadDosisPa -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/unidadDosisPa">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/unidadPrescripcion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/unidadPrescripcion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesComposicionPa"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/ComposicionPa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/unidadVolumenUnidadAdministracion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/unidadVolumenUnidadAdministracion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/unidadVolumenUnidadComposicion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/unidadVolumenUnidadComposicion">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/urlFictec -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/urlFictec">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/urlNotaSeguridad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/urlNotaSeguridad">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/urlProsp -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/urlProsp">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.medicamentos.es/usoHospitalario -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.medicamentos.es/usoHospitalario">
+        <rdfs:subPropertyOf rdf:resource="http://www.medicamentos.es/PropiedadesPrescripción"/>
+        <rdfs:domain rdf:resource="http://www.medicamentos.es/Prescripción"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.medicamentos.es/ATC -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/ATC">
+        <rdfs:comment>Clasificación química terapéutica anatómica (ATC) 
+In the Anatomical Therapeutic Chemical (ATC) classification system, the active substances are divided into different groups according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. Drugs are classified in groups at five different levels.https://www.who.int/tools/atc-ddd-toolkit/atc-classification#:~:text=In%20the%20Anatomical%20Therapeutic%20Chemical,groups%20at%20five%20different%20levels.</rdfs:comment>
+        <rdfs:label xml:lang="es">ATC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/BioMarcador -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/BioMarcador">
+        <rdfs:label xml:lang="es">Biomarcador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/ComposicionPa -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/ComposicionPa">
+        <rdfs:label xml:lang="es">Composición Principio Activo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/DCP -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/DCP">
+        <rdfs:comment xml:lang="es">Descripción Clínica del Producto. Código del &quot;Virtual Medicinal Product&quot; (VMP) o de su “descripción clínica del producto” (DCP). Define el medicamento a partir de sus principios activos, dosis, unidad de dosis y forma farmacéutica simplificada. Basado en la terminología Snomed-CT utilizada para definir cada medicamento.</rdfs:comment>
+        <rdfs:label xml:lang="es">DCP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/DCPF -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/DCPF">
+        <rdfs:comment xml:lang="es">Código del &quot;Virtual Medicinal Product Package&quot; (VMPP) o de su “descripción clínica del producto con formato” (DCPF). Define el medicamento a partir de su VMP y el tamaño del envase. Basado en la terminología Snomed-CT utilizada para definir cada presentación farmacéutica.</rdfs:comment>
+        <rdfs:label xml:lang="es">DCPF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/DCSA -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/DCSA">
+        <rdfs:comment xml:lang="es">Descripción Clínica de la Sustancia Activa. Código del &quot; Virtual Therapeutic Moiety” (VTM) o de su “descripción clínica de sustancia/s activa/s&quot; (DCSA). Define el medicamento a partir de sus principios activos. Basado en la terminología Snomed-CT utilizada para definir cada medicamento a un nivel superior de máxima agrupación, sin tener en cuenta forma farmacéutica ni dosis.</rdfs:comment>
+        <rdfs:label xml:lang="es">DCSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/Duplicidad -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/Duplicidad">
+        <rdfs:label xml:lang="es">Duplicidad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/Enfermedad -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/Enfermedad">
+        <rdfs:label xml:lang="es">Enfermedad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/Envase -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/Envase">
+        <rdfs:label xml:lang="es">Envase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/ExcipienteDeclObligatoria -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/ExcipienteDeclObligatoria">
+        <rdfs:label xml:lang="es">Excipiente Declaración Obligatoria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/FormaFarmaceutica -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/FormaFarmaceutica">
+        <rdfs:label xml:lang="es">Forma Farmacéutica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/FormaFarmaceuticaSimplificada -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/FormaFarmaceuticaSimplificada">
+        <rdfs:label xml:lang="es">Forma Farmacéutica Simplificada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/Interacción -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/Interacción">
+        <rdfs:comment xml:lang="es">Clase que conceptualiza pares de códigos ATC que interacciones entre sí</rdfs:comment>
+        <rdfs:label xml:lang="es">Interacción</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/Laboratorio -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/Laboratorio">
+        <rdfs:label xml:lang="es">Laboratorio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/Medicamento -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/Medicamento">
+        <rdfs:label xml:lang="es">Medicamento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/MedicamentoPresentación -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/MedicamentoPresentación">
+        <rdfs:label xml:lang="es">Medicamento Presentación</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/Prescripción -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/Prescripción">
+        <rdfs:label xml:lang="es">Prescripción</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/PrincipioActivo -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/PrincipioActivo">
+        <rdfs:label xml:lang="es">Principio activo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/SituaciónRegistro -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/SituaciónRegistro">
+        <rdfs:label xml:lang="es">Situación de Registro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/UnidadContenido -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/UnidadContenido">
+        <rdfs:label xml:lang="es">Unidad de Contenido</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.medicamentos.es/ViaAdministracion -->
+
+
+    <owl:Class rdf:about="http://www.medicamentos.es/ViaAdministracion">
+        <rdfs:label xml:lang="es">Vía de Administración</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
